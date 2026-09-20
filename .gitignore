@@ -1,0 +1,13 @@
+# virtualenv and caches
+.venv/
+__pycache__/
+*.pyc
+
+# replay data (hundreds of MB — re-downloadable via the kaggle CLI)
+replays/
+replays_all/
+loss_replays/
+tmp_2945/
+
+# transient logs
+analyze_err.log

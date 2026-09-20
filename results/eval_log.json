@@ -1,0 +1,5920 @@
+[
+ {
+  "ts": "2026-09-20 08:44:21",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 25323.0,
+    "opp_money": 3425.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 16795.0,
+    "opp_money": 3542.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.8
+   }
+  ],
+  "latency": {
+   "calls": 1438,
+   "avg_ms": 0.11,
+   "max_ms": 23.84
+  }
+ },
+ {
+  "ts": "2026-09-20 08:44:44",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 25623.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 12293.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.7
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 23489.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.7
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 21744.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 9612.0,
+    "opp_money": 8282.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.2
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 11896.0,
+    "opp_money": 11896.0,
+    "win": false,
+    "tie": true,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.2
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 10457.0,
+    "opp_money": 10457.0,
+    "win": false,
+    "tie": true,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.2
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 11511.0,
+    "opp_money": 11521.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.2
+   }
+  ],
+  "latency": {
+   "calls": 5752,
+   "avg_ms": 0.08,
+   "max_ms": 16.19
+  }
+ },
+ {
+  "ts": "2026-09-20 09:06:05",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 18077.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 22690.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 18990.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 19638.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 16713.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 29868.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.12,
+   "max_ms": 25.06
+  }
+ },
+ {
+  "ts": "2026-09-20 09:06:53",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 18077.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 22690.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 18990.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 19638.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 16713.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 29868.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.12,
+   "max_ms": 24.6
+  }
+ },
+ {
+  "ts": "2026-09-20 09:12:45",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 30660.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 31907.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 30716.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 28709.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 28662.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 32650.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.13,
+   "max_ms": 15.0
+  }
+ },
+ {
+  "ts": "2026-09-20 09:13:43",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 2000,
+    "our_seat": 0,
+    "our_money": 34950.0,
+    "opp_money": 3421.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 2001,
+    "our_seat": 1,
+    "our_money": 28707.0,
+    "opp_money": 3553.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 2002,
+    "our_seat": 0,
+    "our_money": 30819.0,
+    "opp_money": 3512.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 2003,
+    "our_seat": 1,
+    "our_money": 31852.0,
+    "opp_money": 3552.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 2004,
+    "our_seat": 0,
+    "our_money": 31437.0,
+    "opp_money": 3421.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 2005,
+    "our_seat": 1,
+    "our_money": 30856.0,
+    "opp_money": 3441.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 2000,
+    "our_seat": 0,
+    "our_money": 24748.0,
+    "opp_money": 21146.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.5
+   },
+   {
+    "seed": 2001,
+    "our_seat": 1,
+    "our_money": 23493.0,
+    "opp_money": 25522.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.5
+   },
+   {
+    "seed": 2002,
+    "our_seat": 0,
+    "our_money": 24809.0,
+    "opp_money": 24673.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 2003,
+    "our_seat": 1,
+    "our_money": 26466.0,
+    "opp_money": 26466.0,
+    "win": false,
+    "tie": true,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.5
+   },
+   {
+    "seed": 2004,
+    "our_seat": 0,
+    "our_money": 25189.0,
+    "opp_money": 25169.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 2005,
+    "our_seat": 1,
+    "our_money": 24529.0,
+    "opp_money": 23990.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.5
+   }
+  ],
+  "latency": {
+   "calls": 8628,
+   "avg_ms": 0.12,
+   "max_ms": 39.79
+  }
+ },
+ {
+  "ts": "2026-09-20 09:15:12",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 41206.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 43843.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 41861.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 39368.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 38109.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 39399.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.12,
+   "max_ms": 15.67
+  }
+ },
+ {
+  "ts": "2026-09-20 09:19:43",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 39299.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 33395.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 38862.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 37299.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 37316.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 41212.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.12,
+   "max_ms": 19.53
+  }
+ },
+ {
+  "ts": "2026-09-20 09:20:20",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 44150.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 34286.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 37061.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 37202.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 39221.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 38939.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.11,
+   "max_ms": 17.09
+  }
+ },
+ {
+  "ts": "2026-09-20 09:20:50",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 33406.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 32098.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 31723.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 31998.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 31260.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 32037.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.13,
+   "max_ms": 17.32
+  }
+ },
+ {
+  "ts": "2026-09-20 09:21:52",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 44150.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 34286.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 37061.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 37202.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 39221.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 38939.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.12,
+   "max_ms": 18.18
+  }
+ },
+ {
+  "ts": "2026-09-20 09:22:04",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 38380.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 35759.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 37544.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 39884.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 35383.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 35740.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.11,
+   "max_ms": 20.39
+  }
+ },
+ {
+  "ts": "2026-09-20 09:22:16",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 33406.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 32098.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 31723.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 31998.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 31260.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 32037.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.13,
+   "max_ms": 16.78
+  }
+ },
+ {
+  "ts": "2026-09-20 09:22:27",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 41206.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 43843.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 41861.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 39368.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 38109.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 39399.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.13,
+   "max_ms": 14.97
+  }
+ },
+ {
+  "ts": "2026-09-20 09:22:39",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 39299.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 33395.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 38862.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 37299.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 37316.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 41212.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.12,
+   "max_ms": 20.17
+  }
+ },
+ {
+  "ts": "2026-09-20 09:22:51",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 42202.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 40939.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 40879.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 41493.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 35515.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 39854.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.11,
+   "max_ms": 18.93
+  }
+ },
+ {
+  "ts": "2026-09-20 09:23:03",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 33533.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 33008.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 36742.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 34839.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 34720.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 34869.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.13,
+   "max_ms": 14.34
+  }
+ },
+ {
+  "ts": "2026-09-20 09:23:15",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 42011.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 40398.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 40040.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 40665.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 41563.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 36057.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.13,
+   "max_ms": 14.23
+  }
+ },
+ {
+  "ts": "2026-09-20 09:24:02",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 39909.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 43843.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 41861.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 39368.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 38109.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 39399.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.14,
+   "max_ms": 18.88
+  }
+ },
+ {
+  "ts": "2026-09-20 09:24:29",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 40752.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 36932.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 40063.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 36748.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 36403.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 35321.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.13,
+   "max_ms": 14.66
+  }
+ },
+ {
+  "ts": "2026-09-20 09:24:53",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 40394.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 43843.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 41811.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 36549.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 39284.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 39399.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.13,
+   "max_ms": 14.82
+  }
+ },
+ {
+  "ts": "2026-09-20 09:26:08",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 40757.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 45152.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 39682.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 38107.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 39292.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 43787.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.13,
+   "max_ms": 16.45
+  }
+ },
+ {
+  "ts": "2026-09-20 09:27:39",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 34671.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 34920.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 34574.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 27319.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 37352.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 38565.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.12,
+   "max_ms": 14.07
+  }
+ },
+ {
+  "ts": "2026-09-20 09:28:16",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 44911.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.1
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 45763.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 44135.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 42744.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 41585.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 36769.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.13,
+   "max_ms": 11.62
+  }
+ },
+ {
+  "ts": "2026-09-20 09:28:44",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 47432.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 49476.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 46847.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 42210.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 44142.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 47338.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.13,
+   "max_ms": 27.87
+  }
+ },
+ {
+  "ts": "2026-09-20 09:29:21",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 44796.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 46519.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 45422.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 44660.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 43263.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 44841.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.14,
+   "max_ms": 30.39
+  }
+ },
+ {
+  "ts": "2026-09-20 09:29:55",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 3000,
+    "our_seat": 0,
+    "our_money": 46504.0,
+    "opp_money": 3421.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 3001,
+    "our_seat": 1,
+    "our_money": 47858.0,
+    "opp_money": 3421.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 3002,
+    "our_seat": 0,
+    "our_money": 44876.0,
+    "opp_money": 3757.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 3003,
+    "our_seat": 1,
+    "our_money": 44100.0,
+    "opp_money": 3898.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 3004,
+    "our_seat": 0,
+    "our_money": 43351.0,
+    "opp_money": 3600.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 3005,
+    "our_seat": 1,
+    "our_money": 28712.0,
+    "opp_money": 3452.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 3000,
+    "our_seat": 0,
+    "our_money": 44373.0,
+    "opp_money": 0.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "random",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 3001,
+    "our_seat": 1,
+    "our_money": 48013.0,
+    "opp_money": 0.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "random",
+    "wall_s": 2.1
+   },
+   {
+    "seed": 3002,
+    "our_seat": 0,
+    "our_money": 43010.0,
+    "opp_money": 0.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "random",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 3003,
+    "our_seat": 1,
+    "our_money": 45586.0,
+    "opp_money": 0.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "random",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 3004,
+    "our_seat": 0,
+    "our_money": 42398.0,
+    "opp_money": 0.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "random",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 3005,
+    "our_seat": 1,
+    "our_money": 38806.0,
+    "opp_money": 0.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "random",
+    "wall_s": 2.0
+   }
+  ],
+  "latency": {
+   "calls": 8628,
+   "avg_ms": 0.12,
+   "max_ms": 9.35
+  }
+ },
+ {
+  "ts": "2026-09-20 09:30:18",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 4000,
+    "our_seat": 0,
+    "our_money": 28464.0,
+    "opp_money": 22724.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 4001,
+    "our_seat": 1,
+    "our_money": 23926.0,
+    "opp_money": 25433.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 4002,
+    "our_seat": 0,
+    "our_money": 24779.0,
+    "opp_money": 24779.0,
+    "win": false,
+    "tie": true,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 4003,
+    "our_seat": 1,
+    "our_money": 27720.0,
+    "opp_money": 23264.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 4004,
+    "our_seat": 0,
+    "our_money": 26758.0,
+    "opp_money": 22570.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 4005,
+    "our_seat": 1,
+    "our_money": 26240.0,
+    "opp_money": 24727.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 4006,
+    "our_seat": 0,
+    "our_money": 25213.0,
+    "opp_money": 25213.0,
+    "win": false,
+    "tie": true,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 4007,
+    "our_seat": 1,
+    "our_money": 23445.0,
+    "opp_money": 27203.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.8
+   }
+  ],
+  "latency": {
+   "calls": 5752,
+   "avg_ms": 0.14,
+   "max_ms": 23.39
+  }
+ },
+ {
+  "ts": "2026-09-20 11:09:51",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 75771.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 78802.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 82633.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 73668.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 85184.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 83064.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 79590.0,
+    "opp_money": 3532.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 84711.0,
+    "opp_money": 3464.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 83463.0,
+    "opp_money": 3460.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 78159.0,
+    "opp_money": 3536.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 84965.0,
+    "opp_money": 3451.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 75477.0,
+    "opp_money": 3557.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.9
+   }
+  ],
+  "latency": {
+   "calls": 8628,
+   "avg_ms": 0.13,
+   "max_ms": 23.53
+  }
+ },
+ {
+  "ts": "2026-09-20 11:10:30",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 57245.0,
+    "opp_money": 56637.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 66317.0,
+    "opp_money": 63274.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.9
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 49426.0,
+    "opp_money": 52980.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 66419.0,
+    "opp_money": 69014.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 35642.0,
+    "opp_money": 38036.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v6_backup.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 34209.0,
+    "opp_money": 36087.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v6_backup.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 59785.0,
+    "opp_money": 35986.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v6_backup.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 58687.0,
+    "opp_money": 35687.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v6_backup.py",
+    "wall_s": 2.7
+   }
+  ],
+  "latency": {
+   "calls": 5752,
+   "avg_ms": 0.12,
+   "max_ms": 26.66
+  }
+ },
+ {
+  "ts": "2026-09-20 11:15:25",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 75412.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 75030.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 56296.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.7
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 54522.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.7
+   },
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 67236.0,
+    "opp_money": 3606.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 86635.0,
+    "opp_money": 3449.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 84871.0,
+    "opp_money": 3626.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 81329.0,
+    "opp_money": 3532.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 60187.0,
+    "opp_money": 63651.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.5
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 48753.0,
+    "opp_money": 48403.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.5
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 58646.0,
+    "opp_money": 59552.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 71436.0,
+    "opp_money": 70136.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 49451.0,
+    "opp_money": 36404.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v6_backup.py",
+    "wall_s": 2.5
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 64450.0,
+    "opp_money": 35932.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v6_backup.py",
+    "wall_s": 2.5
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 61840.0,
+    "opp_money": 35740.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v6_backup.py",
+    "wall_s": 2.5
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 61826.0,
+    "opp_money": 35440.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v6_backup.py",
+    "wall_s": 2.5
+   }
+  ],
+  "latency": {
+   "calls": 11504,
+   "avg_ms": 0.13,
+   "max_ms": 22.51
+  }
+ },
+ {
+  "ts": "2026-09-20 11:17:15",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 70514.0,
+    "opp_money": 3464.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 76640.0,
+    "opp_money": 3512.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 79217.0,
+    "opp_money": 3431.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 65299.0,
+    "opp_money": 3596.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 82918.0,
+    "opp_money": 3431.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 76413.0,
+    "opp_money": 3819.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 2.0
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.14,
+   "max_ms": 32.13
+  }
+ },
+ {
+  "ts": "2026-09-20 11:18:42",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 80382.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 79120.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 57759.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 55171.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 97157.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 83787.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 70163.0,
+    "opp_money": 3606.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 92558.0,
+    "opp_money": 3449.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 89118.0,
+    "opp_money": 3626.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 87611.0,
+    "opp_money": 3532.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 87828.0,
+    "opp_money": 3490.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 78897.0,
+    "opp_money": 3562.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.8
+   }
+  ],
+  "latency": {
+   "calls": 8628,
+   "avg_ms": 0.13,
+   "max_ms": 22.62
+  }
+ },
+ {
+  "ts": "2026-09-20 11:19:55",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 3000,
+    "our_seat": 0,
+    "our_money": 87367.0,
+    "opp_money": 0.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "random",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 3001,
+    "our_seat": 1,
+    "our_money": 90860.0,
+    "opp_money": 0.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "random",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 3002,
+    "our_seat": 0,
+    "our_money": 87006.0,
+    "opp_money": 0.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "random",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 3003,
+    "our_seat": 1,
+    "our_money": 86747.0,
+    "opp_money": 0.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "random",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 3004,
+    "our_seat": 0,
+    "our_money": 84984.0,
+    "opp_money": 0.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "random",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 3005,
+    "our_seat": 1,
+    "our_money": 90869.0,
+    "opp_money": 0.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "random",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 3006,
+    "our_seat": 0,
+    "our_money": 69598.0,
+    "opp_money": 0.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "random",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 3007,
+    "our_seat": 1,
+    "our_money": 85916.0,
+    "opp_money": 0.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "random",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 3008,
+    "our_seat": 0,
+    "our_money": 88341.0,
+    "opp_money": 180.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "random",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 3009,
+    "our_seat": 1,
+    "our_money": 73265.0,
+    "opp_money": 0.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "random",
+    "wall_s": 1.9
+   }
+  ],
+  "latency": {
+   "calls": 7190,
+   "avg_ms": 0.13,
+   "max_ms": 26.72
+  }
+ },
+ {
+  "ts": "2026-09-20 14:55:06",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 55135.0,
+    "opp_money": 39571.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v6_backup.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 45505.0,
+    "opp_money": 37232.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v6_backup.py",
+    "wall_s": 5.7
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 70808.0,
+    "opp_money": 37193.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v6_backup.py",
+    "wall_s": 5.8
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 76720.0,
+    "opp_money": 34508.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v6_backup.py",
+    "wall_s": 5.7
+   }
+  ],
+  "latency": {
+   "calls": 2876,
+   "avg_ms": 0.21,
+   "max_ms": 37.42
+  }
+ },
+ {
+  "ts": "2026-09-20 14:56:40",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 73664.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 87278.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 3.0
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 59137.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 4.1
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 93350.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 4.1
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 93394.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 4.0
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 63420.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 4.0
+   },
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 60056.0,
+    "opp_money": 3727.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 4.1
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 99145.0,
+    "opp_money": 3452.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 4.2
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 85857.0,
+    "opp_money": 3473.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 4.1
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 72976.0,
+    "opp_money": 3682.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 4.2
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 88374.0,
+    "opp_money": 3538.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 4.3
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 98973.0,
+    "opp_money": 3553.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 4.3
+   },
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 54336.0,
+    "opp_money": 52559.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 5.4
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 33408.0,
+    "opp_money": 34191.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 5.3
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 59579.0,
+    "opp_money": 58607.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 5.4
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 71745.0,
+    "opp_money": 73531.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 5.4
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 70607.0,
+    "opp_money": 69009.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 5.7
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 62564.0,
+    "opp_money": 64700.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "self",
+    "wall_s": 5.3
+   }
+  ],
+  "latency": {
+   "calls": 12942,
+   "avg_ms": 0.24,
+   "max_ms": 62.35
+  }
+ },
+ {
+  "ts": "2026-09-20 15:00:29",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 68012.0,
+    "opp_money": 59066.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v71.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 68377.0,
+    "opp_money": 53329.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v71.py",
+    "wall_s": 6.1
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 67841.0,
+    "opp_money": 55300.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v71.py",
+    "wall_s": 5.8
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 82747.0,
+    "opp_money": 77432.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v71.py",
+    "wall_s": 5.3
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 72572.0,
+    "opp_money": 59063.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v71.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 71824.0,
+    "opp_money": 66038.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v71.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 1006,
+    "our_seat": 0,
+    "our_money": 69436.0,
+    "opp_money": 67606.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v71.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 1007,
+    "our_seat": 1,
+    "our_money": 63080.0,
+    "opp_money": 44915.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v71.py",
+    "wall_s": 2.6
+   }
+  ],
+  "latency": {
+   "calls": 5752,
+   "avg_ms": 0.16,
+   "max_ms": 20.09
+  }
+ },
+ {
+  "ts": "2026-09-20 15:13:22",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 84075.0,
+    "opp_money": 77160.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 41346.0,
+    "opp_money": 38912.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 47708.0,
+    "opp_money": 48389.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 72130.0,
+    "opp_money": 79396.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 3.2
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 69182.0,
+    "opp_money": 54651.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.9
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 60975.0,
+    "opp_money": 44264.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.4
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.18,
+   "max_ms": 25.25
+  }
+ },
+ {
+  "ts": "2026-09-20 15:16:14",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 73853.0,
+    "opp_money": 74725.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 52475.0,
+    "opp_money": 45729.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 57350.0,
+    "opp_money": 54152.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 73778.0,
+    "opp_money": 76099.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 64088.0,
+    "opp_money": 51018.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 70429.0,
+    "opp_money": 53768.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.8
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.16,
+   "max_ms": 21.68
+  }
+ },
+ {
+  "ts": "2026-09-20 15:17:24",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 2000,
+    "our_seat": 0,
+    "our_money": 55828.0,
+    "opp_money": 64443.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 2001,
+    "our_seat": 1,
+    "our_money": 94818.0,
+    "opp_money": 89833.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.9
+   },
+   {
+    "seed": 2002,
+    "our_seat": 0,
+    "our_money": 90135.0,
+    "opp_money": 99632.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.7
+   },
+   {
+    "seed": 2003,
+    "our_seat": 1,
+    "our_money": 38443.0,
+    "opp_money": 34715.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.9
+   },
+   {
+    "seed": 2004,
+    "our_seat": 0,
+    "our_money": 54153.0,
+    "opp_money": 42110.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 6.0
+   },
+   {
+    "seed": 2005,
+    "our_seat": 1,
+    "our_money": 54385.0,
+    "opp_money": 53348.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 6.0
+   },
+   {
+    "seed": 2006,
+    "our_seat": 0,
+    "our_money": 70944.0,
+    "opp_money": 60516.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 6.1
+   },
+   {
+    "seed": 2007,
+    "our_seat": 1,
+    "our_money": 66601.0,
+    "opp_money": 61743.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.9
+   },
+   {
+    "seed": 2008,
+    "our_seat": 0,
+    "our_money": 85652.0,
+    "opp_money": 91911.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 6.3
+   },
+   {
+    "seed": 2009,
+    "our_seat": 1,
+    "our_money": 96878.0,
+    "opp_money": 92936.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 6.1
+   }
+  ],
+  "latency": {
+   "calls": 7190,
+   "avg_ms": 0.3,
+   "max_ms": 60.8
+  }
+ },
+ {
+  "ts": "2026-09-20 15:18:21",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 63900.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 78976.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 3.3
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 81179.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 4.2
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 87135.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 4.1
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 104461.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 4.0
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 92518.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 3.7
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.26,
+   "max_ms": 49.24
+  }
+ },
+ {
+  "ts": "2026-09-20 15:18:57",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 52437.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 78976.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.9
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 81179.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 3.7
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 72262.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 3.8
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 102272.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 3.9
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 79173.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 3.7
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.29,
+   "max_ms": 63.44
+  }
+ },
+ {
+  "ts": "2026-09-20 15:20:12",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 63900.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 78976.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 81179.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 87135.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 111356.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 91374.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.14,
+   "max_ms": 22.27
+  }
+ },
+ {
+  "ts": "2026-09-20 19:53:01",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 2000,
+    "our_seat": 0,
+    "our_money": 55182.0,
+    "opp_money": 50070.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 2001,
+    "our_seat": 1,
+    "our_money": 90821.0,
+    "opp_money": 84734.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.3
+   },
+   {
+    "seed": 2002,
+    "our_seat": 0,
+    "our_money": 78115.0,
+    "opp_money": 76370.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.4
+   },
+   {
+    "seed": 2003,
+    "our_seat": 1,
+    "our_money": 31848.0,
+    "opp_money": 31359.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.2
+   },
+   {
+    "seed": 2004,
+    "our_seat": 0,
+    "our_money": 60524.0,
+    "opp_money": 60288.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.3
+   },
+   {
+    "seed": 2005,
+    "our_seat": 1,
+    "our_money": 49088.0,
+    "opp_money": 57158.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.2
+   },
+   {
+    "seed": 2006,
+    "our_seat": 0,
+    "our_money": 79123.0,
+    "opp_money": 72670.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.3
+   },
+   {
+    "seed": 2007,
+    "our_seat": 1,
+    "our_money": 55300.0,
+    "opp_money": 61149.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.4
+   },
+   {
+    "seed": 2008,
+    "our_seat": 0,
+    "our_money": 83083.0,
+    "opp_money": 84623.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.6
+   },
+   {
+    "seed": 2009,
+    "our_seat": 1,
+    "our_money": 88127.0,
+    "opp_money": 93534.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 3.2
+   }
+  ],
+  "latency": {
+   "calls": 7190,
+   "avg_ms": 0.25,
+   "max_ms": 56.1
+  }
+ },
+ {
+  "ts": "2026-09-20 19:55:50",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 2000,
+    "our_seat": 0,
+    "our_money": 55182.0,
+    "opp_money": 50070.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 2001,
+    "our_seat": 1,
+    "our_money": 90821.0,
+    "opp_money": 84734.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.7
+   },
+   {
+    "seed": 2002,
+    "our_seat": 0,
+    "our_money": 89661.0,
+    "opp_money": 88856.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 6.1
+   },
+   {
+    "seed": 2003,
+    "our_seat": 1,
+    "our_money": 31848.0,
+    "opp_money": 31359.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.8
+   },
+   {
+    "seed": 2004,
+    "our_seat": 0,
+    "our_money": 61743.0,
+    "opp_money": 59591.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 6.1
+   },
+   {
+    "seed": 2005,
+    "our_seat": 1,
+    "our_money": 54199.0,
+    "opp_money": 54817.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.7
+   },
+   {
+    "seed": 2006,
+    "our_seat": 0,
+    "our_money": 79123.0,
+    "opp_money": 72670.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 6.0
+   },
+   {
+    "seed": 2007,
+    "our_seat": 1,
+    "our_money": 59594.0,
+    "opp_money": 58189.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 6.0
+   },
+   {
+    "seed": 2008,
+    "our_seat": 0,
+    "our_money": 83083.0,
+    "opp_money": 84623.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.9
+   },
+   {
+    "seed": 2009,
+    "our_seat": 1,
+    "our_money": 88127.0,
+    "opp_money": 93534.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.9
+   }
+  ],
+  "latency": {
+   "calls": 7190,
+   "avg_ms": 0.27,
+   "max_ms": 39.32
+  }
+ },
+ {
+  "ts": "2026-09-20 19:56:44",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 69177.0,
+    "opp_money": 54339.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 52311.0,
+    "opp_money": 52762.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 67018.0,
+    "opp_money": 62206.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 93127.0,
+    "opp_money": 87664.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 59202.0,
+    "opp_money": 63980.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 3.4
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 49967.0,
+    "opp_money": 44755.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.3
+   },
+   {
+    "seed": 1006,
+    "our_seat": 0,
+    "our_money": 28412.0,
+    "opp_money": 31964.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 4.1
+   },
+   {
+    "seed": 1007,
+    "our_seat": 1,
+    "our_money": 77916.0,
+    "opp_money": 70864.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.9
+   },
+   {
+    "seed": 1008,
+    "our_seat": 0,
+    "our_money": 82150.0,
+    "opp_money": 78459.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 3.4
+   },
+   {
+    "seed": 1009,
+    "our_seat": 1,
+    "our_money": 44424.0,
+    "opp_money": 42207.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 2.6
+   }
+  ],
+  "latency": {
+   "calls": 7190,
+   "avg_ms": 0.17,
+   "max_ms": 27.19
+  }
+ },
+ {
+  "ts": "2026-09-20 19:57:36",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 3000,
+    "our_seat": 0,
+    "our_money": 57437.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 1.8
+   },
+   {
+    "seed": 3001,
+    "our_seat": 1,
+    "our_money": 96940.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 3.0
+   },
+   {
+    "seed": 3002,
+    "our_seat": 0,
+    "our_money": 86756.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 4.0
+   },
+   {
+    "seed": 3003,
+    "our_seat": 1,
+    "our_money": 108949.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 4.2
+   },
+   {
+    "seed": 3000,
+    "our_seat": 0,
+    "our_money": 61695.0,
+    "opp_money": 3590.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 4.1
+   },
+   {
+    "seed": 3001,
+    "our_seat": 1,
+    "our_money": 93330.0,
+    "opp_money": 3553.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 4.2
+   },
+   {
+    "seed": 3002,
+    "our_seat": 0,
+    "our_money": 83021.0,
+    "opp_money": 3548.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 4.1
+   },
+   {
+    "seed": 3003,
+    "our_seat": 1,
+    "our_money": 99555.0,
+    "opp_money": 3421.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 4.2
+   }
+  ],
+  "latency": {
+   "calls": 5752,
+   "avg_ms": 0.35,
+   "max_ms": 67.56
+  }
+ },
+ {
+  "ts": "2026-09-21 00:16:42",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 3000,
+    "our_seat": 0,
+    "our_money": 100322.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.1
+   },
+   {
+    "seed": 3001,
+    "our_seat": 1,
+    "our_money": 88274.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 3.5
+   },
+   {
+    "seed": 3002,
+    "our_seat": 0,
+    "our_money": 98194.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 3.6
+   },
+   {
+    "seed": 3003,
+    "our_seat": 1,
+    "our_money": 103568.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 3.7
+   }
+  ],
+  "latency": {
+   "calls": 2876,
+   "avg_ms": 0.22,
+   "max_ms": 4.19
+  }
+ },
+ {
+  "ts": "2026-09-21 00:17:11",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 66961.0,
+    "opp_money": 55330.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 3.0
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 40144.0,
+    "opp_money": 41133.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.0
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 54212.0,
+    "opp_money": 55031.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.2
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 58563.0,
+    "opp_money": 61765.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 4.9
+   },
+   {
+    "seed": 1004,
+    "our_seat": 0,
+    "our_money": 60508.0,
+    "opp_money": 54086.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.1
+   },
+   {
+    "seed": 1005,
+    "our_seat": 1,
+    "our_money": 56378.0,
+    "opp_money": 47490.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v9.py",
+    "wall_s": 5.2
+   }
+  ],
+  "latency": {
+   "calls": 4314,
+   "avg_ms": 0.26,
+   "max_ms": 79.92
+  }
+ },
+ {
+  "ts": "2026-09-21 00:17:46",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 5000,
+    "our_seat": 0,
+    "our_money": 92256.0,
+    "opp_money": 91858.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.9
+   },
+   {
+    "seed": 5001,
+    "our_seat": 1,
+    "our_money": 74429.0,
+    "opp_money": 77978.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.9
+   },
+   {
+    "seed": 5002,
+    "our_seat": 0,
+    "our_money": 78207.0,
+    "opp_money": 73058.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 5003,
+    "our_seat": 1,
+    "our_money": 46564.0,
+    "opp_money": 38544.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 5004,
+    "our_seat": 0,
+    "our_money": 70368.0,
+    "opp_money": 71125.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 5005,
+    "our_seat": 1,
+    "our_money": 47228.0,
+    "opp_money": 45791.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 5006,
+    "our_seat": 0,
+    "our_money": 93946.0,
+    "opp_money": 86071.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 5007,
+    "our_seat": 1,
+    "our_money": 47897.0,
+    "opp_money": 40386.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.5
+   },
+   {
+    "seed": 5008,
+    "our_seat": 0,
+    "our_money": 55671.0,
+    "opp_money": 48686.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 5009,
+    "our_seat": 1,
+    "our_money": 58624.0,
+    "opp_money": 51143.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   }
+  ],
+  "latency": {
+   "calls": 7190,
+   "avg_ms": 0.15,
+   "max_ms": 25.6
+  }
+ },
+ {
+  "ts": "2026-09-21 00:18:18",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 6000,
+    "our_seat": 0,
+    "our_money": 41141.0,
+    "opp_money": 40027.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 6001,
+    "our_seat": 1,
+    "our_money": 92784.0,
+    "opp_money": 88598.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 6002,
+    "our_seat": 0,
+    "our_money": 48106.0,
+    "opp_money": 47525.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 6003,
+    "our_seat": 1,
+    "our_money": 57933.0,
+    "opp_money": 53248.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 6004,
+    "our_seat": 0,
+    "our_money": 56350.0,
+    "opp_money": 56135.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 6005,
+    "our_seat": 1,
+    "our_money": 67870.0,
+    "opp_money": 69654.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 6006,
+    "our_seat": 0,
+    "our_money": 68596.0,
+    "opp_money": 67329.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.9
+   },
+   {
+    "seed": 6007,
+    "our_seat": 1,
+    "our_money": 53476.0,
+    "opp_money": 46441.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 6008,
+    "our_seat": 0,
+    "our_money": 94411.0,
+    "opp_money": 90330.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 6009,
+    "our_seat": 1,
+    "our_money": 80244.0,
+    "opp_money": 87954.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   }
+  ],
+  "latency": {
+   "calls": 7190,
+   "avg_ms": 0.15,
+   "max_ms": 29.93
+  }
+ },
+ {
+  "ts": "2026-09-21 00:18:34",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 84735.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 86712.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 79049.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 86060.0,
+    "opp_money": 3000.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "pass",
+    "wall_s": 2.0
+   },
+   {
+    "seed": 1000,
+    "our_seat": 0,
+    "our_money": 77177.0,
+    "opp_money": 3553.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1001,
+    "our_seat": 1,
+    "our_money": 94757.0,
+    "opp_money": 3510.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1002,
+    "our_seat": 0,
+    "our_money": 77719.0,
+    "opp_money": 3480.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 1.9
+   },
+   {
+    "seed": 1003,
+    "our_seat": 1,
+    "our_money": 79982.0,
+    "opp_money": 3638.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "starter",
+    "wall_s": 2.0
+   }
+  ],
+  "latency": {
+   "calls": 5752,
+   "avg_ms": 0.14,
+   "max_ms": 23.92
+  }
+ },
+ {
+  "ts": "2026-09-21 00:29:35",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 7000,
+    "our_seat": 0,
+    "our_money": 84850.0,
+    "opp_money": 84624.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 7001,
+    "our_seat": 1,
+    "our_money": 71001.0,
+    "opp_money": 69975.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 7002,
+    "our_seat": 0,
+    "our_money": 69061.0,
+    "opp_money": 66800.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 7003,
+    "our_seat": 1,
+    "our_money": 74064.0,
+    "opp_money": 78046.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 7004,
+    "our_seat": 0,
+    "our_money": 66979.0,
+    "opp_money": 66617.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 7005,
+    "our_seat": 1,
+    "our_money": 74042.0,
+    "opp_money": 77969.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 7006,
+    "our_seat": 0,
+    "our_money": 42647.0,
+    "opp_money": 35289.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.5
+   },
+   {
+    "seed": 7007,
+    "our_seat": 1,
+    "our_money": 77874.0,
+    "opp_money": 84677.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 7008,
+    "our_seat": 0,
+    "our_money": 57496.0,
+    "opp_money": 52426.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.5
+   },
+   {
+    "seed": 7009,
+    "our_seat": 1,
+    "our_money": 45251.0,
+    "opp_money": 52142.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   }
+  ],
+  "latency": {
+   "calls": 7190,
+   "avg_ms": 0.15,
+   "max_ms": 37.94
+  }
+ },
+ {
+  "ts": "2026-09-21 00:30:09",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 7000,
+    "our_seat": 0,
+    "our_money": 85290.0,
+    "opp_money": 86883.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v12.py",
+    "wall_s": 2.9
+   },
+   {
+    "seed": 7001,
+    "our_seat": 1,
+    "our_money": 74252.0,
+    "opp_money": 74770.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v12.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 7002,
+    "our_seat": 0,
+    "our_money": 88280.0,
+    "opp_money": 88199.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v12.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 7003,
+    "our_seat": 1,
+    "our_money": 98516.0,
+    "opp_money": 89469.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v12.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 7004,
+    "our_seat": 0,
+    "our_money": 79681.0,
+    "opp_money": 78095.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v12.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 7005,
+    "our_seat": 1,
+    "our_money": 93061.0,
+    "opp_money": 90945.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v12.py",
+    "wall_s": 3.0
+   },
+   {
+    "seed": 7006,
+    "our_seat": 0,
+    "our_money": 54969.0,
+    "opp_money": 51224.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v12.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 7007,
+    "our_seat": 1,
+    "our_money": 33015.0,
+    "opp_money": 30417.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v12.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 7008,
+    "our_seat": 0,
+    "our_money": 50858.0,
+    "opp_money": 41168.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v12.py",
+    "wall_s": 2.9
+   },
+   {
+    "seed": 7009,
+    "our_seat": 1,
+    "our_money": 53306.0,
+    "opp_money": 57094.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v12.py",
+    "wall_s": 2.8
+   }
+  ],
+  "latency": {
+   "calls": 7190,
+   "avg_ms": 0.15,
+   "max_ms": 19.01
+  }
+ },
+ {
+  "ts": "2026-09-21 00:30:40",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 5000,
+    "our_seat": 0,
+    "our_money": 87556.0,
+    "opp_money": 78418.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 5001,
+    "our_seat": 1,
+    "our_money": 72986.0,
+    "opp_money": 76477.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.9
+   },
+   {
+    "seed": 5002,
+    "our_seat": 0,
+    "our_money": 63593.0,
+    "opp_money": 64494.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 5003,
+    "our_seat": 1,
+    "our_money": 64380.0,
+    "opp_money": 69891.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 5004,
+    "our_seat": 0,
+    "our_money": 69460.0,
+    "opp_money": 65296.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 5005,
+    "our_seat": 1,
+    "our_money": 51739.0,
+    "opp_money": 56481.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 5006,
+    "our_seat": 0,
+    "our_money": 72975.0,
+    "opp_money": 75055.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 5007,
+    "our_seat": 1,
+    "our_money": 58602.0,
+    "opp_money": 53529.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 5008,
+    "our_seat": 0,
+    "our_money": 35214.0,
+    "opp_money": 31896.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 5009,
+    "our_seat": 1,
+    "our_money": 42931.0,
+    "opp_money": 36319.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   }
+  ],
+  "latency": {
+   "calls": 7190,
+   "avg_ms": 0.16,
+   "max_ms": 34.47
+  }
+ },
+ {
+  "ts": "2026-09-21 00:31:40",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 8000,
+    "our_seat": 0,
+    "our_money": 39781.0,
+    "opp_money": 35069.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 8001,
+    "our_seat": 1,
+    "our_money": 67615.0,
+    "opp_money": 58293.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 8002,
+    "our_seat": 0,
+    "our_money": 55833.0,
+    "opp_money": 60873.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8003,
+    "our_seat": 1,
+    "our_money": 63036.0,
+    "opp_money": 68261.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 8004,
+    "our_seat": 0,
+    "our_money": 63078.0,
+    "opp_money": 67366.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8005,
+    "our_seat": 1,
+    "our_money": 70295.0,
+    "opp_money": 70694.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8006,
+    "our_seat": 0,
+    "our_money": 60538.0,
+    "opp_money": 57612.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8007,
+    "our_seat": 1,
+    "our_money": 74635.0,
+    "opp_money": 77957.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8008,
+    "our_seat": 0,
+    "our_money": 61054.0,
+    "opp_money": 57639.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8009,
+    "our_seat": 1,
+    "our_money": 60805.0,
+    "opp_money": 60378.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8010,
+    "our_seat": 0,
+    "our_money": 41779.0,
+    "opp_money": 41790.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8011,
+    "our_seat": 1,
+    "our_money": 60613.0,
+    "opp_money": 63460.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8012,
+    "our_seat": 0,
+    "our_money": 83838.0,
+    "opp_money": 83466.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8013,
+    "our_seat": 1,
+    "our_money": 53387.0,
+    "opp_money": 63590.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8014,
+    "our_seat": 0,
+    "our_money": 72232.0,
+    "opp_money": 70941.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8015,
+    "our_seat": 1,
+    "our_money": 77907.0,
+    "opp_money": 76611.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8016,
+    "our_seat": 0,
+    "our_money": 83509.0,
+    "opp_money": 77245.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8017,
+    "our_seat": 1,
+    "our_money": 77382.0,
+    "opp_money": 72584.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8018,
+    "our_seat": 0,
+    "our_money": 30643.0,
+    "opp_money": 35383.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8019,
+    "our_seat": 1,
+    "our_money": 66007.0,
+    "opp_money": 68961.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   }
+  ],
+  "latency": {
+   "calls": 14380,
+   "avg_ms": 0.16,
+   "max_ms": 36.63
+  }
+ },
+ {
+  "ts": "2026-09-21 00:32:35",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 8000,
+    "our_seat": 0,
+    "our_money": 51753.0,
+    "opp_money": 49943.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8001,
+    "our_seat": 1,
+    "our_money": 51845.0,
+    "opp_money": 50007.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 8002,
+    "our_seat": 0,
+    "our_money": 83748.0,
+    "opp_money": 75547.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8003,
+    "our_seat": 1,
+    "our_money": 68792.0,
+    "opp_money": 60736.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8004,
+    "our_seat": 0,
+    "our_money": 53910.0,
+    "opp_money": 48680.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8005,
+    "our_seat": 1,
+    "our_money": 70344.0,
+    "opp_money": 70454.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8006,
+    "our_seat": 0,
+    "our_money": 46168.0,
+    "opp_money": 38688.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 8007,
+    "our_seat": 1,
+    "our_money": 65294.0,
+    "opp_money": 66559.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8008,
+    "our_seat": 0,
+    "our_money": 42486.0,
+    "opp_money": 38977.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 8009,
+    "our_seat": 1,
+    "our_money": 81913.0,
+    "opp_money": 80230.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8010,
+    "our_seat": 0,
+    "our_money": 59645.0,
+    "opp_money": 49620.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 8011,
+    "our_seat": 1,
+    "our_money": 59167.0,
+    "opp_money": 63609.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8012,
+    "our_seat": 0,
+    "our_money": 99432.0,
+    "opp_money": 97589.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 8013,
+    "our_seat": 1,
+    "our_money": 49046.0,
+    "opp_money": 44803.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 8014,
+    "our_seat": 0,
+    "our_money": 59311.0,
+    "opp_money": 64593.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8015,
+    "our_seat": 1,
+    "our_money": 57983.0,
+    "opp_money": 63288.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8016,
+    "our_seat": 0,
+    "our_money": 62723.0,
+    "opp_money": 64158.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8017,
+    "our_seat": 1,
+    "our_money": 67714.0,
+    "opp_money": 62502.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8018,
+    "our_seat": 0,
+    "our_money": 78117.0,
+    "opp_money": 68767.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8019,
+    "our_seat": 1,
+    "our_money": 67669.0,
+    "opp_money": 65817.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   }
+  ],
+  "latency": {
+   "calls": 14380,
+   "avg_ms": 0.16,
+   "max_ms": 31.15
+  }
+ },
+ {
+  "ts": "2026-09-21 00:33:45",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 8000,
+    "our_seat": 0,
+    "our_money": 44612.0,
+    "opp_money": 46277.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8001,
+    "our_seat": 1,
+    "our_money": 60809.0,
+    "opp_money": 55213.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8002,
+    "our_seat": 0,
+    "our_money": 35805.0,
+    "opp_money": 30731.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8003,
+    "our_seat": 1,
+    "our_money": 53303.0,
+    "opp_money": 55605.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8004,
+    "our_seat": 0,
+    "our_money": 37815.0,
+    "opp_money": 36460.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8005,
+    "our_seat": 1,
+    "our_money": 93320.0,
+    "opp_money": 81582.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8006,
+    "our_seat": 0,
+    "our_money": 41102.0,
+    "opp_money": 38616.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8007,
+    "our_seat": 1,
+    "our_money": 87620.0,
+    "opp_money": 75680.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8008,
+    "our_seat": 0,
+    "our_money": 50722.0,
+    "opp_money": 43639.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8009,
+    "our_seat": 1,
+    "our_money": 77035.0,
+    "opp_money": 72590.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8010,
+    "our_seat": 0,
+    "our_money": 38725.0,
+    "opp_money": 35930.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8011,
+    "our_seat": 1,
+    "our_money": 62473.0,
+    "opp_money": 66539.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8012,
+    "our_seat": 0,
+    "our_money": 78978.0,
+    "opp_money": 80279.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8013,
+    "our_seat": 1,
+    "our_money": 87379.0,
+    "opp_money": 77870.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.5
+   },
+   {
+    "seed": 8014,
+    "our_seat": 0,
+    "our_money": 83253.0,
+    "opp_money": 72532.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8015,
+    "our_seat": 1,
+    "our_money": 82113.0,
+    "opp_money": 74402.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8016,
+    "our_seat": 0,
+    "our_money": 69063.0,
+    "opp_money": 68169.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8017,
+    "our_seat": 1,
+    "our_money": 35493.0,
+    "opp_money": 35038.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8018,
+    "our_seat": 0,
+    "our_money": 63503.0,
+    "opp_money": 61510.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8019,
+    "our_seat": 1,
+    "our_money": 64177.0,
+    "opp_money": 62651.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v11.py",
+    "wall_s": 2.6
+   }
+  ],
+  "latency": {
+   "calls": 14380,
+   "avg_ms": 0.15,
+   "max_ms": 33.34
+  }
+ }
+]
