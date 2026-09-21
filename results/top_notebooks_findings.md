@@ -167,3 +167,41 @@ $7.5k-34k、"卖不掉的份额就是对手的"亏 $1.5k/局。
 **单位-区域-日程**结构，所以无效。若继续这个方向，应该做的是：
 把作物地块划分成 N 个连续区域，每个工人**负责一个区域并按其内部顺序作业**
 （类似我们已有的饲养员路线机制），而不是继续调整种植地块的形状。
+
+## H. 架构鉴定：10 个公开高分实现全部是"磁带"（2026-09-21 核实）
+
+把各 notebook 内嵌的 blob（base64/b85/lzma/gzip+tar）全部解码后核对：
+
+| 实现 | 内嵌物 | 磁带规模 | 判定 |
+|---|---|---|---|
+| farm2945 (thomastschinkel) | Chassis + `_R108_DATA` | 41 带 × 719 | 磁带（底盘鼻祖） |
+| boatlee | `_ACTIONS` | 1 带 × 720 | 磁带 |
+| salem2900 | 与 boatlee 同一 b85 数据 | 1 带 × 720 | 磁带 |
+| shock / wheat (Dmitrii) | tar.gz → main.py 863-870 KB | Chassis + R108 | 磁带 |
+| pilkwang (Structured Economic Policy) | tar → upstream.py (V36 Guarded) | base + 12 patches = 13 带 | 磁带 + 薄门 |
+| tetsutani (Adaptive Farming) | main.py 字符串内嵌 | 5+5 带 × 719 + 2 市场带 | 磁带 + 反射层 |
+| prvsiyan (Frontier) | lzma(b85) 1,014 KB | R108 41 带 | 混合（带主导） |
+| reyhanksatria (Dynamic Route) | b85(zlib) 329 KB | R108 41 带 | 混合（带主导） |
+| guruprasaathas111 (Master Engine V3) | b64(zlib) 1,004 KB | R108 41 带 | 混合（带主导） |
+
+**磁带路线 10/10，纯规则引擎 0 个。**
+
+**只有两个半磁带族**：
+- 族 A：thomastschinkel 的 `Chassis` + yhay81 的 shop-router 磁带
+  （`{actions: 3982, routes: 41×719, shops: 64}`）—— farm2945/shock/wheat/pilkwang/
+  prvsiyan/reyhan/guru 共 7 个，其中 prvsiyan/reyhan/guru 内嵌的 94,490 字符 blob
+  **逐字节相同**
+- 族 B：单条 `_ACTIONS` 720 步表 + 反射层 —— boatlee/salem
+- tetsutani 是第三种变体（自建 5 条按店铺选路的磁带 + legacy 镜像族）
+
+**真正拉开差距的不是策略搜索，而是三件执行层面的事**：
+1. **选哪条磁带**：按对手揭示的店铺组合查表（shop-pair → route）、按对手首日开局
+   特征匹配（tetsutani 扫对手棋盘 `{WHEAT:5, MELON:5, COW:1, SHEEP:4}` 切 legacy 带）、
+   按对手 money+WHEAT 库存查表（`_V93_ROUTE_BY_RIVAL`）
+2. **卖单时机微调**：sell_lead / preempt shift / R5·MD counter / ORDERPRI / RACE 系列
+3. **执行修补**：杂草修复、仓库溢出、手数对齐、末期清仓
+
+**对我们的含义**：公开生态是"回放 + 镜像选择 + 卖单微调"的军备竞赛，不是"读盘决策"
+的规则引擎竞赛。我们的规则式 agent 在**农场执行效率**上打不过手工优化的磁带
+（这解释了为什么我们种 15-36 棵而他们种 40-78 棵），但在**健壮性**（磁带遇到
+布局被扰动就会失准）和**市场层**（他们的边际投入恰恰都在这里）上有空间。
