@@ -6510,5 +6510,236 @@
    "avg_ms": 0.22,
    "max_ms": 36.02
   }
+ },
+ {
+  "ts": "2026-09-21 09:23:10",
+  "agent": "main.py",
+  "results": [
+   {
+    "seed": 8000,
+    "our_seat": 0,
+    "our_money": 72809.0,
+    "opp_money": 74840.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v15.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 8001,
+    "our_seat": 1,
+    "our_money": 90693.0,
+    "opp_money": 81791.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v15.py",
+    "wall_s": 2.9
+   },
+   {
+    "seed": 8002,
+    "our_seat": 0,
+    "our_money": 36972.0,
+    "opp_money": 40565.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v15.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 8003,
+    "our_seat": 1,
+    "our_money": 50258.0,
+    "opp_money": 58260.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v15.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8004,
+    "our_seat": 0,
+    "our_money": 66469.0,
+    "opp_money": 66329.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v15.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8005,
+    "our_seat": 1,
+    "our_money": 74690.0,
+    "opp_money": 73775.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v15.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8006,
+    "our_seat": 0,
+    "our_money": 93533.0,
+    "opp_money": 90770.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v15.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8007,
+    "our_seat": 1,
+    "our_money": 74668.0,
+    "opp_money": 77788.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v15.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8008,
+    "our_seat": 0,
+    "our_money": 31886.0,
+    "opp_money": 39124.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v15.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8009,
+    "our_seat": 1,
+    "our_money": 82848.0,
+    "opp_money": 88467.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v15.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8010,
+    "our_seat": 0,
+    "our_money": 48973.0,
+    "opp_money": 64342.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v15.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8011,
+    "our_seat": 1,
+    "our_money": 32925.0,
+    "opp_money": 38459.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v15.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8012,
+    "our_seat": 0,
+    "our_money": 75612.0,
+    "opp_money": 70786.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v15.py",
+    "wall_s": 2.5
+   },
+   {
+    "seed": 8013,
+    "our_seat": 1,
+    "our_money": 67938.0,
+    "opp_money": 71967.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v15.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8014,
+    "our_seat": 0,
+    "our_money": 54992.0,
+    "opp_money": 61997.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v15.py",
+    "wall_s": 2.6
+   },
+   {
+    "seed": 8015,
+    "our_seat": 1,
+    "our_money": 59920.0,
+    "opp_money": 54581.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v15.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 8016,
+    "our_seat": 0,
+    "our_money": 31002.0,
+    "opp_money": 38168.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v15.py",
+    "wall_s": 2.7
+   },
+   {
+    "seed": 8017,
+    "our_seat": 1,
+    "our_money": 52362.0,
+    "opp_money": 63227.0,
+    "win": false,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v15.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 8018,
+    "our_seat": 0,
+    "our_money": 80927.0,
+    "opp_money": 72698.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v15.py",
+    "wall_s": 2.8
+   },
+   {
+    "seed": 8019,
+    "our_seat": 1,
+    "our_money": 65415.0,
+    "opp_money": 64095.0,
+    "win": true,
+    "tie": false,
+    "status": "DONE",
+    "opp": "main_v15.py",
+    "wall_s": 2.8
+   }
+  ],
+  "latency": {
+   "calls": 14380,
+   "avg_ms": 0.17,
+   "max_ms": 33.25
+  }
  }
 ]
