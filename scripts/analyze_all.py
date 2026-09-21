@@ -10,7 +10,8 @@ import json
 import os
 import sys
 
-REFS = {"56376075": "v6", "56378494": "v7", "56378579": "v7.1", "56384254": "v9"}
+REFS = {"56376075": "v6", "56378494": "v7", "56378579": "v7.1",
+        "56384254": "v9", "56409317": "v15", "56410548": "v21"}
 
 
 def load_id_map():
@@ -78,7 +79,8 @@ def analyze(path, ver):
 def main():
     id_map = load_id_map()
     recs = []
-    for path in sorted(glob.glob("replays_all/episode-*-replay.json")):
+    root = sys.argv[1] if len(sys.argv) > 1 else "replays_all"
+    for path in sorted(glob.glob(f"{root}/episode-*-replay.json")):
         ep = path.split("-")[1]
         ver = id_map.get(ep, "?")
         try:
