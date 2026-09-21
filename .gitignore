@@ -16,5 +16,12 @@ tmp_2945/
 # build artefact — rebuild with `tar -czf submission.tar.gz main.py`
 submission.tar.gz
 
+# locally extracted top-agent opponents for tournament testing (NOT for release)
+opponents/
+tournament_results/
+
+# local experiment variants (kept on disk, never released)
+experiments/
+
 # transient logs
 analyze_err.log

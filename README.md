@@ -4,13 +4,54 @@
 每局 720 回合（30 天 × 24 回合），各自经营 10×10 农场，通过种植/养殖/雇工/买卖，在季末资金最多者获胜。
 排行榜是 Elo（只计胜负平，资金差距不影响评分）。
 
-## 当前提交（v21，磁带路线）
+## 分支说明
 
-`main.py` = 磁带底盘（720 步动作序列 + 反射修补层），本地对规则版 10/10 全胜、场均 $149.7k vs $49.5k。
+- **`main` 分支**：已收敛的稳定提交 —— `main.py` = v21 磁带底盘（线上 Elo **2162.2**，97 局）
+- **`exp/v23-c7` 分支（当前）**：实验分支 —— `main.py` = v23_c7，线上分数尚未收敛，**效果好再合并回 `main`**
+
+## 当前提交（本分支：v23_c7）
+
+`main.py` = 磁带底盘（720 步动作序列 + 反射修补层）+ 后续层与调参。
+已提交 Kaggle（ref `56428515`），线上前 3 局 3 胜 0 负（$88k–112k，无报错），分数待收敛。
+
+本地面板证据（6 个公开头部 agent，双座位，种子 2000-2009，每对手 20 局）：
+
+| 对手 | v21 基线 | **v23_c7** |
+|---|---|---|
+| guru | 0胜20负（-$1,208） | **16胜4负（+$119）** |
+| prvsiyan | 0胜20负（-$1,345） | **8胜10负2平（+$41）** |
+| pilkwang / reyhan / salem / tetsutani | 各 20胜0负 | 各 20胜0负（无退化） |
+| **合计** | 80/120（66.7%） | **104/120（86.7%）** |
+| **最差边际** | -$3,011 | **-$214** |
+
+### 血统（逐行 diff 得出）
+
+我们的文件与这两个打不过的对手是**同一条迭代链上的三个快照**：
+
+```
+我们 (5760 行)  ──5 处常量/数据差异──►  guru (6467 行)  ──追加 186 行──►  prvsiyan (6655 行)
+                                          + 末尾 707 行                    + 1 处改动
+```
+
+v23_c7 = **我们的文件 + prvsiyan 的 186 行尾部 + guru/prvsiyan 的 4 个参数**：
+
+| 参数 | 取值 | 依据 |
+|---|---|---|
+| `_V92_P_BLOB` / `_V92_P_INDEX` | 换成他们的店铺需求预测库 | **决定性**：单独带来对 guru +6 胜、均值 +$811 |
+| `_CA_FEED_DAYS` | 2 → 1 | 单独即轻微正收益 |
+| `V9_FERT_FIRST_DAY` | 16 → 14 | 单独无效，与上面两项**联合有效**（A/B 14-2-4） |
+| `_OR2_SLOT_MARGIN` | 50.0 → 20.0 | 同上 |
+| `_SR_MARGIN` / `_SR_HOURS` | **保持我们的 4 / (22,23)** | 抄这两个会**退 4 胜**——唯一有害的改动 |
+
+把 5 个参数全抄（= 完全变成 prvsiyan 行为）对 prvsiyan 是 20 局精确 $0 平局，
+即永远赢不了它；所以保留 `_SR_*` 是有意为之。
+
+## 版本与线上分数
 
 | 版本 | 架构 | 线上 Elo | 说明 |
 |---|---|---|---|
-| v21 | 磁带底盘 | **2153.5**（收敛中） | thomastschinkel v9/3 血统（Apache-2.0，文件内保留归属声明） |
+| v23_c7 | 磁带 + 后续层/调参 | 待收敛（前 3 局 3 胜） | 本分支当前提交 |
+| v21 | 磁带底盘 | **2162.2**（97 局） | `main` 分支的稳定版（Apache-2.0，文件内保留归属声明） |
 | v15 | 规则引擎 | **565.8** | 规则路线终点：商店响应式畜群、草莓施肥、自适应甜瓜规模、对手销量还原 |
 | v11 | 规则引擎 | 540.0 | 羊群优先、响应式草莓规模、雇工预算优先 |
 | v9 | 规则引擎 | 503.5 | 按头部模板重构（全押牛羊 + 甜瓜过桥 + 草莓主力 + 延迟买地） |
@@ -20,12 +61,14 @@
 ## 仓库结构
 
 ```
-main.py                 当前提交文件（v21 磁带底盘，tar 打包后直接提交）
+main.py                 当前提交文件（本分支 = v23_c7；tar 打包后直接提交）
 legacy/main_rule_v15.py 规则引擎路线终点（v15）
-versions/               开发过程快照（v2 … v20，按版本号命名）
+versions/               规则路线开发快照（v2 … v20）
 scripts/                评测与研究工具
   evaluate.py             多种子/双座位/多对手评测，结果追加到 results/eval_log.json
   smoke.py                冒烟测试：9 种子 × 双座位对真人对手，断言 DONE 且资金 > $10k
+  tournament.py           多进程配对巡回赛（对手面板 × 种子 × 双座位，报 W-L-T/平均/最差边际）
+  extract_opponents.py    从公开 notebook 解出可对战的对手 agent（本地测试用）
   diagnose.py             单局每日经济快照
   trace.py                单局现金流与单位动作分布
   compare_farms.py        逐日并排对比我方与对手的畜群/作物/空地/雇工
@@ -40,6 +83,24 @@ results/                分析结论与决策文档
   score_history.md        线上分数快照
 env/                    官方环境源码与文档（kaggle-environments 1.32.7）
 ```
+
+**仅在本地保留、不入库**（`.gitignore` 已排除）：`opponents/`（6 个公开头部模型，
+由 `extract_opponents.py` 解出）、`experiments/`（实验变体）、`tournament_results/`（对局记录）、
+以及体积较大的回放目录。这些是本地验证材料，不是交付物。
+
+## 本地对战面板（v23_c7 的验收依据）
+
+从公开 notebook 解出 6 个头部 agent 组成面板，用 `scripts/tournament.py` 做配对巡回：
+
+```bash
+.venv/Scripts/python scripts/extract_opponents.py          # 解出 opponents/（本地）
+.venv/Scripts/python scripts/tournament.py --candidate main.py --seeds 2000-2009
+```
+
+- 每对手固定种子块 × 双座位（环境座位对称，实测镜像对局恒为 $0 平局，所以结果无噪声）
+- 报 **平均边际 + 最差边际**：只看胜率会被运气骗，最差边际能识别"靠运气赢的改动"
+- 实测并行效率：模拟器是纯 Python 串行逻辑（单局 7-8 秒 CPU），**GPU 无用**；
+  20 进程并行后 120 局约 113 秒
 
 ## 关键结论（详见 `results/top_notebooks_findings.md`）
 
@@ -73,10 +134,11 @@ python -m venv .venv && .venv/Scripts/pip install -U kaggle-environments==1.32.7
 # 冒烟测试（改任何东西之前先跑这个：9 种子 × 双座位对真人对手）
 .venv/Scripts/python scripts/smoke.py main.py legacy/main_rule_v15.py
 
-# 头对头评测（20 局、双座位、同种子集）
-.venv/Scripts/python scripts/evaluate.py --opp legacy/main_rule_v15.py --episodes 20 --seed0 8000
+# 对手面板巡回赛（本分支的验收标准；先解出对手，见上一节）
+.venv/Scripts/python scripts/tournament.py --candidate main.py --seeds 2000-2009
 
-# 单局经济诊断
+# 与规则版头对头；单局经济诊断
+.venv/Scripts/python scripts/evaluate.py --opp legacy/main_rule_v15.py --episodes 20 --seed0 8000
 .venv/Scripts/python scripts/diagnose.py 1000 pass
 
 # 打包提交（需要 Kaggle API token：~/.kaggle/access_token）
@@ -96,7 +158,7 @@ kaggle competitions submit kaggriculture -f submission.tar.gz -m "msg"
 
 ## 归属与许可
 
-`main.py`（v21 磁带底盘）基于公开工作二次开发，**文件头部完整保留上游归属声明与
+`main.py`（磁带底盘 + 后续层）基于公开工作二次开发，**文件头部完整保留上游归属声明与
 Apache-2.0 许可**（thomastschinkel / yhay81 / tetsutani / prvsiyan / Dmitrii Gluzdov /
 Ahmed Berat Özer 等）。`legacy/`、`versions/`、`scripts/`、`results/` 为本项目自研内容。
 本仓库不含任何 Kaggle 凭证（token 存放于 `~/.kaggle/access_token`，在仓库之外）。
