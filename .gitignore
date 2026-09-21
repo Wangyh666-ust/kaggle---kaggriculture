@@ -3,11 +3,18 @@
 __pycache__/
 *.pyc
 
-# replay data (hundreds of MB — re-downloadable via the kaggle CLI)
+# replay data (hundreds of MB, re-downloadable with the Kaggle CLI)
 replays/
 replays_all/
 loss_replays/
+
+# third-party reference notebooks and scratch extraction
+# (public Kaggle notebooks; see README "Reference material" for links)
+kernels/
 tmp_2945/
+
+# build artefact — rebuild with `tar -czf submission.tar.gz main.py`
+submission.tar.gz
 
 # transient logs
 analyze_err.log
