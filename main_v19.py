@@ -80,8 +80,8 @@ COOP_SPOTS = [(1, 2), (2, 1), (0, 2), (0, 3)]  # only used if eggs get scarce
 STRAWBERRY_DAYS = (2, 14)
 MELON_WAVES = [("NW", (0, 3), 6), ("NE", (12, 16), 6)]
 
-FIB = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987]
-HAND_CAP = 13                # hires per day (farmer + 13 = 14 units)
+FIB = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584]
+HAND_CAP = 16                # hires per day (farmer + 13 = 14 units)
 
 # fertilize strawberries through their production window (each application
 # covers 3 days and doubles scheduled yields; +4 units/plant for 2 apps)
@@ -254,7 +254,10 @@ def _market_orders(obs, me, priv, ctx, day, hour):
         # Reserve their budget before any discretionary purchase.
         pipeline = sum(shed.get(a, 0) + ctx["carry"].get(a, 0) for a in ANIMALS)
         keepers_needed = (n_animals + pipeline + KEEPER_PER - 1) // KEEPER_PER
-        workers_needed = int(min(8, 2 + (len(ctx["plants"]) + 4) // 8))
+        plantable = sum(1 for e in ctx["empty"]
+                        if e not in PASTURE_SPOTS_NW and e not in PASTURE_SPOTS_SW)
+        plan_crops = min(72, len(ctx["plants"]) + plantable)
+        workers_needed = int(min(11, plan_crops // 8))
         if endgame:
             workers_needed = min(workers_needed, 1)
         want = min(1 + HAND_CAP, 1 + keepers_needed + workers_needed)
@@ -396,7 +399,10 @@ def _market_orders(obs, me, priv, ctx, day, hour):
                     orders.append(["BUY_PRODUCT", "WHEAT", bn]); money -= wheat_price * bn
             # half-day catch-up hires (only cheap ones, only if clearly short)
             keepers_needed = (n_animals + KEEPER_PER - 1) // KEEPER_PER
-            want = min(1 + HAND_CAP, 1 + keepers_needed + 3)
+            workers_needed = int(min(11, min(72, len(ctx["plants"]) + sum(
+                1 for e in ctx["empty"] if e not in PASTURE_SPOTS_NW
+                and e not in PASTURE_SPOTS_SW)) // 8))
+            want = min(1 + HAND_CAP, 1 + keepers_needed + workers_needed)
             cur = 1 + len(me["hands"])
             n_hire = me["hires_today"]
             slots = 10 - len(orders)

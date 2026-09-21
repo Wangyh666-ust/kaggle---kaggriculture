@@ -64,6 +64,13 @@ COW_CORE = 4                 # base herd, viable even with no milk shops
 SHEEP_CORE = 5               # wool lands day 6 — earliest premium income
 COW_MAX = 10                 # +2 per milk-draining shop (pizza/ice cream/smoothie)
 SHEEP_MAX = 10               # +2 per yarn store
+# The herd is capped by what we can STAFF: every animal needs a keeper, and
+# keepers are units that cannot plant. Measured throughput: ~3 animals per
+# keeper route, ~8 crops per worker per day.
+HERD_MAX = 12
+KEEPER_PER = 3
+WORKERS_PER_CROP = 8
+WORKER_CAP = 10
 
 # structure spots, laid out in tight rows so keeper routes stay short.
 # NW pastures exist from day 0; SW pastures wait for the land purchase.
@@ -79,6 +86,13 @@ COOP_SPOTS = [(1, 2), (2, 1), (0, 2), (0, 3)]  # only used if eggs get scarce
 # sells late into town scarcity.
 STRAWBERRY_DAYS = (2, 14)
 MELON_WAVES = [("NW", (0, 3), 6), ("NE", (12, 16), 6)]
+# tomato line: the head meta's late channel (deep market T=200, hinge price,
+# drained by pizza shops + farmers markets).  Only worth opening when the town
+# actually demands it and we have spare cash/labour.
+TOMATO_DAYS = (11, 16)
+TOMATO_TILES = 10
+TOMATO_MIN_PRICE = 70
+TOMATO_MIN_DEMAND = 2        # PIZZA_SHOP + FARMERS_MARKET instances
 
 FIB = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987]
 HAND_CAP = 13                # hires per day (farmer + 13 = 14 units)
@@ -90,8 +104,7 @@ FERT_KEEP = 15               # shed stock reserved for strawberry fertilizing
 CARROT_WAVE_DAYS = (20, 25)  # late quick-cycle carrot wave on spare tiles
 CARROT_WAVE_TILES = 8
 
-WHEAT_SEED_BUF = 12
-KEEPER_PER = 4               # animals per keeper route (quadrant-pure chains)
+WHEAT_SEED_BUF = 30
 
 # ---------------------------------------------------------------- state
 G = {}
@@ -254,7 +267,10 @@ def _market_orders(obs, me, priv, ctx, day, hour):
         # Reserve their budget before any discretionary purchase.
         pipeline = sum(shed.get(a, 0) + ctx["carry"].get(a, 0) for a in ANIMALS)
         keepers_needed = (n_animals + pipeline + KEEPER_PER - 1) // KEEPER_PER
-        workers_needed = int(min(8, 2 + (len(ctx["plants"]) + 4) // 8))
+        # Staff for the land we INTEND to work, not for what is already planted:
+        # the old formula was a deadlock (few crops -> no hands -> few crops).
+        # Measured throughput is ~8 crops per worker per day.
+        workers_needed = int(min(WORKER_CAP, ctx["plan_crops"] // WORKERS_PER_CROP))
         if endgame:
             workers_needed = min(workers_needed, 1)
         want = min(1 + HAND_CAP, 1 + keepers_needed + workers_needed)
@@ -375,6 +391,12 @@ def _market_orders(obs, me, priv, ctx, day, hour):
                 need = int(min(max(0, CARROT_WAVE_TILES - have), 4, max(0, money - 400) // 20))
                 if need > 0:
                     orders.append(["BUY_SEED", "CARROT", need]); money -= 20 * need
+            # tomato line: only when the town demands it and cash is comfortable
+            if ctx["tomato_line"]:
+                have = seeds.get("TOMATO", 0) + ctx["tomatoes_growing"]
+                need = int(min(max(0, TOMATO_TILES - have), 4, max(0, money - 2000) // 50))
+                if need > 0:
+                    orders.append(["BUY_SEED", "TOMATO", need]); money -= 50 * need
         else:
             # endgame days: keep hiring keepers for the final collection rounds
             slots = 10 - len(orders)
@@ -394,13 +416,14 @@ def _market_orders(obs, me, priv, ctx, day, hour):
                              (money - 300) // wheat_price))
                 if bn > 0:
                     orders.append(["BUY_PRODUCT", "WHEAT", bn]); money -= wheat_price * bn
-            # half-day catch-up hires (only cheap ones, only if clearly short)
+            # half-day catch-up hires, sized to the same work plan as the morning
             keepers_needed = (n_animals + KEEPER_PER - 1) // KEEPER_PER
-            want = min(1 + HAND_CAP, 1 + keepers_needed + 3)
+            workers_needed = int(min(WORKER_CAP, ctx["plan_crops"] // WORKERS_PER_CROP))
+            want = min(1 + HAND_CAP, 1 + keepers_needed + workers_needed)
             cur = 1 + len(me["hands"])
             n_hire = me["hires_today"]
             slots = 10 - len(orders)
-            while cur < want and n_hire < 8 and slots > 0 and money > FIB[n_hire] + 300:
+            while cur < want and n_hire < 11 and slots > 0 and money > FIB[n_hire] + 300:
                 orders.append(["HIRE"]); money -= FIB[n_hire]; n_hire += 1; cur += 1; slots -= 1
 
     # ---- sells (every turn) ----
@@ -683,23 +706,22 @@ def _worker_tasks(day, ctx, seeds):
                         if _quad(x, y) == quad and (x, y) not in PASTURE_SPOTS_NW:
                             tasks.append((9, "PLANT", x, y, "MELON"))
                     break
-            # strawberries: NW spare tiles first (early), NE once unlocked
+            # strawberries: our best channel per unit (realised 1.79x base), so
+            # they take land first — no quadrant is fenced off any more
             if STRAWBERRY_DAYS[0] <= day <= STRAWBERRY_DAYS[1] \
                     and seeds.get("STRAWBERRY", 0) > 0 \
                     and ctx["strawberries_growing"] < ctx["strawberry_target"]:
                 for (x, y) in ctx["empty"]:
                     if (x, y) in PASTURE_SPOTS_NW or (x, y) in PASTURE_SPOTS_SW:
                         continue
-                    if _quad(x, y) == "NE" and 11 <= day <= 17:
-                        continue  # keep NE clear for melon wave 2
                     tasks.append((8, "PLANT", x, y, "STRAWBERRY"))
             if day <= 24 and seeds.get("WHEAT", 0) > 0:
                 for (x, y) in ctx["empty"]:
                     if (x, y) in PASTURE_SPOTS_NW or (x, y) in PASTURE_SPOTS_SW:
                         continue
                     if _quad(x, y) == "NE" and 11 <= day <= 17:
-                        continue  # keep NE clear for melon wave 2
-                    tasks.append((4, "PLANT", x, y, "WHEAT"))
+                        continue  # NE is reserved for melon wave 2
+                    tasks.append((5, "PLANT", x, y, "WHEAT"))
             # late carrot wave: 3-day quick cycle into the pet-cafe/farmers drain
             if CARROT_WAVE_DAYS[0] <= day <= CARROT_WAVE_DAYS[1] \
                     and seeds.get("CARROT", 0) > 0 \
@@ -707,7 +729,14 @@ def _worker_tasks(day, ctx, seeds):
                 for (x, y) in ctx["empty"]:
                     if (x, y) in PASTURE_SPOTS_NW or (x, y) in PASTURE_SPOTS_SW:
                         continue
-                    tasks.append((4, "PLANT", x, y, "CARROT"))
+                    tasks.append((5, "PLANT", x, y, "CARROT"))
+            # tomato line: the deep, town-drained channel the head meta runs
+            if ctx["tomato_line"] and seeds.get("TOMATO", 0) > 0 \
+                    and ctx["tomatoes_growing"] < TOMATO_TILES:
+                for (x, y) in ctx["empty"]:
+                    if (x, y) in PASTURE_SPOTS_NW or (x, y) in PASTURE_SPOTS_SW:
+                        continue
+                    tasks.append((7, "PLANT", x, y, "TOMATO"))
     return tasks
 
 
@@ -792,6 +821,20 @@ def agent(obs):
     # is running a melon wave the channel is doomed anyway and planting more
     # free-rides on their crash (measured: 10+12 beats 6+6 head-to-head).
     melon_boost = 2 if opp_melons >= 6 else 1
+    # tomato line gate: town demand + price + cash, all three must line up
+    tomato_shops = sum(1 for s in shops if s in ("PIZZA_SHOP", "FARMERS_MARKET"))
+    tomato_line = (TOMATO_DAYS[0] <= day <= TOMATO_DAYS[1]
+                   and obs["market"]["prices"].get("TOMATO", 60) >= TOMATO_MIN_PRICE
+                   and tomato_shops >= TOMATO_MIN_DEMAND
+                   and me["money"] > 5000)
+    # herd targets are shop-reactive but capped by what we can staff: every
+    # animal needs a keeper, and keepers are units that cannot work crops
+    cow_t = min(COW_MAX, COW_CORE + 2 * milk_shops)
+    sheep_t = min(SHEEP_MAX, SHEEP_CORE + 2 * yarn_shops)
+    if cow_t + sheep_t > HERD_MAX:
+        scale = HERD_MAX / float(cow_t + sheep_t)
+        cow_t = max(2, int(cow_t * scale))
+        sheep_t = max(2, int(sheep_t * scale))
     ctx = {
         "plants": plants, "animals": animals, "weeds": weeds, "empty": empty,
         "empty_set": set(empty),
@@ -803,11 +846,16 @@ def agent(obs):
         "melon_boost": melon_boost,
         "strawberries_growing": sum(1 for (_, _, t) in plants if t["crop"] == "STRAWBERRY"),
         "carrots_growing": sum(1 for (_, _, t) in plants if t["crop"] == "CARROT"),
+        "tomatoes_growing": sum(1 for (_, _, t) in plants if t["crop"] == "TOMATO"),
+        "tomato_line": tomato_line,
         "melon_claimed": 0,
         "strawberry_target": strawberry_target,
         "melon_wave2_skip": melon_wave2_skip,
-        "cow_target": min(COW_MAX, COW_CORE + 2 * milk_shops),
-        "sheep_target": min(SHEEP_MAX, SHEEP_CORE + 2 * yarn_shops),
+        "cow_target": cow_t,
+        "sheep_target": sheep_t,
+        # land we could realistically work (structure spots stay reserved)
+        "plan_crops": min(72, len(plants) + sum(
+            1 for e in empty if e not in PASTURE_SPOTS_NW and e not in PASTURE_SPOTS_SW)),
         # opportunistic geese when eggs run scarce (hinge price past $75)
         "geese_target": 4 if (obs["market"]["prices"].get("EGG", 50) > 75
                               and 6 <= day <= 20) else 0,
