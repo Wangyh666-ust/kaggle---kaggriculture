@@ -3,7 +3,11 @@
 __pycache__/
 *.pyc
 
-# replay data (hundreds of MB, re-downloadable with the Kaggle CLI)
+# replay data (hundreds of MB, re-downloadable with the Kaggle CLI).
+# NOTE: use the glob — earlier only replays/ was listed, so later-created
+# dirs (replays_v21/, replays_v23/, replays_v24/, replays_v24r/) slipped into
+# commits via `git add -A` and bloated the repo by ~400 MB.
+replays*/
 replays/
 replays_all/
 loss_replays/
