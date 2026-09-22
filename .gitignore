@@ -27,5 +27,8 @@ tournament_results/
 # local experiment variants (kept on disk, never released)
 experiments/
 
+# subagent scratch space
+.scratch_ed/
+
 # transient logs
 analyze_err.log
