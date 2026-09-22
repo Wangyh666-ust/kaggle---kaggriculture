@@ -1,0 +1,3564 @@
+{
+ "episodes_recorded": 315,
+ "duplicates_skipped": 18,
+ "turns_recorded": 181125,
+ "streams": 315,
+ "events": 28094,
+ "reconstruction": {
+  "agree": 28094,
+  "est_only": 0,
+  "truth_only": 10599
+ },
+ "blob_chars": 35395,
+ "raw_bytes": 85088,
+ "zlib_bytes": 28316,
+ "blob_path": "results\\v92_ownlib_all_blob.py",
+ "pairs": {
+  "covered": 64,
+  "missing": []
+ },
+ "per_pair": {
+  "BAKERY|BAKERY": {
+   "streams": 3,
+   "events": 224,
+   "old_streams": 50,
+   "old_events": 8083
+  },
+  "BAKERY|BRUNCH_SPOT": {
+   "streams": 4,
+   "events": 381,
+   "old_streams": 36,
+   "old_events": 7793
+  },
+  "BAKERY|FARMERS_MARKET": {
+   "streams": 8,
+   "events": 745,
+   "old_streams": 50,
+   "old_events": 8631
+  },
+  "BAKERY|ICE_CREAM_SHOP": {
+   "streams": 4,
+   "events": 377,
+   "old_streams": 48,
+   "old_events": 7762
+  },
+  "BAKERY|PET_CAFE": {
+   "streams": 9,
+   "events": 738,
+   "old_streams": 34,
+   "old_events": 5388
+  },
+  "BAKERY|PIZZA_SHOP": {
+   "streams": 6,
+   "events": 446,
+   "old_streams": 36,
+   "old_events": 5821
+  },
+  "BAKERY|SMOOTHIE_SHOP": {
+   "streams": 6,
+   "events": 581,
+   "old_streams": 30,
+   "old_events": 7354
+  },
+  "BAKERY|YARN_STORE": {
+   "streams": 8,
+   "events": 676,
+   "old_streams": 24,
+   "old_events": 3906
+  },
+  "BRUNCH_SPOT|BAKERY": {
+   "streams": 4,
+   "events": 224,
+   "old_streams": 42,
+   "old_events": 7307
+  },
+  "BRUNCH_SPOT|BRUNCH_SPOT": {
+   "streams": 4,
+   "events": 444,
+   "old_streams": 34,
+   "old_events": 6038
+  },
+  "BRUNCH_SPOT|FARMERS_MARKET": {
+   "streams": 6,
+   "events": 453,
+   "old_streams": 34,
+   "old_events": 7201
+  },
+  "BRUNCH_SPOT|ICE_CREAM_SHOP": {
+   "streams": 6,
+   "events": 486,
+   "old_streams": 28,
+   "old_events": 5349
+  },
+  "BRUNCH_SPOT|PET_CAFE": {
+   "streams": 4,
+   "events": 373,
+   "old_streams": 34,
+   "old_events": 5891
+  },
+  "BRUNCH_SPOT|PIZZA_SHOP": {
+   "streams": 9,
+   "events": 874,
+   "old_streams": 40,
+   "old_events": 8499
+  },
+  "BRUNCH_SPOT|SMOOTHIE_SHOP": {
+   "streams": 2,
+   "events": 232,
+   "old_streams": 36,
+   "old_events": 6507
+  },
+  "BRUNCH_SPOT|YARN_STORE": {
+   "streams": 3,
+   "events": 202,
+   "old_streams": 28,
+   "old_events": 4733
+  },
+  "FARMERS_MARKET|BAKERY": {
+   "streams": 7,
+   "events": 634,
+   "old_streams": 40,
+   "old_events": 7164
+  },
+  "FARMERS_MARKET|BRUNCH_SPOT": {
+   "streams": 6,
+   "events": 561,
+   "old_streams": 38,
+   "old_events": 6860
+  },
+  "FARMERS_MARKET|FARMERS_MARKET": {
+   "streams": 6,
+   "events": 621,
+   "old_streams": 42,
+   "old_events": 7033
+  },
+  "FARMERS_MARKET|ICE_CREAM_SHOP": {
+   "streams": 4,
+   "events": 372,
+   "old_streams": 63,
+   "old_events": 10595
+  },
+  "FARMERS_MARKET|PET_CAFE": {
+   "streams": 4,
+   "events": 379,
+   "old_streams": 36,
+   "old_events": 6152
+  },
+  "FARMERS_MARKET|PIZZA_SHOP": {
+   "streams": 4,
+   "events": 392,
+   "old_streams": 50,
+   "old_events": 8428
+  },
+  "FARMERS_MARKET|SMOOTHIE_SHOP": {
+   "streams": 5,
+   "events": 496,
+   "old_streams": 34,
+   "old_events": 7367
+  },
+  "FARMERS_MARKET|YARN_STORE": {
+   "streams": 1,
+   "events": 96,
+   "old_streams": 40,
+   "old_events": 6562
+  },
+  "ICE_CREAM_SHOP|BAKERY": {
+   "streams": 3,
+   "events": 205,
+   "old_streams": 42,
+   "old_events": 7029
+  },
+  "ICE_CREAM_SHOP|BRUNCH_SPOT": {
+   "streams": 4,
+   "events": 334,
+   "old_streams": 34,
+   "old_events": 5858
+  },
+  "ICE_CREAM_SHOP|FARMERS_MARKET": {
+   "streams": 4,
+   "events": 407,
+   "old_streams": 48,
+   "old_events": 9936
+  },
+  "ICE_CREAM_SHOP|ICE_CREAM_SHOP": {
+   "streams": 4,
+   "events": 425,
+   "old_streams": 50,
+   "old_events": 8641
+  },
+  "ICE_CREAM_SHOP|PET_CAFE": {
+   "streams": 3,
+   "events": 279,
+   "old_streams": 34,
+   "old_events": 6109
+  },
+  "ICE_CREAM_SHOP|PIZZA_SHOP": {
+   "streams": 3,
+   "events": 310,
+   "old_streams": 52,
+   "old_events": 10748
+  },
+  "ICE_CREAM_SHOP|SMOOTHIE_SHOP": {
+   "streams": 4,
+   "events": 212,
+   "old_streams": 26,
+   "old_events": 5065
+  },
+  "ICE_CREAM_SHOP|YARN_STORE": {
+   "streams": 2,
+   "events": 192,
+   "old_streams": 28,
+   "old_events": 5349
+  },
+  "PET_CAFE|BAKERY": {
+   "streams": 8,
+   "events": 547,
+   "old_streams": 32,
+   "old_events": 5422
+  },
+  "PET_CAFE|BRUNCH_SPOT": {
+   "streams": 6,
+   "events": 574,
+   "old_streams": 36,
+   "old_events": 6697
+  },
+  "PET_CAFE|FARMERS_MARKET": {
+   "streams": 6,
+   "events": 593,
+   "old_streams": 34,
+   "old_events": 5206
+  },
+  "PET_CAFE|ICE_CREAM_SHOP": {
+   "streams": 4,
+   "events": 450,
+   "old_streams": 32,
+   "old_events": 7432
+  },
+  "PET_CAFE|PET_CAFE": {
+   "streams": 4,
+   "events": 433,
+   "old_streams": 32,
+   "old_events": 5297
+  },
+  "PET_CAFE|PIZZA_SHOP": {
+   "streams": 4,
+   "events": 411,
+   "old_streams": 38,
+   "old_events": 7682
+  },
+  "PET_CAFE|SMOOTHIE_SHOP": {
+   "streams": 7,
+   "events": 607,
+   "old_streams": 32,
+   "old_events": 5357
+  },
+  "PET_CAFE|YARN_STORE": {
+   "streams": 5,
+   "events": 434,
+   "old_streams": 28,
+   "old_events": 4931
+  },
+  "PIZZA_SHOP|BAKERY": {
+   "streams": 4,
+   "events": 315,
+   "old_streams": 36,
+   "old_events": 5987
+  },
+  "PIZZA_SHOP|BRUNCH_SPOT": {
+   "streams": 10,
+   "events": 962,
+   "old_streams": 34,
+   "old_events": 7885
+  },
+  "PIZZA_SHOP|FARMERS_MARKET": {
+   "streams": 3,
+   "events": 295,
+   "old_streams": 38,
+   "old_events": 6558
+  },
+  "PIZZA_SHOP|ICE_CREAM_SHOP": {
+   "streams": 6,
+   "events": 674,
+   "old_streams": 28,
+   "old_events": 4600
+  },
+  "PIZZA_SHOP|PET_CAFE": {
+   "streams": 3,
+   "events": 166,
+   "old_streams": 54,
+   "old_events": 9876
+  },
+  "PIZZA_SHOP|PIZZA_SHOP": {
+   "streams": 6,
+   "events": 384,
+   "old_streams": 46,
+   "old_events": 9068
+  },
+  "PIZZA_SHOP|SMOOTHIE_SHOP": {
+   "streams": 3,
+   "events": 327,
+   "old_streams": 30,
+   "old_events": 4942
+  },
+  "PIZZA_SHOP|YARN_STORE": {
+   "streams": 3,
+   "events": 234,
+   "old_streams": 52,
+   "old_events": 8912
+  },
+  "SMOOTHIE_SHOP|BAKERY": {
+   "streams": 3,
+   "events": 253,
+   "old_streams": 34,
+   "old_events": 6089
+  },
+  "SMOOTHIE_SHOP|BRUNCH_SPOT": {
+   "streams": 3,
+   "events": 341,
+   "old_streams": 34,
+   "old_events": 6247
+  },
+  "SMOOTHIE_SHOP|FARMERS_MARKET": {
+   "streams": 5,
+   "events": 348,
+   "old_streams": 34,
+   "old_events": 5391
+  },
+  "SMOOTHIE_SHOP|ICE_CREAM_SHOP": {
+   "streams": 6,
+   "events": 535,
+   "old_streams": 25,
+   "old_events": 4051
+  },
+  "SMOOTHIE_SHOP|PET_CAFE": {
+   "streams": 7,
+   "events": 636,
+   "old_streams": 32,
+   "old_events": 5575
+  },
+  "SMOOTHIE_SHOP|PIZZA_SHOP": {
+   "streams": 9,
+   "events": 805,
+   "old_streams": 32,
+   "old_events": 6111
+  },
+  "SMOOTHIE_SHOP|SMOOTHIE_SHOP": {
+   "streams": 5,
+   "events": 584,
+   "old_streams": 40,
+   "old_events": 8975
+  },
+  "SMOOTHIE_SHOP|YARN_STORE": {
+   "streams": 6,
+   "events": 611,
+   "old_streams": 24,
+   "old_events": 6391
+  },
+  "YARN_STORE|BAKERY": {
+   "streams": 2,
+   "events": 145,
+   "old_streams": 58,
+   "old_events": 9150
+  },
+  "YARN_STORE|BRUNCH_SPOT": {
+   "streams": 2,
+   "events": 182,
+   "old_streams": 30,
+   "old_events": 5210
+  },
+  "YARN_STORE|FARMERS_MARKET": {
+   "streams": 5,
+   "events": 387,
+   "old_streams": 34,
+   "old_events": 6043
+  },
+  "YARN_STORE|ICE_CREAM_SHOP": {
+   "streams": 7,
+   "events": 601,
+   "old_streams": 34,
+   "old_events": 4733
+  },
+  "YARN_STORE|PET_CAFE": {
+   "streams": 3,
+   "events": 75,
+   "old_streams": 44,
+   "old_events": 9266
+  },
+  "YARN_STORE|PIZZA_SHOP": {
+   "streams": 4,
+   "events": 331,
+   "old_streams": 38,
+   "old_events": 6621
+  },
+  "YARN_STORE|SMOOTHIE_SHOP": {
+   "streams": 9,
+   "events": 856,
+   "old_streams": 40,
+   "old_events": 6942
+  },
+  "YARN_STORE|YARN_STORE": {
+   "streams": 7,
+   "events": 627,
+   "old_streams": 42,
+   "old_events": 10495
+  }
+ },
+ "old": {
+  "streams": 2398,
+  "events": 438301,
+  "raw_bytes": 1319827,
+  "blob_chars": 553065
+ },
+ "episodes": [
+  {
+   "ep": "42e99dac-b55e-11f1-b33e-0242ac130203",
+   "opponent": "lu_fish",
+   "pair": [
+    "BAKERY",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 34,
+   "turns": 575
+  },
+  {
+   "ep": "24076f26-b55f-11f1-b965-0242ac130202",
+   "opponent": "xiao cat q",
+   "pair": [
+    "PIZZA_SHOP",
+    "BRUNCH_SPOT"
+   ],
+   "events": 77,
+   "turns": 575
+  },
+  {
+   "ep": "9d1625ec-b55f-11f1-a98e-0242ac130203",
+   "opponent": "Harrison Interactive",
+   "pair": [
+    "FARMERS_MARKET",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 75,
+   "turns": 575
+  },
+  {
+   "ep": "f5af8c34-b55f-11f1-89df-0242ac130204",
+   "opponent": "durgesh dere",
+   "pair": [
+    "PIZZA_SHOP",
+    "FARMERS_MARKET"
+   ],
+   "events": 73,
+   "turns": 575
+  },
+  {
+   "ep": "85e78c52-b560-11f1-9d76-0242ac130203",
+   "opponent": "SunaoCool",
+   "pair": [
+    "PIZZA_SHOP",
+    "YARN_STORE"
+   ],
+   "events": 85,
+   "turns": 575
+  },
+  {
+   "ep": "612d4dec-b561-11f1-acaa-0242ac130202",
+   "opponent": "magoemu",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "PET_CAFE"
+   ],
+   "events": 93,
+   "turns": 575
+  },
+  {
+   "ep": "e2c3df1a-b561-11f1-a2dc-0242ac130202",
+   "opponent": "Vincent Debout",
+   "pair": [
+    "YARN_STORE",
+    "FARMERS_MARKET"
+   ],
+   "events": 51,
+   "turns": 575
+  },
+  {
+   "ep": "882fa916-b562-11f1-970d-0242ac130203",
+   "opponent": "BOB'S ROOM",
+   "pair": [
+    "BRUNCH_SPOT",
+    "FARMERS_MARKET"
+   ],
+   "events": 89,
+   "turns": 575
+  },
+  {
+   "ep": "e94a6772-b562-11f1-a43c-0242ac130204",
+   "opponent": "wppepi",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "PET_CAFE"
+   ],
+   "events": 86,
+   "turns": 575
+  },
+  {
+   "ep": "857808d4-b563-11f1-8c4d-0242ac130202",
+   "opponent": "\u30d5\u30ca\u30b3\u30b7",
+   "pair": [
+    "BRUNCH_SPOT",
+    "FARMERS_MARKET"
+   ],
+   "events": 104,
+   "turns": 575
+  },
+  {
+   "ep": "feeb76d8-b563-11f1-bbd3-0242ac130203",
+   "opponent": "NMarkS",
+   "pair": [
+    "BRUNCH_SPOT",
+    "BAKERY"
+   ],
+   "events": 86,
+   "turns": 575
+  },
+  {
+   "ep": "359da066-b564-11f1-ae8c-0242ac130203",
+   "opponent": "Bigplanedoesnotflyfast",
+   "pair": [
+    "YARN_STORE",
+    "YARN_STORE"
+   ],
+   "events": 98,
+   "turns": 575
+  },
+  {
+   "ep": "c904e03a-b564-11f1-8342-0242ac130203",
+   "opponent": "tf",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 103,
+   "turns": 575
+  },
+  {
+   "ep": "69a49f1c-b565-11f1-a367-0242ac130204",
+   "opponent": "how to place pokemon",
+   "pair": [
+    "PET_CAFE",
+    "PIZZA_SHOP"
+   ],
+   "events": 115,
+   "turns": 575
+  },
+  {
+   "ep": "ad31b364-b565-11f1-bad4-0242ac130202",
+   "opponent": "colum2131",
+   "pair": [
+    "BAKERY",
+    "PET_CAFE"
+   ],
+   "events": 75,
+   "turns": 575
+  },
+  {
+   "ep": "0ddec382-b566-11f1-941f-0242ac130203",
+   "opponent": "Top 1 \ud83c\udfc6",
+   "pair": [
+    "FARMERS_MARKET",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 125,
+   "turns": 575
+  },
+  {
+   "ep": "158326fe-b567-11f1-aed4-0242ac130203",
+   "opponent": "Knight of Favonius",
+   "pair": [
+    "BAKERY",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 121,
+   "turns": 575
+  },
+  {
+   "ep": "f5b96978-b566-11f1-845a-0242ac130204",
+   "opponent": "OpenModelMap",
+   "pair": [
+    "BRUNCH_SPOT",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 123,
+   "turns": 575
+  },
+  {
+   "ep": "7111c4a8-b567-11f1-8709-0242ac130202",
+   "opponent": "Talim Aushakhman",
+   "pair": [
+    "PET_CAFE",
+    "FARMERS_MARKET"
+   ],
+   "events": 111,
+   "turns": 575
+  },
+  {
+   "ep": "bde1920e-b567-11f1-b2ef-0242ac130204",
+   "opponent": "iCO",
+   "pair": [
+    "BRUNCH_SPOT",
+    "YARN_STORE"
+   ],
+   "events": 93,
+   "turns": 575
+  },
+  {
+   "ep": "5a882276-b568-11f1-9d0a-0242ac130204",
+   "opponent": "Dubnium",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 113,
+   "turns": 575
+  },
+  {
+   "ep": "dec38b0c-b568-11f1-97ff-0242ac130202",
+   "opponent": "Yasasvi Josyula",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 124,
+   "turns": 575
+  },
+  {
+   "ep": "28968a2c-b569-11f1-ab35-0242ac130202",
+   "opponent": "Roman Nesterov",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "FARMERS_MARKET"
+   ],
+   "events": 128,
+   "turns": 575
+  },
+  {
+   "ep": "6bce93ac-b569-11f1-a232-0242ac130202",
+   "opponent": "Grim Reaper",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "PET_CAFE"
+   ],
+   "events": 109,
+   "turns": 575
+  },
+  {
+   "ep": "7c04b9e4-b56a-11f1-a7cc-0242ac130204",
+   "opponent": "Colt",
+   "pair": [
+    "YARN_STORE",
+    "PIZZA_SHOP"
+   ],
+   "events": 113,
+   "turns": 575
+  },
+  {
+   "ep": "04ad994c-b56a-11f1-b1e7-0242ac130204",
+   "opponent": "saeNeko",
+   "pair": [
+    "FARMERS_MARKET",
+    "PIZZA_SHOP"
+   ],
+   "events": 125,
+   "turns": 575
+  },
+  {
+   "ep": "f7f41a54-b56a-11f1-98ae-0242ac130203",
+   "opponent": "snaykey",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "YARN_STORE"
+   ],
+   "events": 102,
+   "turns": 575
+  },
+  {
+   "ep": "a097686a-b56a-11f1-b6e6-0242ac130204",
+   "opponent": "Tri Tuc Cao",
+   "pair": [
+    "PIZZA_SHOP",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 115,
+   "turns": 575
+  },
+  {
+   "ep": "7ca581ca-b56b-11f1-a6f1-0242ac130204",
+   "opponent": "\u0414\u0432\u043e\u0440\u043a\u0438\u043d \u0415\u0432\u0433\u0435\u043d\u0438\u0439 \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u043e\u0432\u0438\u0447",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "BAKERY"
+   ],
+   "events": 86,
+   "turns": 575
+  },
+  {
+   "ep": "e004d04a-b56b-11f1-9915-0242ac130203",
+   "opponent": "Hangyu Yu",
+   "pair": [
+    "PET_CAFE",
+    "FARMERS_MARKET"
+   ],
+   "events": 136,
+   "turns": 575
+  },
+  {
+   "ep": "3c85b7a8-b56c-11f1-a9b0-0242ac130204",
+   "opponent": "qi yun",
+   "pair": [
+    "FARMERS_MARKET",
+    "FARMERS_MARKET"
+   ],
+   "events": 104,
+   "turns": 575
+  },
+  {
+   "ep": "2b87297c-b56d-11f1-9c4a-0242ac130203",
+   "opponent": "ToastUz",
+   "pair": [
+    "YARN_STORE",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 94,
+   "turns": 575
+  },
+  {
+   "ep": "ca9a13fe-b56c-11f1-84df-0242ac130202",
+   "opponent": "Eusebius",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "BRUNCH_SPOT"
+   ],
+   "events": 107,
+   "turns": 575
+  },
+  {
+   "ep": "70dc1000-b56d-11f1-84fa-0242ac130202",
+   "opponent": "Lee Shit Hoo",
+   "pair": [
+    "BRUNCH_SPOT",
+    "PIZZA_SHOP"
+   ],
+   "events": 110,
+   "turns": 575
+  },
+  {
+   "ep": "0a0d3d94-b56e-11f1-a586-0242ac130203",
+   "opponent": "Ali Alghaithi",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "BRUNCH_SPOT"
+   ],
+   "events": 108,
+   "turns": 575
+  },
+  {
+   "ep": "f8f785c2-b56e-11f1-9419-0242ac130202",
+   "opponent": "Economist",
+   "pair": [
+    "FARMERS_MARKET",
+    "PIZZA_SHOP"
+   ],
+   "events": 129,
+   "turns": 575
+  },
+  {
+   "ep": "3109a30a-b56f-11f1-a260-0242ac130202",
+   "opponent": "khursani",
+   "pair": [
+    "FARMERS_MARKET",
+    "PET_CAFE"
+   ],
+   "events": 120,
+   "turns": 575
+  },
+  {
+   "ep": "68943ad8-b56f-11f1-9775-0242ac130203",
+   "opponent": "yomogii",
+   "pair": [
+    "BAKERY",
+    "YARN_STORE"
+   ],
+   "events": 86,
+   "turns": 575
+  },
+  {
+   "ep": "8e2acd5c-b56f-11f1-821f-0242ac130204",
+   "opponent": "yesterdays_rebel",
+   "pair": [
+    "BAKERY",
+    "YARN_STORE"
+   ],
+   "events": 109,
+   "turns": 575
+  },
+  {
+   "ep": "69aea542-b570-11f1-af1c-0242ac130203",
+   "opponent": "Lucas Boesen",
+   "pair": [
+    "PET_CAFE",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 115,
+   "turns": 575
+  },
+  {
+   "ep": "29dffda2-b571-11f1-be14-0242ac130203",
+   "opponent": "fylgde",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "BAKERY"
+   ],
+   "events": 92,
+   "turns": 575
+  },
+  {
+   "ep": "1b23da22-b571-11f1-bfe3-0242ac130202",
+   "opponent": "momohuhu_kkkkkarrot",
+   "pair": [
+    "FARMERS_MARKET",
+    "BAKERY"
+   ],
+   "events": 78,
+   "turns": 575
+  },
+  {
+   "ep": "baf313f6-b571-11f1-bda3-0242ac130204",
+   "opponent": "Kembang Melon",
+   "pair": [
+    "FARMERS_MARKET",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 110,
+   "turns": 575
+  },
+  {
+   "ep": "19e27438-b572-11f1-8f41-0242ac130202",
+   "opponent": "Lee Shit Hoo",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "BRUNCH_SPOT"
+   ],
+   "events": 93,
+   "turns": 575
+  },
+  {
+   "ep": "5d0d3b76-b572-11f1-a5b6-0242ac130203",
+   "opponent": "jiangnanxn",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 111,
+   "turns": 575
+  },
+  {
+   "ep": "1aca48de-b573-11f1-b7fa-0242ac130204",
+   "opponent": "Hongxin Su",
+   "pair": [
+    "BAKERY",
+    "PET_CAFE"
+   ],
+   "events": 101,
+   "turns": 575
+  },
+  {
+   "ep": "adfc5016-b573-11f1-b569-0242ac130203",
+   "opponent": "qi yun",
+   "pair": [
+    "BRUNCH_SPOT",
+    "BRUNCH_SPOT"
+   ],
+   "events": 123,
+   "turns": 575
+  },
+  {
+   "ep": "a4d79acc-b573-11f1-ab19-0242ac130204",
+   "opponent": "We Forgot To Water",
+   "pair": [
+    "BAKERY",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 98,
+   "turns": 575
+  },
+  {
+   "ep": "172a9ade-b574-11f1-8210-0242ac130202",
+   "opponent": "LittleScottyy",
+   "pair": [
+    "FARMERS_MARKET",
+    "YARN_STORE"
+   ],
+   "events": 96,
+   "turns": 575
+  },
+  {
+   "ep": "5539e5aa-b574-11f1-948f-0242ac130204",
+   "opponent": "Jacob Alstrup",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 124,
+   "turns": 575
+  },
+  {
+   "ep": "c758a45a-b574-11f1-998e-0242ac130203",
+   "opponent": "Kaito Fukami",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "YARN_STORE"
+   ],
+   "events": 109,
+   "turns": 575
+  },
+  {
+   "ep": "941b8b56-b575-11f1-85af-0242ac130203",
+   "opponent": "Jordi Corbilla",
+   "pair": [
+    "BAKERY",
+    "BRUNCH_SPOT"
+   ],
+   "events": 112,
+   "turns": 575
+  },
+  {
+   "ep": "3ec6cf98-b576-11f1-be48-0242ac130202",
+   "opponent": "HiroyukiSasaki",
+   "pair": [
+    "PET_CAFE",
+    "FARMERS_MARKET"
+   ],
+   "events": 99,
+   "turns": 575
+  },
+  {
+   "ep": "4acd64a0-b576-11f1-8d54-0242ac130202",
+   "opponent": "Ryuichi",
+   "pair": [
+    "PIZZA_SHOP",
+    "BAKERY"
+   ],
+   "events": 126,
+   "turns": 575
+  },
+  {
+   "ep": "fe988280-b576-11f1-910f-0242ac130202",
+   "opponent": "Lee Shit Hoo",
+   "pair": [
+    "BAKERY",
+    "BRUNCH_SPOT"
+   ],
+   "events": 73,
+   "turns": 575
+  },
+  {
+   "ep": "2a8dd930-b577-11f1-9d8b-0242ac130204",
+   "opponent": "kk.sky.9k",
+   "pair": [
+    "YARN_STORE",
+    "FARMERS_MARKET"
+   ],
+   "events": 100,
+   "turns": 575
+  },
+  {
+   "ep": "c863e974-b577-11f1-abfd-0242ac130203",
+   "opponent": "Mason Cao",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "PIZZA_SHOP"
+   ],
+   "events": 126,
+   "turns": 575
+  },
+  {
+   "ep": "fb12e14a-b577-11f1-b01f-0242ac130204",
+   "opponent": "chacha260",
+   "pair": [
+    "BRUNCH_SPOT",
+    "PET_CAFE"
+   ],
+   "events": 116,
+   "turns": 575
+  },
+  {
+   "ep": "e60a9134-b578-11f1-948c-0242ac130204",
+   "opponent": "yesterdays_rebel",
+   "pair": [
+    "BAKERY",
+    "BRUNCH_SPOT"
+   ],
+   "events": 90,
+   "turns": 575
+  },
+  {
+   "ep": "61f45938-b579-11f1-9489-0242ac130204",
+   "opponent": "Sergey Shcherbakov",
+   "pair": [
+    "BRUNCH_SPOT",
+    "PIZZA_SHOP"
+   ],
+   "events": 116,
+   "turns": 575
+  },
+  {
+   "ep": "55dc6924-b579-11f1-9d18-0242ac130202",
+   "opponent": "kwon yong deuk",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "PET_CAFE"
+   ],
+   "events": 113,
+   "turns": 575
+  },
+  {
+   "ep": "9ed77402-b579-11f1-a27c-0242ac130202",
+   "opponent": "Hanserong",
+   "pair": [
+    "BRUNCH_SPOT",
+    "PIZZA_SHOP"
+   ],
+   "events": 106,
+   "turns": 575
+  },
+  {
+   "ep": "438dca1e-b57a-11f1-a493-0242ac130204",
+   "opponent": "Aurora wy",
+   "pair": [
+    "PET_CAFE",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 132,
+   "turns": 575
+  },
+  {
+   "ep": "25d8f7ea-b57b-11f1-84ee-0242ac130203",
+   "opponent": "xiongrui666",
+   "pair": [
+    "BAKERY",
+    "PET_CAFE"
+   ],
+   "events": 99,
+   "turns": 575
+  },
+  {
+   "ep": "afe66d96-b57b-11f1-907b-0242ac130204",
+   "opponent": "Ryuichi",
+   "pair": [
+    "FARMERS_MARKET",
+    "BAKERY"
+   ],
+   "events": 125,
+   "turns": 575
+  },
+  {
+   "ep": "10a1e1d8-b57c-11f1-8a9b-0242ac130202",
+   "opponent": "\u59dc\u4e0a\uff08Integ\uff09",
+   "pair": [
+    "YARN_STORE",
+    "BRUNCH_SPOT"
+   ],
+   "events": 88,
+   "turns": 575
+  },
+  {
+   "ep": "ecf776d4-b57c-11f1-b3a9-0242ac130204",
+   "opponent": "easonyanyan",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "BAKERY"
+   ],
+   "events": 107,
+   "turns": 575
+  },
+  {
+   "ep": "3c042b78-b57d-11f1-994d-0242ac130204",
+   "opponent": "unreal",
+   "pair": [
+    "YARN_STORE",
+    "PIZZA_SHOP"
+   ],
+   "events": 82,
+   "turns": 575
+  },
+  {
+   "ep": "8722d08c-b57d-11f1-941c-0242ac130203",
+   "opponent": "wahaka",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "BRUNCH_SPOT"
+   ],
+   "events": 111,
+   "turns": 575
+  },
+  {
+   "ep": "f8aeef88-b57d-11f1-aa0f-0242ac130204",
+   "opponent": "markastra",
+   "pair": [
+    "PET_CAFE",
+    "YARN_STORE"
+   ],
+   "events": 85,
+   "turns": 575
+  },
+  {
+   "ep": "13cad980-b57e-11f1-81e0-0242ac130204",
+   "opponent": "MAT",
+   "pair": [
+    "BAKERY",
+    "FARMERS_MARKET"
+   ],
+   "events": 96,
+   "turns": 575
+  },
+  {
+   "ep": "2acaf80e-b57e-11f1-87c5-0242ac130202",
+   "opponent": "photunix",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "PET_CAFE"
+   ],
+   "events": 81,
+   "turns": 575
+  },
+  {
+   "ep": "fd973f2c-b57e-11f1-b58b-0242ac130204",
+   "opponent": "Naru041104",
+   "pair": [
+    "BRUNCH_SPOT",
+    "BRUNCH_SPOT"
+   ],
+   "events": 110,
+   "turns": 575
+  },
+  {
+   "ep": "91a8508e-b57f-11f1-b3ac-0242ac130203",
+   "opponent": "Jackylw",
+   "pair": [
+    "PIZZA_SHOP",
+    "FARMERS_MARKET"
+   ],
+   "events": 113,
+   "turns": 575
+  },
+  {
+   "ep": "3cce2ede-b580-11f1-8da0-0242ac130202",
+   "opponent": "UCAS_fish_wang",
+   "pair": [
+    "BAKERY",
+    "FARMERS_MARKET"
+   ],
+   "events": 100,
+   "turns": 575
+  },
+  {
+   "ep": "b0eafade-b582-11f1-b663-0242ac130203",
+   "opponent": "photunix",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "PIZZA_SHOP"
+   ],
+   "events": 125,
+   "turns": 575
+  },
+  {
+   "ep": "35859e0e-b586-11f1-95ab-0242ac130204",
+   "opponent": "raw2clean",
+   "pair": [
+    "PET_CAFE",
+    "PET_CAFE"
+   ],
+   "events": 119,
+   "turns": 575
+  },
+  {
+   "ep": "3334d7f0-b586-11f1-bbe2-0242ac130204",
+   "opponent": "bnfan",
+   "pair": [
+    "BAKERY",
+    "BAKERY"
+   ],
+   "events": 122,
+   "turns": 575
+  },
+  {
+   "ep": "904e7c60-b587-11f1-9a13-0242ac130204",
+   "opponent": "unreal",
+   "pair": [
+    "YARN_STORE",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 104,
+   "turns": 575
+  },
+  {
+   "ep": "a3e2c012-b58a-11f1-9789-0242ac130203",
+   "opponent": "lingxiaojun",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "YARN_STORE"
+   ],
+   "events": 123,
+   "turns": 575
+  },
+  {
+   "ep": "dca0510a-b58d-11f1-a495-0242ac130203",
+   "opponent": "Fuchun Wang",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "FARMERS_MARKET"
+   ],
+   "events": 101,
+   "turns": 575
+  },
+  {
+   "ep": "90b072e6-b58f-11f1-8b99-0242ac130203",
+   "opponent": "Magniverko",
+   "pair": [
+    "BRUNCH_SPOT",
+    "BRUNCH_SPOT"
+   ],
+   "events": 116,
+   "turns": 575
+  },
+  {
+   "ep": "04443ef8-b591-11f1-b596-0242ac130202",
+   "opponent": "Bardia Bahadori",
+   "pair": [
+    "BAKERY",
+    "FARMERS_MARKET"
+   ],
+   "events": 95,
+   "turns": 575
+  },
+  {
+   "ep": "6bd5eee2-b594-11f1-9126-0242ac130203",
+   "opponent": "Shenyu Ma",
+   "pair": [
+    "BRUNCH_SPOT",
+    "PIZZA_SHOP"
+   ],
+   "events": 113,
+   "turns": 575
+  },
+  {
+   "ep": "852c8bf0-b597-11f1-b451-0242ac130204",
+   "opponent": "Affriza Wildan Fauzan",
+   "pair": [
+    "PET_CAFE",
+    "BRUNCH_SPOT"
+   ],
+   "events": 124,
+   "turns": 575
+  },
+  {
+   "ep": "13011978-b598-11f1-a50f-0242ac130203",
+   "opponent": "kaerururu",
+   "pair": [
+    "PIZZA_SHOP",
+    "FARMERS_MARKET"
+   ],
+   "events": 109,
+   "turns": 575
+  },
+  {
+   "ep": "f04aeea6-b59a-11f1-96ab-0242ac130202",
+   "opponent": "lihaha.36",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "PIZZA_SHOP"
+   ],
+   "events": 112,
+   "turns": 575
+  },
+  {
+   "ep": "db81f316-b59a-11f1-b066-0242ac130204",
+   "opponent": "xsong2020",
+   "pair": [
+    "BAKERY",
+    "PIZZA_SHOP"
+   ],
+   "events": 85,
+   "turns": 575
+  },
+  {
+   "ep": "f0a7d55c-b59b-11f1-9c55-0242ac130202",
+   "opponent": "Filip Strza\u0142ka",
+   "pair": [
+    "FARMERS_MARKET",
+    "FARMERS_MARKET"
+   ],
+   "events": 100,
+   "turns": 575
+  },
+  {
+   "ep": "130d5d8c-b59d-11f1-a2bc-0242ac130202",
+   "opponent": "yuto083",
+   "pair": [
+    "PIZZA_SHOP",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 94,
+   "turns": 575
+  },
+  {
+   "ep": "50c0c0dc-b59e-11f1-97a2-0242ac130204",
+   "opponent": "haoming yang",
+   "pair": [
+    "YARN_STORE",
+    "FARMERS_MARKET"
+   ],
+   "events": 100,
+   "turns": 575
+  },
+  {
+   "ep": "89b35200-b59f-11f1-af11-0242ac130203",
+   "opponent": "midnq",
+   "pair": [
+    "PIZZA_SHOP",
+    "PIZZA_SHOP"
+   ],
+   "events": 75,
+   "turns": 575
+  },
+  {
+   "ep": "2487c00c-b5a2-11f1-b0cc-0242ac130203",
+   "opponent": "mkai1981",
+   "pair": [
+    "PET_CAFE",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 114,
+   "turns": 575
+  },
+  {
+   "ep": "c531a572-b5a2-11f1-b105-0242ac130204",
+   "opponent": "Golubev Alexander",
+   "pair": [
+    "BAKERY",
+    "PET_CAFE"
+   ],
+   "events": 80,
+   "turns": 575
+  },
+  {
+   "ep": "2f7f1e58-b5a5-11f1-84a4-0242ac130203",
+   "opponent": "Andrey Serzhenko",
+   "pair": [
+    "BAKERY",
+    "PIZZA_SHOP"
+   ],
+   "events": 79,
+   "turns": 575
+  },
+  {
+   "ep": "876ab8f4-b5a8-11f1-a3a1-0242ac130203",
+   "opponent": "LittleScottyy",
+   "pair": [
+    "BAKERY",
+    "FARMERS_MARKET"
+   ],
+   "events": 121,
+   "turns": 575
+  },
+  {
+   "ep": "bd9ff6be-b5a8-11f1-b5ef-0242ac130204",
+   "opponent": "Yuta Yamazaki",
+   "pair": [
+    "PIZZA_SHOP",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 123,
+   "turns": 575
+  },
+  {
+   "ep": "9bccdfa2-b5b7-11f1-b39f-0242ac130203",
+   "opponent": "ReD_MooN_rise",
+   "pair": [
+    "BAKERY",
+    "PET_CAFE"
+   ],
+   "events": 104,
+   "turns": 575
+  },
+  {
+   "ep": "679df3fa-b5b8-11f1-8847-0242ac130203",
+   "opponent": "Akash Mohan Chaudhary",
+   "pair": [
+    "PET_CAFE",
+    "BAKERY"
+   ],
+   "events": 44,
+   "turns": 575
+  },
+  {
+   "ep": "23b4aa0c-b5b9-11f1-a3e4-0242ac130204",
+   "opponent": "Jose Miguel Diez de la Lastra",
+   "pair": [
+    "PET_CAFE",
+    "BRUNCH_SPOT"
+   ],
+   "events": 76,
+   "turns": 575
+  },
+  {
+   "ep": "b6c1014c-b5b9-11f1-8b02-0242ac130204",
+   "opponent": "Tejas",
+   "pair": [
+    "PIZZA_SHOP",
+    "YARN_STORE"
+   ],
+   "events": 81,
+   "turns": 575
+  },
+  {
+   "ep": "5a9a7898-b5ba-11f1-b08b-0242ac130202",
+   "opponent": "Swachhith B",
+   "pair": [
+    "BAKERY",
+    "YARN_STORE"
+   ],
+   "events": 89,
+   "turns": 575
+  },
+  {
+   "ep": "e24726ec-b5ba-11f1-866d-0242ac130202",
+   "opponent": "L\u00ea Nguy\u1ec5n Vi\u1ec7t C\u01b0\u1eddng",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "FARMERS_MARKET"
+   ],
+   "events": 134,
+   "turns": 575
+  },
+  {
+   "ep": "40169820-b5bb-11f1-ae1e-0242ac130203",
+   "opponent": "Anh Tu",
+   "pair": [
+    "PIZZA_SHOP",
+    "BRUNCH_SPOT"
+   ],
+   "events": 86,
+   "turns": 575
+  },
+  {
+   "ep": "d7ca27ea-b5bb-11f1-bb6d-0242ac130202",
+   "opponent": "FarmGoose",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "YARN_STORE"
+   ],
+   "events": 95,
+   "turns": 575
+  },
+  {
+   "ep": "62208358-b5bc-11f1-abb0-0242ac130203",
+   "opponent": "keith70",
+   "pair": [
+    "PIZZA_SHOP",
+    "BAKERY"
+   ],
+   "events": 72,
+   "turns": 575
+  },
+  {
+   "ep": "fb5dab90-b5bc-11f1-a519-0242ac130204",
+   "opponent": "Jenny124685",
+   "pair": [
+    "PIZZA_SHOP",
+    "BRUNCH_SPOT"
+   ],
+   "events": 115,
+   "turns": 575
+  },
+  {
+   "ep": "7fa2647c-b5bd-11f1-aee6-0242ac130202",
+   "opponent": "Vandan Sharma",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "FARMERS_MARKET"
+   ],
+   "events": 116,
+   "turns": 575
+  },
+  {
+   "ep": "5373d588-b5be-11f1-9fee-0242ac130203",
+   "opponent": "tine.sh agent",
+   "pair": [
+    "FARMERS_MARKET",
+    "PET_CAFE"
+   ],
+   "events": 104,
+   "turns": 575
+  },
+  {
+   "ep": "b259d386-b5be-11f1-8709-0242ac130203",
+   "opponent": "judy12345.0316",
+   "pair": [
+    "YARN_STORE",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 94,
+   "turns": 575
+  },
+  {
+   "ep": "65f24158-b5bf-11f1-8a57-0242ac130204",
+   "opponent": "Yasasvi Josyula",
+   "pair": [
+    "BRUNCH_SPOT",
+    "PIZZA_SHOP"
+   ],
+   "events": 119,
+   "turns": 575
+  },
+  {
+   "ep": "0eecf276-b5c0-11f1-9ec1-0242ac130204",
+   "opponent": "Yoshihiro Hatakeyama",
+   "pair": [
+    "BAKERY",
+    "PET_CAFE"
+   ],
+   "events": 60,
+   "turns": 575
+  },
+  {
+   "ep": "49441a9e-b5c0-11f1-9501-0242ac130203",
+   "opponent": "logicorix",
+   "pair": [
+    "FARMERS_MARKET",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 112,
+   "turns": 575
+  },
+  {
+   "ep": "e5cc30a4-b5c0-11f1-ad2f-0242ac130202",
+   "opponent": "dpquoc",
+   "pair": [
+    "BAKERY",
+    "YARN_STORE"
+   ],
+   "events": 105,
+   "turns": 575
+  },
+  {
+   "ep": "2c0a799e-b5c2-11f1-ac08-0242ac130203",
+   "opponent": "Alua \u0410khmetkali",
+   "pair": [
+    "PET_CAFE",
+    "BAKERY"
+   ],
+   "events": 112,
+   "turns": 575
+  },
+  {
+   "ep": "5f74b16e-b5c2-11f1-88d1-0242ac130204",
+   "opponent": "Lee Shit Hoo",
+   "pair": [
+    "BAKERY",
+    "FARMERS_MARKET"
+   ],
+   "events": 113,
+   "turns": 575
+  },
+  {
+   "ep": "caa33b5e-b5c2-11f1-8db9-0242ac130204",
+   "opponent": "TOSS",
+   "pair": [
+    "BRUNCH_SPOT",
+    "FARMERS_MARKET"
+   ],
+   "events": 84,
+   "turns": 575
+  },
+  {
+   "ep": "ebee0ab8-b5c3-11f1-9a6e-0242ac130202",
+   "opponent": "Yanxi Teng",
+   "pair": [
+    "FARMERS_MARKET",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 108,
+   "turns": 575
+  },
+  {
+   "ep": "4cab9726-b5c4-11f1-9f74-0242ac130203",
+   "opponent": "Gatswei",
+   "pair": [
+    "FARMERS_MARKET",
+    "PET_CAFE"
+   ],
+   "events": 136,
+   "turns": 575
+  },
+  {
+   "ep": "f2d8dea6-b5c4-11f1-824d-0242ac130204",
+   "opponent": "umair zia",
+   "pair": [
+    "PET_CAFE",
+    "PIZZA_SHOP"
+   ],
+   "events": 102,
+   "turns": 575
+  },
+  {
+   "ep": "a43e2314-b5c4-11f1-8bbf-0242ac130202",
+   "opponent": "\ud835\udd6f\ud835\udd8a\ud835\udd94\ud835\udd89\ud835\udd8e\ud835\udd92\ud835\udd98 & \ud835\udd6e\ud835\udd94",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "PET_CAFE"
+   ],
+   "events": 100,
+   "turns": 575
+  },
+  {
+   "ep": "10fcac78-b5c5-11f1-bd5f-0242ac130204",
+   "opponent": "dont share my work for value",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 100,
+   "turns": 575
+  },
+  {
+   "ep": "2bf25ffe-b5c6-11f1-998a-0242ac130203",
+   "opponent": "Gatswei",
+   "pair": [
+    "PIZZA_SHOP",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 105,
+   "turns": 575
+  },
+  {
+   "ep": "48566082-b5c6-11f1-8660-0242ac130204",
+   "opponent": "Ioannis Tzachristas",
+   "pair": [
+    "PET_CAFE",
+    "BRUNCH_SPOT"
+   ],
+   "events": 131,
+   "turns": 575
+  },
+  {
+   "ep": "8ad2b834-b5c6-11f1-aec6-0242ac130203",
+   "opponent": "Max Podd",
+   "pair": [
+    "PET_CAFE",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 115,
+   "turns": 575
+  },
+  {
+   "ep": "2493330e-b5c7-11f1-99c3-0242ac130203",
+   "opponent": "Suvrat Rai",
+   "pair": [
+    "PET_CAFE",
+    "YARN_STORE"
+   ],
+   "events": 77,
+   "turns": 575
+  },
+  {
+   "ep": "9ae08da4-b5c7-11f1-8929-0242ac130204",
+   "opponent": "yfy",
+   "pair": [
+    "BAKERY",
+    "FARMERS_MARKET"
+   ],
+   "events": 85,
+   "turns": 575
+  },
+  {
+   "ep": "5bb3ee86-b5c8-11f1-bc3b-0242ac130203",
+   "opponent": "Bill Fan",
+   "pair": [
+    "YARN_STORE",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 111,
+   "turns": 575
+  },
+  {
+   "ep": "c215aeb2-b5c8-11f1-981b-0242ac130204",
+   "opponent": "monsaraida",
+   "pair": [
+    "PET_CAFE",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 108,
+   "turns": 575
+  },
+  {
+   "ep": "5eabde2c-b5c9-11f1-b2c6-0242ac130204",
+   "opponent": "David Estevez",
+   "pair": [
+    "PET_CAFE",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 100,
+   "turns": 575
+  },
+  {
+   "ep": "8e09b752-b5c9-11f1-bb03-0242ac130203",
+   "opponent": "\u6a4b\u672c\u771f\u65fa",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "PIZZA_SHOP"
+   ],
+   "events": 105,
+   "turns": 575
+  },
+  {
+   "ep": "6c373aae-b5ca-11f1-a216-0242ac130204",
+   "opponent": "Guilherme Raiuga",
+   "pair": [
+    "YARN_STORE",
+    "YARN_STORE"
+   ],
+   "events": 94,
+   "turns": 575
+  },
+  {
+   "ep": "19ef13ba-b5cb-11f1-b98a-0242ac130203",
+   "opponent": "TIM",
+   "pair": [
+    "BRUNCH_SPOT",
+    "PET_CAFE"
+   ],
+   "events": 111,
+   "turns": 575
+  },
+  {
+   "ep": "f36c65da-b5ca-11f1-ad45-0242ac130204",
+   "opponent": "[KGZ] Aruke Sulaimanova",
+   "pair": [
+    "PIZZA_SHOP",
+    "BRUNCH_SPOT"
+   ],
+   "events": 128,
+   "turns": 575
+  },
+  {
+   "ep": "b9e3f480-b5cb-11f1-a03d-0242ac130202",
+   "opponent": "HD h Joratos",
+   "pair": [
+    "PET_CAFE",
+    "YARN_STORE"
+   ],
+   "events": 75,
+   "turns": 575
+  },
+  {
+   "ep": "db14ed94-b5cb-11f1-be7c-0242ac130203",
+   "opponent": "Yudai Ueno",
+   "pair": [
+    "YARN_STORE",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 112,
+   "turns": 575
+  },
+  {
+   "ep": "9004cba2-b5cc-11f1-a8fd-0242ac130203",
+   "opponent": "Leonardo Viola10",
+   "pair": [
+    "PIZZA_SHOP",
+    "BRUNCH_SPOT"
+   ],
+   "events": 111,
+   "turns": 575
+  },
+  {
+   "ep": "ac00574a-b5cc-11f1-8954-0242ac130202",
+   "opponent": "mitsuki",
+   "pair": [
+    "BAKERY",
+    "FARMERS_MARKET"
+   ],
+   "events": 117,
+   "turns": 575
+  },
+  {
+   "ep": "63c0347c-b5cd-11f1-b26d-0242ac130203",
+   "opponent": "and more",
+   "pair": [
+    "PIZZA_SHOP",
+    "BRUNCH_SPOT"
+   ],
+   "events": 95,
+   "turns": 575
+  },
+  {
+   "ep": "d5fc0264-b5cd-11f1-a430-0242ac130203",
+   "opponent": "\u3042\u304b\u3064\u304d",
+   "pair": [
+    "FARMERS_MARKET",
+    "BAKERY"
+   ],
+   "events": 116,
+   "turns": 575
+  },
+  {
+   "ep": "332b1628-b5ce-11f1-b632-0242ac130204",
+   "opponent": "Golubev Alexander",
+   "pair": [
+    "BRUNCH_SPOT",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 127,
+   "turns": 575
+  },
+  {
+   "ep": "b0ccf5d8-b5ce-11f1-9a5a-0242ac130204",
+   "opponent": "GURU Prasaatha S",
+   "pair": [
+    "PIZZA_SHOP",
+    "PIZZA_SHOP"
+   ],
+   "events": 87,
+   "turns": 575
+  },
+  {
+   "ep": "5eca14ae-b5cf-11f1-9c86-0242ac130202",
+   "opponent": "mitsuki",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "BAKERY"
+   ],
+   "events": 116,
+   "turns": 575
+  },
+  {
+   "ep": "b6f1737a-b5cf-11f1-bcee-0242ac130202",
+   "opponent": "aisamhottman",
+   "pair": [
+    "PET_CAFE",
+    "BRUNCH_SPOT"
+   ],
+   "events": 114,
+   "turns": 575
+  },
+  {
+   "ep": "22064226-b5d0-11f1-97f6-0242ac130202",
+   "opponent": "ansheng jhang",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "BRUNCH_SPOT"
+   ],
+   "events": 122,
+   "turns": 575
+  },
+  {
+   "ep": "7e3737f8-b5d0-11f1-9be2-0242ac130204",
+   "opponent": "Hai Dang",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "PET_CAFE"
+   ],
+   "events": 108,
+   "turns": 575
+  },
+  {
+   "ep": "f66bc11c-b5d0-11f1-8ce7-0242ac130203",
+   "opponent": "Chikuwabu",
+   "pair": [
+    "BRUNCH_SPOT",
+    "YARN_STORE"
+   ],
+   "events": 101,
+   "turns": 575
+  },
+  {
+   "ep": "987fa8c4-b5d1-11f1-8b31-0242ac130203",
+   "opponent": "Kenneth Alonso",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "YARN_STORE"
+   ],
+   "events": 98,
+   "turns": 575
+  },
+  {
+   "ep": "22443746-b5d2-11f1-b83f-0242ac130202",
+   "opponent": "\u041d\u0430\u0437\u0430\u0440 \u041a\u043e\u0432\u0430\u043b\u044c",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "BRUNCH_SPOT"
+   ],
+   "events": 111,
+   "turns": 575
+  },
+  {
+   "ep": "8eb1a3a0-b5d2-11f1-b923-0242ac130202",
+   "opponent": "ln",
+   "pair": [
+    "BRUNCH_SPOT",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 117,
+   "turns": 575
+  },
+  {
+   "ep": "a64ebe6c-b5d2-11f1-9f3c-0242ac130204",
+   "opponent": "\u6708\u4e4b\u5149\u9762",
+   "pair": [
+    "PET_CAFE",
+    "FARMERS_MARKET"
+   ],
+   "events": 101,
+   "turns": 575
+  },
+  {
+   "ep": "b17bb6c8-b5d2-11f1-a15a-0242ac130203",
+   "opponent": "\u5927\u5c71",
+   "pair": [
+    "FARMERS_MARKET",
+    "BAKERY"
+   ],
+   "events": 92,
+   "turns": 575
+  },
+  {
+   "ep": "1dba6c76-b5e2-11f1-948a-0242ac130202",
+   "opponent": "Nyasha Gandah",
+   "pair": [
+    "PIZZA_SHOP",
+    "PET_CAFE"
+   ],
+   "events": 50,
+   "turns": 575
+  },
+  {
+   "ep": "e5354c94-b5e2-11f1-8a35-0242ac130204",
+   "opponent": "Adam Carnaffan",
+   "pair": [
+    "PIZZA_SHOP",
+    "BRUNCH_SPOT"
+   ],
+   "events": 86,
+   "turns": 575
+  },
+  {
+   "ep": "5f970626-b5e3-11f1-8ee5-0242ac130203",
+   "opponent": "Jeff Borschowa",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "YARN_STORE"
+   ],
+   "events": 84,
+   "turns": 575
+  },
+  {
+   "ep": "cc23e476-b5e3-11f1-8046-0242ac130202",
+   "opponent": "Santiago Maniches",
+   "pair": [
+    "FARMERS_MARKET",
+    "FARMERS_MARKET"
+   ],
+   "events": 92,
+   "turns": 575
+  },
+  {
+   "ep": "a2cf8570-b5e4-11f1-a35d-0242ac130204",
+   "opponent": "Steve AVOMO",
+   "pair": [
+    "BRUNCH_SPOT",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 76,
+   "turns": 575
+  },
+  {
+   "ep": "6452fdc6-b5e5-11f1-8673-0242ac130202",
+   "opponent": "Jaume Batlle i Ferrer",
+   "pair": [
+    "BAKERY",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 161,
+   "turns": 575
+  },
+  {
+   "ep": "950e31ba-b5e5-11f1-a08c-0242ac130204",
+   "opponent": "groots",
+   "pair": [
+    "BAKERY",
+    "YARN_STORE"
+   ],
+   "events": 85,
+   "turns": 575
+  },
+  {
+   "ep": "383ea9fa-b5e6-11f1-be86-0242ac130204",
+   "opponent": "senxichong",
+   "pair": [
+    "FARMERS_MARKET",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 106,
+   "turns": 575
+  },
+  {
+   "ep": "ce870a2e-b5e6-11f1-9dab-0242ac130203",
+   "opponent": "Moro",
+   "pair": [
+    "BAKERY",
+    "BAKERY"
+   ],
+   "events": 91,
+   "turns": 575
+  },
+  {
+   "ep": "318b4cd4-b5e7-11f1-9186-0242ac130203",
+   "opponent": "tax_free",
+   "pair": [
+    "FARMERS_MARKET",
+    "BRUNCH_SPOT"
+   ],
+   "events": 100,
+   "turns": 575
+  },
+  {
+   "ep": "eadc8dba-b5e7-11f1-8143-0242ac130204",
+   "opponent": "B\u00ecnh Tr\u1ea7n Thanh",
+   "pair": [
+    "PIZZA_SHOP",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 121,
+   "turns": 575
+  },
+  {
+   "ep": "96a331c6-b5e8-11f1-b981-0242ac130203",
+   "opponent": "aurnik",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 131,
+   "turns": 575
+  },
+  {
+   "ep": "015ac010-b5e9-11f1-891e-0242ac130203",
+   "opponent": "141",
+   "pair": [
+    "BRUNCH_SPOT",
+    "FARMERS_MARKET"
+   ],
+   "events": 95,
+   "turns": 575
+  },
+  {
+   "ep": "75ee1bf2-b5e9-11f1-b11f-0242ac130203",
+   "opponent": "\ud83d\udd25\ud83e\uddab\ud83d\udcff\ud83d\uddfd",
+   "pair": [
+    "PIZZA_SHOP",
+    "PET_CAFE"
+   ],
+   "events": 106,
+   "turns": 575
+  },
+  {
+   "ep": "68b3f30c-b5ea-11f1-a724-0242ac130204",
+   "opponent": "qweq asd",
+   "pair": [
+    "BAKERY",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 101,
+   "turns": 575
+  },
+  {
+   "ep": "845ddc94-b5ea-11f1-a203-0242ac130202",
+   "opponent": "Ali",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "PET_CAFE"
+   ],
+   "events": 122,
+   "turns": 575
+  },
+  {
+   "ep": "72bff692-b5eb-11f1-a75d-0242ac130204",
+   "opponent": "Tomas Escobar Rivera",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "YARN_STORE"
+   ],
+   "events": 112,
+   "turns": 575
+  },
+  {
+   "ep": "1aa4001a-b5ec-11f1-a77c-0242ac130204",
+   "opponent": "Sakito Horie",
+   "pair": [
+    "FARMERS_MARKET",
+    "FARMERS_MARKET"
+   ],
+   "events": 89,
+   "turns": 575
+  },
+  {
+   "ep": "acc4086e-b5ec-11f1-8056-0242ac130203",
+   "opponent": "141",
+   "pair": [
+    "PET_CAFE",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 112,
+   "turns": 575
+  },
+  {
+   "ep": "6ccb2d46-b5ec-11f1-b620-0242ac130203",
+   "opponent": "Nathan Jacob",
+   "pair": [
+    "PET_CAFE",
+    "BAKERY"
+   ],
+   "events": 94,
+   "turns": 575
+  },
+  {
+   "ep": "0c2e58a4-b5ed-11f1-9e71-0242ac130202",
+   "opponent": "yukio",
+   "pair": [
+    "YARN_STORE",
+    "BRUNCH_SPOT"
+   ],
+   "events": 94,
+   "turns": 575
+  },
+  {
+   "ep": "9cbd00d2-b5ed-11f1-97c3-0242ac130203",
+   "opponent": "honjousetuna",
+   "pair": [
+    "BRUNCH_SPOT",
+    "BRUNCH_SPOT"
+   ],
+   "events": 95,
+   "turns": 575
+  },
+  {
+   "ep": "f402d9ca-b5ed-11f1-a571-0242ac130204",
+   "opponent": "Miyanogawa Yuya",
+   "pair": [
+    "BRUNCH_SPOT",
+    "FARMERS_MARKET"
+   ],
+   "events": 79,
+   "turns": 575
+  },
+  {
+   "ep": "e8ec0362-b5ee-11f1-9137-0242ac130203",
+   "opponent": "Eldritch",
+   "pair": [
+    "YARN_STORE",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 94,
+   "turns": 575
+  },
+  {
+   "ep": "05341104-b5ef-11f1-84ea-0242ac130203",
+   "opponent": "BBaRRel.",
+   "pair": [
+    "BAKERY",
+    "PIZZA_SHOP"
+   ],
+   "events": 96,
+   "turns": 575
+  },
+  {
+   "ep": "8d12ef82-b5ef-11f1-8448-0242ac130202",
+   "opponent": "goh",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 108,
+   "turns": 575
+  },
+  {
+   "ep": "3c545d78-b5f0-11f1-b52c-0242ac130203",
+   "opponent": "Rishav Utkarsh",
+   "pair": [
+    "BAKERY",
+    "PIZZA_SHOP"
+   ],
+   "events": 113,
+   "turns": 575
+  },
+  {
+   "ep": "388c06aa-b5f0-11f1-8b99-0242ac130204",
+   "opponent": "T.Uehira",
+   "pair": [
+    "PET_CAFE",
+    "PET_CAFE"
+   ],
+   "events": 109,
+   "turns": 575
+  },
+  {
+   "ep": "171eb6d8-b5f1-11f1-ac8f-0242ac130203",
+   "opponent": "Gorgulu Fried Chicken Wings",
+   "pair": [
+    "BRUNCH_SPOT",
+    "PIZZA_SHOP"
+   ],
+   "events": 114,
+   "turns": 575
+  },
+  {
+   "ep": "d9465ed8-b5f0-11f1-9e02-0242ac130204",
+   "opponent": "Ndabenhle Ngema",
+   "pair": [
+    "PET_CAFE",
+    "PET_CAFE"
+   ],
+   "events": 108,
+   "turns": 575
+  },
+  {
+   "ep": "82b97b62-b5f1-11f1-bf50-0242ac130203",
+   "opponent": "YBEJlKA",
+   "pair": [
+    "PET_CAFE",
+    "PET_CAFE"
+   ],
+   "events": 97,
+   "turns": 575
+  },
+  {
+   "ep": "1a5a0dce-b5f2-11f1-83cf-0242ac130204",
+   "opponent": "DECEM",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 137,
+   "turns": 575
+  },
+  {
+   "ep": "1c1bace4-b5f2-11f1-96ea-0242ac130202",
+   "opponent": "Suyash Verma",
+   "pair": [
+    "PIZZA_SHOP",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 109,
+   "turns": 575
+  },
+  {
+   "ep": "0560be22-b5f2-11f1-92a2-0242ac130204",
+   "opponent": "Ndabenhle Ngema",
+   "pair": [
+    "BRUNCH_SPOT",
+    "PET_CAFE"
+   ],
+   "events": 122,
+   "turns": 575
+  },
+  {
+   "ep": "ed950028-b5f1-11f1-b2da-0242ac130203",
+   "opponent": "kta_jpn",
+   "pair": [
+    "YARN_STORE",
+    "YARN_STORE"
+   ],
+   "events": 101,
+   "turns": 575
+  },
+  {
+   "ep": "1e3ea300-b5f2-11f1-a029-0242ac130202",
+   "opponent": "Canon",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "PIZZA_SHOP"
+   ],
+   "events": 127,
+   "turns": 575
+  },
+  {
+   "ep": "2c558af2-b5f3-11f1-ad69-0242ac130204",
+   "opponent": "Paulo Martins",
+   "pair": [
+    "YARN_STORE",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 97,
+   "turns": 575
+  },
+  {
+   "ep": "de3e9722-b5f3-11f1-85cf-0242ac130204",
+   "opponent": "wulawulacong",
+   "pair": [
+    "PET_CAFE",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 109,
+   "turns": 575
+  },
+  {
+   "ep": "381dc088-b5f4-11f1-9931-0242ac130204",
+   "opponent": "jinxingweilai",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 112,
+   "turns": 575
+  },
+  {
+   "ep": "2c457b24-b5f5-11f1-9a5f-0242ac130204",
+   "opponent": "Bill Fan",
+   "pair": [
+    "PET_CAFE",
+    "BRUNCH_SPOT"
+   ],
+   "events": 103,
+   "turns": 575
+  },
+  {
+   "ep": "4604f896-b5f5-11f1-9c59-0242ac130202",
+   "opponent": "Takamasa Ueno",
+   "pair": [
+    "YARN_STORE",
+    "YARN_STORE"
+   ],
+   "events": 109,
+   "turns": 575
+  },
+  {
+   "ep": "d78b3e4c-b5f5-11f1-b89e-0242ac130202",
+   "opponent": "MAOSEN ",
+   "pair": [
+    "BAKERY",
+    "PET_CAFE"
+   ],
+   "events": 99,
+   "turns": 575
+  },
+  {
+   "ep": "62886830-b5f6-11f1-bfc1-0242ac130203",
+   "opponent": "Lee Shit Hoo",
+   "pair": [
+    "BAKERY",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 104,
+   "turns": 575
+  },
+  {
+   "ep": "6aab024c-b5f7-11f1-bf3d-0242ac130203",
+   "opponent": "Alua \u0410khmetkali",
+   "pair": [
+    "YARN_STORE",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 100,
+   "turns": 575
+  },
+  {
+   "ep": "abbcf18c-b5f7-11f1-9fab-0242ac130202",
+   "opponent": "My Little Pony",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "PIZZA_SHOP"
+   ],
+   "events": 126,
+   "turns": 575
+  },
+  {
+   "ep": "7cef4d7c-b5f8-11f1-a2bb-0242ac130202",
+   "opponent": "TTANE",
+   "pair": [
+    "FARMERS_MARKET",
+    "BAKERY"
+   ],
+   "events": 102,
+   "turns": 575
+  },
+  {
+   "ep": "c06e530e-b5f8-11f1-ac11-0242ac130202",
+   "opponent": "Guilherme Volpe",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "PIZZA_SHOP"
+   ],
+   "events": 102,
+   "turns": 575
+  },
+  {
+   "ep": "663c9e80-b5f9-11f1-9060-0242ac130204",
+   "opponent": "Tien N.",
+   "pair": [
+    "PET_CAFE",
+    "PIZZA_SHOP"
+   ],
+   "events": 96,
+   "turns": 575
+  },
+  {
+   "ep": "a7e5cdac-b5f9-11f1-9862-0242ac130203",
+   "opponent": "Anand Singh",
+   "pair": [
+    "PET_CAFE",
+    "FARMERS_MARKET"
+   ],
+   "events": 121,
+   "turns": 575
+  },
+  {
+   "ep": "2743ec5a-b5fa-11f1-9e8f-0242ac130202",
+   "opponent": "Gorgulu Fried Chicken Wings",
+   "pair": [
+    "PET_CAFE",
+    "YARN_STORE"
+   ],
+   "events": 92,
+   "turns": 575
+  },
+  {
+   "ep": "d703c46c-b5fa-11f1-adf7-0242ac130204",
+   "opponent": "Anvith Pothula",
+   "pair": [
+    "BAKERY",
+    "BRUNCH_SPOT"
+   ],
+   "events": 106,
+   "turns": 575
+  },
+  {
+   "ep": "45e01d18-b5fb-11f1-9588-0242ac130202",
+   "opponent": "Terry Luo",
+   "pair": [
+    "FARMERS_MARKET",
+    "FARMERS_MARKET"
+   ],
+   "events": 108,
+   "turns": 575
+  },
+  {
+   "ep": "e0558f0e-b5fb-11f1-a500-0242ac130203",
+   "opponent": "Bryan Pauze",
+   "pair": [
+    "PIZZA_SHOP",
+    "PIZZA_SHOP"
+   ],
+   "events": 103,
+   "turns": 575
+  },
+  {
+   "ep": "37d18c9c-b5fc-11f1-a71c-0242ac130203",
+   "opponent": "\u524d\u885b",
+   "pair": [
+    "BAKERY",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 118,
+   "turns": 575
+  },
+  {
+   "ep": "93f6a750-b5fc-11f1-9837-0242ac130202",
+   "opponent": "Tien N.",
+   "pair": [
+    "YARN_STORE",
+    "FARMERS_MARKET"
+   ],
+   "events": 87,
+   "turns": 575
+  },
+  {
+   "ep": "7e6342ee-b5fd-11f1-b3dc-0242ac130203",
+   "opponent": "Vasilii Buzmakov",
+   "pair": [
+    "YARN_STORE",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 116,
+   "turns": 575
+  },
+  {
+   "ep": "ba5834e4-b5fd-11f1-ae3a-0242ac130203",
+   "opponent": "Yanis Belami",
+   "pair": [
+    "BAKERY",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 128,
+   "turns": 575
+  },
+  {
+   "ep": "c2c8e1e0-b5fe-11f1-8b52-0242ac130202",
+   "opponent": "Max Power",
+   "pair": [
+    "PET_CAFE",
+    "BAKERY"
+   ],
+   "events": 95,
+   "turns": 575
+  },
+  {
+   "ep": "e945542a-b5fe-11f1-b72f-0242ac130203",
+   "opponent": "AlekseiProvorov",
+   "pair": [
+    "FARMERS_MARKET",
+    "BRUNCH_SPOT"
+   ],
+   "events": 121,
+   "turns": 575
+  },
+  {
+   "ep": "89028cd0-b5ff-11f1-a333-0242ac130202",
+   "opponent": "Jordi Corbilla",
+   "pair": [
+    "BAKERY",
+    "YARN_STORE"
+   ],
+   "events": 79,
+   "turns": 575
+  },
+  {
+   "ep": "1ca946e0-b600-11f1-8c3b-0242ac130203",
+   "opponent": "elda27",
+   "pair": [
+    "YARN_STORE",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 101,
+   "turns": 575
+  },
+  {
+   "ep": "a449bb98-b600-11f1-9b29-0242ac130203",
+   "opponent": "que la cuenten como quieran",
+   "pair": [
+    "FARMERS_MARKET",
+    "PIZZA_SHOP"
+   ],
+   "events": 117,
+   "turns": 575
+  },
+  {
+   "ep": "2abb3c74-b601-11f1-9628-0242ac130203",
+   "opponent": "Mohan Prasath P",
+   "pair": [
+    "YARN_STORE",
+    "YARN_STORE"
+   ],
+   "events": 84,
+   "turns": 575
+  },
+  {
+   "ep": "b6e7106a-b601-11f1-947b-0242ac130203",
+   "opponent": "YUE WU",
+   "pair": [
+    "FARMERS_MARKET",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 109,
+   "turns": 575
+  },
+  {
+   "ep": "558a2090-b602-11f1-9362-0242ac130203",
+   "opponent": "\u0414\u043c\u0438\u0442\u0440\u0438\u0439 \u0422\u043e\u043c\u0438\u043b\u043e\u0432",
+   "pair": [
+    "FARMERS_MARKET",
+    "FARMERS_MARKET"
+   ],
+   "events": 128,
+   "turns": 575
+  },
+  {
+   "ep": "fc038614-b602-11f1-b990-0242ac130204",
+   "opponent": "jjamppongmandu",
+   "pair": [
+    "FARMERS_MARKET",
+    "BAKERY"
+   ],
+   "events": 91,
+   "turns": 575
+  },
+  {
+   "ep": "7e4ce962-b603-11f1-97f4-0242ac130203",
+   "opponent": "Mason Cao",
+   "pair": [
+    "PET_CAFE",
+    "PIZZA_SHOP"
+   ],
+   "events": 98,
+   "turns": 575
+  },
+  {
+   "ep": "3b6cee02-b604-11f1-9a88-0242ac130204",
+   "opponent": "Dante Lok",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 113,
+   "turns": 575
+  },
+  {
+   "ep": "9ba9ea2c-b604-11f1-bc5c-0242ac130204",
+   "opponent": "YUE WU",
+   "pair": [
+    "BRUNCH_SPOT",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 115,
+   "turns": 575
+  },
+  {
+   "ep": "1852f690-b605-11f1-92d0-0242ac130204",
+   "opponent": "quwon_000",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 140,
+   "turns": 575
+  },
+  {
+   "ep": "88069636-b605-11f1-a946-0242ac130202",
+   "opponent": "ketterking",
+   "pair": [
+    "BRUNCH_SPOT",
+    "PIZZA_SHOP"
+   ],
+   "events": 115,
+   "turns": 575
+  },
+  {
+   "ep": "f9a6e124-b605-11f1-a0b1-0242ac130204",
+   "opponent": "local",
+   "pair": [
+    "PIZZA_SHOP",
+    "BRUNCH_SPOT"
+   ],
+   "events": 115,
+   "turns": 575
+  },
+  {
+   "ep": "3b885244-b606-11f1-a06a-0242ac130204",
+   "opponent": "SHALWIN SANJU",
+   "pair": [
+    "BAKERY",
+    "PET_CAFE"
+   ],
+   "events": 102,
+   "turns": 575
+  },
+  {
+   "ep": "7a6cd390-b606-11f1-ae2a-0242ac130204",
+   "opponent": "Tien N.",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 105,
+   "turns": 575
+  },
+  {
+   "ep": "ee5b3760-b606-11f1-b161-0242ac130204",
+   "opponent": "greyhound",
+   "pair": [
+    "BAKERY",
+    "YARN_STORE"
+   ],
+   "events": 67,
+   "turns": 575
+  },
+  {
+   "ep": "b7a19bdc-b607-11f1-bfef-0242ac130203",
+   "opponent": "jiawei li",
+   "pair": [
+    "PIZZA_SHOP",
+    "BRUNCH_SPOT"
+   ],
+   "events": 122,
+   "turns": 575
+  },
+  {
+   "ep": "2a93d7e0-b608-11f1-94aa-0242ac130203",
+   "opponent": "Justin Yang",
+   "pair": [
+    "YARN_STORE",
+    "BAKERY"
+   ],
+   "events": 85,
+   "turns": 575
+  },
+  {
+   "ep": "a606c78e-b608-11f1-a303-0242ac130204",
+   "opponent": "K S VIJAYARAAGHAVAN",
+   "pair": [
+    "FARMERS_MARKET",
+    "BRUNCH_SPOT"
+   ],
+   "events": 111,
+   "turns": 575
+  },
+  {
+   "ep": "24aaaba0-b609-11f1-85e7-0242ac130202",
+   "opponent": "SOSyuki",
+   "pair": [
+    "PIZZA_SHOP",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 106,
+   "turns": 575
+  },
+  {
+   "ep": "c774ffe8-b609-11f1-ba1b-0242ac130203",
+   "opponent": "Lan_Sky",
+   "pair": [
+    "FARMERS_MARKET",
+    "BRUNCH_SPOT"
+   ],
+   "events": 130,
+   "turns": 575
+  },
+  {
+   "ep": "8837443c-b495-11f1-9753-0242ac130204",
+   "opponent": "Muzhi11",
+   "pair": [
+    "YARN_STORE",
+    "PET_CAFE"
+   ],
+   "events": 38,
+   "turns": 575
+  },
+  {
+   "ep": "c5f779ea-b495-11f1-a2d2-0242ac130203",
+   "opponent": "Tristan Peng",
+   "pair": [
+    "PET_CAFE",
+    "YARN_STORE"
+   ],
+   "events": 105,
+   "turns": 575
+  },
+  {
+   "ep": "48af9e44-b496-11f1-be72-0242ac130203",
+   "opponent": "haiy_qq",
+   "pair": [
+    "YARN_STORE",
+    "FARMERS_MARKET"
+   ],
+   "events": 49,
+   "turns": 575
+  },
+  {
+   "ep": "3a412570-b497-11f1-a09c-0242ac130203",
+   "opponent": "Abi_e",
+   "pair": [
+    "YARN_STORE",
+    "PET_CAFE"
+   ],
+   "events": 35,
+   "turns": 575
+  },
+  {
+   "ep": "9fb237f0-b497-11f1-b00f-0242ac130202",
+   "opponent": "wilson LUNG",
+   "pair": [
+    "BRUNCH_SPOT",
+    "PET_CAFE"
+   ],
+   "events": 24,
+   "turns": 575
+  },
+  {
+   "ep": "068d2ac0-b498-11f1-803f-0242ac130203",
+   "opponent": "Andrey Balvaneda",
+   "pair": [
+    "BAKERY",
+    "BAKERY"
+   ],
+   "events": 11,
+   "turns": 575
+  },
+  {
+   "ep": "798ad428-b498-11f1-88a6-0242ac130203",
+   "opponent": "Rijusmit Biswas",
+   "pair": [
+    "YARN_STORE",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 25,
+   "turns": 575
+  },
+  {
+   "ep": "4e0b07e0-b499-11f1-b09e-0242ac130203",
+   "opponent": "Ming Myung",
+   "pair": [
+    "BRUNCH_SPOT",
+    "YARN_STORE"
+   ],
+   "events": 8,
+   "turns": 575
+  },
+  {
+   "ep": "a0cb4b84-b499-11f1-ad40-0242ac130203",
+   "opponent": "Rudransh Singh Rathore",
+   "pair": [
+    "BAKERY",
+    "PIZZA_SHOP"
+   ],
+   "events": 31,
+   "turns": 575
+  },
+  {
+   "ep": "7896ea6e-b49a-11f1-a26f-0242ac130204",
+   "opponent": "ZhixinLuo",
+   "pair": [
+    "BRUNCH_SPOT",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 97,
+   "turns": 575
+  },
+  {
+   "ep": "f169ac4c-b49a-11f1-9e4b-0242ac130203",
+   "opponent": "Donnell Layne",
+   "pair": [
+    "YARN_STORE",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 55,
+   "turns": 575
+  },
+  {
+   "ep": "ac72e904-b49b-11f1-963c-0242ac130202",
+   "opponent": "Luc Mantoux",
+   "pair": [
+    "FARMERS_MARKET",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 40,
+   "turns": 575
+  },
+  {
+   "ep": "d4924b8c-b49b-11f1-8e8b-0242ac130202",
+   "opponent": "Abhimanyu21",
+   "pair": [
+    "FARMERS_MARKET",
+    "PET_CAFE"
+   ],
+   "events": 19,
+   "turns": 575
+  },
+  {
+   "ep": "db5fc02e-b49c-11f1-b123-0242ac130204",
+   "opponent": "WilliamXylean",
+   "pair": [
+    "PIZZA_SHOP",
+    "PET_CAFE"
+   ],
+   "events": 10,
+   "turns": 575
+  },
+  {
+   "ep": "3e0ffdf6-b49d-11f1-8057-0242ac130204",
+   "opponent": "Anuj Bolewar",
+   "pair": [
+    "YARN_STORE",
+    "PET_CAFE"
+   ],
+   "events": 2,
+   "turns": 575
+  },
+  {
+   "ep": "83475978-b4a2-11f1-adf0-0242ac130203",
+   "opponent": "wanwanuil",
+   "pair": [
+    "PIZZA_SHOP",
+    "BAKERY"
+   ],
+   "events": 69,
+   "turns": 575
+  },
+  {
+   "ep": "1e2faf62-b4a3-11f1-930e-0242ac130204",
+   "opponent": "yu lesui",
+   "pair": [
+    "PIZZA_SHOP",
+    "YARN_STORE"
+   ],
+   "events": 68,
+   "turns": 575
+  },
+  {
+   "ep": "2fe4b252-b4a3-11f1-a963-0242ac130203",
+   "opponent": "S Aishvarya",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "FARMERS_MARKET"
+   ],
+   "events": 71,
+   "turns": 575
+  },
+  {
+   "ep": "b5de9f6c-b4a3-11f1-af0d-0242ac130202",
+   "opponent": "2023314806_\uc774\uc2b9\ubbfc",
+   "pair": [
+    "PIZZA_SHOP",
+    "BAKERY"
+   ],
+   "events": 48,
+   "turns": 575
+  },
+  {
+   "ep": "f391ec92-b4a3-11f1-8523-0242ac130202",
+   "opponent": "Joey Gonzales",
+   "pair": [
+    "FARMERS_MARKET",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 83,
+   "turns": 575
+  },
+  {
+   "ep": "33bf6ac4-b4a4-11f1-a099-0242ac130202",
+   "opponent": "Oleg Shatov",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 57,
+   "turns": 575
+  },
+  {
+   "ep": "8bfcb82c-b4a4-11f1-aa34-0242ac130204",
+   "opponent": "GitLyf",
+   "pair": [
+    "BRUNCH_SPOT",
+    "PIZZA_SHOP"
+   ],
+   "events": 33,
+   "turns": 575
+  },
+  {
+   "ep": "da403194-b4a4-11f1-973a-0242ac130204",
+   "opponent": "Hacker Trinity",
+   "pair": [
+    "FARMERS_MARKET",
+    "BRUNCH_SPOT"
+   ],
+   "events": 72,
+   "turns": 575
+  },
+  {
+   "ep": "37463c94-b4a5-11f1-81dc-0242ac130202",
+   "opponent": "Pranav Premchand",
+   "pair": [
+    "BRUNCH_SPOT",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 24,
+   "turns": 575
+  },
+  {
+   "ep": "90292a92-b4a5-11f1-bdcb-0242ac130203",
+   "opponent": "Dimas Renggana",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "FARMERS_MARKET"
+   ],
+   "events": 80,
+   "turns": 575
+  },
+  {
+   "ep": "c1304c60-b4a5-11f1-bb1f-0242ac130204",
+   "opponent": "Digant Kathiriya",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "YARN_STORE"
+   ],
+   "events": 80,
+   "turns": 575
+  },
+  {
+   "ep": "2a6d234c-b4a6-11f1-b147-0242ac130204",
+   "opponent": "Asanka Pradeep",
+   "pair": [
+    "PIZZA_SHOP",
+    "PIZZA_SHOP"
+   ],
+   "events": 49,
+   "turns": 575
+  },
+  {
+   "ep": "15e0451c-b4a6-11f1-9cdf-0242ac130203",
+   "opponent": "shreyas sangalad",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "PIZZA_SHOP"
+   ],
+   "events": 60,
+   "turns": 575
+  },
+  {
+   "ep": "617c5038-b4a6-11f1-976c-0242ac130204",
+   "opponent": "LokeshGiri",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 37,
+   "turns": 575
+  },
+  {
+   "ep": "dbf5d8fc-b4a6-11f1-94fa-0242ac130203",
+   "opponent": "B M Dimpu Shree",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "BAKERY"
+   ],
+   "events": 6,
+   "turns": 575
+  },
+  {
+   "ep": "4798530a-b4a7-11f1-bc1f-0242ac130204",
+   "opponent": "Yeyuqing0913",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "PET_CAFE"
+   ],
+   "events": 89,
+   "turns": 575
+  },
+  {
+   "ep": "1dfb9f16-b4a7-11f1-a23f-0242ac130203",
+   "opponent": "Ruizhang Zhi",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 34,
+   "turns": 575
+  },
+  {
+   "ep": "ab729e08-b4a7-11f1-b4ec-0242ac130202",
+   "opponent": "Coolgolf",
+   "pair": [
+    "YARN_STORE",
+    "BAKERY"
+   ],
+   "events": 60,
+   "turns": 575
+  },
+  {
+   "ep": "a122b366-b4a7-11f1-b54e-0242ac130204",
+   "opponent": "kisamaki0815",
+   "pair": [
+    "YARN_STORE",
+    "PIZZA_SHOP"
+   ],
+   "events": 37,
+   "turns": 575
+  },
+  {
+   "ep": "64350d4a-b4a8-11f1-a408-0242ac130204",
+   "opponent": "Evgen21",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 4,
+   "turns": 575
+  },
+  {
+   "ep": "0fba8402-b4a8-11f1-b8bb-0242ac130202",
+   "opponent": "Seshu",
+   "pair": [
+    "BRUNCH_SPOT",
+    "PIZZA_SHOP"
+   ],
+   "events": 48,
+   "turns": 575
+  },
+  {
+   "ep": "c3b5647c-b4a8-11f1-89d5-0242ac130202",
+   "opponent": "Jana Hagen",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 44,
+   "turns": 575
+  },
+  {
+   "ep": "215e9a9e-b4a9-11f1-9170-0242ac130204",
+   "opponent": "Artur Sakhiullin",
+   "pair": [
+    "BAKERY",
+    "YARN_STORE"
+   ],
+   "events": 56,
+   "turns": 575
+  },
+  {
+   "ep": "90cfd33e-b4a9-11f1-bbea-0242ac130203",
+   "opponent": "Vamshi Guntupalli",
+   "pair": [
+    "FARMERS_MARKET",
+    "PIZZA_SHOP"
+   ],
+   "events": 21,
+   "turns": 575
+  },
+  {
+   "ep": "a6123ff2-b4a9-11f1-8b4c-0242ac130204",
+   "opponent": "Giampietro Pregnolato",
+   "pair": [
+    "PET_CAFE",
+    "BAKERY"
+   ],
+   "events": 30,
+   "turns": 575
+  },
+  {
+   "ep": "d165555e-b4a9-11f1-ae5e-0242ac130202",
+   "opponent": "Edilaine Arceno",
+   "pair": [
+    "YARN_STORE",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 34,
+   "turns": 575
+  },
+  {
+   "ep": "396b05b8-b4aa-11f1-a80c-0242ac130204",
+   "opponent": "Wasaanyi",
+   "pair": [
+    "PET_CAFE",
+    "BAKERY"
+   ],
+   "events": 53,
+   "turns": 575
+  },
+  {
+   "ep": "835a4c4c-b4aa-11f1-a3df-0242ac130203",
+   "opponent": "Mikaela Gkolemi",
+   "pair": [
+    "BAKERY",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 67,
+   "turns": 575
+  },
+  {
+   "ep": "c7e956d2-b4aa-11f1-ad91-0242ac130204",
+   "opponent": "lava",
+   "pair": [
+    "PET_CAFE",
+    "BRUNCH_SPOT"
+   ],
+   "events": 26,
+   "turns": 575
+  },
+  {
+   "ep": "2d4dc92c-b4ab-11f1-8d8c-0242ac130204",
+   "opponent": "zixma13",
+   "pair": [
+    "PET_CAFE",
+    "BAKERY"
+   ],
+   "events": 50,
+   "turns": 575
+  },
+  {
+   "ep": "0b210f30-b4ab-11f1-a28d-0242ac130204",
+   "opponent": "LokeshGiri",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "FARMERS_MARKET"
+   ],
+   "events": 31,
+   "turns": 575
+  },
+  {
+   "ep": "9ae505e0-b4ab-11f1-925d-0242ac130202",
+   "opponent": "Irabala",
+   "pair": [
+    "YARN_STORE",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 132,
+   "turns": 575
+  },
+  {
+   "ep": "afdd016e-b4ab-11f1-9097-0242ac130204",
+   "opponent": "nasa Furiy",
+   "pair": [
+    "PET_CAFE",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 25,
+   "turns": 575
+  },
+  {
+   "ep": "4c0569e6-b4ac-11f1-9c75-0242ac130202",
+   "opponent": "Awesome Egg",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "PIZZA_SHOP"
+   ],
+   "events": 10,
+   "turns": 575
+  },
+  {
+   "ep": "536c3476-b4ac-11f1-9ddf-0242ac130204",
+   "opponent": "Sadiq Ali",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "BAKERY"
+   ],
+   "events": 51,
+   "turns": 575
+  },
+  {
+   "ep": "f81c5398-b4ac-11f1-8ca0-0242ac130203",
+   "opponent": "HamYad",
+   "pair": [
+    "BAKERY",
+    "FARMERS_MARKET"
+   ],
+   "events": 18,
+   "turns": 575
+  },
+  {
+   "ep": "d185640e-b4ac-11f1-ba2a-0242ac130202",
+   "opponent": "LZWang",
+   "pair": [
+    "BAKERY",
+    "PET_CAFE"
+   ],
+   "events": 18,
+   "turns": 575
+  },
+  {
+   "ep": "7d8c82be-b4ad-11f1-99bd-0242ac130202",
+   "opponent": "Raj Nandan",
+   "pair": [
+    "FARMERS_MARKET",
+    "BRUNCH_SPOT"
+   ],
+   "events": 27,
+   "turns": 575
+  },
+  {
+   "ep": "a4bc74c0-b4ad-11f1-b0f4-0242ac130203",
+   "opponent": "Haitaks",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "BRUNCH_SPOT"
+   ],
+   "events": 23,
+   "turns": 575
+  },
+  {
+   "ep": "e30172ae-b4b1-11f1-9b6e-0242ac130203",
+   "opponent": "Khanh",
+   "pair": [
+    "PIZZA_SHOP",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 116,
+   "turns": 575
+  },
+  {
+   "ep": "75b1582c-b4b6-11f1-bacd-0242ac130204",
+   "opponent": "yygg2026",
+   "pair": [
+    "BRUNCH_SPOT",
+    "FARMERS_MARKET"
+   ],
+   "events": 2,
+   "turns": 575
+  },
+  {
+   "ep": "4f57599c-b4b6-11f1-ad83-0242ac130204",
+   "opponent": "Vinicius Pupin",
+   "pair": [
+    "PIZZA_SHOP",
+    "PIZZA_SHOP"
+   ],
+   "events": 44,
+   "turns": 575
+  },
+  {
+   "ep": "ee5dc15e-b4b9-11f1-b9dd-0242ac130204",
+   "opponent": "techtech69",
+   "pair": [
+    "PIZZA_SHOP",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 112,
+   "turns": 575
+  },
+  {
+   "ep": "d8669f40-b4c0-11f1-aa20-0242ac130202",
+   "opponent": "umar",
+   "pair": [
+    "YARN_STORE",
+    "YARN_STORE"
+   ],
+   "events": 41,
+   "turns": 575
+  },
+  {
+   "ep": "e75747ec-b4c1-11f1-b315-0242ac130203",
+   "opponent": "sowhatwillwelearn",
+   "pair": [
+    "BRUNCH_SPOT",
+    "BAKERY"
+   ],
+   "events": 42,
+   "turns": 575
+  },
+  {
+   "ep": "5e525f6c-b4c2-11f1-a5c5-0242ac130204",
+   "opponent": "raffael prem",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 59,
+   "turns": 575
+  },
+  {
+   "ep": "44e869da-b4c3-11f1-9558-0242ac130204",
+   "opponent": "Ryan Wong",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "FARMERS_MARKET"
+   ],
+   "events": 56,
+   "turns": 575
+  },
+  {
+   "ep": "aa564580-b4c3-11f1-a849-0242ac130203",
+   "opponent": "Minh \u0110\u0103ng L\u00ea",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "PIZZA_SHOP"
+   ],
+   "events": 81,
+   "turns": 575
+  },
+  {
+   "ep": "24a542b4-b4c4-11f1-92ff-0242ac130204",
+   "opponent": "Shuqi Zhang",
+   "pair": [
+    "PET_CAFE",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 78,
+   "turns": 575
+  },
+  {
+   "ep": "a5833fbc-b4c4-11f1-804b-0242ac130204",
+   "opponent": "yokoikazumasa",
+   "pair": [
+    "PIZZA_SHOP",
+    "PIZZA_SHOP"
+   ],
+   "events": 26,
+   "turns": 575
+  },
+  {
+   "ep": "41e87bf6-b4c5-11f1-9392-0242ac130204",
+   "opponent": "karthik reddy",
+   "pair": [
+    "FARMERS_MARKET",
+    "BAKERY"
+   ],
+   "events": 30,
+   "turns": 575
+  },
+  {
+   "ep": "09220408-b4c6-11f1-a0d5-0242ac130204",
+   "opponent": "Marc Dakuginow",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "PET_CAFE"
+   ],
+   "events": 14,
+   "turns": 575
+  },
+  {
+   "ep": "45a0347c-b4c6-11f1-a0f4-0242ac130202",
+   "opponent": "Laurence Dale",
+   "pair": [
+    "PET_CAFE",
+    "BAKERY"
+   ],
+   "events": 69,
+   "turns": 575
+  },
+  {
+   "ep": "f5b1678c-b4c6-11f1-a836-0242ac130203",
+   "opponent": "Jurgen Sinjari",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "PIZZA_SHOP"
+   ],
+   "events": 60,
+   "turns": 575
+  },
+  {
+   "ep": "6134ff0a-b4c7-11f1-aee6-0242ac130204",
+   "opponent": "Arijit Kar",
+   "pair": [
+    "YARN_STORE",
+    "PIZZA_SHOP"
+   ],
+   "events": 99,
+   "turns": 575
+  },
+  {
+   "ep": "687a95ee-b4c8-11f1-9e22-0242ac130202",
+   "opponent": "hoo aam",
+   "pair": [
+    "PIZZA_SHOP",
+    "BRUNCH_SPOT"
+   ],
+   "events": 27,
+   "turns": 575
+  },
+  {
+   "ep": "b5011d8e-b4c8-11f1-9d05-0242ac130204",
+   "opponent": "Mwanza Wambua",
+   "pair": [
+    "YARN_STORE",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 80,
+   "turns": 575
+  },
+  {
+   "ep": "8040a8c0-b4c9-11f1-83a5-0242ac130203",
+   "opponent": "Jacob Joy",
+   "pair": [
+    "BRUNCH_SPOT",
+    "ICE_CREAM_SHOP"
+   ],
+   "events": 39,
+   "turns": 575
+  },
+  {
+   "ep": "1d15fd12-b4ca-11f1-99e4-0242ac130202",
+   "opponent": "IWA_setu",
+   "pair": [
+    "BRUNCH_SPOT",
+    "BAKERY"
+   ],
+   "events": 43,
+   "turns": 575
+  },
+  {
+   "ep": "8be95914-b4ca-11f1-a6fa-0242ac130204",
+   "opponent": "June_mk",
+   "pair": [
+    "BAKERY",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 26,
+   "turns": 575
+  },
+  {
+   "ep": "cedfda22-b4ca-11f1-b3fa-0242ac130202",
+   "opponent": "Assylkhan Kerey",
+   "pair": [
+    "BRUNCH_SPOT",
+    "BAKERY"
+   ],
+   "events": 53,
+   "turns": 575
+  },
+  {
+   "ep": "83acf200-b4cb-11f1-a061-0242ac130203",
+   "opponent": "Markel Iru",
+   "pair": [
+    "BAKERY",
+    "PIZZA_SHOP"
+   ],
+   "events": 42,
+   "turns": 575
+  },
+  {
+   "ep": "ef9c7c40-b554-11f1-a245-0242ac130203",
+   "opponent": "JCN2365",
+   "pair": [
+    "YARN_STORE",
+    "YARN_STORE"
+   ],
+   "events": 100,
+   "turns": 575
+  },
+  {
+   "ep": "71a1f6ca-b555-11f1-b6ea-0242ac130203",
+   "opponent": "ayuma",
+   "pair": [
+    "ICE_CREAM_SHOP",
+    "PIZZA_SHOP"
+   ],
+   "events": 81,
+   "turns": 575
+  },
+  {
+   "ep": "f5f51498-b555-11f1-90fb-0242ac130202",
+   "opponent": "The Ceris",
+   "pair": [
+    "PET_CAFE",
+    "FARMERS_MARKET"
+   ],
+   "events": 25,
+   "turns": 575
+  },
+  {
+   "ep": "b438bc16-b556-11f1-a5be-0242ac130202",
+   "opponent": "moncef elm",
+   "pair": [
+    "YARN_STORE",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 108,
+   "turns": 575
+  },
+  {
+   "ep": "1f972ca4-b557-11f1-b26c-0242ac130204",
+   "opponent": "Dayi Zhang",
+   "pair": [
+    "SMOOTHIE_SHOP",
+    "FARMERS_MARKET"
+   ],
+   "events": 38,
+   "turns": 575
+  },
+  {
+   "ep": "aa5c6638-b557-11f1-b860-0242ac130202",
+   "opponent": "WilliamXylean",
+   "pair": [
+    "PET_CAFE",
+    "SMOOTHIE_SHOP"
+   ],
+   "events": 49,
+   "turns": 575
+  }
+ ]
+}

@@ -71,7 +71,12 @@ def main():
     ap.add_argument("--candidate", default="main.py")
     ap.add_argument("--seeds", default="1000-1005")
     ap.add_argument("--opponents", nargs="*", default=None)
-    ap.add_argument("--workers", type=int, default=0, help="0 = auto (cores-2, max 12)")
+    ap.add_argument("--workers", type=int, default=0, help="0 = auto (16 on a 24-core box)")
+    ap.add_argument("--seats", default="01",
+                    help="which seats to play per seed: '01' both (default), "
+                         "'0' or '1' single. The environment is seat-symmetric, so "
+                         "1 seat x 2x seeds gives the same wall time with twice the "
+                         "independent samples.")
     ap.add_argument("--tag", default="")
     args = ap.parse_args()
 
@@ -79,18 +84,18 @@ def main():
     opp_paths = args.opponents or sorted(glob.glob(os.path.join(ROOT, "opponents", "*", "main.py")))
     seeds = parse_seeds(args.seeds)
     tag = args.tag or os.path.basename(os.path.dirname(cand_path)) or "candidate"
-    workers = args.workers or max(1, (os.cpu_count() or 4) - 4)
+    workers = args.workers or max(1, min(16, (os.cpu_count() or 4) - 4))
 
     tasks = []
     for opp_path in opp_paths:
         opp_name = os.path.basename(os.path.dirname(opp_path))
         for seed in seeds:
-            for our_seat in (0, 1):
+            for our_seat in [int(c) for c in args.seats]:
                 tasks.append((cand_path, opp_path, opp_name, seed, our_seat))
 
     print(f"candidate: {os.path.relpath(cand_path, ROOT)}")
-    print(f"{len(opp_paths)} opponents x {len(seeds)} seeds x 2 seats = {len(tasks)} games, "
-          f"{workers} workers")
+    print(f"{len(opp_paths)} opponents x {len(seeds)} seeds x {len(args.seats)} seat(s) "
+          f"= {len(tasks)} games, {workers} workers")
     t0 = time.time()
     with mp.Pool(processes=workers) as pool:
         recs = []
