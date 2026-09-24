@@ -1,0 +1,5382 @@
+[
+ {
+  "file": "replays_all\\episode-111048013-replay.json",
+  "us": 0,
+  "dmoney1": 829.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 630.0,
+  "opp": "wilson LUNG"
+ },
+ {
+  "file": "replays_all\\episode-111049206-replay.json",
+  "us": 1,
+  "dmoney1": 408.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 4068.0,
+  "opp": "Andrey Balvaneda"
+ },
+ {
+  "file": "replays_all\\episode-111052532-replay.json",
+  "us": 1,
+  "dmoney1": 1955.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -16880.0,
+  "opp": "Rudransh Singh Rathore"
+ },
+ {
+  "file": "replays_all\\episode-111053665-replay.json",
+  "us": 0,
+  "dmoney1": 620.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -22796.0,
+  "opp": "ZhixinLuo"
+ },
+ {
+  "file": "replays_all\\episode-111054762-replay.json",
+  "us": 1,
+  "dmoney1": 770.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 16835.0,
+  "opp": "Donnell Layne"
+ },
+ {
+  "file": "replays_all\\episode-111055906-replay.json",
+  "us": 0,
+  "dmoney1": -161.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -27460.0,
+  "opp": "Luc Mantoux"
+ },
+ {
+  "file": "replays_all\\episode-111045781-replay.json",
+  "us": 0,
+  "dmoney1": 1602.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -1231.0,
+  "opp": "haiy_qq"
+ },
+ {
+  "file": "replays_all\\episode-111046931-replay.json",
+  "us": 0,
+  "dmoney1": 1232.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -3613.0,
+  "opp": "Abi_e"
+ },
+ {
+  "file": "replays_all\\episode-111050303-replay.json",
+  "us": 0,
+  "dmoney1": 2215.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -15176.0,
+  "opp": "Rijusmit Biswas"
+ },
+ {
+  "file": "replays_all\\episode-111051434-replay.json",
+  "us": 0,
+  "dmoney1": 248.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 27687.0,
+  "opp": "Ming Myung"
+ },
+ {
+  "file": "replays_all\\episode-111057002-replay.json",
+  "us": 1,
+  "dmoney1": 1559.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 23408.0,
+  "opp": "Abhimanyu21"
+ },
+ {
+  "file": "replays_all\\episode-111058133-replay.json",
+  "us": 0,
+  "dmoney1": -248.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 30596.0,
+  "opp": "WilliamXylean"
+ },
+ {
+  "file": "replays_all\\episode-111074319-replay.json",
+  "us": 1,
+  "dmoney1": 659.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 11057.0,
+  "opp": "Hacker Trinity"
+ },
+ {
+  "file": "replays_all\\episode-111074371-replay.json",
+  "us": 0,
+  "dmoney1": -115.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 41944.0,
+  "opp": "Pranav Premchand"
+ },
+ {
+  "file": "replays_all\\episode-111059237-replay.json",
+  "us": 1,
+  "dmoney1": -102.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -5847.0,
+  "opp": "Anuj Bolewar"
+ },
+ {
+  "file": "replays_all\\episode-111069868-replay.json",
+  "us": 0,
+  "dmoney1": 2876.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -50946.0,
+  "opp": "wanwanuil"
+ },
+ {
+  "file": "replays_all\\episode-111073191-replay.json",
+  "us": 1,
+  "dmoney1": 2743.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -9491.0,
+  "opp": "Oleg Shatov"
+ },
+ {
+  "file": "replays_all\\episode-111073219-replay.json",
+  "us": 1,
+  "dmoney1": 1339.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 33081.0,
+  "opp": "GitLyf"
+ },
+ {
+  "file": "replays_all\\episode-111043519-replay.json",
+  "us": 1,
+  "dmoney1": 1574.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -43970.0,
+  "opp": "Muzhi11"
+ },
+ {
+  "file": "replays_all\\episode-111044617-replay.json",
+  "us": 1,
+  "dmoney1": -250.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -59218.0,
+  "opp": "Tristan Peng"
+ },
+ {
+  "file": "replays_all\\episode-111072086-replay.json",
+  "us": 1,
+  "dmoney1": 2164.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -19349.0,
+  "opp": "2023314806_\uc774\uc2b9\ubbfc"
+ },
+ {
+  "file": "replays_all\\episode-111072090-replay.json",
+  "us": 1,
+  "dmoney1": 1048.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -28739.0,
+  "opp": "Joey Gonzales"
+ },
+ {
+  "file": "replays_all\\episode-111070961-replay.json",
+  "us": 0,
+  "dmoney1": 2718.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -45806.0,
+  "opp": "yu lesui"
+ },
+ {
+  "file": "replays_all\\episode-111070994-replay.json",
+  "us": 1,
+  "dmoney1": 1914.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 2005.0,
+  "opp": "S Aishvarya"
+ },
+ {
+  "file": "replays_all\\episode-111075434-replay.json",
+  "us": 1,
+  "dmoney1": 2722.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -35473.0,
+  "opp": "Dimas Renggana"
+ },
+ {
+  "file": "replays_all\\episode-111075460-replay.json",
+  "us": 0,
+  "dmoney1": 39.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 37544.0,
+  "opp": "Digant Kathiriya"
+ },
+ {
+  "file": "replays_all\\episode-111077808-replay.json",
+  "us": 0,
+  "dmoney1": 597.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 27430.0,
+  "opp": "LokeshGiri"
+ },
+ {
+  "file": "replays_all\\episode-111078468-replay.json",
+  "us": 1,
+  "dmoney1": 1879.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 31175.0,
+  "opp": "B M Dimpu Shree"
+ },
+ {
+  "file": "replays_all\\episode-111078808-replay.json",
+  "us": 0,
+  "dmoney1": 2645.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -29082.0,
+  "opp": "Yeyuqing0913"
+ },
+ {
+  "file": "replays_all\\episode-111078809-replay.json",
+  "us": 0,
+  "dmoney1": 2370.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -183.0,
+  "opp": "Ruizhang Zhi"
+ },
+ {
+  "file": "replays_all\\episode-111084411-replay.json",
+  "us": 0,
+  "dmoney1": -95.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 23139.0,
+  "opp": "Edilaine Arceno"
+ },
+ {
+  "file": "replays_all\\episode-111084439-replay.json",
+  "us": 1,
+  "dmoney1": 1306.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -7290.0,
+  "opp": "Wasaanyi"
+ },
+ {
+  "file": "replays_all\\episode-111079932-replay.json",
+  "us": 1,
+  "dmoney1": 2699.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -23952.0,
+  "opp": "Coolgolf"
+ },
+ {
+  "file": "replays_all\\episode-111079960-replay.json",
+  "us": 0,
+  "dmoney1": 1130.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 46602.0,
+  "opp": "kisamaki0815"
+ },
+ {
+  "file": "replays_all\\episode-111076560-replay.json",
+  "us": 0,
+  "dmoney1": 1451.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -12684.0,
+  "opp": "Asanka Pradeep"
+ },
+ {
+  "file": "replays_all\\episode-111076564-replay.json",
+  "us": 0,
+  "dmoney1": 1722.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 24127.0,
+  "opp": "shreyas sangalad"
+ },
+ {
+  "file": "replays_all\\episode-111081058-replay.json",
+  "us": 0,
+  "dmoney1": 1198.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 49063.0,
+  "opp": "Evgen21"
+ },
+ {
+  "file": "replays_all\\episode-111081070-replay.json",
+  "us": 1,
+  "dmoney1": 966.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -47475.0,
+  "opp": "Seshu"
+ },
+ {
+  "file": "replays_all\\episode-111082171-replay.json",
+  "us": 0,
+  "dmoney1": 974.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -32107.0,
+  "opp": "Jana Hagen"
+ },
+ {
+  "file": "replays_all\\episode-111082199-replay.json",
+  "us": 1,
+  "dmoney1": 1885.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -8062.0,
+  "opp": "Artur Sakhiullin"
+ },
+ {
+  "file": "replays_all\\episode-111087818-replay.json",
+  "us": 0,
+  "dmoney1": 70.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -15575.0,
+  "opp": "Irabala"
+ },
+ {
+  "file": "replays_all\\episode-111087859-replay.json",
+  "us": 0,
+  "dmoney1": 840.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 5634.0,
+  "opp": "nasa Furiy"
+ },
+ {
+  "file": "replays_all\\episode-111086665-replay.json",
+  "us": 1,
+  "dmoney1": 842.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 9232.0,
+  "opp": "zixma13"
+ },
+ {
+  "file": "replays_all\\episode-111086744-replay.json",
+  "us": 1,
+  "dmoney1": 597.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 23715.0,
+  "opp": "LokeshGiri"
+ },
+ {
+  "file": "replays_all\\episode-111083308-replay.json",
+  "us": 0,
+  "dmoney1": 1160.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 7871.0,
+  "opp": "Vamshi Guntupalli"
+ },
+ {
+  "file": "replays_all\\episode-111083309-replay.json",
+  "us": 0,
+  "dmoney1": 2735.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -18013.0,
+  "opp": "Giampietro Pregnolato"
+ },
+ {
+  "file": "replays_all\\episode-111085552-replay.json",
+  "us": 1,
+  "dmoney1": 2878.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -4689.0,
+  "opp": "Mikaela Gkolemi"
+ },
+ {
+  "file": "replays_all\\episode-111085560-replay.json",
+  "us": 0,
+  "dmoney1": 1920.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -5573.0,
+  "opp": "lava"
+ },
+ {
+  "file": "replays_all\\episode-111088950-replay.json",
+  "us": 0,
+  "dmoney1": 1898.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 51795.0,
+  "opp": "Awesome Egg"
+ },
+ {
+  "file": "replays_all\\episode-111088966-replay.json",
+  "us": 1,
+  "dmoney1": 918.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -6508.0,
+  "opp": "Sadiq Ali"
+ },
+ {
+  "file": "replays_all\\episode-111090043-replay.json",
+  "us": 1,
+  "dmoney1": 1161.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 33696.0,
+  "opp": "HamYad"
+ },
+ {
+  "file": "replays_all\\episode-111090388-replay.json",
+  "us": 1,
+  "dmoney1": 1711.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 5911.0,
+  "opp": "LZWang"
+ },
+ {
+  "file": "replays_all\\episode-111091162-replay.json",
+  "us": 0,
+  "dmoney1": 370.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 15269.0,
+  "opp": "Raj Nandan"
+ },
+ {
+  "file": "replays_all\\episode-111092288-replay.json",
+  "us": 0,
+  "dmoney1": 2230.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2564.0,
+  "opp": "Haitaks"
+ },
+ {
+  "file": "replays_all\\episode-111100200-replay.json",
+  "us": 1,
+  "dmoney1": 21.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -120117.0,
+  "opp": "Khanh"
+ },
+ {
+  "file": "replays_all\\episode-111108579-replay.json",
+  "us": 1,
+  "dmoney1": 766.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 39514.0,
+  "opp": "yygg2026"
+ },
+ {
+  "file": "replays_all\\episode-111129763-replay.json",
+  "us": 1,
+  "dmoney1": -118.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -21311.0,
+  "opp": "umar"
+ },
+ {
+  "file": "replays_all\\episode-111131492-replay.json",
+  "us": 1,
+  "dmoney1": -442.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -26972.0,
+  "opp": "sowhatwillwelearn"
+ },
+ {
+  "file": "replays_all\\episode-111109197-replay.json",
+  "us": 1,
+  "dmoney1": 2874.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -7401.0,
+  "opp": "Vinicius Pupin"
+ },
+ {
+  "file": "replays_all\\episode-111116045-replay.json",
+  "us": 0,
+  "dmoney1": 21.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -122705.0,
+  "opp": "techtech69"
+ },
+ {
+  "file": "replays_all\\episode-111134830-replay.json",
+  "us": 0,
+  "dmoney1": 1638.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 14220.0,
+  "opp": "Minh \u0110\u0103ng L\u00ea"
+ },
+ {
+  "file": "replays_all\\episode-111135969-replay.json",
+  "us": 1,
+  "dmoney1": -275.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -55872.0,
+  "opp": "Shuqi Zhang"
+ },
+ {
+  "file": "replays_all\\episode-111137099-replay.json",
+  "us": 0,
+  "dmoney1": 1786.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -8493.0,
+  "opp": "yokoikazumasa"
+ },
+ {
+  "file": "replays_all\\episode-111138227-replay.json",
+  "us": 1,
+  "dmoney1": 1788.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 28344.0,
+  "opp": "karthik reddy"
+ },
+ {
+  "file": "replays_all\\episode-111139338-replay.json",
+  "us": 0,
+  "dmoney1": -315.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -724.0,
+  "opp": "Marc Dakuginow"
+ },
+ {
+  "file": "replays_all\\episode-111140481-replay.json",
+  "us": 1,
+  "dmoney1": 308.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 30355.0,
+  "opp": "Laurence Dale"
+ },
+ {
+  "file": "replays_all\\episode-111132624-replay.json",
+  "us": 1,
+  "dmoney1": -220.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 12595.0,
+  "opp": "raffael prem"
+ },
+ {
+  "file": "replays_all\\episode-111133719-replay.json",
+  "us": 1,
+  "dmoney1": 2365.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -41853.0,
+  "opp": "Ryan Wong"
+ },
+ {
+  "file": "replays_all\\episode-111143821-replay.json",
+  "us": 1,
+  "dmoney1": -218.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -11248.0,
+  "opp": "hoo aam"
+ },
+ {
+  "file": "replays_all\\episode-111144924-replay.json",
+  "us": 0,
+  "dmoney1": 500.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -44486.0,
+  "opp": "Mwanza Wambua"
+ },
+ {
+  "file": "replays_all\\episode-111141586-replay.json",
+  "us": 0,
+  "dmoney1": 950.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -3652.0,
+  "opp": "Jurgen Sinjari"
+ },
+ {
+  "file": "replays_all\\episode-111142711-replay.json",
+  "us": 1,
+  "dmoney1": 2292.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 8631.0,
+  "opp": "Arijit Kar"
+ },
+ {
+  "file": "replays_all\\episode-111146108-replay.json",
+  "us": 1,
+  "dmoney1": -435.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -3127.0,
+  "opp": "Jacob Joy"
+ },
+ {
+  "file": "replays_all\\episode-111147211-replay.json",
+  "us": 0,
+  "dmoney1": 450.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3287.0,
+  "opp": "IWA_setu"
+ },
+ {
+  "file": "replays_all\\episode-111150630-replay.json",
+  "us": 1,
+  "dmoney1": 638.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 22782.0,
+  "opp": "Markel Iru"
+ },
+ {
+  "file": "replays_all\\episode-111422098-replay.json",
+  "us": 1,
+  "dmoney1": 42.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 25439.0,
+  "opp": "JCN2365"
+ },
+ {
+  "file": "replays_all\\episode-111148358-replay.json",
+  "us": 0,
+  "dmoney1": 997.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 38217.0,
+  "opp": "June_mk"
+ },
+ {
+  "file": "replays_all\\episode-111149479-replay.json",
+  "us": 0,
+  "dmoney1": 2220.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -17791.0,
+  "opp": "Assylkhan Kerey"
+ },
+ {
+  "file": "replays_all\\episode-111423197-replay.json",
+  "us": 0,
+  "dmoney1": 390.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -28429.0,
+  "opp": "ayuma"
+ },
+ {
+  "file": "replays_all\\episode-111424332-replay.json",
+  "us": 1,
+  "dmoney1": 470.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 10787.0,
+  "opp": "The Ceris"
+ },
+ {
+  "file": "replays_all\\episode-111425449-replay.json",
+  "us": 0,
+  "dmoney1": 2105.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -43134.0,
+  "opp": "moncef elm"
+ },
+ {
+  "file": "replays_all\\episode-111426581-replay.json",
+  "us": 1,
+  "dmoney1": 2186.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -28198.0,
+  "opp": "Dayi Zhang"
+ },
+ {
+  "file": "replays_all\\episode-111428124-replay.json",
+  "us": 1,
+  "dmoney1": -598.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 24744.0,
+  "opp": "WilliamXylean"
+ },
+ {
+  "file": "replays_v21\\episode-111440858-replay.json",
+  "us": 0,
+  "dmoney1": 2709.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 73087.0,
+  "opp": "lu_fish"
+ },
+ {
+  "file": "replays_v21\\episode-111441997-replay.json",
+  "us": 0,
+  "dmoney1": 2863.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 28762.0,
+  "opp": "xiao cat q"
+ },
+ {
+  "file": "replays_v21\\episode-111443114-replay.json",
+  "us": 1,
+  "dmoney1": 423.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 60509.0,
+  "opp": "Harrison Interactive"
+ },
+ {
+  "file": "replays_v21\\episode-111444198-replay.json",
+  "us": 0,
+  "dmoney1": 2866.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 39515.0,
+  "opp": "durgesh dere"
+ },
+ {
+  "file": "replays_v21\\episode-111445296-replay.json",
+  "us": 0,
+  "dmoney1": 2866.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 35735.0,
+  "opp": "SunaoCool"
+ },
+ {
+  "file": "replays_v21\\episode-111446388-replay.json",
+  "us": 1,
+  "dmoney1": 1568.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 19802.0,
+  "opp": "magoemu"
+ },
+ {
+  "file": "replays_v21\\episode-111447465-replay.json",
+  "us": 1,
+  "dmoney1": 2661.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 30003.0,
+  "opp": "Vincent Debout"
+ },
+ {
+  "file": "replays_v21\\episode-111448576-replay.json",
+  "us": 1,
+  "dmoney1": 667.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 9002.0,
+  "opp": "BOB'S ROOM"
+ },
+ {
+  "file": "replays_v21\\episode-111449686-replay.json",
+  "us": 1,
+  "dmoney1": 238.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 13982.0,
+  "opp": "wppepi"
+ },
+ {
+  "file": "replays_v21\\episode-111450780-replay.json",
+  "us": 0,
+  "dmoney1": 211.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 10704.0,
+  "opp": "\u30d5\u30ca\u30b3\u30b7"
+ },
+ {
+  "file": "replays_v21\\episode-111451876-replay.json",
+  "us": 0,
+  "dmoney1": 238.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 11708.0,
+  "opp": "NMarkS"
+ },
+ {
+  "file": "replays_v21\\episode-111451878-replay.json",
+  "us": 1,
+  "dmoney1": -12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -1166.0,
+  "opp": "Bigplanedoesnotflyfast"
+ },
+ {
+  "file": "replays_v21\\episode-111453036-replay.json",
+  "us": 1,
+  "dmoney1": 266.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1440.0,
+  "opp": "tf"
+ },
+ {
+  "file": "replays_v21\\episode-111454141-replay.json",
+  "us": 0,
+  "dmoney1": 316.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 8424.0,
+  "opp": "how to place pokemon"
+ },
+ {
+  "file": "replays_v21\\episode-111455277-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 9763.0,
+  "opp": "colum2131"
+ },
+ {
+  "file": "replays_v21\\episode-111456408-replay.json",
+  "us": 0,
+  "dmoney1": -124.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1761.0,
+  "opp": "Top 1 \ud83c\udfc6"
+ },
+ {
+  "file": "replays_v21\\episode-111457403-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": 1006.0,
+  "opp": "Knight of Favonius"
+ },
+ {
+  "file": "replays_v21\\episode-111457545-replay.json",
+  "us": 0,
+  "dmoney1": -13.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 11339.0,
+  "opp": "OpenModelMap"
+ },
+ {
+  "file": "replays_v21\\episode-111458673-replay.json",
+  "us": 1,
+  "dmoney1": -115.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 11034.0,
+  "opp": "Talim Aushakhman"
+ },
+ {
+  "file": "replays_v21\\episode-111459805-replay.json",
+  "us": 1,
+  "dmoney1": -65.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 9539.0,
+  "opp": "iCO"
+ },
+ {
+  "file": "replays_v21\\episode-111460930-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 6685.0,
+  "opp": "Dubnium"
+ },
+ {
+  "file": "replays_v21\\episode-111462010-replay.json",
+  "us": 1,
+  "dmoney1": -161.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -78.0,
+  "opp": "Yasasvi Josyula"
+ },
+ {
+  "file": "replays_v21\\episode-111462497-replay.json",
+  "us": 1,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 5783.0,
+  "opp": "Roman Nesterov"
+ },
+ {
+  "file": "replays_v21\\episode-111463151-replay.json",
+  "us": 0,
+  "dmoney1": 10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -2427.0,
+  "opp": "Grim Reaper"
+ },
+ {
+  "file": "replays_v21\\episode-111464275-replay.json",
+  "us": 0,
+  "dmoney1": -99.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 10307.0,
+  "opp": "Colt"
+ },
+ {
+  "file": "replays_v21\\episode-111464922-replay.json",
+  "us": 1,
+  "dmoney1": -161.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1836.0,
+  "opp": "saeNeko"
+ },
+ {
+  "file": "replays_v21\\episode-111465399-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2523.0,
+  "opp": "snaykey"
+ },
+ {
+  "file": "replays_v21\\episode-111465931-replay.json",
+  "us": 1,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1482.0,
+  "opp": "Tri Tuc Cao"
+ },
+ {
+  "file": "replays_v21\\episode-111466525-replay.json",
+  "us": 1,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3157.0,
+  "opp": "\u0414\u0432\u043e\u0440\u043a\u0438\u043d \u0415\u0432\u0433\u0435\u043d\u0438\u0439 \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u043e\u0432\u0438\u0447"
+ },
+ {
+  "file": "replays_v21\\episode-111467636-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": -2208.0,
+  "opp": "Hangyu Yu"
+ },
+ {
+  "file": "replays_v21\\episode-111468760-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 642.0,
+  "opp": "qi yun"
+ },
+ {
+  "file": "replays_v21\\episode-111469645-replay.json",
+  "us": 0,
+  "dmoney1": 10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -2506.0,
+  "opp": "ToastUz"
+ },
+ {
+  "file": "replays_v21\\episode-111469934-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -715.0,
+  "opp": "Eusebius"
+ },
+ {
+  "file": "replays_v21\\episode-111470996-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": -67.0,
+  "opp": "Lee Shit Hoo"
+ },
+ {
+  "file": "replays_v21\\episode-111472118-replay.json",
+  "us": 1,
+  "dmoney1": -140.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -386.0,
+  "opp": "Ali Alghaithi"
+ },
+ {
+  "file": "replays_v21\\episode-111473227-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 239.0,
+  "opp": "Economist"
+ },
+ {
+  "file": "replays_v21\\episode-111474337-replay.json",
+  "us": 1,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2665.0,
+  "opp": "khursani"
+ },
+ {
+  "file": "replays_v21\\episode-111474604-replay.json",
+  "us": 0,
+  "dmoney1": 211.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1309.0,
+  "opp": "yomogii"
+ },
+ {
+  "file": "replays_v21\\episode-111475477-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2485.0,
+  "opp": "yesterdays_rebel"
+ },
+ {
+  "file": "replays_v21\\episode-111476600-replay.json",
+  "us": 1,
+  "dmoney1": -115.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1560.0,
+  "opp": "Lucas Boesen"
+ },
+ {
+  "file": "replays_v21\\episode-111477710-replay.json",
+  "us": 1,
+  "dmoney1": -45.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1710.0,
+  "opp": "fylgde"
+ },
+ {
+  "file": "replays_v21\\episode-111478371-replay.json",
+  "us": 0,
+  "dmoney1": 10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -50.0,
+  "opp": "momohuhu_kkkkkarrot"
+ },
+ {
+  "file": "replays_v21\\episode-111478642-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 753.0,
+  "opp": "Kembang Melon"
+ },
+ {
+  "file": "replays_v21\\episode-111479923-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": -165.0,
+  "opp": "Lee Shit Hoo"
+ },
+ {
+  "file": "replays_v21\\episode-111481048-replay.json",
+  "us": 0,
+  "dmoney1": -4.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -319.0,
+  "opp": "jiangnanxn"
+ },
+ {
+  "file": "replays_v21\\episode-111482158-replay.json",
+  "us": 0,
+  "dmoney1": -161.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3612.0,
+  "opp": "Hongxin Su"
+ },
+ {
+  "file": "replays_v21\\episode-111483273-replay.json",
+  "us": 1,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -220.0,
+  "opp": "qi yun"
+ },
+ {
+  "file": "replays_v21\\episode-111483339-replay.json",
+  "us": 0,
+  "dmoney1": 10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 379.0,
+  "opp": "We Forgot To Water"
+ },
+ {
+  "file": "replays_v21\\episode-111484395-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2621.0,
+  "opp": "LittleScottyy"
+ },
+ {
+  "file": "replays_v21\\episode-111484806-replay.json",
+  "us": 1,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 8182.0,
+  "opp": "Jacob Alstrup"
+ },
+ {
+  "file": "replays_v21\\episode-111485521-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -1125.0,
+  "opp": "Kaito Fukami"
+ },
+ {
+  "file": "replays_v21\\episode-111486542-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -30.0,
+  "opp": "Jordi Corbilla"
+ },
+ {
+  "file": "replays_v21\\episode-111487743-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 7666.0,
+  "opp": "HiroyukiSasaki"
+ },
+ {
+  "file": "replays_v21\\episode-111488857-replay.json",
+  "us": 1,
+  "dmoney1": -115.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1458.0,
+  "opp": "Ryuichi"
+ },
+ {
+  "file": "replays_v21\\episode-111489989-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": -419.0,
+  "opp": "Lee Shit Hoo"
+ },
+ {
+  "file": "replays_v21\\episode-111490272-replay.json",
+  "us": 1,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 6139.0,
+  "opp": "kk.sky.9k"
+ },
+ {
+  "file": "replays_v21\\episode-111491101-replay.json",
+  "us": 1,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1746.0,
+  "opp": "Mason Cao"
+ },
+ {
+  "file": "replays_v21\\episode-111492212-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2151.0,
+  "opp": "chacha260"
+ },
+ {
+  "file": "replays_v21\\episode-111493337-replay.json",
+  "us": 1,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -1407.0,
+  "opp": "yesterdays_rebel"
+ },
+ {
+  "file": "replays_v21\\episode-111494452-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": 967.0,
+  "opp": "Sergey Shcherbakov"
+ },
+ {
+  "file": "replays_v21\\episode-111494830-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": -577.0,
+  "opp": "kwon yong deuk"
+ },
+ {
+  "file": "replays_v21\\episode-111495582-replay.json",
+  "us": 0,
+  "dmoney1": -115.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -1050.0,
+  "opp": "Hanserong"
+ },
+ {
+  "file": "replays_v21\\episode-111496703-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2578.0,
+  "opp": "Aurora wy"
+ },
+ {
+  "file": "replays_v21\\episode-111497821-replay.json",
+  "us": 0,
+  "dmoney1": 10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -4127.0,
+  "opp": "xiongrui666"
+ },
+ {
+  "file": "replays_v21\\episode-111498929-replay.json",
+  "us": 0,
+  "dmoney1": -155.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1169.0,
+  "opp": "Ryuichi"
+ },
+ {
+  "file": "replays_v21\\episode-111500050-replay.json",
+  "us": 1,
+  "dmoney1": 10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -518.0,
+  "opp": "\u59dc\u4e0a\uff08Integ\uff09"
+ },
+ {
+  "file": "replays_v21\\episode-111501180-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -2228.0,
+  "opp": "easonyanyan"
+ },
+ {
+  "file": "replays_v21\\episode-111502284-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": 0.0,
+  "opp": "unreal"
+ },
+ {
+  "file": "replays_v21\\episode-111503079-replay.json",
+  "us": 1,
+  "dmoney1": 10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -1048.0,
+  "opp": "wahaka"
+ },
+ {
+  "file": "replays_v21\\episode-111503410-replay.json",
+  "us": 0,
+  "dmoney1": -4.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -4.0,
+  "opp": "markastra"
+ },
+ {
+  "file": "replays_v21\\episode-111504545-replay.json",
+  "us": 0,
+  "dmoney1": 173.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3726.0,
+  "opp": "MAT"
+ },
+ {
+  "file": "replays_v21\\episode-111505037-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3779.0,
+  "opp": "photunix"
+ },
+ {
+  "file": "replays_v21\\episode-111505692-replay.json",
+  "us": 0,
+  "dmoney1": 10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -1350.0,
+  "opp": "Naru041104"
+ },
+ {
+  "file": "replays_v21\\episode-111506784-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": -301.0,
+  "opp": "Jackylw"
+ },
+ {
+  "file": "replays_v21\\episode-111507961-replay.json",
+  "us": 1,
+  "dmoney1": 10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -281.0,
+  "opp": "UCAS_fish_wang"
+ },
+ {
+  "file": "replays_v21\\episode-111513883-replay.json",
+  "us": 1,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 787.0,
+  "opp": "photunix"
+ },
+ {
+  "file": "replays_v21\\episode-111520433-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -199.0,
+  "opp": "raw2clean"
+ },
+ {
+  "file": "replays_v21\\episode-111520580-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2415.0,
+  "opp": "bnfan"
+ },
+ {
+  "file": "replays_v21\\episode-111522791-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": 0.0,
+  "opp": "unreal"
+ },
+ {
+  "file": "replays_v21\\episode-111529326-replay.json",
+  "us": 0,
+  "dmoney1": 2590.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 414.0,
+  "opp": "lingxiaojun"
+ },
+ {
+  "file": "replays_v21\\episode-111535941-replay.json",
+  "us": 0,
+  "dmoney1": -137.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -10633.0,
+  "opp": "Fuchun Wang"
+ },
+ {
+  "file": "replays_v21\\episode-111538670-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": -179.0,
+  "opp": "Magniverko"
+ },
+ {
+  "file": "replays_v21\\episode-111541525-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3292.0,
+  "opp": "Bardia Bahadori"
+ },
+ {
+  "file": "replays_v21\\episode-111548178-replay.json",
+  "us": 1,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1894.0,
+  "opp": "Shenyu Ma"
+ },
+ {
+  "file": "replays_v21\\episode-111554930-replay.json",
+  "us": 1,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2380.0,
+  "opp": "Affriza Wildan Fauzan"
+ },
+ {
+  "file": "replays_v21\\episode-111556147-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1232.0,
+  "opp": "kaerururu"
+ },
+ {
+  "file": "replays_v21\\episode-111561324-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": 0.0,
+  "opp": "lihaha.36"
+ },
+ {
+  "file": "replays_v21\\episode-111561525-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": -709.0,
+  "opp": "xsong2020"
+ },
+ {
+  "file": "replays_v21\\episode-111563274-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": false,
+  "margin": -604.0,
+  "opp": "Filip Strza\u0142ka"
+ },
+ {
+  "file": "replays_v21\\episode-111565394-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": -94.0,
+  "opp": "yuto083"
+ },
+ {
+  "file": "replays_v21\\episode-111567421-replay.json",
+  "us": 0,
+  "dmoney1": 10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -4324.0,
+  "opp": "haoming yang"
+ },
+ {
+  "file": "replays_v21\\episode-111576640-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": 0.0,
+  "opp": "Golubev Alexander"
+ },
+ {
+  "file": "replays_v21\\episode-111581055-replay.json",
+  "us": 1,
+  "dmoney1": 10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -317.0,
+  "opp": "Andrey Serzhenko"
+ },
+ {
+  "file": "replays_v21\\episode-111569613-replay.json",
+  "us": 1,
+  "dmoney1": 2583.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -12122.0,
+  "opp": "midnq"
+ },
+ {
+  "file": "replays_v21\\episode-111576223-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -518.0,
+  "opp": "mkai1981"
+ },
+ {
+  "file": "replays_v21\\episode-111588186-replay.json",
+  "us": 0,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2622.0,
+  "opp": "LittleScottyy"
+ },
+ {
+  "file": "replays_v21\\episode-111589240-replay.json",
+  "us": 1,
+  "dmoney1": -6.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -1225.0,
+  "opp": "Yuta Yamazaki"
+ },
+ {
+  "file": "replays_v23\\episode-111619894-replay.json",
+  "us": 1,
+  "dmoney1": 2699.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 82472.0,
+  "opp": "Akash Mohan Chaudhary"
+ },
+ {
+  "file": "replays_v23\\episode-111620981-replay.json",
+  "us": 0,
+  "dmoney1": 2699.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 55649.0,
+  "opp": "Jose Miguel Diez de la Lastra"
+ },
+ {
+  "file": "replays_v23\\episode-111622064-replay.json",
+  "us": 0,
+  "dmoney1": 2856.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 37899.0,
+  "opp": "Tejas"
+ },
+ {
+  "file": "replays_v23\\episode-111623165-replay.json",
+  "us": 1,
+  "dmoney1": 2838.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 42701.0,
+  "opp": "Swachhith B"
+ },
+ {
+  "file": "replays_v23\\episode-111624259-replay.json",
+  "us": 0,
+  "dmoney1": 2847.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 15706.0,
+  "opp": "L\u00ea Nguy\u1ec5n Vi\u1ec7t C\u01b0\u1eddng"
+ },
+ {
+  "file": "replays_v23\\episode-111625356-replay.json",
+  "us": 1,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 9196.0,
+  "opp": "Anh Tu"
+ },
+ {
+  "file": "replays_v23\\episode-111626470-replay.json",
+  "us": 0,
+  "dmoney1": 201.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 8280.0,
+  "opp": "FarmGoose"
+ },
+ {
+  "file": "replays_v23\\episode-111627568-replay.json",
+  "us": 0,
+  "dmoney1": 228.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 18053.0,
+  "opp": "keith70"
+ },
+ {
+  "file": "replays_v23\\episode-111628667-replay.json",
+  "us": 1,
+  "dmoney1": 228.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 4346.0,
+  "opp": "Jenny124685"
+ },
+ {
+  "file": "replays_v23\\episode-111629774-replay.json",
+  "us": 0,
+  "dmoney1": -125.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1771.0,
+  "opp": "Vandan Sharma"
+ },
+ {
+  "file": "replays_v23\\episode-111630875-replay.json",
+  "us": 1,
+  "dmoney1": -125.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3307.0,
+  "opp": "tine.sh agent"
+ },
+ {
+  "file": "replays_v23\\episode-111631990-replay.json",
+  "us": 1,
+  "dmoney1": -125.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3225.0,
+  "opp": "judy12345.0316"
+ },
+ {
+  "file": "replays_v23\\episode-111633116-replay.json",
+  "us": 1,
+  "dmoney1": -171.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -17576.0,
+  "opp": "Yasasvi Josyula"
+ },
+ {
+  "file": "replays_v23\\episode-111634225-replay.json",
+  "us": 1,
+  "dmoney1": -143.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 14406.0,
+  "opp": "Yoshihiro Hatakeyama"
+ },
+ {
+  "file": "replays_v23\\episode-111635375-replay.json",
+  "us": 0,
+  "dmoney1": -125.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 10428.0,
+  "opp": "logicorix"
+ },
+ {
+  "file": "replays_v23\\episode-111636535-replay.json",
+  "us": 1,
+  "dmoney1": -75.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 11099.0,
+  "opp": "dpquoc"
+ },
+ {
+  "file": "replays_v23\\episode-111637699-replay.json",
+  "us": 0,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1429.0,
+  "opp": "Alua \u0410khmetkali"
+ },
+ {
+  "file": "replays_v23\\episode-111638813-replay.json",
+  "us": 0,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 3864.0,
+  "opp": "Lee Shit Hoo"
+ },
+ {
+  "file": "replays_v23\\episode-111639978-replay.json",
+  "us": 1,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3149.0,
+  "opp": "TOSS"
+ },
+ {
+  "file": "replays_v23\\episode-111641127-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": -16.0,
+  "opp": "Yanxi Teng"
+ },
+ {
+  "file": "replays_v23\\episode-111642247-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1408.0,
+  "opp": "Gatswei"
+ },
+ {
+  "file": "replays_v23\\episode-111643370-replay.json",
+  "us": 0,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 859.0,
+  "opp": "umair zia"
+ },
+ {
+  "file": "replays_v23\\episode-111643635-replay.json",
+  "us": 0,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 274.0,
+  "opp": "\ud835\udd6f\ud835\udd8a\ud835\udd94\ud835\udd89\ud835\udd8e\ud835\udd92\ud835\udd98 & \ud835\udd6e\ud835\udd94"
+ },
+ {
+  "file": "replays_v23\\episode-111644507-replay.json",
+  "us": 1,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 127.0,
+  "opp": "dont share my work for value"
+ },
+ {
+  "file": "replays_v23\\episode-111645645-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -1449.0,
+  "opp": "Gatswei"
+ },
+ {
+  "file": "replays_v23\\episode-111646753-replay.json",
+  "us": 0,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 1147.0,
+  "opp": "Ioannis Tzachristas"
+ },
+ {
+  "file": "replays_v23\\episode-111647372-replay.json",
+  "us": 1,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 2103.0,
+  "opp": "Max Podd"
+ },
+ {
+  "file": "replays_v23\\episode-111647885-replay.json",
+  "us": 1,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 3528.0,
+  "opp": "Suvrat Rai"
+ },
+ {
+  "file": "replays_v23\\episode-111649021-replay.json",
+  "us": 1,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1785.0,
+  "opp": "yfy"
+ },
+ {
+  "file": "replays_v23\\episode-111650162-replay.json",
+  "us": 1,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 188.0,
+  "opp": "Bill Fan"
+ },
+ {
+  "file": "replays_v23\\episode-111651306-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": 2254.0,
+  "opp": "monsaraida"
+ },
+ {
+  "file": "replays_v23\\episode-111652456-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": -5.0,
+  "opp": "David Estevez"
+ },
+ {
+  "file": "replays_v23\\episode-111653648-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": 1397.0,
+  "opp": "\u6a4b\u672c\u771f\u65fa"
+ },
+ {
+  "file": "replays_v23\\episode-111654712-replay.json",
+  "us": 0,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -384.0,
+  "opp": "Guilherme Raiuga"
+ },
+ {
+  "file": "replays_v23\\episode-111655845-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 944.0,
+  "opp": "TIM"
+ },
+ {
+  "file": "replays_v23\\episode-111656321-replay.json",
+  "us": 1,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 668.0,
+  "opp": "[KGZ] Aruke Sulaimanova"
+ },
+ {
+  "file": "replays_v23\\episode-111656984-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": 203.0,
+  "opp": "HD h Joratos"
+ },
+ {
+  "file": "replays_v23\\episode-111659777-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": -61.0,
+  "opp": "mitsuki"
+ },
+ {
+  "file": "replays_v23\\episode-111660422-replay.json",
+  "us": 1,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -194.0,
+  "opp": "and more"
+ },
+ {
+  "file": "replays_v23\\episode-111658095-replay.json",
+  "us": 1,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3215.0,
+  "opp": "Yudai Ueno"
+ },
+ {
+  "file": "replays_v23\\episode-111659429-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 589.0,
+  "opp": "Leonardo Viola10"
+ },
+ {
+  "file": "replays_v23\\episode-111663791-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": -2.0,
+  "opp": "GURU Prasaatha S"
+ },
+ {
+  "file": "replays_v23\\episode-111664913-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": -104.0,
+  "opp": "mitsuki"
+ },
+ {
+  "file": "replays_v23\\episode-111661688-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": 2045.0,
+  "opp": "\u3042\u304b\u3064\u304d"
+ },
+ {
+  "file": "replays_v23\\episode-111662662-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": -2129.0,
+  "opp": "Golubev Alexander"
+ },
+ {
+  "file": "replays_v23\\episode-111665662-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": -72.0,
+  "opp": "aisamhottman"
+ },
+ {
+  "file": "replays_v23\\episode-111666110-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 549.0,
+  "opp": "ansheng jhang"
+ },
+ {
+  "file": "replays_v23\\episode-111667174-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": 50.0,
+  "opp": "Hai Dang"
+ },
+ {
+  "file": "replays_v23\\episode-111668389-replay.json",
+  "us": 1,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 4682.0,
+  "opp": "Chikuwabu"
+ },
+ {
+  "file": "replays_v23\\episode-111669996-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -162.0,
+  "opp": "Kenneth Alonso"
+ },
+ {
+  "file": "replays_v23\\episode-111670556-replay.json",
+  "us": 1,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 821.0,
+  "opp": "\u041d\u0430\u0437\u0430\u0440 \u041a\u043e\u0432\u0430\u043b\u044c"
+ },
+ {
+  "file": "replays_v23\\episode-111671659-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": -140.0,
+  "opp": "ln"
+ },
+ {
+  "file": "replays_v23\\episode-111671714-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": -56.0,
+  "opp": "\u6708\u4e4b\u5149\u9762"
+ },
+ {
+  "file": "replays_v23\\episode-111672233-replay.json",
+  "us": 0,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 73.0,
+  "opp": "\u5927\u5c71"
+ },
+ {
+  "file": "replays_v23r\\episode-111906414-replay.json",
+  "us": 0,
+  "dmoney1": 2726.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 53148.0,
+  "opp": "Ich Benavides"
+ },
+ {
+  "file": "replays_v23r\\episode-111907491-replay.json",
+  "us": 1,
+  "dmoney1": 2853.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 72455.0,
+  "opp": "Enes Co\u015fkun"
+ },
+ {
+  "file": "replays_v23r\\episode-111908621-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": -229.0,
+  "opp": "gogogo"
+ },
+ {
+  "file": "replays_v23r\\episode-111909701-replay.json",
+  "us": 1,
+  "dmoney1": 2838.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 49067.0,
+  "opp": "kakuteki"
+ },
+ {
+  "file": "replays_v23r\\episode-111909910-replay.json",
+  "us": 0,
+  "dmoney1": 781.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 21350.0,
+  "opp": "mocatti"
+ },
+ {
+  "file": "replays_v23r\\episode-111910094-replay.json",
+  "us": 1,
+  "dmoney1": 2649.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 16607.0,
+  "opp": "Sathwik Chinthakayala"
+ },
+ {
+  "file": "replays_v23r\\episode-111910907-replay.json",
+  "us": 0,
+  "dmoney1": 582.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 21342.0,
+  "opp": "xiy lin"
+ },
+ {
+  "file": "replays_v23r\\episode-111912032-replay.json",
+  "us": 1,
+  "dmoney1": 1558.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 18801.0,
+  "opp": "Illusion"
+ },
+ {
+  "file": "replays_v23r\\episode-111913183-replay.json",
+  "us": 1,
+  "dmoney1": -143.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 46227.0,
+  "opp": "Prajwal M"
+ },
+ {
+  "file": "replays_v23r\\episode-111916602-replay.json",
+  "us": 0,
+  "dmoney1": 228.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 12930.0,
+  "opp": "Ronnie Atuhaire"
+ },
+ {
+  "file": "replays_v23r\\episode-111917742-replay.json",
+  "us": 0,
+  "dmoney1": 781.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 61270.0,
+  "opp": "stnick"
+ },
+ {
+  "file": "replays_v23r\\episode-111914307-replay.json",
+  "us": 1,
+  "dmoney1": 2847.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 16985.0,
+  "opp": "Oleg Melnik"
+ },
+ {
+  "file": "replays_v23r\\episode-111915449-replay.json",
+  "us": 1,
+  "dmoney1": 228.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 26682.0,
+  "opp": "Lior Toledano"
+ },
+ {
+  "file": "replays_v23r\\episode-111918864-replay.json",
+  "us": 0,
+  "dmoney1": 201.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1703.0,
+  "opp": "dk07dk"
+ },
+ {
+  "file": "replays_v23r\\episode-111919988-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1012.0,
+  "opp": "Abhi Datta"
+ },
+ {
+  "file": "replays_v23r\\episode-111921113-replay.json",
+  "us": 0,
+  "dmoney1": 201.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 9523.0,
+  "opp": "Egor Trushin"
+ },
+ {
+  "file": "replays_v23r\\episode-111922237-replay.json",
+  "us": 0,
+  "dmoney1": 256.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 15640.0,
+  "opp": "Ankit0017"
+ },
+ {
+  "file": "replays_v23r\\episode-111923377-replay.json",
+  "us": 1,
+  "dmoney1": 201.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 16362.0,
+  "opp": "Arfin Mustofa"
+ },
+ {
+  "file": "replays_v23r\\episode-111924510-replay.json",
+  "us": 0,
+  "dmoney1": -143.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1466.0,
+  "opp": "tagokoro"
+ },
+ {
+  "file": "replays_v23r\\episode-111925691-replay.json",
+  "us": 1,
+  "dmoney1": 256.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3306.0,
+  "opp": "Arnie Jimenez"
+ },
+ {
+  "file": "replays_v23r\\episode-111926811-replay.json",
+  "us": 1,
+  "dmoney1": 256.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 5134.0,
+  "opp": "Giordano Dolenz"
+ },
+ {
+  "file": "replays_v23r\\episode-111927913-replay.json",
+  "us": 1,
+  "dmoney1": 201.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 6279.0,
+  "opp": "tubotu"
+ },
+ {
+  "file": "replays_v23r\\episode-111929622-replay.json",
+  "us": 0,
+  "dmoney1": 1558.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -423.0,
+  "opp": "kaito ide 31"
+ },
+ {
+  "file": "replays_v23r\\episode-111930176-replay.json",
+  "us": 0,
+  "dmoney1": 256.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 9673.0,
+  "opp": "Re:dorf"
+ },
+ {
+  "file": "replays_v23r\\episode-111931339-replay.json",
+  "us": 0,
+  "dmoney1": 256.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 6572.0,
+  "opp": "DharmParmar"
+ },
+ {
+  "file": "replays_v23r\\episode-111932475-replay.json",
+  "us": 0,
+  "dmoney1": 256.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2853.0,
+  "opp": "Venqira"
+ },
+ {
+  "file": "replays_v23r\\episode-111933676-replay.json",
+  "us": 0,
+  "dmoney1": 219.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 31270.0,
+  "opp": "try"
+ },
+ {
+  "file": "replays_v23r\\episode-111934727-replay.json",
+  "us": 0,
+  "dmoney1": 201.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 7089.0,
+  "opp": "donaldxu"
+ },
+ {
+  "file": "replays_v23r\\episode-111935861-replay.json",
+  "us": 0,
+  "dmoney1": 256.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 4300.0,
+  "opp": "Nikolay Shaulsky"
+ },
+ {
+  "file": "replays_v23r\\episode-111936987-replay.json",
+  "us": 1,
+  "dmoney1": 201.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 13278.0,
+  "opp": "Moshel"
+ },
+ {
+  "file": "replays_v23r\\episode-111938295-replay.json",
+  "us": 1,
+  "dmoney1": 256.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 4937.0,
+  "opp": "codex is all you need"
+ },
+ {
+  "file": "replays_v24\\episode-111701500-replay.json",
+  "us": 1,
+  "dmoney1": 2632.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 68747.0,
+  "opp": "Nyasha Gandah"
+ },
+ {
+  "file": "replays_v24\\episode-111702605-replay.json",
+  "us": 1,
+  "dmoney1": 1739.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 107099.0,
+  "opp": "Adam Carnaffan"
+ },
+ {
+  "file": "replays_v23r\\episode-111939232-replay.json",
+  "us": 0,
+  "dmoney1": -125.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 12863.0,
+  "opp": "aurnik"
+ },
+ {
+  "file": "replays_v23r\\episode-111940286-replay.json",
+  "us": 0,
+  "dmoney1": 256.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3899.0,
+  "opp": "akahane"
+ },
+ {
+  "file": "replays_v23r\\episode-111943752-replay.json",
+  "us": 0,
+  "dmoney1": 256.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 5634.0,
+  "opp": "yuiop!"
+ },
+ {
+  "file": "replays_v23r\\episode-111944886-replay.json",
+  "us": 0,
+  "dmoney1": -125.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2602.0,
+  "opp": "kokinnwakashuu"
+ },
+ {
+  "file": "replays_v24\\episode-111703703-replay.json",
+  "us": 0,
+  "dmoney1": 2230.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 90012.0,
+  "opp": "Jeff Borschowa"
+ },
+ {
+  "file": "replays_v24\\episode-111704821-replay.json",
+  "us": 1,
+  "dmoney1": 2706.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 112342.0,
+  "opp": "Santiago Maniches"
+ },
+ {
+  "file": "replays_v23r\\episode-111941472-replay.json",
+  "us": 0,
+  "dmoney1": 201.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 5972.0,
+  "opp": "radiant-allomancer"
+ },
+ {
+  "file": "replays_v23r\\episode-111942600-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": -614.0,
+  "opp": "Sai Reddy Pothireddy"
+ },
+ {
+  "file": "replays_v24\\episode-111705917-replay.json",
+  "us": 1,
+  "dmoney1": 2856.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 20618.0,
+  "opp": "Steve AVOMO"
+ },
+ {
+  "file": "replays_v24\\episode-111707029-replay.json",
+  "us": 0,
+  "dmoney1": 798.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 27857.0,
+  "opp": "Jaume Batlle i Ferrer"
+ },
+ {
+  "file": "replays_v24\\episode-111708138-replay.json",
+  "us": 1,
+  "dmoney1": 2838.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 40878.0,
+  "opp": "groots"
+ },
+ {
+  "file": "replays_v24\\episode-111709244-replay.json",
+  "us": 1,
+  "dmoney1": 228.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 14932.0,
+  "opp": "senxichong"
+ },
+ {
+  "file": "replays_v24\\episode-111710353-replay.json",
+  "us": 1,
+  "dmoney1": 1558.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 18060.0,
+  "opp": "Moro"
+ },
+ {
+  "file": "replays_v24\\episode-111711464-replay.json",
+  "us": 0,
+  "dmoney1": 201.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 21279.0,
+  "opp": "tax_free"
+ },
+ {
+  "file": "replays_v24\\episode-111712571-replay.json",
+  "us": 1,
+  "dmoney1": 201.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 4480.0,
+  "opp": "B\u00ecnh Tr\u1ea7n Thanh"
+ },
+ {
+  "file": "replays_v24\\episode-111713687-replay.json",
+  "us": 1,
+  "dmoney1": -125.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 6055.0,
+  "opp": "aurnik"
+ },
+ {
+  "file": "replays_v24\\episode-111714799-replay.json",
+  "us": 0,
+  "dmoney1": 10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -124.0,
+  "opp": "141"
+ },
+ {
+  "file": "replays_v24\\episode-111715947-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": 1671.0,
+  "opp": "\ud83d\udd25\ud83e\uddab\ud83d\udcff\ud83d\uddfd"
+ },
+ {
+  "file": "replays_v24\\episode-111717071-replay.json",
+  "us": 1,
+  "dmoney1": -125.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2414.0,
+  "opp": "qweq asd"
+ },
+ {
+  "file": "replays_v24\\episode-111718194-replay.json",
+  "us": 0,
+  "dmoney1": 224.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3991.0,
+  "opp": "Ali"
+ },
+ {
+  "file": "replays_v24\\episode-111719343-replay.json",
+  "us": 1,
+  "dmoney1": -39.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3983.0,
+  "opp": "Tomas Escobar Rivera"
+ },
+ {
+  "file": "replays_v24\\episode-111720457-replay.json",
+  "us": 0,
+  "dmoney1": -75.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2773.0,
+  "opp": "Sakito Horie"
+ },
+ {
+  "file": "replays_v24\\episode-111721531-replay.json",
+  "us": 0,
+  "dmoney1": 10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -120.0,
+  "opp": "141"
+ },
+ {
+  "file": "replays_v24\\episode-111721590-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": 0.0,
+  "opp": "Nathan Jacob"
+ },
+ {
+  "file": "replays_v24\\episode-111722719-replay.json",
+  "us": 0,
+  "dmoney1": -171.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -453.0,
+  "opp": "yukio"
+ },
+ {
+  "file": "replays_v24\\episode-111723852-replay.json",
+  "us": 0,
+  "dmoney1": -39.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3028.0,
+  "opp": "honjousetuna"
+ },
+ {
+  "file": "replays_v24\\episode-111724968-replay.json",
+  "us": 1,
+  "dmoney1": -166.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 5722.0,
+  "opp": "Miyanogawa Yuya"
+ },
+ {
+  "file": "replays_v24\\episode-111726094-replay.json",
+  "us": 0,
+  "dmoney1": -75.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3501.0,
+  "opp": "Eldritch"
+ },
+ {
+  "file": "replays_v24\\episode-111727199-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 703.0,
+  "opp": "BBaRRel."
+ },
+ {
+  "file": "replays_v24\\episode-111728336-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": 46.0,
+  "opp": "goh"
+ },
+ {
+  "file": "replays_v24\\episode-111729454-replay.json",
+  "us": 0,
+  "dmoney1": -171.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -1590.0,
+  "opp": "Rishav Utkarsh"
+ },
+ {
+  "file": "replays_v24\\episode-111730351-replay.json",
+  "us": 1,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 10105.0,
+  "opp": "T.Uehira"
+ },
+ {
+  "file": "replays_v24\\episode-111730578-replay.json",
+  "us": 1,
+  "dmoney1": 244.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1510.0,
+  "opp": "Gorgulu Fried Chicken Wings"
+ },
+ {
+  "file": "replays_v24\\episode-111731237-replay.json",
+  "us": 0,
+  "dmoney1": -161.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -6502.0,
+  "opp": "Ndabenhle Ngema"
+ },
+ {
+  "file": "replays_v24\\episode-111731689-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 13720.0,
+  "opp": "YBEJlKA"
+ },
+ {
+  "file": "replays_v24\\episode-111732634-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": -391.0,
+  "opp": "DECEM"
+ },
+ {
+  "file": "replays_v24\\episode-111732696-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": -98.0,
+  "opp": "Suyash Verma"
+ },
+ {
+  "file": "replays_v24\\episode-111732814-replay.json",
+  "us": 1,
+  "dmoney1": -161.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -8680.0,
+  "opp": "Ndabenhle Ngema"
+ },
+ {
+  "file": "replays_v24\\episode-111733977-replay.json",
+  "us": 1,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2504.0,
+  "opp": "Paulo Martins"
+ },
+ {
+  "file": "replays_v24\\episode-111735088-replay.json",
+  "us": 0,
+  "dmoney1": -171.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -22399.0,
+  "opp": "wulawulacong"
+ },
+ {
+  "file": "replays_v24\\episode-111732906-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": -132.0,
+  "opp": "kta_jpn"
+ },
+ {
+  "file": "replays_v24\\episode-111733691-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1153.0,
+  "opp": "Canon"
+ },
+ {
+  "file": "replays_v24\\episode-111736217-replay.json",
+  "us": 1,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 8660.0,
+  "opp": "jinxingweilai"
+ },
+ {
+  "file": "replays_v24\\episode-111737347-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2289.0,
+  "opp": "Bill Fan"
+ },
+ {
+  "file": "replays_v24\\episode-111738452-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 10625.0,
+  "opp": "Takamasa Ueno"
+ },
+ {
+  "file": "replays_v24\\episode-111739578-replay.json",
+  "us": 0,
+  "dmoney1": -171.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 5515.0,
+  "opp": "MAOSEN "
+ },
+ {
+  "file": "replays_v24\\episode-111740720-replay.json",
+  "us": 0,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 1883.0,
+  "opp": "Lee Shit Hoo"
+ },
+ {
+  "file": "replays_v24\\episode-111741808-replay.json",
+  "us": 0,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 880.0,
+  "opp": "Alua \u0410khmetkali"
+ },
+ {
+  "file": "replays_v24\\episode-111742930-replay.json",
+  "us": 1,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -9168.0,
+  "opp": "My Little Pony"
+ },
+ {
+  "file": "replays_v24\\episode-111744081-replay.json",
+  "us": 1,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3912.0,
+  "opp": "TTANE"
+ },
+ {
+  "file": "replays_v24\\episode-111746907-replay.json",
+  "us": 1,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3110.0,
+  "opp": "Anand Singh"
+ },
+ {
+  "file": "replays_v24\\episode-111747437-replay.json",
+  "us": 1,
+  "dmoney1": 244.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 8284.0,
+  "opp": "Gorgulu Fried Chicken Wings"
+ },
+ {
+  "file": "replays_v24\\episode-111745176-replay.json",
+  "us": 1,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 4650.0,
+  "opp": "Guilherme Volpe"
+ },
+ {
+  "file": "replays_v24\\episode-111746312-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": false,
+  "margin": -700.0,
+  "opp": "Tien N."
+ },
+ {
+  "file": "replays_v24\\episode-111748568-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -989.0,
+  "opp": "Anvith Pothula"
+ },
+ {
+  "file": "replays_v24\\episode-111749681-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2861.0,
+  "opp": "Terry Luo"
+ },
+ {
+  "file": "replays_v24\\episode-111750810-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": 138.0,
+  "opp": "Bryan Pauze"
+ },
+ {
+  "file": "replays_v24\\episode-111751933-replay.json",
+  "us": 1,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1343.0,
+  "opp": "\u524d\u885b"
+ },
+ {
+  "file": "replays_v24\\episode-111753065-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": false,
+  "margin": -729.0,
+  "opp": "Tien N."
+ },
+ {
+  "file": "replays_v24\\episode-111754183-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 5083.0,
+  "opp": "Vasilii Buzmakov"
+ },
+ {
+  "file": "replays_v24\\episode-111755290-replay.json",
+  "us": 0,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 1333.0,
+  "opp": "Yanis Belami"
+ },
+ {
+  "file": "replays_v24\\episode-111756415-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3566.0,
+  "opp": "Max Power"
+ },
+ {
+  "file": "replays_v24\\episode-111757529-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": 1983.0,
+  "opp": "AlekseiProvorov"
+ },
+ {
+  "file": "replays_v24\\episode-111758661-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": 6.0,
+  "opp": "Jordi Corbilla"
+ },
+ {
+  "file": "replays_v24\\episode-111762020-replay.json",
+  "us": 0,
+  "dmoney1": 10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -9.0,
+  "opp": "Mohan Prasath P"
+ },
+ {
+  "file": "replays_v24\\episode-111763135-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 7300.0,
+  "opp": "YUE WU"
+ },
+ {
+  "file": "replays_v24\\episode-111759784-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 6110.0,
+  "opp": "elda27"
+ },
+ {
+  "file": "replays_v24\\episode-111760898-replay.json",
+  "us": 0,
+  "dmoney1": 228.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2493.0,
+  "opp": "que la cuenten como quieran"
+ },
+ {
+  "file": "replays_v24\\episode-111764258-replay.json",
+  "us": 1,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 399.0,
+  "opp": "\u0414\u043c\u0438\u0442\u0440\u0438\u0439 \u0422\u043e\u043c\u0438\u043b\u043e\u0432"
+ },
+ {
+  "file": "replays_v24\\episode-111765377-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": 1487.0,
+  "opp": "jjamppongmandu"
+ },
+ {
+  "file": "replays_v24\\episode-111766500-replay.json",
+  "us": 1,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3961.0,
+  "opp": "Mason Cao"
+ },
+ {
+  "file": "replays_v24\\episode-111767629-replay.json",
+  "us": 1,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 9061.0,
+  "opp": "Dante Lok"
+ },
+ {
+  "file": "replays_v24\\episode-111768759-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 463.0,
+  "opp": "YUE WU"
+ },
+ {
+  "file": "replays_v24\\episode-111769880-replay.json",
+  "us": 0,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 3235.0,
+  "opp": "quwon_000"
+ },
+ {
+  "file": "replays_v24\\episode-111772125-replay.json",
+  "us": 1,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 395.0,
+  "opp": "SHALWIN SANJU"
+ },
+ {
+  "file": "replays_v24\\episode-111772371-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": false,
+  "margin": -342.0,
+  "opp": "Tien N."
+ },
+ {
+  "file": "replays_v24\\episode-111770752-replay.json",
+  "us": 1,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 600.0,
+  "opp": "ketterking"
+ },
+ {
+  "file": "replays_v24\\episode-111771002-replay.json",
+  "us": 1,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 413.0,
+  "opp": "local"
+ },
+ {
+  "file": "replays_v24\\episode-111773253-replay.json",
+  "us": 1,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 2693.0,
+  "opp": "greyhound"
+ },
+ {
+  "file": "replays_v24\\episode-111774381-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": 32.0,
+  "opp": "jiawei li"
+ },
+ {
+  "file": "replays_v24\\episode-111775494-replay.json",
+  "us": 0,
+  "dmoney1": -125.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 366.0,
+  "opp": "Justin Yang"
+ },
+ {
+  "file": "replays_v24\\episode-111776613-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -863.0,
+  "opp": "K S VIJAYARAAGHAVAN"
+ },
+ {
+  "file": "replays_v24r\\episode-111832275-replay.json",
+  "us": 1,
+  "dmoney1": 2170.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 71758.0,
+  "opp": "Shivam Shinde"
+ },
+ {
+  "file": "replays_v24r\\episode-111833369-replay.json",
+  "us": 1,
+  "dmoney1": 1847.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 83208.0,
+  "opp": "XueFeng Chen"
+ },
+ {
+  "file": "replays_v24\\episode-111777816-replay.json",
+  "us": 0,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 428.0,
+  "opp": "SOSyuki"
+ },
+ {
+  "file": "replays_v24\\episode-111779450-replay.json",
+  "us": 0,
+  "dmoney1": -22.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 1889.0,
+  "opp": "Lan_Sky"
+ },
+ {
+  "file": "replays_v24r\\episode-111834467-replay.json",
+  "us": 1,
+  "dmoney1": 2177.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 58853.0,
+  "opp": "Hunter Mimaroglu"
+ },
+ {
+  "file": "replays_v24r\\episode-111835567-replay.json",
+  "us": 0,
+  "dmoney1": -143.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 79567.0,
+  "opp": "Ahmet Abdullah G\u00fcltekin"
+ },
+ {
+  "file": "replays_v24r\\episode-111836673-replay.json",
+  "us": 0,
+  "dmoney1": 2856.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 45481.0,
+  "opp": "Celinao"
+ },
+ {
+  "file": "replays_v24r\\episode-111837796-replay.json",
+  "us": 1,
+  "dmoney1": 2838.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 45802.0,
+  "opp": "Paul Nassiri"
+ },
+ {
+  "file": "replays_v24r\\episode-111838887-replay.json",
+  "us": 1,
+  "dmoney1": 657.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 28247.0,
+  "opp": "Md. Rafiul Islam"
+ },
+ {
+  "file": "replays_v24r\\episode-111840002-replay.json",
+  "us": 0,
+  "dmoney1": 1558.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 17757.0,
+  "opp": "Moro"
+ },
+ {
+  "file": "replays_v24r\\episode-111841111-replay.json",
+  "us": 0,
+  "dmoney1": 228.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 19167.0,
+  "opp": "kavunidze"
+ },
+ {
+  "file": "replays_v24r\\episode-111842217-replay.json",
+  "us": 0,
+  "dmoney1": 228.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 10040.0,
+  "opp": "lelelove1225"
+ },
+ {
+  "file": "replays_v24r\\episode-111843337-replay.json",
+  "us": 1,
+  "dmoney1": 228.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 6091.0,
+  "opp": "Jenny124685"
+ },
+ {
+  "file": "replays_v24r\\episode-111844466-replay.json",
+  "us": 0,
+  "dmoney1": 256.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 28580.0,
+  "opp": "Gaurav06520"
+ },
+ {
+  "file": "replays_v24r\\episode-111844907-replay.json",
+  "us": 1,
+  "dmoney1": 201.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 11290.0,
+  "opp": "Durlabh_Jha"
+ },
+ {
+  "file": "replays_v24r\\episode-111845579-replay.json",
+  "us": 1,
+  "dmoney1": -28.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 11995.0,
+  "opp": "tomohito shimura"
+ },
+ {
+  "file": "replays_v24r\\episode-111846691-replay.json",
+  "us": 1,
+  "dmoney1": -39.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3667.0,
+  "opp": "Pramit Das"
+ },
+ {
+  "file": "replays_v24r\\episode-111847809-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1475.0,
+  "opp": "Zenith Ye"
+ },
+ {
+  "file": "replays_v24r\\episode-111848939-replay.json",
+  "us": 1,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 466.0,
+  "opp": "yzyhello"
+ },
+ {
+  "file": "replays_v24r\\episode-111849928-replay.json",
+  "us": 1,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 4464.0,
+  "opp": "Terry Luo"
+ },
+ {
+  "file": "replays_v24r\\episode-111850094-replay.json",
+  "us": 1,
+  "dmoney1": 2734.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -1905.0,
+  "opp": "istinetz"
+ },
+ {
+  "file": "replays_v24r\\episode-111851209-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -95.0,
+  "opp": "eliasruntime"
+ },
+ {
+  "file": "replays_v24r\\episode-111852365-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": 158.0,
+  "opp": "kaitle"
+ },
+ {
+  "file": "replays_v24r\\episode-111853536-replay.json",
+  "us": 0,
+  "dmoney1": 390.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -2355.0,
+  "opp": "QQ Farming"
+ },
+ {
+  "file": "replays_v24r\\episode-111854664-replay.json",
+  "us": 0,
+  "dmoney1": 228.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 393.0,
+  "opp": "charmq"
+ },
+ {
+  "file": "replays_v24r\\episode-111855821-replay.json",
+  "us": 1,
+  "dmoney1": 228.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -2184.0,
+  "opp": "Mengfei Li"
+ },
+ {
+  "file": "replays_v24r\\episode-111856906-replay.json",
+  "us": 0,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 334.0,
+  "opp": "RAVEN"
+ },
+ {
+  "file": "replays_v24r\\episode-111858089-replay.json",
+  "us": 1,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -172.0,
+  "opp": "David Pedersen"
+ },
+ {
+  "file": "replays_v24r\\episode-111858307-replay.json",
+  "us": 0,
+  "dmoney1": -4.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -25.0,
+  "opp": "Kilupy"
+ },
+ {
+  "file": "replays_v24r\\episode-111859208-replay.json",
+  "us": 0,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 602.0,
+  "opp": "greyhound"
+ },
+ {
+  "file": "replays_v24r\\episode-111860344-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": -843.0,
+  "opp": "Haroon Rasheed"
+ },
+ {
+  "file": "replays_v24r\\episode-111861431-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -200.0,
+  "opp": "Aaron amacadu"
+ },
+ {
+  "file": "replays_v24r\\episode-111861760-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": -1267.0,
+  "opp": "shiiin9"
+ },
+ {
+  "file": "replays_v24r\\episode-111862604-replay.json",
+  "us": 0,
+  "dmoney1": 1854.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 280.0,
+  "opp": "kuroko1t"
+ },
+ {
+  "file": "replays_v24r\\episode-111863736-replay.json",
+  "us": 0,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 1291.0,
+  "opp": "PeterDreamHan"
+ },
+ {
+  "file": "replays_v24r\\episode-111864344-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -401.0,
+  "opp": "Collin Christensen"
+ },
+ {
+  "file": "replays_v24r\\episode-111864885-replay.json",
+  "us": 1,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1563.0,
+  "opp": "\u897f\u677e\u5927\u7950"
+ },
+ {
+  "file": "replays_v24r\\episode-111866309-replay.json",
+  "us": 1,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 854.0,
+  "opp": "MAC SAHO"
+ },
+ {
+  "file": "replays_v24r\\episode-111867150-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1191.0,
+  "opp": "Roland Luethy"
+ },
+ {
+  "file": "replays_v24r\\episode-111868275-replay.json",
+  "us": 1,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 1774.0,
+  "opp": "JY"
+ },
+ {
+  "file": "replays_v24r\\episode-111869416-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": 98.0,
+  "opp": "Inzilb\u00eath"
+ },
+ {
+  "file": "replays_v24r\\episode-111870543-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": 480.0,
+  "opp": "Thomas #2"
+ },
+ {
+  "file": "replays_v24r\\episode-111871657-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": 1364.0,
+  "opp": "Aamod06"
+ },
+ {
+  "file": "replays_v24r\\episode-111872797-replay.json",
+  "us": 0,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -139.0,
+  "opp": "Aryan Yadav"
+ },
+ {
+  "file": "replays_v24r\\episode-111873408-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": -2572.0,
+  "opp": "Closed Loop"
+ },
+ {
+  "file": "replays_v24r\\episode-111873918-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": 558.0,
+  "opp": "Roshan Roy"
+ },
+ {
+  "file": "replays_v24r\\episode-111874387-replay.json",
+  "us": 0,
+  "dmoney1": -16.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1096.0,
+  "opp": "pi-500.phys"
+ },
+ {
+  "file": "replays_v24r\\episode-111875075-replay.json",
+  "us": 0,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 341.0,
+  "opp": "Akhilesh godugu"
+ },
+ {
+  "file": "replays_v24r\\episode-111878466-replay.json",
+  "us": 0,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -159.0,
+  "opp": "BaconT"
+ },
+ {
+  "file": "replays_v25\\episode-111991767-replay.json",
+  "us": 0,
+  "dmoney1": 1515.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 136530.0,
+  "opp": "Orange"
+ },
+ {
+  "file": "replays_v24r\\episode-111876213-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": 1741.0,
+  "opp": "Kaggs"
+ },
+ {
+  "file": "replays_v24r\\episode-111877333-replay.json",
+  "us": 0,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -45.0,
+  "opp": "tryagain123"
+ },
+ {
+  "file": "replays_v25\\episode-111992881-replay.json",
+  "us": 0,
+  "dmoney1": 2699.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 94638.0,
+  "opp": "ayutin tin"
+ },
+ {
+  "file": "replays_v25\\episode-111993976-replay.json",
+  "us": 0,
+  "dmoney1": 799.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 76459.0,
+  "opp": "lmq"
+ },
+ {
+  "file": "replays_v25\\episode-111995097-replay.json",
+  "us": 1,
+  "dmoney1": -136.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 65354.0,
+  "opp": "Veeranuch Leelalai"
+ },
+ {
+  "file": "replays_v25\\episode-111996213-replay.json",
+  "us": 1,
+  "dmoney1": 2853.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 35481.0,
+  "opp": "Sahaj Deep Singh"
+ },
+ {
+  "file": "replays_v25\\episode-111997332-replay.json",
+  "us": 0,
+  "dmoney1": 2853.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 38384.0,
+  "opp": "Adil Munawar"
+ },
+ {
+  "file": "replays_v25\\episode-111998437-replay.json",
+  "us": 1,
+  "dmoney1": 2574.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 26020.0,
+  "opp": "Wiz"
+ },
+ {
+  "file": "replays_v25\\episode-111999550-replay.json",
+  "us": 0,
+  "dmoney1": 2847.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 33828.0,
+  "opp": "R3ddrag0n"
+ },
+ {
+  "file": "replays_v25\\episode-112000660-replay.json",
+  "us": 1,
+  "dmoney1": 2838.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 17168.0,
+  "opp": "JZ"
+ },
+ {
+  "file": "replays_v25\\episode-112001776-replay.json",
+  "us": 1,
+  "dmoney1": 228.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 30011.0,
+  "opp": "hikarinosenshi"
+ },
+ {
+  "file": "replays_v25\\episode-112002892-replay.json",
+  "us": 1,
+  "dmoney1": 232.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 12609.0,
+  "opp": "coke lu"
+ },
+ {
+  "file": "replays_v25\\episode-112003994-replay.json",
+  "us": 1,
+  "dmoney1": 232.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 8087.0,
+  "opp": "Pardheev Krishna"
+ },
+ {
+  "file": "replays_v25\\episode-112005114-replay.json",
+  "us": 1,
+  "dmoney1": -145.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1074.0,
+  "opp": "Pat"
+ },
+ {
+  "file": "replays_v25\\episode-112006224-replay.json",
+  "us": 1,
+  "dmoney1": -100.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2542.0,
+  "opp": "democatXamer"
+ },
+ {
+  "file": "replays_v25\\episode-112007347-replay.json",
+  "us": 0,
+  "dmoney1": -107.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 8303.0,
+  "opp": "rishavsaigal"
+ },
+ {
+  "file": "replays_v25\\episode-112008472-replay.json",
+  "us": 1,
+  "dmoney1": -12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1846.0,
+  "opp": "John Gates"
+ },
+ {
+  "file": "replays_v25\\episode-112008636-replay.json",
+  "us": 0,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -33.0,
+  "opp": "Dinesh Makireddy 7389"
+ },
+ {
+  "file": "replays_v25\\episode-112011916-replay.json",
+  "us": 1,
+  "dmoney1": -113.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1671.0,
+  "opp": "Odyssey"
+ },
+ {
+  "file": "replays_v25\\episode-112012574-replay.json",
+  "us": 1,
+  "dmoney1": -99.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2102.0,
+  "opp": "liu bo"
+ },
+ {
+  "file": "replays_v25\\episode-112009599-replay.json",
+  "us": 0,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -1499.0,
+  "opp": "Auto Fermers"
+ },
+ {
+  "file": "replays_v25\\episode-112010743-replay.json",
+  "us": 1,
+  "dmoney1": 228.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -2932.0,
+  "opp": "Dzmitry Pihulski"
+ },
+ {
+  "file": "replays_v25\\episode-112013069-replay.json",
+  "us": 0,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 372.0,
+  "opp": "chandora"
+ },
+ {
+  "file": "replays_v25\\episode-112014235-replay.json",
+  "us": 0,
+  "dmoney1": 398.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 9753.0,
+  "opp": "Zain96"
+ },
+ {
+  "file": "replays_v25\\episode-112015365-replay.json",
+  "us": 0,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -286.0,
+  "opp": "Georgi Kanev"
+ },
+ {
+  "file": "replays_v27\\episode-112108935-replay.json",
+  "us": 1,
+  "dmoney1": 1138.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 51607.0,
+  "opp": "Louras"
+ },
+ {
+  "file": "replays_v27\\episode-112110053-replay.json",
+  "us": 0,
+  "dmoney1": -143.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 39263.0,
+  "opp": "Satish "
+ },
+ {
+  "file": "replays_v27\\episode-112111175-replay.json",
+  "us": 0,
+  "dmoney1": 2838.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 32727.0,
+  "opp": "lixiuqixiaoke"
+ },
+ {
+  "file": "replays_v27\\episode-112112375-replay.json",
+  "us": 0,
+  "dmoney1": 2856.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 26866.0,
+  "opp": "Lam Vo"
+ },
+ {
+  "file": "replays_v27\\episode-112113396-replay.json",
+  "us": 1,
+  "dmoney1": 2856.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 38782.0,
+  "opp": "Bisola Olasehinde"
+ },
+ {
+  "file": "replays_v27\\episode-112114585-replay.json",
+  "us": 1,
+  "dmoney1": 2838.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 42827.0,
+  "opp": "ggmljs"
+ },
+ {
+  "file": "replays_v27\\episode-112115711-replay.json",
+  "us": 1,
+  "dmoney1": 1174.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 33528.0,
+  "opp": "qiu ji123"
+ },
+ {
+  "file": "replays_v27\\episode-112116837-replay.json",
+  "us": 0,
+  "dmoney1": 232.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 7280.0,
+  "opp": "Junya _318"
+ },
+ {
+  "file": "replays_v27\\episode-112117961-replay.json",
+  "us": 1,
+  "dmoney1": -136.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 4898.0,
+  "opp": "wind"
+ },
+ {
+  "file": "replays_v27\\episode-112119167-replay.json",
+  "us": 1,
+  "dmoney1": 228.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 18073.0,
+  "opp": "xinwang"
+ },
+ {
+  "file": "replays_v27\\episode-112122443-replay.json",
+  "us": 0,
+  "dmoney1": -145.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 6225.0,
+  "opp": "We Want... A Shrubbery!"
+ },
+ {
+  "file": "replays_v27\\episode-112123579-replay.json",
+  "us": 1,
+  "dmoney1": -145.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 6474.0,
+  "opp": "Nana Bast"
+ },
+ {
+  "file": "replays_v27\\episode-112120292-replay.json",
+  "us": 0,
+  "dmoney1": -145.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 7935.0,
+  "opp": "\u738b\u4e00\u51e1"
+ },
+ {
+  "file": "replays_v27\\episode-112121391-replay.json",
+  "us": 1,
+  "dmoney1": 1398.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 21942.0,
+  "opp": "SatoGo"
+ },
+ {
+  "file": "replays_v27\\episode-112124755-replay.json",
+  "us": 0,
+  "dmoney1": -12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 9674.0,
+  "opp": "nikotin55"
+ },
+ {
+  "file": "replays_v27\\episode-112125977-replay.json",
+  "us": 0,
+  "dmoney1": -12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 5510.0,
+  "opp": "Shangshang Zhang"
+ },
+ {
+  "file": "replays_v27\\episode-112129702-replay.json",
+  "us": 1,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -433.0,
+  "opp": "forwardidear"
+ },
+ {
+  "file": "replays_v27\\episode-112130929-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": -2152.0,
+  "opp": "Wei Han"
+ },
+ {
+  "file": "replays_v27\\episode-112127227-replay.json",
+  "us": 0,
+  "dmoney1": -147.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -19254.0,
+  "opp": "ra5anchor"
+ },
+ {
+  "file": "replays_v27\\episode-112128497-replay.json",
+  "us": 0,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 632.0,
+  "opp": "MAC SAHO"
+ },
+ {
+  "file": "replays_v27\\episode-112132123-replay.json",
+  "us": 0,
+  "dmoney1": 398.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -7143.0,
+  "opp": "Zain96"
+ },
+ {
+  "file": "replays_v27\\episode-112133326-replay.json",
+  "us": 0,
+  "dmoney1": -12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 8624.0,
+  "opp": "Anand Singh"
+ },
+ {
+  "file": "replays_v27\\episode-112134561-replay.json",
+  "us": 1,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 730.0,
+  "opp": "Chris Chia"
+ },
+ {
+  "file": "replays_v27\\episode-112135715-replay.json",
+  "us": 0,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -135.0,
+  "opp": "Tien N."
+ },
+ {
+  "file": "replays_v27\\episode-112136472-replay.json",
+  "us": 0,
+  "dmoney1": -12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 180.0,
+  "opp": "team_fn"
+ },
+ {
+  "file": "replays_v27\\episode-112136930-replay.json",
+  "us": 1,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 2023.0,
+  "opp": "moo_&yuu1"
+ },
+ {
+  "file": "replays_v27\\episode-112138047-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": -206.0,
+  "opp": "KUO JEN WEI"
+ },
+ {
+  "file": "replays_v27\\episode-112139228-replay.json",
+  "us": 0,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 2848.0,
+  "opp": "Mizero Lucky Gall"
+ },
+ {
+  "file": "replays_v27\\episode-112140424-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": -102.0,
+  "opp": "Rajan Nagarajan"
+ },
+ {
+  "file": "replays_v27\\episode-112141602-replay.json",
+  "us": 1,
+  "dmoney1": -12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2764.0,
+  "opp": "Georgy Mamarin"
+ },
+ {
+  "file": "replays_v27\\episode-112142921-replay.json",
+  "us": 1,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 2527.0,
+  "opp": "Stefano Blando"
+ },
+ {
+  "file": "replays_v27\\episode-112143582-replay.json",
+  "us": 1,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 937.0,
+  "opp": "\u30c7\u30ef\u30f3\u30b7\u30e5"
+ },
+ {
+  "file": "replays_v27\\episode-112143680-replay.json",
+  "us": 1,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -576.0,
+  "opp": "Naru041104"
+ },
+ {
+  "file": "replays_v27\\episode-112144089-replay.json",
+  "us": 0,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 4909.0,
+  "opp": "PeterDreamHan"
+ },
+ {
+  "file": "replays_v27\\episode-112145276-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": 740.0,
+  "opp": "\ud83d\udd25\ud83e\uddab\ud83d\udcff\ud83d\uddfd"
+ },
+ {
+  "file": "replays_v27\\episode-112146535-replay.json",
+  "us": 0,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 167.0,
+  "opp": "JYShane"
+ },
+ {
+  "file": "replays_v27\\episode-112146544-replay.json",
+  "us": 0,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -1010.0,
+  "opp": "Fried Chicken Lovers"
+ },
+ {
+  "file": "replays_v27\\episode-112147690-replay.json",
+  "us": 1,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -276.0,
+  "opp": "Max Podd"
+ },
+ {
+  "file": "replays_v27\\episode-112148893-replay.json",
+  "us": 1,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 746.0,
+  "opp": "Nat Bel ML Fun"
+ },
+ {
+  "file": "replays_v27\\episode-112150019-replay.json",
+  "us": 1,
+  "dmoney1": -2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -1457.0,
+  "opp": "Leonardo Viola10"
+ },
+ {
+  "file": "replays_v27\\episode-112151229-replay.json",
+  "us": 0,
+  "dmoney1": -3.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 1334.0,
+  "opp": "suteno"
+ },
+ {
+  "file": "replays_v27\\episode-112152386-replay.json",
+  "us": 0,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -18.0,
+  "opp": "TheMightiestMan"
+ },
+ {
+  "file": "replays_v27\\episode-112153556-replay.json",
+  "us": 0,
+  "dmoney1": -12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 511.0,
+  "opp": "Mumtaz Ahmad Maitla"
+ },
+ {
+  "file": "replays_v27\\episode-112154769-replay.json",
+  "us": 0,
+  "dmoney1": -12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1603.0,
+  "opp": "Rintaro Washio"
+ },
+ {
+  "file": "replays_v27\\episode-112157568-replay.json",
+  "us": 0,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -18.0,
+  "opp": "K.Piro"
+ },
+ {
+  "file": "replays_v27\\episode-112158232-replay.json",
+  "us": 1,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 2028.0,
+  "opp": "kibuna"
+ },
+ {
+  "file": "replays_v27\\episode-112155857-replay.json",
+  "us": 1,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 611.0,
+  "opp": "Giulio Ravasio"
+ },
+ {
+  "file": "replays_v27\\episode-112157002-replay.json",
+  "us": 0,
+  "dmoney1": 390.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1785.0,
+  "opp": "haru0707"
+ },
+ {
+  "file": "replays_v27\\episode-112159376-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": 537.0,
+  "opp": "ns0329"
+ },
+ {
+  "file": "replays_v27\\episode-112159549-replay.json",
+  "us": 1,
+  "dmoney1": -12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -67.0,
+  "opp": "coolin666"
+ },
+ {
+  "file": "replays_v27\\episode-112160598-replay.json",
+  "us": 1,
+  "dmoney1": 228.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 711.0,
+  "opp": "Joseph Adamski"
+ },
+ {
+  "file": "replays_v27\\episode-112161456-replay.json",
+  "us": 0,
+  "dmoney1": -149.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -1726.0,
+  "opp": "Leonid Kozinkin"
+ },
+ {
+  "file": "replays_v27\\episode-112161760-replay.json",
+  "us": 1,
+  "dmoney1": -12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 938.0,
+  "opp": "shfyyds12138"
+ },
+ {
+  "file": "replays_v27\\episode-112162839-replay.json",
+  "us": 1,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 828.0,
+  "opp": "Doom"
+ },
+ {
+  "file": "replays_v27\\episode-112162947-replay.json",
+  "us": 0,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 300.0,
+  "opp": "kiyomiya-k"
+ },
+ {
+  "file": "replays_v27\\episode-112164128-replay.json",
+  "us": 1,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 600.0,
+  "opp": "misaka12435"
+ },
+ {
+  "file": "replays_v27\\episode-112165327-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": 2926.0,
+  "opp": "Xuanhao Wang"
+ },
+ {
+  "file": "replays_v27\\episode-112165354-replay.json",
+  "us": 1,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 177.0,
+  "opp": "hiros"
+ },
+ {
+  "file": "replays_v27\\episode-112168930-replay.json",
+  "us": 0,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 278.0,
+  "opp": "Saulo Qui\u00f1ones G\u00f3ngora"
+ },
+ {
+  "file": "replays_v27\\episode-112170047-replay.json",
+  "us": 0,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -305.0,
+  "opp": "MatveyVarfolomeev"
+ },
+ {
+  "file": "replays_v27\\episode-112166502-replay.json",
+  "us": 0,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -1068.0,
+  "opp": "MatheusPSorancoDeCarvalho"
+ },
+ {
+  "file": "replays_v27\\episode-112167744-replay.json",
+  "us": 1,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 2385.0,
+  "opp": "auhulu"
+ },
+ {
+  "file": "replays_v27\\episode-112171172-replay.json",
+  "us": 0,
+  "dmoney1": -12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -645.0,
+  "opp": "dddmd"
+ },
+ {
+  "file": "replays_v27\\episode-112172322-replay.json",
+  "us": 1,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -18.0,
+  "opp": "Ikki Katsuyama"
+ },
+ {
+  "file": "replays_v27\\episode-112173485-replay.json",
+  "us": 0,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 4657.0,
+  "opp": "\u6551\u8d4e\u4e4b\u9053\uff0c\u5c31\u5728\u5176\u4e2d"
+ },
+ {
+  "file": "replays_v27\\episode-112174647-replay.json",
+  "us": 0,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -15.0,
+  "opp": "HireMe"
+ },
+ {
+  "file": "replays_v27\\episode-112175804-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": 422.0,
+  "opp": "GPTatoes"
+ },
+ {
+  "file": "replays_v27\\episode-112176996-replay.json",
+  "us": 1,
+  "dmoney1": -3.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1152.0,
+  "opp": "suteno"
+ },
+ {
+  "file": "replays_v27\\episode-112178137-replay.json",
+  "us": 0,
+  "dmoney1": -12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 462.0,
+  "opp": "Anubisyy"
+ },
+ {
+  "file": "replays_v27\\episode-112179377-replay.json",
+  "us": 0,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 2283.0,
+  "opp": "CROW"
+ },
+ {
+  "file": "replays_v27\\episode-112180562-replay.json",
+  "us": 1,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -711.0,
+  "opp": "bansalis"
+ },
+ {
+  "file": "replays_v27\\episode-112181745-replay.json",
+  "us": 0,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 1.0,
+  "opp": "theearthcheng"
+ },
+ {
+  "file": "replays_v27\\episode-112183013-replay.json",
+  "us": 0,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 1820.0,
+  "opp": "Maciek Kiryla"
+ },
+ {
+  "file": "replays_v27\\episode-112183346-replay.json",
+  "us": 1,
+  "dmoney1": 0.0,
+  "sig_eq": false,
+  "money_eq": true,
+  "clone": true,
+  "margin": 322.0,
+  "opp": "Elias William"
+ },
+ {
+  "file": "replays_v27\\episode-112184323-replay.json",
+  "us": 0,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 367.0,
+  "opp": "xxxx0314"
+ },
+ {
+  "file": "replays_v27\\episode-112185629-replay.json",
+  "us": 1,
+  "dmoney1": -12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 8734.0,
+  "opp": "ss"
+ },
+ {
+  "file": "replays_v27\\episode-112186116-replay.json",
+  "us": 1,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -60.0,
+  "opp": "..."
+ },
+ {
+  "file": "replays_v27\\episode-112187239-replay.json",
+  "us": 1,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 254.0,
+  "opp": "maoxin123"
+ },
+ {
+  "file": "replays_v27\\episode-112188760-replay.json",
+  "us": 0,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 282.0,
+  "opp": "Krish Shah"
+ },
+ {
+  "file": "replays_v27\\episode-112194553-replay.json",
+  "us": 1,
+  "dmoney1": -5.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -958.0,
+  "opp": "Kazama Yusuke"
+ },
+ {
+  "file": "replays_v27\\episode-112195130-replay.json",
+  "us": 1,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -200.0,
+  "opp": "pig7selene"
+ },
+ {
+  "file": "replays_v27\\episode-112201960-replay.json",
+  "us": 1,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 558.0,
+  "opp": "Komi ShouKo"
+ },
+ {
+  "file": "replays_v27\\episode-112215543-replay.json",
+  "us": 1,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 478.0,
+  "opp": "MAC SAHO"
+ },
+ {
+  "file": "replays_v27\\episode-112215640-replay.json",
+  "us": 0,
+  "dmoney1": 0.0,
+  "sig_eq": true,
+  "money_eq": true,
+  "clone": true,
+  "margin": 252.0,
+  "opp": "Wang H2O"
+ },
+ {
+  "file": "replays_v27\\episode-112206023-replay.json",
+  "us": 1,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 1292.0,
+  "opp": "unreal"
+ },
+ {
+  "file": "replays_v27\\episode-112210051-replay.json",
+  "us": 1,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 217.0,
+  "opp": "yemaoye"
+ },
+ {
+  "file": "replays_v28\\episode-112270172-replay.json",
+  "us": 1,
+  "dmoney1": 1404.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 117066.0,
+  "opp": "Sam"
+ },
+ {
+  "file": "replays_v27\\episode-112217911-replay.json",
+  "us": 0,
+  "dmoney1": 7.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -263.0,
+  "opp": "Mohamed Salah"
+ },
+ {
+  "file": "replays_v27\\episode-112221482-replay.json",
+  "us": 0,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 70.0,
+  "opp": "Farmerjay"
+ },
+ {
+  "file": "replays_v27\\episode-112228223-replay.json",
+  "us": 0,
+  "dmoney1": -10.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -133.0,
+  "opp": "Boredom"
+ },
+ {
+  "file": "replays_v27\\episode-112228312-replay.json",
+  "us": 0,
+  "dmoney1": 2.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 511.0,
+  "opp": "kouhei mori"
+ },
+ {
+  "file": "replays_v28\\episode-112271426-replay.json",
+  "us": 0,
+  "dmoney1": 2706.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 37883.0,
+  "opp": "sash"
+ },
+ {
+  "file": "replays_v28\\episode-112272667-replay.json",
+  "us": 1,
+  "dmoney1": 2699.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 34678.0,
+  "opp": "Jiman Kwon"
+ },
+ {
+  "file": "replays_v28\\episode-112273807-replay.json",
+  "us": 0,
+  "dmoney1": 2838.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 25511.0,
+  "opp": "ggmljs"
+ },
+ {
+  "file": "replays_v28\\episode-112274980-replay.json",
+  "us": 0,
+  "dmoney1": -143.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 11358.0,
+  "opp": "Xiang Li"
+ },
+ {
+  "file": "replays_v28\\episode-112276272-replay.json",
+  "us": 1,
+  "dmoney1": 2838.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 52003.0,
+  "opp": "xiepengo"
+ },
+ {
+  "file": "replays_v28\\episode-112277489-replay.json",
+  "us": 0,
+  "dmoney1": -143.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 30040.0,
+  "opp": "10pi"
+ },
+ {
+  "file": "replays_v28\\episode-112278708-replay.json",
+  "us": 0,
+  "dmoney1": 225.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 7202.0,
+  "opp": "Juwon Kweon"
+ },
+ {
+  "file": "replays_v28\\episode-112279894-replay.json",
+  "us": 1,
+  "dmoney1": 228.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 11544.0,
+  "opp": "Syakirin Pahimi"
+ },
+ {
+  "file": "replays_v28\\episode-112293708-replay.json",
+  "us": 1,
+  "dmoney1": -12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 3069.0,
+  "opp": "Dhruv #2"
+ },
+ {
+  "file": "replays_v28\\episode-112281076-replay.json",
+  "us": 0,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 0.0,
+  "opp": "wennan cao"
+ },
+ {
+  "file": "replays_v28\\episode-112281077-replay.json",
+  "us": 0,
+  "dmoney1": 242.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 10203.0,
+  "opp": "Gappy"
+ },
+ {
+  "file": "replays_v28\\episode-112281668-replay.json",
+  "us": 0,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -149.0,
+  "opp": "Seyit kaan Gunes"
+ },
+ {
+  "file": "replays_v28\\episode-112282275-replay.json",
+  "us": 1,
+  "dmoney1": -149.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 2882.0,
+  "opp": "kitchs"
+ },
+ {
+  "file": "replays_v28\\episode-112283635-replay.json",
+  "us": 0,
+  "dmoney1": -99.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 4860.0,
+  "opp": "Joyal"
+ },
+ {
+  "file": "replays_v28\\episode-112284907-replay.json",
+  "us": 1,
+  "dmoney1": 232.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 28236.0,
+  "opp": "copasta"
+ },
+ {
+  "file": "replays_v28\\episode-112286140-replay.json",
+  "us": 0,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -303.0,
+  "opp": "xiongrui666"
+ },
+ {
+  "file": "replays_v28\\episode-112287076-replay.json",
+  "us": 1,
+  "dmoney1": -113.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1924.0,
+  "opp": "lllleeeo"
+ },
+ {
+  "file": "replays_v28\\episode-112287543-replay.json",
+  "us": 1,
+  "dmoney1": 228.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": -2498.0,
+  "opp": "iCO"
+ },
+ {
+  "file": "replays_v28\\episode-112288633-replay.json",
+  "us": 0,
+  "dmoney1": -147.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 1314.0,
+  "opp": "shawenher"
+ },
+ {
+  "file": "replays_v28\\episode-112291314-replay.json",
+  "us": 1,
+  "dmoney1": 12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": -1233.0,
+  "opp": "HireMe"
+ },
+ {
+  "file": "replays_v28\\episode-112292475-replay.json",
+  "us": 0,
+  "dmoney1": -12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": true,
+  "margin": 2557.0,
+  "opp": "OBSTACLE DEVELOPER"
+ },
+ {
+  "file": "replays_v28\\episode-112289875-replay.json",
+  "us": 1,
+  "dmoney1": -12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 9831.0,
+  "opp": "Hubillionaire"
+ },
+ {
+  "file": "replays_v28\\episode-112291147-replay.json",
+  "us": 1,
+  "dmoney1": -12.0,
+  "sig_eq": false,
+  "money_eq": false,
+  "clone": false,
+  "margin": 4610.0,
+  "opp": "xiaoBOSS97"
+ }
+]
