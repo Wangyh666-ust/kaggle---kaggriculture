@@ -32,3 +32,11 @@ experiments/
 
 # transient logs
 analyze_err.log
+tmp_extract/
+episode-*-agent-*-logs.json
+
+# reverse-engineering derived artifacts (regenerable from replays/, which is also ignored)
+reverse/replays/
+reverse/adv_tape/
+reverse/*.jsonl
+reverse/routes_*.json

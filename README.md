@@ -41,7 +41,7 @@ v23_c7 = **我们的文件 + prvsiyan 的 186 行尾部 + guru/prvsiyan 的 4 �
 | `_CA_FEED_DAYS` | 2 → 1 | 单独即轻微正收益 |
 | `V9_FERT_FIRST_DAY` | 16 → 14 | 单独无效，与上面两项**联合有效**（A/B 14-2-4） |
 | `_OR2_SLOT_MARGIN` | 50.0 → 20.0 | 同上 |
-| `_SR_MARGIN` / `_SR_HOURS` | **保持我们的 4 / (22,23)** | 抄这两个会**退 4 胜**——唯一有害的改动 |
+| `_SR_MARGIN` / `_SR_HOURS` | ~~保持我们的 4 / (22,23)~~ → **已于 v26 改为 8 / (21,22,23)** | ⚠️ 旧结论"抄这两个会退 4 胜"是 **20 局/对手低检验力下的假阴性**；680 局实测为 **+32 胜**，见 `results/reports/v26_v55_parity.md` |
 
 把 5 个参数全抄（= 完全变成 prvsiyan 行为）对 prvsiyan 是 20 局精确 $0 平局，
 即永远赢不了它；所以保留 `_SR_*` 是有意为之。
@@ -69,15 +69,28 @@ scripts/                评测与研究工具
   smoke.py                冒烟测试：9 种子 × 双座位对真人对手，断言 DONE 且资金 > $10k
   tournament.py           多进程配对巡回赛（对手面板 × 种子 × 双座位，报 W-L-T/平均/最差边际）
   extract_opponents.py    从公开 notebook 解出可对战的对手 agent（本地测试用）
+  submit.py               构建 + 入口点校验 + sha256 记录 → results/submissions.md（默认 dry-run）
   diagnose.py             单局每日经济快照
   trace.py                单局现金流与单位动作分布
   compare_farms.py        逐日并排对比我方与对手的畜群/作物/空地/雇工
   analyze_all.py          批量回放分析（胜率、对手分层、败因相关性）
   analyze_losses.py       败局对手画像
   replay_deepdive.py      单局深挖（对手逐日资金曲线、棚内库存、买卖构成）
+  fetch_ladder_replays.py 抓头部队伍公开回放到 replays_ladder/（CLI + 429 退避 + 断点续跑）
+  ladder_meta_report.py   语料 → results/ladder_top_meta_data.md（开局签名聚类/农场画像/价格）
+  price_trace.py          逐日价格轨迹 + early(20-23)/late(26-29) 对比
+  waste_audit.py          空转人工 / 棚满 / 收成变草 / 终局存货
+  seed_probe.py           给定 seed 跑一局并打印商店解锁序列
+  panel_shop_keys.py      面板 seed 实际走到的 route key 分布（评估 route 替换的检验力）
+  harvest_routes.py       回放 → 720 步磁带 → 按 (前两家店) 建候选 route 表
 results/                分析结论与决策文档
   PLAN_tape_route.md      改用磁带路线的决策依据
   top_notebooks_findings.md  头部实现解剖 + 全部实验（含负面结果）
+  ladder_top_meta.md      **天梯头部 meta 分析**（克隆天花板、头部家族、三项负面结果、方法论）
+  ladder_top_meta_data.md 上文的自动生成数据附录
+  reports/TEMPLATE.md     版本报告模板（每个版本一份报告）
+  submissions.md          提交记录（scripts/submit.py 自动追加，含 sha256）
+  SESSION_STATE.md        会话交接文档
   loss_analysis_20260920.md  77 局败局集中分析
   notes_pending_issues.md    待修问题清单
   score_history.md        线上分数快照
