@@ -3786,7 +3786,7 @@ agent = globals().pop("agent")
 # one global horizon change nothing once the window starts at 192 (28 of 32 games
 # identical), so the one-line gate is the whole change.
 # ---------------------------------------------------------------------------
-V9_RACE_DEFAULT = 40
+V9_RACE_DEFAULT = 41
 V9_RACE_MAX = 48
 V9_RACE_MARGIN = 12
 V9_RACE_GAP = 3            # a sale this soon after our previous planned lot is a late fill
@@ -5141,8 +5141,8 @@ agent = globals().pop('agent')
 # Claude SHEDROOM layer: sell shed goods before the night drop overflows. Own implementation.
 # Built by tools/claude_build_shedroom.py (derivation there).
 # ---------------------------------------------------------------------------
-_SR_MARGIN = 4
-_SR_HOURS = (22, 23)
+_SR_MARGIN = 8
+_SR_HOURS = (21, 22, 23)
 _SR_PRODUCTS = ("WHEAT", "CARROT", "TOMATO", "STRAWBERRY", "MELON", "EGG", "MILK", "WOOL", "FERTILIZER")
 _SR_REPORT = {"sr_turns": 0, "sr_units": 0, "sr_errors": 0}
 
