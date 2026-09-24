@@ -7014,3 +7014,110 @@ def agent(observation, configuration=None):
 
 agent.telemetry = _ER_REPORT
 agent = globals().pop("agent")
+
+
+# ---------------------------------------------------------------------------
+# EXP402 + EXP410 ported from public V56
+# (ahmedberatozer/kaggriculture-v56-smarter-seeds-and-fertilizer, Apache-2.0).
+# Rebound onto our own last layer; `agent` is re-bound last so it stays the
+# entry point under Kaggle's 'last callable in the namespace' rule.
+# See results/reports/v27_v56_layers.md.
+# ---------------------------------------------------------------------------
+
+# EXP402: cap late seed purchases by an upper bound on all remaining planting.
+# No price-sensitive product orders are moved. Keep empty market slots so the
+# opponent's simultaneous market interactions retain their original positions.
+_E402_PARENT=agent
+
+_E402_CACHE={}
+_E402_REPORT=dict(cut_units=0,saved_cost=0,changed_turns=0,errors=0)
+
+def _e402_remaining(native,step):
+    route=native['route'];key=(route,step)
+    if key in _E402_CACHE:return _E402_CACHE[key]
+    need=0
+    for t in range(step+1,719):
+        tape=_IMPL.chassis.routes[2 if t>=648 else route]
+        act=tape[t]
+        need+=sum(1 for c in [act.get('farmer') or ['PASS']]+list(act.get('hands') or [])
+                  if len(c)>1 and c[0]=='PLANT' and c[1] in ('WHEAT','CARROT'))
+    _E402_CACHE[key]=need
+    return need
+
+def _e402_agent(observation,configuration=None):
+    action=_E402_PARENT(observation,configuration)
+    try:
+        step=int(observation['step']);seat=int(observation['player'])
+        if step==0:
+            _E402_CACHE.clear()
+            for k in _E402_REPORT:_E402_REPORT[k]=0
+        if step<624:return action
+        market=action.get('market',[])
+        if not any(len(o)>=3 and o[0]=='BUY_SEED' and o[1] in ('WHEAT','CARROT') for o in market):return action
+        native=_IMPL.chassis.players[seat]
+        remaining=_e402_remaining(native,step)
+        # Queued retries can outlive their original schedule; reserve for them too.
+        remaining+=sum(1 for queue in native['pending'].values() for pos,c in queue
+                       if len(c)>1 and c[0]=='PLANT' and c[1] in ('WHEAT','CARROT'))
+        units=[action.get('farmer') or ['PASS']]+list(action.get('hands') or [])
+        available={p:max(0,int(observation['private']['seeds'].get(p,0))-sum(c[:2]==['PLANT',p] for c in units)) for p in ('WHEAT','CARROT')}
+        out=[];changed=False
+        for o in market:
+            if len(o)>=3 and o[0]=='BUY_SEED' and o[1] in available:
+                p=o[1];qty=max(0,int(o[2]));keep=min(qty,max(0,remaining-available[p]));available[p]+=keep
+                if keep<qty:
+                    cut=qty-keep;changed=True
+                    _E402_REPORT['cut_units']+=cut;_E402_REPORT['saved_cost']+=cut*(10 if p=='WHEAT' else 20)
+                    if p=='CARROT':
+                        st=_CA_STATE.get(seat)
+                        if st is not None:st['spare_carrot']=max(0,st.get('spare_carrot',0)-cut)
+                    o=[o[0],p,keep] if keep else []
+            out.append(o)
+        if changed:
+            _E402_REPORT['changed_turns']+=1
+            action=dict(action,market=out)
+    except Exception:_E402_REPORT['errors']+=1
+    return action
+
+
+# EXP410: do not consume another fertilizer where it cannot improve the planned harvest.
+_E410_REPORT=dict(skips=0,covered=0,capped=0,errors=0)
+_E410_PARENT=_e402_agent
+def _e410_agent(observation,configuration=None):
+    action=_E410_PARENT(observation,configuration)
+    try:
+        step=int(observation['step']);seat=int(observation['player']);day=step//24
+        if step==0:
+            for k in _E410_REPORT:_E410_REPORT[k]=0
+        units=[action.get('farmer') or ['PASS']]+list(action.get('hands') or [])
+        if not any(c==['FERTILIZE'] for c in units):return action
+        farm,private=_PLANNER_NS['_clone_state'](observation['farms'][seat],observation['private'])
+        positions=[farm['farmer']]+list(farm['hands']);changed=False
+        native=_IMPL.chassis.players[seat]
+        expected=max(len(a.get('hands',[])) for a in _v219_native_day(native,day))
+        reactive=set(_R51_INPUT_STATES.get(seat,{}).get('workers',{}))
+        for i,cmd in enumerate(units[:len(positions)]):
+            pos=tuple(positions[i]);tile=farm['tiles'][pos[1]][pos[0]]
+            if cmd==['FERTILIZE'] and isinstance(tile,dict) and tile.get('crop') in ('WHEAT','CARROT') and private['inventories'][i].get('FERTILIZER',0)>0:
+                until=int(tile.get('fertilized_until_day',-1));covered=until>=day+2;skip=covered
+                if not skip and i<=expected and i not in reactive:
+                    visits=_ca_visits(observation,action,pos,min(718,(int(tile['planted_day'])+6)*24),start=step+1)
+                    kw=dict(y0=int(tile['yield_units']),watered_day=day if tile.get('watered_today') else -1,now_step=step)
+                    old=_ca_yield_path(tile['crop'],int(tile['planted_day']),visits,fert_until=until,**kw)[0]
+                    new=_ca_yield_path(tile['crop'],int(tile['planted_day']),visits,fert_until=max(until,day+2),**kw)[0]
+                    skip=old>0 and old==new
+                if skip:
+                    units[i]=cmd=['PASS'];changed=True
+                    _E410_REPORT['skips']+=1;_E410_REPORT['covered' if covered else 'capped']+=1
+            _PLANNER_NS['_apply_unit_action'](farm,private,i,cmd,len(farm['tiles']),day,24,100)
+        if changed:return dict(action,farmer=units[0],hands=units[1:])
+    except Exception:
+        _E410_REPORT['errors']+=1
+    return action
+
+del agent
+
+def agent(observation, configuration=None):
+    return _e410_agent(observation, configuration)
+
+agent.telemetry = _E410_REPORT
