@@ -3357,7 +3357,7 @@ agent = globals().pop("agent")
 # in the metav2 / M&M replays (exact market simulation, build/v9/opensim.py),
 # and $2 more than the round trip against the V38/V39 tape lineage.
 # ---------------------------------------------------------------------------
-V9_OPENING_STEP0 = (("BUY_PRODUCT", "WHEAT", 20), ("SELL", "WHEAT", 15))
+V9_OPENING_STEP0 = (("BUY_PRODUCT", "WHEAT", 10), ("SELL", "WHEAT", 5))
 V9_OPENING_TAPE = ((("BUY_PRODUCT", "WHEAT", 13), ("BUY_PRODUCT", "WHEAT", 30), ("SELL", "WHEAT", 30)),
                    (("SELL", "WHEAT", 13), ("BUY_PRODUCT", "WHEAT", 5)))
 
@@ -7331,3 +7331,335 @@ def _final_sell_block_reorder_entrypoint(observation, configuration=None):
 _final_sell_block_reorder_entrypoint.telemetry = _FRO_REPORT
 agent = _final_sell_block_reorder_entrypoint
 kaggle_submission_agent = _final_sell_block_reorder_entrypoint
+
+
+# ---------------------------------------------------------------------------
+# Early-death fix, restored from v25 (git 872eb4b). Adopting prvsiyan's frontier at
+# v34 dropped it, and the signature is back on the ladder: 2 of 19 readable v36 games
+# reach step 24 with $1 cash, hire 1 hand instead of 3, starve a cow, and end day 3
+# with 3 animals instead of 5 -- costing -24,403 and -16,601.
+#   (a) opening round trip 20/15 -> 10/5 keeps $12 at step 24 instead of $1
+#   (b) _HR_*/_ER_* are the v25 guard and rescue layers (insurance; they rarely fire)
+# ---------------------------------------------------------------------------
+_HR_STEPS = (24, 25)
+_HR_RESERVE = 5
+_HR_ORDER = {"BUY_PRODUCT": 0, "BUY_SEED": 1, "BUY_ANIMAL": 2, "BUY_LAND": 3}
+_HR_REPORT = dict(hr_fires=0, hr_dropped=0, hr_errors=0)
+
+
+def _hr_is_buy(order):
+    if not isinstance(order, (list, tuple)) or not order:
+        return False
+    op = str(order[0])
+    return op in _HR_ORDER
+
+
+def _hr_guard(observation, action):
+    step = int(observation["step"])
+    if step not in _HR_STEPS:
+        return action
+    market = [list(o) for o in action.get("market") or []]
+    if not any(_hr_is_buy(o) for o in market):
+        return action
+    money = float(observation["farms"][int(observation["player"])]["money"])
+    if money >= _HR_RESERVE:
+        return action
+    keep = []
+    dropped = 0
+    for order in market:
+        if _hr_is_buy(order):
+            dropped += 1
+            continue
+        keep.append(order)
+    if not dropped:
+        return action
+    _HR_REPORT["hr_fires"] += 1
+    _HR_REPORT["hr_dropped"] += dropped
+    return dict(action, market=keep)
+
+
+_HR_PARENT = agent
+del agent
+
+
+def agent(observation, configuration=None):
+    if int(observation["step"]) == 0:
+        for key in _HR_REPORT:
+            _HR_REPORT[key] = 0
+    action = _HR_PARENT(observation, configuration)
+    try:
+        return _hr_guard(observation, action)
+    except Exception:
+        _HR_REPORT["hr_errors"] += 1
+        return action
+
+
+agent.telemetry = _HR_REPORT
+agent = globals().pop("agent")
+
+
+# ---------------------------------------------------------------------------
+# EARLY DEATH (c): feed rescue — a hire shortfall must never cost an animal.
+#
+# The tape hands its daily FEED work to specific hand slots.  When a hand is
+# missing (a failed HIRE) the hand list is aligned down to the hands that really
+# exist, the FEED that lived in slot 2 or 3 is never issued, and an animal that
+# already missed one day goes a second day unfed and escapes at the end-of-day
+# refresh (recorded: 183 games -> 8 with a day-1 hire shortfall, 1W-6L,
+# mean margin -$7,384; results/early_death_analysis.md).
+#
+# Every step, for each animal tile that is unfed and already at
+# `consecutive_unfed >= 1` (so tonight's refresh would lose it), this layer asks
+# whether the rest of today's tape still feeds that tile: the remaining tape
+# actions of the units that actually exist are replayed -- positions, hand cargo
+# and shed wheat included -- and any FEED that lands on the tile counts as
+# coverage.  Only when no such feed is coming does the layer hand the job to a
+# unit standing on the tile whose own action is a no-op (PASS, or a move the
+# engine ignores): it feeds there, or picks up a wheat first when its hands are
+# empty and next step is idle too.  Units with real work (WATER / HARVEST /
+# BUILD_* / PLACE / FEED / CARE / ...), and units that would have to leave the
+# tile, are never touched: a missed rescue is acceptable, a wrecked schedule is
+# not.  Borrowing a moving unit instead was measured at -$1.1k..-$6.2k per fire,
+# and -56 of 300 tournament games (see the constant block below).
+# ---------------------------------------------------------------------------
+_ER_MOVES = {"NORTH": (0, -1), "SOUTH": (0, 1), "EAST": (1, 0), "WEST": (-1, 0)}
+_ER_TURNS = 24
+# How far a rescuer may stand from the animal.  0 = only a unit already on the
+# tile is used, so the rescue never moves anybody and the day's schedule is
+# untouched; 1 also allows the four neighbours, at the cost of one tile of drift
+# for the rescuer.  Anything further was measured to be a net loss: on day 5 the
+# tape leaves one cow unfed on purpose with a single unit on the farm, and
+# walking the only farmer 3 tiles away to feed it broke his harvest-and-deliver
+# route (-$90k in the local 720-step game).
+_ER_MAX_DRIFT = 0
+# The day's HIREs run in hour 0 (d1 h0, d2 h0, ...), so the hand count only
+# settles at hour 1: before that the farm looks hand-less and the plan replay
+# would call every animal uncovered.  Rescue only from hour 1 on.
+_ER_MIN_HOUR = 1
+# An animal that escapes on the last day costs nothing (the season ends at that
+# refresh), while the endgame routing is the tightest of the game -- the last-day
+# fires measured -$1.6k.  Stop rescuing once the final day starts.
+_ER_LAST_DAY = 28
+_ER_REPORT = dict(er_fired=0, er_feeds=0, er_walks=0, er_pickups=0,
+                  er_covered=0, er_busy=0, er_nowheat=0, er_errors=0)
+
+
+def _er_int(value, default=0):
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default
+
+
+def _er_shed_adjacent(x, y, board):
+    half = board // 2
+    return x in (half - 1, half) and y in (half - 1, half)
+
+
+def _er_is_idle(act, pos, board):
+    """True when the unit's own action leaves it exactly where it stands.
+
+    PASS does, and so does a move the engine ignores (walking into the board
+    edge).  Everything else -- including a real move -- relocates the unit, and
+    every later tape action of that day was written for the old route, so a
+    rescue that borrows such a unit costs far more than the animal it saves
+    (measured: -$1.1k..-$6.2k per fire against a mirror opponent, and -56 of
+    300 tournament games).
+    """
+    if not act:
+        return True
+    op = act[0]
+    if op == "PASS":
+        return True
+    if op in _ER_MOVES:
+        dx, dy = _ER_MOVES[op]
+        return not (0 <= pos[0] + dx < board and 0 <= pos[1] + dy < board)
+    return False
+
+
+def _er_animals(tiles):
+    """{tile: (fed_today, consecutive_unfed)} for every animal on our farm."""
+    out = {}
+    for y, row in enumerate(tiles):
+        for x, tile in enumerate(row):
+            if isinstance(tile, dict) and tile.get("animal") is not None:
+                out[(x, y)] = (bool(tile.get("fed_today")),
+                               _er_int(tile.get("consecutive_unfed"), 0))
+    return out
+
+
+def _er_plan(tape, step, units, count):
+    """The unit actions still due today, starting with this step's own action."""
+    end = step - step % _ER_TURNS + (_ER_TURNS - 1)
+    plan = [list(units[:count])]
+    for t in range(step + 1, min(end, len(tape) - 1) + 1):
+        record = tape[t]
+        if not isinstance(record, dict):
+            break
+        hands = record.get("hands") or []
+        row = [list(record.get("farmer") or ["PASS"])]
+        for i in range(1, count):
+            row.append(list(hands[i - 1]) if i - 1 < len(hands) and hands[i - 1] else ["PASS"])
+        plan.append(row)
+    return plan
+
+
+def _er_fed_by_plan(plan, positions, cargo, shed_wheat, animals, board):
+    """Animal tiles the remaining plan feeds before tonight (greedy replay).
+
+    Optimistic on purpose where it is unsure (shed capacity, layer rewrites):
+    reporting coverage keeps the rescue from firing, which is the safe side.
+    """
+    fed = set(tile for tile, (is_fed, _) in animals.items() if is_fed)
+    pos = list(positions)
+    wheat = [max(0, _er_int(cargo[i].get("WHEAT"))) if i < len(cargo) else 0
+             for i in range(len(pos))]
+    stock = max(0, _er_int(shed_wheat))
+    for row in plan:
+        for i in range(len(pos)):
+            if i >= len(row):
+                continue
+            act = row[i]
+            if not act:
+                continue
+            op = act[0]
+            x, y = pos[i]
+            if op in _ER_MOVES:
+                dx, dy = _ER_MOVES[op]
+                if 0 <= x + dx < board and 0 <= y + dy < board:
+                    pos[i] = (x + dx, y + dy)
+            elif op == "PICKUP":
+                if _er_shed_adjacent(x, y, board) and len(act) >= 2 and act[1] == "WHEAT" and stock > 0:
+                    take = min(_er_int(act[2], 1) if len(act) >= 3 else 1, stock)
+                    wheat[i] += take
+                    stock -= take
+            elif op == "DROP":
+                if _er_shed_adjacent(x, y, board) and wheat[i] > 0:
+                    stock += wheat[i]
+                    wheat[i] = 0
+            elif op == "FEED":
+                tile = pos[i]
+                if tile in animals and tile not in fed and wheat[i] > 0:
+                    fed.add(tile)
+                    wheat[i] -= 1
+    return fed
+
+
+def _er_dir_to(pos, target):
+    dx = target[0] - pos[0]
+    dy = target[1] - pos[1]
+    if dx:
+        return "EAST" if dx > 0 else "WEST"
+    if dy:
+        return "SOUTH" if dy > 0 else "NORTH"
+    return None
+
+
+def _er_tape(seat):
+    try:
+        chassis = _IMPL.chassis
+        route = (chassis.players.get(seat) or {}).get("route")
+        return chassis.routes.get(route) or next(iter(chassis.routes.values()))
+    except Exception:
+        return None
+
+
+def _er_rescue(observation, action):
+    seat = _er_int(observation["player"])
+    step = _er_int(observation["step"])
+    if step % _ER_TURNS < _ER_MIN_HOUR or step // _ER_TURNS > _ER_LAST_DAY:
+        return action
+    farm = observation["farms"][seat]
+    tiles = farm["tiles"]
+    board = len(tiles) or 10
+    animals = _er_animals(tiles)
+    risky = [tile for tile, (is_fed, missed) in animals.items() if not is_fed and missed >= 1]
+    if not risky:
+        return action
+    positions = [tuple(farm["farmer"] or [])] + [tuple(p) for p in (farm["hands"] or [])]
+    units = [list(action.get("farmer") or ["PASS"])]
+    units += [list(h or ["PASS"]) for h in (action.get("hands") or [])]
+    count = min(len(positions), len(units))
+    if count == 0:
+        return action
+    positions, units = positions[:count], units[:count]
+    private = observation["private"]
+    cargo = list(private.get("inventories") or [])
+    shed_wheat = _er_int((private.get("shed") or {}).get("WHEAT"))
+    tape = _er_tape(seat)
+    plan = _er_plan(tape, step, units, count) if tape else [units]
+    fed = _er_fed_by_plan(plan, positions, cargo, shed_wheat, animals, board)
+    todo = [tile for tile in risky if tile not in fed]
+    if not todo:
+        _ER_REPORT["er_covered"] += 1
+        return action
+    idle = [i for i, act in enumerate(units) if _er_is_idle(act, positions[i], board)]
+    if not idle:
+        _ER_REPORT["er_busy"] += 1
+        return action
+    wheat = [max(0, _er_int(cargo[i].get("WHEAT"))) if i < len(cargo) else 0 for i in range(count)]
+    stock, taken, changed = shed_wheat, set(), False
+    for target in sorted(todo, key=lambda t: (t[1], t[0])):
+        best = None
+        for i in idle:
+            if i in taken:
+                continue
+            dist = abs(positions[i][0] - target[0]) + abs(positions[i][1] - target[1])
+            if dist > _ER_MAX_DRIFT:
+                continue
+            carries = wheat[i] > 0
+            # A unit without wheat can only fetch it if next step's tape action
+            # also leaves it standing here, otherwise the fetch itself becomes
+            # the interruption the rule above avoids.
+            nxt = plan[1][i] if len(plan) > 1 and i < len(plan[1]) else None
+            can_pick = (stock > 0 and _er_shed_adjacent(positions[i][0], positions[i][1], board)
+                        and _er_is_idle(nxt, positions[i], board))
+            if not (carries or can_pick):
+                continue
+            score = dist + (0 if carries else 1)
+            if best is None or score < best[0]:
+                best = (score, i)
+        if best is None:
+            _ER_REPORT["er_nowheat"] += 1
+            continue
+        i = best[1]
+        taken.add(i)
+        if wheat[i] > 0:
+            if positions[i] == target:
+                units[i] = ["FEED"]
+                _ER_REPORT["er_feeds"] += 1
+            else:
+                step_dir = _er_dir_to(positions[i], target)
+                if not step_dir:
+                    continue
+                units[i] = [step_dir]
+                _ER_REPORT["er_walks"] += 1
+        else:
+            units[i] = ["PICKUP", "WHEAT"]
+            stock -= 1
+            _ER_REPORT["er_pickups"] += 1
+        changed = True
+    if not changed:
+        return action
+    _ER_REPORT["er_fired"] += 1
+    return dict(action, farmer=units[0], hands=units[1:])
+
+
+_ER_PARENT = agent
+del agent
+
+
+def agent(observation, configuration=None):
+    if int(observation["step"]) == 0:
+        for key in _ER_REPORT:
+            _ER_REPORT[key] = 0
+    action = _ER_PARENT(observation, configuration)
+    try:
+        return _er_rescue(observation, action)
+    except Exception:
+        _ER_REPORT["er_errors"] += 1
+        return action
+
+
+agent.telemetry = _ER_REPORT
+agent = globals().pop("agent")
