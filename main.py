@@ -6657,7 +6657,7 @@ final_price_guard.telemetry={"sale_price_threshold":31}
 kaggle_submission_agent=final_price_guard
 
 # EXP389 frozen market-race reservation horizon.
-V9_RACE_DEFAULT = 41
+V9_RACE_DEFAULT = 44
 V9_RACE_MAX = 48
 
 # EXP402: cap late seed purchases by an upper bound on all remaining planting.
