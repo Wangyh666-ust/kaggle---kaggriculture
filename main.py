@@ -7121,3 +7121,254 @@ def agent(observation, configuration=None):
     return _e410_agent(observation, configuration)
 
 agent.telemetry = _E410_REPORT
+
+
+# ---------------------------------------------------------------------------
+# counter-D + seedfloat + funding-order invariant, ported from public V57
+# (ahmedberatozer/kaggriculture-v57-funding-order-invariant, Apache-2.0).
+# Parents are self-resolving (`[v for v in globals() if callable][-1]`), so the
+# block re-wires onto our own chain; `agent` is re-bound last for the entry point.
+# See results/reports/v28_v57_layers.md.
+# ---------------------------------------------------------------------------
+
+# Research206 isolated public-layer transfer onto exact V56.
+# Nathan Jacob Pipe19 and busyaprime additions are Apache-2.0; upstream notices retained.
+
+# ==== counter D: exact best-response ordering against a copy of ourselves (shiiin9, 2026-09-18) ====
+# Supersedes layer A's fixed rule.  Against a V48 clone the rival's market list is exactly the
+# list this stack produces before D touches it (same tape, same production, same market layers),
+# so `_v44y_factor_margin` - V48's own per-unit lockstep evaluator - scores any ordering of our
+# own list exactly.  V48 already uses it, but only permutes contiguous runs of 2-6 SELLs; it never
+# moves a SELL past a HIRE/BUY_SEED/BUY_ANIMAL/BUY_LAND, which is where layer A found its wins.
+#
+# Search space: the slots held by SELLs and fixed-price orders.  SELLs may take any of them (any
+# order); the fixed-price orders keep their relative order in the slots that are left.  Held fixed:
+# BUY_PRODUCT (the turn-0/1 openings depend on its index), wash SELLs of an item the list also
+# buys, and V48's deliberate empty slots.  Selling earlier only adds cash before a purchase, so a
+# fixed-price order never moves earlier than it already is.
+# Budgeted: at most _CXD_BUDGET scored orderings per turn, and the original ordering scores 0, so
+# a change needs a strictly positive gain.
+import itertools as _cxd_it
+_CXD_HOST = [v for v in list(globals().values()) if callable(v)][-1]
+_CXD_FIXED = ('HIRE', 'BUY_SEED', 'BUY_ANIMAL', 'BUY_LAND')
+_CXD_BUDGET = 800
+_CXD_FROM = 0
+_CXD_REPORT = {'cxd_turns': 0, 'cxd_gain': 0.0, 'cxd_evals': 0, 'cxd_budget_hits': 0, 'cxd_errors': 0}
+# Rival order lists to be robust against, refreshed each turn by the identification layer
+# below this one. Empty means "assume the rival plays our own list", which is exact against
+# a V48 copy; with several entries an ordering is scored by its worst case among them.
+_CXD_MODELS = []
+# The list this stack produced before D touched it. Against a V48 copy that IS the rival's
+# list, so layers above D (which see an already reordered list) must model the rival with
+# this, not with our reordered one.
+_CXD_PARENT_ORDERS = []
+
+
+def _cxd_candidates(orders, slots, sells, fixed):
+    """Orderings of `sells` over `slots`, fixed-price orders filling the rest in their own order."""
+    for positions in _cxd_it.permutations(slots, len(sells)):
+        out = list(orders)
+        rest = [i for i in slots if i not in positions]
+        for i, order in zip(positions, sells):
+            out[i] = order
+        for i, order in zip(rest, fixed):
+            out[i] = order
+        yield out
+
+
+def _cxd_reorder(obs, action):
+    market = action.get('market') or []
+    if len(market) < 2:
+        return action
+    orders = [list(o) if isinstance(o, (list, tuple)) else o for o in market]
+    bought = {o[1] for o in orders if o and len(o) > 1 and o[0] == 'BUY_PRODUCT'}
+    slots, sells, fixed = [], [], []
+    for i, o in enumerate(orders):
+        if not o:
+            continue
+        if o[0] in _CXD_FIXED:
+            slots.append(i); fixed.append(o)
+        elif o[0] == 'SELL' and len(o) > 1 and o[1] not in bought:
+            slots.append(i); sells.append(o)
+    if not sells or len(slots) < 2:
+        return action
+    params = _v44y_params(obs)
+    stock = {k: max(0, int(v)) for k, v in projected_shed(action, FarmView(obs)).items()}
+    inv0 = {k: int(v) for k, v in obs['market']['inventory'].items()}
+    _CXD_PARENT_ORDERS[:] = [list(o) for o in orders if o]
+    models = [m for m in _CXD_MODELS if m] or [orders]
+    margins = [_v44y_factor_margin(m, inv0, stock, params) for m in models]
+
+    def margin(cand):
+        return min(f(cand) for f in margins)
+    base = best = margin(orders)
+    best_orders = None
+    evals = 0
+    for cand in _cxd_candidates(orders, slots, sells, fixed):
+        if cand == orders:
+            continue
+        evals += 1
+        if evals > _CXD_BUDGET:
+            _CXD_REPORT['cxd_budget_hits'] += 1
+            break
+        value = margin(cand)
+        if value > best + 0.5:
+            best, best_orders = value, cand
+    _CXD_REPORT['cxd_evals'] += evals
+    if best_orders is None:
+        return action
+    _CXD_REPORT['cxd_turns'] += 1
+    _CXD_REPORT['cxd_gain'] += best - base
+    return dict(action, market=best_orders)
+
+
+def _cxd_agent(observation, configuration=None):
+    action = _CXD_HOST(observation, configuration)
+    try:
+        if int(observation.get('step', 0)) == 0:
+            _CXD_REPORT.update(cxd_turns=0, cxd_gain=0.0, cxd_evals=0, cxd_budget_hits=0, cxd_errors=0)
+        if int(observation.get('step', 0)) >= 216 and _v44y_clone_gate(observation):
+            return _cxd_reorder(observation, action)
+    except Exception:
+        _CXD_REPORT['cxd_errors'] += 1
+    return action
+
+
+agent = _cxd_agent
+
+# busyaprime, 2026-09-21, Apache-2.0. Seed float trim for the last planting day (v2).
+# On day 27 the chassis switches to route 2, and the CARROT2 layer keeps a float of carrot seed
+# (buffer 8) while the tape keeps buying wheat seed for its own plants. Nothing planted after day 27
+# can be harvested before the engine's last acted step (718), so whatever float is left at the end is
+# money spent on nothing. This layer reads the PLANT orders still ahead on the route 2 tape, asks
+# CARROT2's own price test whether those plants will turn into carrots, and caps the seed buys so the
+# float never exceeds what the rest of the day can plant, plus a small wheat hedge.
+_33_SF_TAPE = _IMPL.chassis.routes.get(2) or []
+_33_SF_W = [0] * 721
+_33_SF_C = [0] * 721
+for _t in range(719, -1, -1):
+    _a = _33_SF_TAPE[_t] if _t < len(_33_SF_TAPE) else {}
+    _u = [_x for _x in [_a.get("farmer")] + list(_a.get("hands") or []) if _x and _x[0] == "PLANT" and _t <= 671]
+    _33_SF_W[_t] = _33_SF_W[_t + 1] + sum(1 for _x in _u if _x[1] == "WHEAT")
+    _33_SF_C[_t] = _33_SF_C[_t + 1] + sum(1 for _x in _u if _x[1] == "CARROT")
+_33_SF_HEDGE = 2
+_33_SF_FROM = 648
+_33_SF_REPORT = dict(wheat_cut=0, carrot_cut=0, errors=0)
+_33_SF_PARENT = [v for v in list(globals().values()) if callable(v)][-1]
+def _33_seedfloat_agent(observation, configuration=None):
+    action = _33_SF_PARENT(observation, configuration)
+    try:
+        step = int(observation["step"])
+        if step < _33_SF_FROM:
+            return action
+        market = [list(o) for o in (action.get("market") or [])]
+        seeds = observation["private"]["seeds"]; prices = observation["market"]["prices"]
+        units = [action.get("farmer")] + list(action.get("hands") or [])
+        pw = sum(1 for u in units if u and u[:2] == ["PLANT", "WHEAT"])
+        pc = sum(1 for u in units if u and u[:2] == ["PLANT", "CARROT"])
+        w_ahead = _33_SF_W[step + 1] if step < 719 else 0
+        c_ahead = _33_SF_C[step + 1] if step < 719 else 0
+        p_c, p_w = float(prices.get("CARROT", 0)), float(prices.get("WHEAT", 0))
+        swapping = 3 * (p_c - _CA_DROP) - 20 > 4 * p_w - 10 + _CA_MARGIN and step // 24 <= _CA_TO
+        need_c = c_ahead + (w_ahead if swapping else 0)
+        need_w = 0 if swapping else w_ahead
+        c_left = int(seeds.get("CARROT", 0)) - pc
+        w_left = int(seeds.get("WHEAT", 0)) - pw
+        allow_c = max(0, need_c - c_left)
+        out = []
+        for o in market:
+            if len(o) >= 3 and o[:2] == ["BUY_SEED", "CARROT"]:
+                q = min(int(o[2]), allow_c); allow_c -= q
+                _33_SF_REPORT["carrot_cut"] += int(o[2]) - q
+                c_left += q
+                if q <= 0:
+                    continue
+                o = ["BUY_SEED", "CARROT", q]
+            out.append(o)
+        short_c = max(0, need_c - c_left)
+        allow_w = max(0, min(w_ahead, need_w + short_c + _33_SF_HEDGE) - w_left)
+        final = []
+        for o in out:
+            if len(o) >= 3 and o[:2] == ["BUY_SEED", "WHEAT"]:
+                q = min(int(o[2]), allow_w); allow_w -= q
+                _33_SF_REPORT["wheat_cut"] += int(o[2]) - q
+                if q <= 0:
+                    continue
+                o = ["BUY_SEED", "WHEAT", q]
+            final.append(o)
+        if final != market:
+            action = dict(action, market=final)
+    except Exception:
+        _33_SF_REPORT["errors"] += 1
+    return action
+
+
+# busyaprime knockout probe: drop market orders of kind BUY_PRODUCT FERTILIZER from step 696 to 719, keep at most 0 HIRE per step.
+_33_KO = dict(op="BUY_PRODUCT", item="FERTILIZER", frm=696, to=719)
+_33_KO_PARENT = [v for v in list(globals().values()) if callable(v)][-1]
+def _33_knock_agent(observation, configuration=None):
+    action = _33_KO_PARENT(observation, configuration)
+    try:
+        step = int(observation["step"])
+        if _33_KO["frm"] <= step <= _33_KO["to"]:
+            m = action.get("market") or []
+            if _33_KO["op"] == "HIRE_LAST":
+                n = sum(1 for o in m if o and o[0] == "HIRE")
+                out = []; seen = 0
+                for o in m:
+                    if o and o[0] == "HIRE":
+                        seen += 1
+                        if seen == n and n > 0:
+                            continue
+                    out.append(o)
+            else:
+                out = [o for o in m if not (o and o[0] == _33_KO["op"] and (_33_KO["item"] == "*" or (len(o) > 1 and o[1] == _33_KO["item"])))]
+            if len(out) != len(m):
+                action = dict(action, market=out)
+    except Exception:
+        pass
+    return action
+
+
+agent = _33_knock_agent
+kaggle_submission_agent = agent
+
+# EXP437: enforce the invariant promised by CXD's design comment.  A fixed-price
+# order may keep its slot or move later, but must never move earlier than the
+# parent queue.  This protects funding-dependent HIRE/BUY_SEED/BUY_ANIMAL/
+# BUY_LAND actions from a market scorer that deliberately models only products.
+_V57_CXD_CANDIDATES = _cxd_candidates
+_V57_FEAS_REPORT = dict(blocked=0, yielded=0, errors=0)
+
+def _cxd_candidates(orders, slots, sells, fixed):
+    original_fixed = [i for i in slots
+                      if orders[i] and orders[i][0] in _CXD_FIXED]
+    for candidate in _V57_CXD_CANDIDATES(orders, slots, sells, fixed):
+        candidate_fixed = [i for i in slots
+                           if candidate[i] and candidate[i][0] in _CXD_FIXED]
+        if len(candidate_fixed) != len(original_fixed) or any(
+                new < old for new, old in zip(candidate_fixed, original_fixed)):
+            _V57_FEAS_REPORT['blocked'] += 1
+            continue
+        _V57_FEAS_REPORT['yielded'] += 1
+        yield candidate
+
+_V57_PARENT = _33_knock_agent
+def v57_agent(observation, configuration=None):
+    if int(observation.get('step', 0)) == 0:
+        _V57_FEAS_REPORT.update(blocked=0, yielded=0, errors=0)
+    try:
+        return _V57_PARENT(observation, configuration)
+    except Exception:
+        _V57_FEAS_REPORT['errors'] += 1
+        raise
+
+v57_agent.telemetry = _V57_FEAS_REPORT
+kaggle_submission_agent = v57_agent
+
+del agent
+
+def agent(observation, configuration=None):
+    return v57_agent(observation, configuration)
+
+agent.telemetry = _V57_FEAS_REPORT
