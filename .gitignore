@@ -40,3 +40,6 @@ reverse/replays/
 reverse/adv_tape/
 reverse/*.jsonl
 reverse/routes_*.json
+
+# scratch from subagent runs
+tmp_ab/
