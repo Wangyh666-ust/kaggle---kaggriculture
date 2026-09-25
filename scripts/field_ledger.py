@@ -561,7 +561,7 @@ def build_html(games, names, blurb="", stats=None):
                  f"<div><span>胜率</span><b>{stats['rate']:.0f}%</b></div>"
                  f"<div><span>胜 / 负 / 平</span><b>{stats['w']} / {stats['l']} / {stats['t']}</b></div>"
                  f"<div><span>不同对手</span><b>{stats['opponents']}</b></div>"
-                 f"<div><span>\\|差距\\| 中位</span><b>${stats['median']:,.0f}</b></div>"
+                 f"<div><span>|差距| 中位</span><b>${stats['median']:,.0f}</b></div>"
                  f"<div><span>最小 / 最大</span><b>${stats['closest']:,.0f} / ${stats['worst']:,.0f}</b></div>"
                  f"<div><span>差距 &lt; $600</span><b>{stats['close_pct']:.0f}%</b></div>"
                  "</div>")
