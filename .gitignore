@@ -43,3 +43,7 @@ reverse/routes_*.json
 
 # scratch from subagent runs
 tmp_ab/
+
+# 公开数据集下载（可重新下载；见 insights/ 与 scripts/extract_plant_choices.py）
+data/
+dataset-metadata.json

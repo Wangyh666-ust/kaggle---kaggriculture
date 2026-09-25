@@ -88,7 +88,12 @@ def main():
 
     tasks = []
     for opp_path in opp_paths:
-        opp_name = os.path.basename(os.path.dirname(opp_path))
+        # Name by the file stem when it is not the generic "main", else by its directory.
+        # Using the directory alone silently merges every agent that shares a folder
+        # (e.g. experiments/v35/{v34_base,consts}.py both became "v35"), which makes the
+        # per-opponent breakdown useless.
+        stem = os.path.splitext(os.path.basename(opp_path))[0]
+        opp_name = os.path.basename(os.path.dirname(opp_path)) if stem == "main" else stem
         for seed in seeds:
             for our_seat in [int(c) for c in args.seats]:
                 tasks.append((cand_path, opp_path, opp_name, seed, our_seat))
