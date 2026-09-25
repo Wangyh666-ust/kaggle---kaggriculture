@@ -497,3 +497,158 @@ const DATA = {payload};
 boot(DATA);
 </script>
 """
+
+
+# --------------------------------------------------------------- multi-version
+JS_VER = r"""
+// Stats are computed here rather than in Python so that switching versions and
+// the cross-version comparison use exactly one definition.
+function statsOf(games){
+  const n = games.length;
+  const w = games.filter(g=>g.margin>0).length;
+  const l = games.filter(g=>g.margin<0).length;
+  const abs = games.map(g=>Math.abs(g.margin)).sort((a,b)=>a-b);
+  const med = !abs.length ? 0 : (abs.length%2 ? abs[(abs.length-1)/2]
+                 : (abs[abs.length/2-1]+abs[abs.length/2])/2);
+  return {n:n, w:w, l:l, t:n-w-l, rate: n?100*w/n:0, median:med,
+          closest: abs[0]||0, worst: abs[abs.length-1]||0,
+          close_pct: n? 100*abs.filter(x=>x<600).length/n : 0,
+          opponents: new Set(games.map(g=>g.opp)).size, mirrors:0};
+}
+
+function setVersion(name){
+  const v = VMAP[name];
+  document.getElementById("ver").value = name;
+  try{ localStorage.setItem("ledger_ver", name); }catch(e){}
+  const host = document.getElementById("overview");
+  if(!v || !v.length){
+    GAMES=[]; STATS=statsOf([]); cur=-1; buildList();
+    host.innerHTML = "<div class='card'><h3>"+name+"：本地没有对局数据</h3>"+
+      "<p class='note'>这个版本还没有被扫描过。关闭页面，在仓库里跑一次：<br>"+
+      "<code>.venv/Scripts/python scripts/review_versions.py --versions "+name+
+      "</code><br>它会把这个版本的对局抓下来（本地已有的会复用，不重复下载），"+
+      "然后重新生成这个页面。</p></div>";
+    return;
+  }
+  GAMES = v; STATS = statsOf(v); NAMES = NAMES0; cur = -1;
+  const vis0 = visible(); if(vis0.length) cur = vis0[0].i;
+  buildList(); renderMeta(); overview(); renderGame();
+}
+
+function renderMeta(){
+  const s = STATS;
+  document.getElementById("who").innerHTML =
+    document.getElementById("ver").value + " &middot; " + s.n + " 局 &middot; 胜率 " +
+    s.rate.toFixed(0) + "%";
+}
+
+function compare(){
+  const rows = DATA.versions.map(v=>{
+    const s = statsOf(v.games);
+    const scores = v.subs.map(x=>x.score||"—").join(" / ");
+    return "<tr><td>"+v.name+"</td><td>"+v.subs.map(x=>x.ref).join(" / ")+
+      "</td><td>"+scores+"</td><td>"+s.n+"</td><td>"+s.rate.toFixed(0)+"%</td><td>$"+
+      Math.round(s.median).toLocaleString()+"</td><td>$"+
+      Math.round(s.worst).toLocaleString()+"</td></tr>";
+  }).join("");
+  const missing = DATA.allversions.filter(v=>!v.have).map(v=>v.name);
+  return "<div class='card'><h3>版本对比</h3>"+
+    "<p class='stat'>每一行的 score 是那次提交的天梯分。不同版本的胜率差异要先看 n 和 CI，"+
+    "n 小于 100 的差异基本读不出来。</p>"+
+    "<table><tr><th>版本</th><th>ref</th><th>天梯分</th><th>局数</th>"+
+    "<th>胜率</th><th>|差距|中位</th><th>最大差距</th></tr>"+rows+"</table>"+
+    (missing.length? "<p class='note'>未扫描（本地无数据）："+missing.join("、")+
+      " —— 在仓库里跑 <code>review_versions.py --versions "+missing[0]+"</code> 即可补上。</p>" : "")
+    + "</div>";
+}
+
+function bootVersions(d){
+  NAMES0 = d.names; NAMES = d.names;
+  DATA = d;
+  Object.keys(VMAP).forEach(k=>delete VMAP[k]);
+  d.versions.forEach(v=>{ VMAP[v.name] = v.games; });
+  const sel = document.getElementById("ver");
+  d.allversions.forEach(v=>{
+    const o = document.createElement("option");
+    o.value = v.name;
+    o.textContent = v.name + (v.have ? "" : "（本地无数据）");
+    sel.appendChild(o);
+  });
+  sel.onchange = ()=>setVersion(sel.value);
+  // Re-render the overview with one extra block on top: the version comparison.
+  // overview() runs again on every tab switch, so the comparison block must be
+  // written into a stable container rather than appended -- otherwise each visit
+  // adds another copy.
+  const baseOverview = overview;
+  overview = function(){
+    baseOverview();
+    const host = document.getElementById("overview");
+    let box = document.getElementById("cmpbox");
+    if(!box){ box = document.createElement("div"); box.id = "cmpbox";
+              host.insertBefore(box, host.firstChild); }
+    box.innerHTML = compare();
+    renderMeta();
+  };
+  let first = d.versions.length ? d.versions[0].name : (d.allversions[0]||{}).name;
+  try{ const saved = localStorage.getItem("ledger_ver");
+       if(saved && VMAP[saved]) first = saved; }catch(e){}
+  setVersion(first);
+}
+"""
+
+
+def render_versions(versions, allversions, names):
+    """versions: [{name, subs:[{ref,time,n,score}], games:[...]}], newest first."""
+    data = {"versions": versions, "allversions": allversions, "names": names}
+    payload = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+    have = len(versions)
+    return f"""<!doctype html><meta charset='utf-8'><title>天梯对局复盘</title>
+<style>{CSS}
+.sel{{padding:6px 11px;border-radius:9px;border:1px solid var(--line);font-size:13px;
+background:#fff;color:var(--ink);cursor:pointer}}
+code{{background:rgba(80,120,95,.12);padding:.1em .35em;border-radius:5px;font-size:12px}}
+</style>
+<div class="top">
+  <h1>天梯对局复盘</h1>
+  <select class="sel" id="ver"></select>
+  <div class="tabs">
+    <div class="tab" data-v="over">总览</div>
+    <div class="tab" data-v="game">对局</div>
+  </div>
+  <div class="who" id="who"></div>
+</div>
+<div class="wrap">
+  <div class="howto"><b>这一页装的是什么</b><p class="note" style="font-size:13px">
+  左上角可以<b>切换版本</b>（{have} 个版本已有本地数据，其余在列表里标为「本地无数据」）。
+  切换后下面所有内容和统计都会跟着换。默认只装了最近几个版本；
+  要加别的版本，在仓库里跑一次 <code>scripts/review_versions.py --versions &lt;版本名&gt;</code>。
+  我们的座位已归一到 seat 0 —— <b>左列永远是我们</b>。</p></div>
+  {HOWTO}
+  <div id="overview"></div>
+  <div class="split hide">
+    <div class="side">
+      <div class="filters">
+        <button data-f="all" class="on">全部</button>
+        <button data-f="lose">只看败局</button>
+        <button data-f="win">只看胜局</button>
+      </div>
+      <div class="list" id="list"></div>
+    </div>
+    <div id="detail"></div>
+  </div>
+</div>
+<script>
+let DATA=null, NAMES0=[], VMAP={{}};
+const payload = {payload};
+{JS}
+{JS_VER}
+bootVersions(payload);
+document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>show(b.dataset.v));
+document.querySelectorAll(".side .filters button").forEach(b=>b.onclick=()=>{{
+  filter=b.dataset.f;
+  document.querySelectorAll(".side .filters button").forEach(x=>x.classList.toggle("on",x===b));
+  buildList();
+}});
+show("over");
+</script>
+"""
