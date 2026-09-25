@@ -41,6 +41,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 PY = os.path.join(ROOT, ".venv", "Scripts", "python.exe")
 import field_ledger as FL  # noqa: E402
+import ledger_app as APP  # noqa: E402
 
 CACHE = os.path.join(ROOT, "tmp_replays")
 
@@ -145,6 +146,72 @@ def parse_seeds(spec):
     return [int(x) for x in spec.split(",")]
 
 
+def compact(g, ladder, ref):
+    """Reduce a game to the series the in-browser charts need, and nothing else.
+
+    The static renderer emitted every panel for every game, so 24 games became a
+    3MB page with 216 charts, all of them in the DOM whether read or not. Here we
+    ship only numbers and let the page draw the selected game on demand.
+
+    money and idle are sampled every 2nd turn: a chart is ~960px wide and the
+    series is 720 points long, so half of them land on the same pixel.
+    """
+    steps = g["steps"]
+    days = set()
+    for r in steps:
+        for s in (0, 1):
+            if r.get(s):
+                days.add(int(r[s]["day"]))
+    day = sorted(days)
+    markers, seen = [(144, "step144 分叉")], set()
+    for r in steps:
+        if not r.get(0):
+            continue
+        shops = r[0]["shops"]
+        if shops and shops[-1] not in seen:
+            seen.add(shops[-1])
+            markers.append((r[0]["step"], FL.SHOP_CN.get(shops[-1], shops[-1])))
+
+    seats = []
+    for s in (0, 1):
+        rs = [r[s] for r in steps if r.get(s)]
+        money, idle = [], []
+        for i, d in enumerate(rs):
+            if i % 2:
+                continue
+            money.append([d["step"], round(d["money"])])
+            idle.append([d["step"], d["idle"]])
+        tiles = {}
+        for d in rs:
+            tiles.setdefault(int(d["day"]), []).append(d["tiles"])
+        tiles = {k: {kk: round(sum(v.get(kk, 0) for v in vs) / max(1, len(vs)))
+                     for kk in set().union(*[set(v) for v in vs])}
+                 for k, vs in tiles.items()}
+        orders = collections.defaultdict(collections.Counter)
+        for d in rs:
+            for k, v in d["orders"].items():
+                orders[int(d["day"])][k] += v
+        eod = {}
+        for d in rs:
+            eod[int(d["day"])] = d["money"]
+        ds = sorted(eod)
+        flow = {str(ds[i]): round(eod[ds[i]] - eod[ds[i - 1]])
+                for i in range(1, len(ds))}
+        rev, _, _, _ = FL.revenue_mix(steps, s)
+        units = sum(d["units"] for d in rs)
+        idle_tot = sum(d["idle"] for d in rs)
+        seats.append({
+            "money": money, "idle": idle, "tiles": tiles,
+            "orders": {str(k): dict(v) for k, v in orders.items()},
+            "flow": flow, "rev": [[k, round(v)] for k, v in rev.items()],
+            "kpi": {"money": rs[-1]["money"], "work": round(100 * (units - idle_tot) / max(1, units)),
+                    "shops": len(rs[-1]["shops"]), "idle": idle_tot},
+        })
+    return {"id": str(g["episode"] or g["seed"]), "ladder": ladder, "ref": ref,
+            "opp": g["opp_name"], "margin": round(g["margin"]),
+            "day": day, "markers": markers, "seats": seats}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ref", default=None, help="提交 ref（天梯模式）")
@@ -241,11 +308,7 @@ def main():
         print("没有可复盘的对局（没有败局？用 --wins-too 看胜局）。")
         return
 
-    payload = [{"steps": g["steps"], "seed": g["episode"] or g["seed"],
-                "final": g["rewards"], "ladder": bool(args.ref),
-                "ref": args.ref or "", "opp_name": g["opp_name"],
-                "margin": g["margin"]} for g in sel]
-
+    payload = [compact(g, bool(args.ref), args.ref or "") for g in sel]
     absm = sorted(abs(g["margin"]) for g in games)
     med = statistics.median(absm)
     close = sum(1 for m in absm if m < 600)
@@ -270,9 +333,9 @@ def main():
 
     out = args.out if os.path.isabs(args.out) else os.path.join(ROOT, args.out)
     os.makedirs(os.path.dirname(out), exist_ok=True)
-    open(out, "w", encoding="utf-8").write(
-        FL.build_html(payload, [f"我们（{team}）", "对手"], blurb=blurb, stats=stats))
-    print(f"已写入 {out}  ({os.path.getsize(out):,} bytes) —— {len(sel)} 局")
+    html = APP.render(payload, [f"我们（{team}）", "对手"], stats, blurb)
+    open(out, "w", encoding="utf-8").write(html)
+    print(f"已写入 {out}  ({os.path.getsize(out):,} bytes) —— 交互页，含 {len(sel)} 局")
 
 
 if __name__ == "__main__":
