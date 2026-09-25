@@ -129,10 +129,19 @@ def main():
         # through, so the run looks failed when it succeeded. Never print this
         # text unsanitised.
         say(out.strip()[-1500:])
-        ok = "Successfully" in out or r.returncode == 0
+        # The CLI exits 0 even when the upload fails: a stalled submission prints
+        # "Could not submit to competition" and returns success. Requiring an
+        # explicit success marker AND the absence of the failure marker is the
+        # only reliable test -- a false "submitted" row poisons the audit trail
+        # that this script exists to keep.
+        ok = ("Successfully" in out) and ("Could not submit" not in out)
+        status_hint = ("CLI returned 0 but did not report success"
+                       if ok or r.returncode == 0 else f"exit {r.returncode}")
         status = "submitted" if ok else "FAILED"
         if ok:
             ref = latest_ref(PY)
+        else:
+            say(f"submission did NOT go through ({status_hint})")
 
     with open(LOG, "a", encoding="utf-8") as fh:
         if not os.path.exists(LOG) or os.path.getsize(LOG) == 0:
