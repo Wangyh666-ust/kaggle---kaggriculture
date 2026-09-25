@@ -1,0 +1,12002 @@
+[
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1004,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 82080.0,
+  "theirs": 81619.0,
+  "margin": 461.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1004,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 82080.0,
+  "theirs": 81619.0,
+  "margin": 461.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1005,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84051.0,
+  "theirs": 83975.0,
+  "margin": 76.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1002,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 108119.0,
+  "theirs": 108387.0,
+  "margin": -268.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1005,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84051.0,
+  "theirs": 83975.0,
+  "margin": 76.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1000,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 73214.0,
+  "theirs": 74022.0,
+  "margin": -808.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1007,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 68229.0,
+  "theirs": 68153.0,
+  "margin": 76.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1006,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 66997.0,
+  "theirs": 67145.0,
+  "margin": -148.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1006,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 66997.0,
+  "theirs": 67145.0,
+  "margin": -148.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1007,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 68229.0,
+  "theirs": 68153.0,
+  "margin": 76.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1002,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 108119.0,
+  "theirs": 108387.0,
+  "margin": -268.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1000,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 73214.0,
+  "theirs": 74022.0,
+  "margin": -808.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1003,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 117224.0,
+  "theirs": 116873.0,
+  "margin": 351.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1001,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 98416.0,
+  "theirs": 98654.0,
+  "margin": -238.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1003,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 117224.0,
+  "theirs": 116873.0,
+  "margin": 351.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1001,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 98416.0,
+  "theirs": 98654.0,
+  "margin": -238.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1008,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 107998.0,
+  "theirs": 107522.0,
+  "margin": 476.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1008,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 107998.0,
+  "theirs": 107522.0,
+  "margin": 476.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1009,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 79307.0,
+  "theirs": 79253.0,
+  "margin": 54.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1009,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 79307.0,
+  "theirs": 79253.0,
+  "margin": 54.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1010,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 97288.0,
+  "theirs": 96394.0,
+  "margin": 894.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1010,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 97288.0,
+  "theirs": 96394.0,
+  "margin": 894.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1012,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 64636.0,
+  "theirs": 64675.0,
+  "margin": -39.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1012,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 64636.0,
+  "theirs": 64675.0,
+  "margin": -39.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1013,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84386.0,
+  "theirs": 85404.0,
+  "margin": -1018.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1013,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84386.0,
+  "theirs": 85404.0,
+  "margin": -1018.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1011,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 55098.0,
+  "theirs": 54003.0,
+  "margin": 1095.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1015,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 77686.0,
+  "theirs": 77228.0,
+  "margin": 458.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1011,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 55098.0,
+  "theirs": 54003.0,
+  "margin": 1095.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1015,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 77686.0,
+  "theirs": 77228.0,
+  "margin": 458.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1014,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 90914.0,
+  "theirs": 94223.0,
+  "margin": -3309.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1014,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 90914.0,
+  "theirs": 94223.0,
+  "margin": -3309.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1016,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 66614.0,
+  "theirs": 66664.0,
+  "margin": -50.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1016,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 66614.0,
+  "theirs": 66664.0,
+  "margin": -50.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1017,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 132945.0,
+  "theirs": 133341.0,
+  "margin": -396.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1017,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 132945.0,
+  "theirs": 133341.0,
+  "margin": -396.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1018,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 107208.0,
+  "theirs": 107233.0,
+  "margin": -25.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1019,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 87550.0,
+  "theirs": 87142.0,
+  "margin": 408.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1018,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 107208.0,
+  "theirs": 107233.0,
+  "margin": -25.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1019,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 87550.0,
+  "theirs": 87142.0,
+  "margin": 408.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1022,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 119726.0,
+  "theirs": 119273.0,
+  "margin": 453.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1021,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84759.0,
+  "theirs": 84388.0,
+  "margin": 371.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1022,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 119726.0,
+  "theirs": 119273.0,
+  "margin": 453.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1020,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 73865.0,
+  "theirs": 72732.0,
+  "margin": 1133.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1023,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 58286.0,
+  "theirs": 58801.0,
+  "margin": -515.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1020,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 73865.0,
+  "theirs": 72732.0,
+  "margin": 1133.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1021,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84759.0,
+  "theirs": 84388.0,
+  "margin": 371.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1023,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 58286.0,
+  "theirs": 58801.0,
+  "margin": -515.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1024,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 82065.0,
+  "theirs": 82199.0,
+  "margin": -134.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1024,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 82065.0,
+  "theirs": 82199.0,
+  "margin": -134.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1025,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 104580.0,
+  "theirs": 104317.0,
+  "margin": 263.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1026,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 116615.0,
+  "theirs": 116269.0,
+  "margin": 346.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1025,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 104580.0,
+  "theirs": 104317.0,
+  "margin": 263.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1027,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 108946.0,
+  "theirs": 108973.0,
+  "margin": -27.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1027,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 108946.0,
+  "theirs": 108973.0,
+  "margin": -27.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1026,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 116615.0,
+  "theirs": 116269.0,
+  "margin": 346.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1029,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 73757.0,
+  "theirs": 74342.0,
+  "margin": -585.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1028,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84592.0,
+  "theirs": 84959.0,
+  "margin": -367.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1028,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84592.0,
+  "theirs": 84959.0,
+  "margin": -367.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1029,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 73757.0,
+  "theirs": 74342.0,
+  "margin": -585.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1030,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "order": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 61970.0,
+  "theirs": 62278.0,
+  "margin": -308.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1030,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "order": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 61970.0,
+  "theirs": 62278.0,
+  "margin": -308.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1031,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 117747.0,
+  "theirs": 117574.0,
+  "margin": 173.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1031,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 117747.0,
+  "theirs": 117574.0,
+  "margin": 173.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1032,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 92422.0,
+  "theirs": 92865.0,
+  "margin": -443.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1032,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 92422.0,
+  "theirs": 92865.0,
+  "margin": -443.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1035,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 98754.0,
+  "theirs": 98639.0,
+  "margin": 115.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1035,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 98754.0,
+  "theirs": 98639.0,
+  "margin": 115.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1034,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 92845.0,
+  "theirs": 92350.0,
+  "margin": 495.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1034,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 92845.0,
+  "theirs": 92350.0,
+  "margin": 495.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1033,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 132149.0,
+  "theirs": 133332.0,
+  "margin": -1183.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1033,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 132149.0,
+  "theirs": 133332.0,
+  "margin": -1183.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1036,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 114153.0,
+  "theirs": 114066.0,
+  "margin": 87.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1036,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 114153.0,
+  "theirs": 114066.0,
+  "margin": 87.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1037,
+  "seat": 0,
+  "world": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 143853.0,
+  "theirs": 143500.0,
+  "margin": 353.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1037,
+  "seat": 1,
+  "world": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 143853.0,
+  "theirs": 143500.0,
+  "margin": 353.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1038,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84621.0,
+  "theirs": 85022.0,
+  "margin": -401.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1038,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85665.0,
+  "theirs": 84201.0,
+  "margin": 1464.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1039,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86670.0,
+  "theirs": 86872.0,
+  "margin": -202.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1039,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 87653.0,
+  "theirs": 86249.0,
+  "margin": 1404.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1040,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 136332.0,
+  "theirs": 135781.0,
+  "margin": 551.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1040,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 136332.0,
+  "theirs": 135781.0,
+  "margin": 551.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1041,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 59302.0,
+  "theirs": 58484.0,
+  "margin": 818.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1042,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 71892.0,
+  "theirs": 71969.0,
+  "margin": -77.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1042,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 71892.0,
+  "theirs": 71969.0,
+  "margin": -77.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1043,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 102366.0,
+  "theirs": 101155.0,
+  "margin": 1211.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1041,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 59302.0,
+  "theirs": 58484.0,
+  "margin": 818.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1045,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 101136.0,
+  "theirs": 101031.0,
+  "margin": 105.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1045,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 101136.0,
+  "theirs": 101031.0,
+  "margin": 105.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1043,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 102366.0,
+  "theirs": 101155.0,
+  "margin": 1211.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1044,
+  "seat": 1,
+  "world": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 126420.0,
+  "theirs": 125937.0,
+  "margin": 483.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1044,
+  "seat": 0,
+  "world": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 126420.0,
+  "theirs": 125937.0,
+  "margin": 483.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1046,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 114419.0,
+  "theirs": 114843.0,
+  "margin": -424.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1046,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 114419.0,
+  "theirs": 114843.0,
+  "margin": -424.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1047,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 87649.0,
+  "theirs": 87140.0,
+  "margin": 509.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1047,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 87652.0,
+  "theirs": 87095.0,
+  "margin": 557.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1048,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 145164.0,
+  "theirs": 145602.0,
+  "margin": -438.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1048,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 145164.0,
+  "theirs": 145602.0,
+  "margin": -438.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1049,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 74210.0,
+  "theirs": 74167.0,
+  "margin": 43.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1000,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75684.0,
+  "theirs": 73525.0,
+  "margin": 2159.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "tetsutani_cha22",
+  "seed": 1049,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 74210.0,
+  "theirs": 74167.0,
+  "margin": 43.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1000,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75684.0,
+  "theirs": 73525.0,
+  "margin": 2159.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1002,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 108290.0,
+  "theirs": 107898.0,
+  "margin": 392.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1001,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 99165.0,
+  "theirs": 97665.0,
+  "margin": 1500.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1001,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 99165.0,
+  "theirs": 97665.0,
+  "margin": 1500.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1002,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 108290.0,
+  "theirs": 107898.0,
+  "margin": 392.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1003,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 116991.0,
+  "theirs": 116895.0,
+  "margin": 96.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1003,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 116991.0,
+  "theirs": 116895.0,
+  "margin": 96.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1004,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85087.0,
+  "theirs": 83727.0,
+  "margin": 1360.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1005,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84952.0,
+  "theirs": 83834.0,
+  "margin": 1118.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1004,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85087.0,
+  "theirs": 83727.0,
+  "margin": 1360.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1005,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84952.0,
+  "theirs": 83834.0,
+  "margin": 1118.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1006,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 67847.0,
+  "theirs": 66526.0,
+  "margin": 1321.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1006,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 67847.0,
+  "theirs": 66526.0,
+  "margin": 1321.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1008,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 109531.0,
+  "theirs": 107465.0,
+  "margin": 2066.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1007,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 68791.0,
+  "theirs": 68181.0,
+  "margin": 610.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1007,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 68791.0,
+  "theirs": 68181.0,
+  "margin": 610.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1008,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 109531.0,
+  "theirs": 107465.0,
+  "margin": 2066.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1009,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 80903.0,
+  "theirs": 79293.0,
+  "margin": 1610.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1009,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 80903.0,
+  "theirs": 79293.0,
+  "margin": 1610.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1010,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 98573.0,
+  "theirs": 95877.0,
+  "margin": 2696.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1010,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 98573.0,
+  "theirs": 95877.0,
+  "margin": 2696.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1011,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 56743.0,
+  "theirs": 53297.0,
+  "margin": 3446.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1012,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 65291.0,
+  "theirs": 64027.0,
+  "margin": 1264.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1011,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 56743.0,
+  "theirs": 53297.0,
+  "margin": 3446.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1013,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86772.0,
+  "theirs": 84467.0,
+  "margin": 2305.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1013,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86772.0,
+  "theirs": 84467.0,
+  "margin": 2305.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1012,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 65291.0,
+  "theirs": 64027.0,
+  "margin": 1264.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1014,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 95031.0,
+  "theirs": 93788.0,
+  "margin": 1243.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1014,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 95031.0,
+  "theirs": 93788.0,
+  "margin": 1243.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1015,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 78038.0,
+  "theirs": 76862.0,
+  "margin": 1176.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1016,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 67198.0,
+  "theirs": 66214.0,
+  "margin": 984.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1015,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 78038.0,
+  "theirs": 76862.0,
+  "margin": 1176.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1016,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 67198.0,
+  "theirs": 66214.0,
+  "margin": 984.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1018,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 107710.0,
+  "theirs": 106895.0,
+  "margin": 815.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1017,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 137378.0,
+  "theirs": 132953.0,
+  "margin": 4425.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1018,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 107710.0,
+  "theirs": 106895.0,
+  "margin": 815.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1019,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86707.0,
+  "theirs": 85837.0,
+  "margin": 870.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1017,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 137378.0,
+  "theirs": 132953.0,
+  "margin": 4425.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1019,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86707.0,
+  "theirs": 85837.0,
+  "margin": 870.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1020,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75643.0,
+  "theirs": 72602.0,
+  "margin": 3041.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1021,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85585.0,
+  "theirs": 84809.0,
+  "margin": 776.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1020,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75643.0,
+  "theirs": 72602.0,
+  "margin": 3041.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1021,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85585.0,
+  "theirs": 84809.0,
+  "margin": 776.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1022,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 120010.0,
+  "theirs": 119908.0,
+  "margin": 102.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1022,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 120010.0,
+  "theirs": 119908.0,
+  "margin": 102.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1023,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 60008.0,
+  "theirs": 58045.0,
+  "margin": 1963.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1024,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 82098.0,
+  "theirs": 81471.0,
+  "margin": 627.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1023,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 60008.0,
+  "theirs": 58045.0,
+  "margin": 1963.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1024,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 82098.0,
+  "theirs": 81471.0,
+  "margin": 627.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1025,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 104680.0,
+  "theirs": 103778.0,
+  "margin": 902.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1026,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 116905.0,
+  "theirs": 116728.0,
+  "margin": 177.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1026,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 116905.0,
+  "theirs": 116728.0,
+  "margin": 177.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1027,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 109767.0,
+  "theirs": 108451.0,
+  "margin": 1316.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1025,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 104680.0,
+  "theirs": 103778.0,
+  "margin": 902.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1027,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 109767.0,
+  "theirs": 108451.0,
+  "margin": 1316.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1028,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 87172.0,
+  "theirs": 85741.0,
+  "margin": 1431.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1028,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 87172.0,
+  "theirs": 85741.0,
+  "margin": 1431.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1029,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75595.0,
+  "theirs": 74003.0,
+  "margin": 1592.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1029,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75595.0,
+  "theirs": 74003.0,
+  "margin": 1592.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1032,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 94283.0,
+  "theirs": 91402.0,
+  "margin": 2881.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1030,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "order": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 64390.0,
+  "theirs": 60311.0,
+  "margin": 4079.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1032,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 94283.0,
+  "theirs": 91402.0,
+  "margin": 2881.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1030,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "order": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 64390.0,
+  "theirs": 60311.0,
+  "margin": 4079.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1031,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 118780.0,
+  "theirs": 117445.0,
+  "margin": 1335.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1031,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 118780.0,
+  "theirs": 117445.0,
+  "margin": 1335.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1035,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 99386.0,
+  "theirs": 98687.0,
+  "margin": 699.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1035,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 99386.0,
+  "theirs": 98687.0,
+  "margin": 699.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1034,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 93947.0,
+  "theirs": 93335.0,
+  "margin": 612.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1034,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 93947.0,
+  "theirs": 93335.0,
+  "margin": 612.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1033,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 133636.0,
+  "theirs": 132534.0,
+  "margin": 1102.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1033,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 133636.0,
+  "theirs": 132534.0,
+  "margin": 1102.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1036,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 114853.0,
+  "theirs": 113992.0,
+  "margin": 861.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1036,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 114853.0,
+  "theirs": 113992.0,
+  "margin": 861.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1037,
+  "seat": 0,
+  "world": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 144340.0,
+  "theirs": 143442.0,
+  "margin": 898.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1037,
+  "seat": 1,
+  "world": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 144340.0,
+  "theirs": 143442.0,
+  "margin": 898.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1038,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85286.0,
+  "theirs": 84526.0,
+  "margin": 760.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1038,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86207.0,
+  "theirs": 84049.0,
+  "margin": 2158.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1039,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 87213.0,
+  "theirs": 85721.0,
+  "margin": 1492.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1039,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86172.0,
+  "theirs": 86374.0,
+  "margin": -202.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1040,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 136732.0,
+  "theirs": 136420.0,
+  "margin": 312.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1040,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 136732.0,
+  "theirs": 136420.0,
+  "margin": 312.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1041,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 60381.0,
+  "theirs": 57917.0,
+  "margin": 2464.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1041,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 60381.0,
+  "theirs": 57917.0,
+  "margin": 2464.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1042,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 73260.0,
+  "theirs": 71933.0,
+  "margin": 1327.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1042,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 73260.0,
+  "theirs": 71933.0,
+  "margin": 1327.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1043,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 103426.0,
+  "theirs": 102321.0,
+  "margin": 1105.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1043,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 103426.0,
+  "theirs": 102321.0,
+  "margin": 1105.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1044,
+  "seat": 0,
+  "world": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 127591.0,
+  "theirs": 126297.0,
+  "margin": 1294.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1045,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 101533.0,
+  "theirs": 100669.0,
+  "margin": 864.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1045,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 101533.0,
+  "theirs": 100669.0,
+  "margin": 864.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1044,
+  "seat": 1,
+  "world": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 127591.0,
+  "theirs": 126297.0,
+  "margin": 1294.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1046,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 114977.0,
+  "theirs": 114239.0,
+  "margin": 738.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1047,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 88171.0,
+  "theirs": 87707.0,
+  "margin": 464.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1046,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 114977.0,
+  "theirs": 114239.0,
+  "margin": 738.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1048,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 145902.0,
+  "theirs": 144873.0,
+  "margin": 1029.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1047,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 88171.0,
+  "theirs": 87707.0,
+  "margin": 464.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1048,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 145902.0,
+  "theirs": 144873.0,
+  "margin": 1029.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1049,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75231.0,
+  "theirs": 74173.0,
+  "margin": 1058.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v56",
+  "seed": 1049,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75231.0,
+  "theirs": 74173.0,
+  "margin": 1058.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1000,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75679.0,
+  "theirs": 73542.0,
+  "margin": 2137.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1000,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75679.0,
+  "theirs": 73542.0,
+  "margin": 2137.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1001,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 99145.0,
+  "theirs": 97699.0,
+  "margin": 1446.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1001,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 99145.0,
+  "theirs": 97699.0,
+  "margin": 1446.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1002,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 108273.0,
+  "theirs": 107925.0,
+  "margin": 348.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1002,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 108273.0,
+  "theirs": 107925.0,
+  "margin": 348.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1003,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 116989.0,
+  "theirs": 116907.0,
+  "margin": 82.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1003,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 116989.0,
+  "theirs": 116907.0,
+  "margin": 82.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1004,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85055.0,
+  "theirs": 83780.0,
+  "margin": 1275.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1004,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85055.0,
+  "theirs": 83780.0,
+  "margin": 1275.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1005,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84929.0,
+  "theirs": 83872.0,
+  "margin": 1057.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1005,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84929.0,
+  "theirs": 83872.0,
+  "margin": 1057.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1006,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 67818.0,
+  "theirs": 66568.0,
+  "margin": 1250.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1006,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 67818.0,
+  "theirs": 66568.0,
+  "margin": 1250.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1008,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 109530.0,
+  "theirs": 107475.0,
+  "margin": 2055.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1007,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 68787.0,
+  "theirs": 68195.0,
+  "margin": 592.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1007,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 68787.0,
+  "theirs": 68195.0,
+  "margin": 592.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1008,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 109530.0,
+  "theirs": 107475.0,
+  "margin": 2055.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1009,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 80910.0,
+  "theirs": 79294.0,
+  "margin": 1616.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1009,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 80910.0,
+  "theirs": 79294.0,
+  "margin": 1616.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1010,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 98578.0,
+  "theirs": 95886.0,
+  "margin": 2692.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1010,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 98578.0,
+  "theirs": 95886.0,
+  "margin": 2692.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1011,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 56613.0,
+  "theirs": 53445.0,
+  "margin": 3168.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1011,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 56613.0,
+  "theirs": 53445.0,
+  "margin": 3168.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1012,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 65289.0,
+  "theirs": 64040.0,
+  "margin": 1249.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1013,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86606.0,
+  "theirs": 84356.0,
+  "margin": 2250.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1012,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 65289.0,
+  "theirs": 64040.0,
+  "margin": 1249.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1013,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86606.0,
+  "theirs": 84356.0,
+  "margin": 2250.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1014,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 94966.0,
+  "theirs": 93899.0,
+  "margin": 1067.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1015,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 78034.0,
+  "theirs": 76887.0,
+  "margin": 1147.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1015,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 78034.0,
+  "theirs": 76887.0,
+  "margin": 1147.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1016,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 67171.0,
+  "theirs": 66243.0,
+  "margin": 928.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1014,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 94966.0,
+  "theirs": 93899.0,
+  "margin": 1067.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1016,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 67171.0,
+  "theirs": 66243.0,
+  "margin": 928.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1017,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 137368.0,
+  "theirs": 132978.0,
+  "margin": 4390.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1018,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 107711.0,
+  "theirs": 106906.0,
+  "margin": 805.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1017,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 137368.0,
+  "theirs": 132978.0,
+  "margin": 4390.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1018,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 107711.0,
+  "theirs": 106906.0,
+  "margin": 805.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1019,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86711.0,
+  "theirs": 85845.0,
+  "margin": 866.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1019,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86711.0,
+  "theirs": 85845.0,
+  "margin": 866.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1020,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75637.0,
+  "theirs": 72621.0,
+  "margin": 3016.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1021,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85580.0,
+  "theirs": 84825.0,
+  "margin": 755.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1021,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85580.0,
+  "theirs": 84825.0,
+  "margin": 755.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1020,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75637.0,
+  "theirs": 72621.0,
+  "margin": 3016.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1022,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 120018.0,
+  "theirs": 119939.0,
+  "margin": 79.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1022,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 120018.0,
+  "theirs": 119939.0,
+  "margin": 79.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1023,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 59990.0,
+  "theirs": 58079.0,
+  "margin": 1911.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1023,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 59990.0,
+  "theirs": 58079.0,
+  "margin": 1911.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1024,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 82085.0,
+  "theirs": 81502.0,
+  "margin": 583.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1024,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 82085.0,
+  "theirs": 81502.0,
+  "margin": 583.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1025,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 104655.0,
+  "theirs": 103817.0,
+  "margin": 838.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1025,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 104655.0,
+  "theirs": 103817.0,
+  "margin": 838.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1026,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 116909.0,
+  "theirs": 116745.0,
+  "margin": 164.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1026,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 116909.0,
+  "theirs": 116745.0,
+  "margin": 164.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1027,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 109763.0,
+  "theirs": 108471.0,
+  "margin": 1292.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1027,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 109763.0,
+  "theirs": 108471.0,
+  "margin": 1292.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1028,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 87170.0,
+  "theirs": 85751.0,
+  "margin": 1419.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1028,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 87170.0,
+  "theirs": 85751.0,
+  "margin": 1419.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1029,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75602.0,
+  "theirs": 74011.0,
+  "margin": 1591.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1029,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75602.0,
+  "theirs": 74011.0,
+  "margin": 1591.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1030,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "order": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 64388.0,
+  "theirs": 60323.0,
+  "margin": 4065.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1030,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "order": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 64388.0,
+  "theirs": 60323.0,
+  "margin": 4065.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1032,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 94281.0,
+  "theirs": 91409.0,
+  "margin": 2872.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1032,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 94281.0,
+  "theirs": 91409.0,
+  "margin": 2872.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1031,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 118785.0,
+  "theirs": 117453.0,
+  "margin": 1332.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1033,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 133615.0,
+  "theirs": 132559.0,
+  "margin": 1056.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1031,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 118785.0,
+  "theirs": 117453.0,
+  "margin": 1332.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1033,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 133615.0,
+  "theirs": 132559.0,
+  "margin": 1056.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1034,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 93954.0,
+  "theirs": 93333.0,
+  "margin": 621.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1034,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 93954.0,
+  "theirs": 93333.0,
+  "margin": 621.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1035,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 99486.0,
+  "theirs": 98596.0,
+  "margin": 890.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1035,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 99486.0,
+  "theirs": 98596.0,
+  "margin": 890.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1036,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 114802.0,
+  "theirs": 114057.0,
+  "margin": 745.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1036,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 114802.0,
+  "theirs": 114057.0,
+  "margin": 745.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1038,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85285.0,
+  "theirs": 84542.0,
+  "margin": 743.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1037,
+  "seat": 0,
+  "world": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 144339.0,
+  "theirs": 143466.0,
+  "margin": 873.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1037,
+  "seat": 1,
+  "world": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 144339.0,
+  "theirs": 143466.0,
+  "margin": 873.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1038,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86208.0,
+  "theirs": 84062.0,
+  "margin": 2146.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1039,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 87216.0,
+  "theirs": 85729.0,
+  "margin": 1487.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1039,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86175.0,
+  "theirs": 86382.0,
+  "margin": -207.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1040,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 136721.0,
+  "theirs": 136446.0,
+  "margin": 275.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1040,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 136721.0,
+  "theirs": 136446.0,
+  "margin": 275.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1041,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 60387.0,
+  "theirs": 57924.0,
+  "margin": 2463.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1041,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 60387.0,
+  "theirs": 57924.0,
+  "margin": 2463.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1042,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 73260.0,
+  "theirs": 71947.0,
+  "margin": 1313.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1042,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 73260.0,
+  "theirs": 71947.0,
+  "margin": 1313.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1043,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 103597.0,
+  "theirs": 102628.0,
+  "margin": 969.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1043,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 103597.0,
+  "theirs": 102628.0,
+  "margin": 969.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1045,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 101510.0,
+  "theirs": 100709.0,
+  "margin": 801.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1044,
+  "seat": 0,
+  "world": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 127522.0,
+  "theirs": 126380.0,
+  "margin": 1142.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1045,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 101510.0,
+  "theirs": 100709.0,
+  "margin": 801.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1044,
+  "seat": 1,
+  "world": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 127522.0,
+  "theirs": 126380.0,
+  "margin": 1142.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1047,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 88144.0,
+  "theirs": 87742.0,
+  "margin": 402.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1048,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 145916.0,
+  "theirs": 144883.0,
+  "margin": 1033.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1047,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 88144.0,
+  "theirs": 87742.0,
+  "margin": 402.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1048,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 145916.0,
+  "theirs": 144883.0,
+  "margin": 1033.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1046,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 115053.0,
+  "theirs": 114173.0,
+  "margin": 880.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1046,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 115053.0,
+  "theirs": 114173.0,
+  "margin": 880.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1049,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75213.0,
+  "theirs": 74214.0,
+  "margin": 999.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1000,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75684.0,
+  "theirs": 73525.0,
+  "margin": 2159.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v57",
+  "seed": 1049,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75213.0,
+  "theirs": 74214.0,
+  "margin": 999.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1000,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75684.0,
+  "theirs": 73525.0,
+  "margin": 2159.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1001,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 99165.0,
+  "theirs": 97665.0,
+  "margin": 1500.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1001,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 99165.0,
+  "theirs": 97665.0,
+  "margin": 1500.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1002,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 108290.0,
+  "theirs": 107898.0,
+  "margin": 392.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1003,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 116991.0,
+  "theirs": 116895.0,
+  "margin": 96.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1002,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 108290.0,
+  "theirs": 107898.0,
+  "margin": 392.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1003,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 116991.0,
+  "theirs": 116895.0,
+  "margin": 96.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1004,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85076.0,
+  "theirs": 83738.0,
+  "margin": 1338.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1005,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84952.0,
+  "theirs": 83834.0,
+  "margin": 1118.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1004,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85076.0,
+  "theirs": 83738.0,
+  "margin": 1338.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1005,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84952.0,
+  "theirs": 83834.0,
+  "margin": 1118.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1006,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 67847.0,
+  "theirs": 66526.0,
+  "margin": 1321.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1006,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 67847.0,
+  "theirs": 66526.0,
+  "margin": 1321.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1007,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 68791.0,
+  "theirs": 68181.0,
+  "margin": 610.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1008,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 109531.0,
+  "theirs": 107465.0,
+  "margin": 2066.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1008,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 109531.0,
+  "theirs": 107465.0,
+  "margin": 2066.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1007,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 68791.0,
+  "theirs": 68181.0,
+  "margin": 610.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1009,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 80903.0,
+  "theirs": 79293.0,
+  "margin": 1610.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1009,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 80903.0,
+  "theirs": 79293.0,
+  "margin": 1610.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1010,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 98573.0,
+  "theirs": 95877.0,
+  "margin": 2696.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1010,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 98573.0,
+  "theirs": 95877.0,
+  "margin": 2696.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1011,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 56743.0,
+  "theirs": 53297.0,
+  "margin": 3446.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1011,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 56743.0,
+  "theirs": 53297.0,
+  "margin": 3446.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1013,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86772.0,
+  "theirs": 84467.0,
+  "margin": 2305.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1012,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 65291.0,
+  "theirs": 64027.0,
+  "margin": 1264.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1013,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86772.0,
+  "theirs": 84467.0,
+  "margin": 2305.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1012,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 65291.0,
+  "theirs": 64027.0,
+  "margin": 1264.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1015,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 78038.0,
+  "theirs": 76862.0,
+  "margin": 1176.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1015,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 78038.0,
+  "theirs": 76862.0,
+  "margin": 1176.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1014,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 95031.0,
+  "theirs": 93788.0,
+  "margin": 1243.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1014,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 95031.0,
+  "theirs": 93788.0,
+  "margin": 1243.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1016,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 67198.0,
+  "theirs": 66214.0,
+  "margin": 984.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1016,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 67198.0,
+  "theirs": 66214.0,
+  "margin": 984.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1017,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 137378.0,
+  "theirs": 132953.0,
+  "margin": 4425.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1017,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 137378.0,
+  "theirs": 132953.0,
+  "margin": 4425.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1018,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 107710.0,
+  "theirs": 106895.0,
+  "margin": 815.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1018,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 107710.0,
+  "theirs": 106895.0,
+  "margin": 815.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1019,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86707.0,
+  "theirs": 85837.0,
+  "margin": 870.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1019,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86707.0,
+  "theirs": 85837.0,
+  "margin": 870.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1020,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75643.0,
+  "theirs": 72602.0,
+  "margin": 3041.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1020,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75643.0,
+  "theirs": 72602.0,
+  "margin": 3041.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1021,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85585.0,
+  "theirs": 84809.0,
+  "margin": 776.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1021,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85585.0,
+  "theirs": 84809.0,
+  "margin": 776.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1022,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 120010.0,
+  "theirs": 119908.0,
+  "margin": 102.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1022,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 120010.0,
+  "theirs": 119908.0,
+  "margin": 102.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1023,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 60008.0,
+  "theirs": 58045.0,
+  "margin": 1963.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1024,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 82098.0,
+  "theirs": 81471.0,
+  "margin": 627.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1023,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 60008.0,
+  "theirs": 58045.0,
+  "margin": 1963.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1024,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 82098.0,
+  "theirs": 81471.0,
+  "margin": 627.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1025,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 104680.0,
+  "theirs": 103778.0,
+  "margin": 902.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1025,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 104680.0,
+  "theirs": 103778.0,
+  "margin": 902.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1026,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 116905.0,
+  "theirs": 116728.0,
+  "margin": 177.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1026,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 116905.0,
+  "theirs": 116728.0,
+  "margin": 177.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1027,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 109767.0,
+  "theirs": 108451.0,
+  "margin": 1316.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1027,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 109767.0,
+  "theirs": 108451.0,
+  "margin": 1316.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1028,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 87172.0,
+  "theirs": 85741.0,
+  "margin": 1431.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1028,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 87172.0,
+  "theirs": 85741.0,
+  "margin": 1431.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1029,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75595.0,
+  "theirs": 74003.0,
+  "margin": 1592.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1029,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75595.0,
+  "theirs": 74003.0,
+  "margin": 1592.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1030,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "order": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 64390.0,
+  "theirs": 60311.0,
+  "margin": 4079.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1030,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "order": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 64390.0,
+  "theirs": 60311.0,
+  "margin": 4079.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1032,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 94283.0,
+  "theirs": 91402.0,
+  "margin": 2881.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1032,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 94283.0,
+  "theirs": 91402.0,
+  "margin": 2881.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1031,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 118780.0,
+  "theirs": 117445.0,
+  "margin": 1335.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1031,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 118780.0,
+  "theirs": 117445.0,
+  "margin": 1335.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1033,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 133636.0,
+  "theirs": 132534.0,
+  "margin": 1102.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1033,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 133636.0,
+  "theirs": 132534.0,
+  "margin": 1102.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1034,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 93947.0,
+  "theirs": 93335.0,
+  "margin": 612.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1034,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 93947.0,
+  "theirs": 93335.0,
+  "margin": 612.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1035,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 99386.0,
+  "theirs": 98687.0,
+  "margin": 699.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1035,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 99386.0,
+  "theirs": 98687.0,
+  "margin": 699.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1036,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 114853.0,
+  "theirs": 113992.0,
+  "margin": 861.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1036,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 114853.0,
+  "theirs": 113992.0,
+  "margin": 861.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1037,
+  "seat": 1,
+  "world": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 144340.0,
+  "theirs": 143442.0,
+  "margin": 898.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1037,
+  "seat": 0,
+  "world": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 144340.0,
+  "theirs": 143442.0,
+  "margin": 898.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1038,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85286.0,
+  "theirs": 84526.0,
+  "margin": 760.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1038,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86207.0,
+  "theirs": 84049.0,
+  "margin": 2158.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1039,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 87213.0,
+  "theirs": 85721.0,
+  "margin": 1492.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1040,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 136732.0,
+  "theirs": 136420.0,
+  "margin": 312.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1039,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86172.0,
+  "theirs": 86374.0,
+  "margin": -202.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1040,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 136732.0,
+  "theirs": 136420.0,
+  "margin": 312.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1041,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 60374.0,
+  "theirs": 57925.0,
+  "margin": 2449.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1041,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 60374.0,
+  "theirs": 57925.0,
+  "margin": 2449.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1042,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 73260.0,
+  "theirs": 71933.0,
+  "margin": 1327.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1042,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 73260.0,
+  "theirs": 71933.0,
+  "margin": 1327.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1043,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 103426.0,
+  "theirs": 102321.0,
+  "margin": 1105.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1043,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 103426.0,
+  "theirs": 102321.0,
+  "margin": 1105.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1045,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 101533.0,
+  "theirs": 100669.0,
+  "margin": 864.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1045,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 101533.0,
+  "theirs": 100669.0,
+  "margin": 864.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1044,
+  "seat": 1,
+  "world": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 127591.0,
+  "theirs": 126297.0,
+  "margin": 1294.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1044,
+  "seat": 0,
+  "world": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 127591.0,
+  "theirs": 126297.0,
+  "margin": 1294.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1047,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 88171.0,
+  "theirs": 87707.0,
+  "margin": 464.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1046,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 114977.0,
+  "theirs": 114239.0,
+  "margin": 738.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1046,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 114977.0,
+  "theirs": 114239.0,
+  "margin": 738.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1048,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 145902.0,
+  "theirs": 144873.0,
+  "margin": 1029.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1048,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 145902.0,
+  "theirs": 144873.0,
+  "margin": 1029.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1047,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 88171.0,
+  "theirs": 87707.0,
+  "margin": 464.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1049,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75231.0,
+  "theirs": 74173.0,
+  "margin": 1058.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "pipe18",
+  "seed": 1049,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75231.0,
+  "theirs": 74173.0,
+  "margin": 1058.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1000,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75173.0,
+  "theirs": 72065.0,
+  "margin": 3108.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1000,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75173.0,
+  "theirs": 72065.0,
+  "margin": 3108.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1001,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 99603.0,
+  "theirs": 98346.0,
+  "margin": 1257.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1001,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 99603.0,
+  "theirs": 98346.0,
+  "margin": 1257.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1002,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 108396.0,
+  "theirs": 107418.0,
+  "margin": 978.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1003,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 117237.0,
+  "theirs": 116344.0,
+  "margin": 893.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1002,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 108396.0,
+  "theirs": 107418.0,
+  "margin": 978.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1004,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84850.0,
+  "theirs": 82270.0,
+  "margin": 2580.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1003,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 117237.0,
+  "theirs": 116344.0,
+  "margin": 893.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1005,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 83529.0,
+  "theirs": 83516.0,
+  "margin": 13.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1004,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84850.0,
+  "theirs": 82270.0,
+  "margin": 2580.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1006,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 68006.0,
+  "theirs": 66144.0,
+  "margin": 1862.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1005,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 83529.0,
+  "theirs": 83516.0,
+  "margin": 13.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1006,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 68006.0,
+  "theirs": 66144.0,
+  "margin": 1862.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1007,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 69088.0,
+  "theirs": 67340.0,
+  "margin": 1748.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1007,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 69088.0,
+  "theirs": 67340.0,
+  "margin": 1748.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1008,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 107946.0,
+  "theirs": 107099.0,
+  "margin": 847.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1008,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 107946.0,
+  "theirs": 107099.0,
+  "margin": 847.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1009,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 81289.0,
+  "theirs": 79829.0,
+  "margin": 1460.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1009,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 81289.0,
+  "theirs": 79829.0,
+  "margin": 1460.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1010,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 98193.0,
+  "theirs": 95660.0,
+  "margin": 2533.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1010,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 98193.0,
+  "theirs": 95660.0,
+  "margin": 2533.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1011,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 55457.0,
+  "theirs": 53513.0,
+  "margin": 1944.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1013,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86189.0,
+  "theirs": 83465.0,
+  "margin": 2724.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1011,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 55457.0,
+  "theirs": 53513.0,
+  "margin": 1944.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1012,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 65597.0,
+  "theirs": 64625.0,
+  "margin": 972.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1013,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86189.0,
+  "theirs": 83465.0,
+  "margin": 2724.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1012,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 65597.0,
+  "theirs": 64625.0,
+  "margin": 972.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1014,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 93686.0,
+  "theirs": 92704.0,
+  "margin": 982.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1014,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 93686.0,
+  "theirs": 92704.0,
+  "margin": 982.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1015,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 78439.0,
+  "theirs": 76432.0,
+  "margin": 2007.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1015,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 78439.0,
+  "theirs": 76432.0,
+  "margin": 2007.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1016,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 67446.0,
+  "theirs": 65616.0,
+  "margin": 1830.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1016,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 67446.0,
+  "theirs": 65616.0,
+  "margin": 1830.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1017,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 132456.0,
+  "theirs": 132984.0,
+  "margin": -528.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1017,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 132456.0,
+  "theirs": 132984.0,
+  "margin": -528.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1018,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 107484.0,
+  "theirs": 106695.0,
+  "margin": 789.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1018,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 107484.0,
+  "theirs": 106695.0,
+  "margin": 789.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1019,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85995.0,
+  "theirs": 85830.0,
+  "margin": 165.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1019,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85995.0,
+  "theirs": 85830.0,
+  "margin": 165.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1020,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 72736.0,
+  "theirs": 72775.0,
+  "margin": -39.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1020,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 72736.0,
+  "theirs": 72775.0,
+  "margin": -39.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1021,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84387.0,
+  "theirs": 83908.0,
+  "margin": 479.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1021,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84387.0,
+  "theirs": 83908.0,
+  "margin": 479.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1022,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 120324.0,
+  "theirs": 119598.0,
+  "margin": 726.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1022,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 120324.0,
+  "theirs": 119598.0,
+  "margin": 726.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1023,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 59409.0,
+  "theirs": 58223.0,
+  "margin": 1186.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1023,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 59409.0,
+  "theirs": 58223.0,
+  "margin": 1186.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1024,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 82335.0,
+  "theirs": 81441.0,
+  "margin": 894.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1024,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 82335.0,
+  "theirs": 81441.0,
+  "margin": 894.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1025,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 106179.0,
+  "theirs": 104605.0,
+  "margin": 1574.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1025,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 106179.0,
+  "theirs": 104605.0,
+  "margin": 1574.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1026,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 116879.0,
+  "theirs": 116111.0,
+  "margin": 768.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1027,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 109714.0,
+  "theirs": 108242.0,
+  "margin": 1472.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1026,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 116879.0,
+  "theirs": 116111.0,
+  "margin": 768.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1027,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 109714.0,
+  "theirs": 108242.0,
+  "margin": 1472.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1028,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86147.0,
+  "theirs": 84568.0,
+  "margin": 1579.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1028,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86147.0,
+  "theirs": 84568.0,
+  "margin": 1579.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1029,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 73684.0,
+  "theirs": 74231.0,
+  "margin": -547.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1029,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 73684.0,
+  "theirs": 74231.0,
+  "margin": -547.0,
+  "win": false,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1030,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "order": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 63402.0,
+  "theirs": 60933.0,
+  "margin": 2469.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1030,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "order": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 63402.0,
+  "theirs": 60933.0,
+  "margin": 2469.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1031,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 118850.0,
+  "theirs": 115905.0,
+  "margin": 2945.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1031,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 118850.0,
+  "theirs": 115905.0,
+  "margin": 2945.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1032,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 92377.0,
+  "theirs": 90668.0,
+  "margin": 1709.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1032,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 92377.0,
+  "theirs": 90668.0,
+  "margin": 1709.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1033,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 133629.0,
+  "theirs": 132746.0,
+  "margin": 883.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1033,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 133629.0,
+  "theirs": 132746.0,
+  "margin": 883.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1035,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 98795.0,
+  "theirs": 98530.0,
+  "margin": 265.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1034,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 95179.0,
+  "theirs": 93333.0,
+  "margin": 1846.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1035,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 98795.0,
+  "theirs": 98530.0,
+  "margin": 265.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1034,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 95179.0,
+  "theirs": 93333.0,
+  "margin": 1846.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1036,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 114544.0,
+  "theirs": 113492.0,
+  "margin": 1052.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1036,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 114544.0,
+  "theirs": 113492.0,
+  "margin": 1052.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1037,
+  "seat": 0,
+  "world": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 144451.0,
+  "theirs": 143592.0,
+  "margin": 859.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1038,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85569.0,
+  "theirs": 83942.0,
+  "margin": 1627.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1038,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85990.0,
+  "theirs": 85002.0,
+  "margin": 988.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1037,
+  "seat": 1,
+  "world": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 144451.0,
+  "theirs": 143592.0,
+  "margin": 859.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1039,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 119837.0,
+  "theirs": 119053.0,
+  "margin": 784.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1039,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 87682.0,
+  "theirs": 86776.0,
+  "margin": 906.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1040,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 136406.0,
+  "theirs": 135823.0,
+  "margin": 583.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1040,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 136406.0,
+  "theirs": 135823.0,
+  "margin": 583.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1041,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 60871.0,
+  "theirs": 58826.0,
+  "margin": 2045.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1041,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 60871.0,
+  "theirs": 58826.0,
+  "margin": 2045.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1042,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 73191.0,
+  "theirs": 71376.0,
+  "margin": 1815.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1042,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 73191.0,
+  "theirs": 71376.0,
+  "margin": 1815.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1043,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 102182.0,
+  "theirs": 101450.0,
+  "margin": 732.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1043,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 102182.0,
+  "theirs": 101450.0,
+  "margin": 732.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1044,
+  "seat": 0,
+  "world": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 127217.0,
+  "theirs": 125928.0,
+  "margin": 1289.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1045,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 101244.0,
+  "theirs": 100699.0,
+  "margin": 545.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1045,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 101244.0,
+  "theirs": 100699.0,
+  "margin": 545.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1044,
+  "seat": 1,
+  "world": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 127217.0,
+  "theirs": 125928.0,
+  "margin": 1289.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1046,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 115425.0,
+  "theirs": 113540.0,
+  "margin": 1885.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1046,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 115425.0,
+  "theirs": 113540.0,
+  "margin": 1885.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1047,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 88890.0,
+  "theirs": 86649.0,
+  "margin": 2241.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1047,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 88894.0,
+  "theirs": 86604.0,
+  "margin": 2290.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1048,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 145352.0,
+  "theirs": 145018.0,
+  "margin": 334.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1048,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 145352.0,
+  "theirs": 145018.0,
+  "margin": 334.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1049,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 74667.0,
+  "theirs": 73469.0,
+  "margin": 1198.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v53",
+  "seed": 1049,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 74667.0,
+  "theirs": 73469.0,
+  "margin": 1198.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1000,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75684.0,
+  "theirs": 73365.0,
+  "margin": 2319.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1000,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75684.0,
+  "theirs": 73365.0,
+  "margin": 2319.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1001,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 99316.0,
+  "theirs": 97383.0,
+  "margin": 1933.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1001,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 99316.0,
+  "theirs": 97383.0,
+  "margin": 1933.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1002,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 108374.0,
+  "theirs": 107590.0,
+  "margin": 784.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1002,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 108374.0,
+  "theirs": 107590.0,
+  "margin": 784.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1003,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 117108.0,
+  "theirs": 116489.0,
+  "margin": 619.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1003,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 117108.0,
+  "theirs": 116489.0,
+  "margin": 619.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1004,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85076.0,
+  "theirs": 83578.0,
+  "margin": 1498.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1004,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85076.0,
+  "theirs": 83578.0,
+  "margin": 1498.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1005,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84957.0,
+  "theirs": 83819.0,
+  "margin": 1138.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1005,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 84957.0,
+  "theirs": 83819.0,
+  "margin": 1138.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1006,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 67843.0,
+  "theirs": 66562.0,
+  "margin": 1281.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1006,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 67843.0,
+  "theirs": 66562.0,
+  "margin": 1281.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1007,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 68796.0,
+  "theirs": 67953.0,
+  "margin": 843.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1007,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 68796.0,
+  "theirs": 67953.0,
+  "margin": 843.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1008,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 109240.0,
+  "theirs": 107268.0,
+  "margin": 1972.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1008,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 109240.0,
+  "theirs": 107268.0,
+  "margin": 1972.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1009,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 80889.0,
+  "theirs": 79107.0,
+  "margin": 1782.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1009,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 80889.0,
+  "theirs": 79107.0,
+  "margin": 1782.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1010,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 98859.0,
+  "theirs": 95998.0,
+  "margin": 2861.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1010,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 98859.0,
+  "theirs": 95998.0,
+  "margin": 2861.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1011,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 56752.0,
+  "theirs": 53231.0,
+  "margin": 3521.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1012,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 65308.0,
+  "theirs": 63849.0,
+  "margin": 1459.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1011,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 56752.0,
+  "theirs": 53231.0,
+  "margin": 3521.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1012,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 65308.0,
+  "theirs": 63849.0,
+  "margin": 1459.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1013,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86772.0,
+  "theirs": 84307.0,
+  "margin": 2465.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1013,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86772.0,
+  "theirs": 84307.0,
+  "margin": 2465.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1014,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 95047.0,
+  "theirs": 93715.0,
+  "margin": 1332.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1014,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 95047.0,
+  "theirs": 93715.0,
+  "margin": 1332.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1015,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 78193.0,
+  "theirs": 76761.0,
+  "margin": 1432.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1015,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 78193.0,
+  "theirs": 76761.0,
+  "margin": 1432.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1016,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 67192.0,
+  "theirs": 66085.0,
+  "margin": 1107.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1016,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "BAKERY",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 67192.0,
+  "theirs": 66085.0,
+  "margin": 1107.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1017,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 137386.0,
+  "theirs": 132910.0,
+  "margin": 4476.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1017,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 137386.0,
+  "theirs": 132910.0,
+  "margin": 4476.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1018,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 107841.0,
+  "theirs": 106603.0,
+  "margin": 1238.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1018,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BRUNCH_SPOT"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 107841.0,
+  "theirs": 106603.0,
+  "margin": 1238.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1019,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86707.0,
+  "theirs": 85677.0,
+  "margin": 1030.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1019,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86707.0,
+  "theirs": 85677.0,
+  "margin": 1030.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1020,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75710.0,
+  "theirs": 72418.0,
+  "margin": 3292.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1020,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75710.0,
+  "theirs": 72418.0,
+  "margin": 3292.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1021,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85592.0,
+  "theirs": 84716.0,
+  "margin": 876.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1021,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85592.0,
+  "theirs": 84716.0,
+  "margin": 876.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1022,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 120038.0,
+  "theirs": 119847.0,
+  "margin": 191.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1022,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 120038.0,
+  "theirs": 119847.0,
+  "margin": 191.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1023,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 60014.0,
+  "theirs": 57874.0,
+  "margin": 2140.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1023,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 60014.0,
+  "theirs": 57874.0,
+  "margin": 2140.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1024,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 82115.0,
+  "theirs": 81453.0,
+  "margin": 662.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1024,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 82115.0,
+  "theirs": 81453.0,
+  "margin": 662.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1025,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 104845.0,
+  "theirs": 103788.0,
+  "margin": 1057.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1025,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 104845.0,
+  "theirs": 103788.0,
+  "margin": 1057.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1026,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 117179.0,
+  "theirs": 116905.0,
+  "margin": 274.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1026,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 117179.0,
+  "theirs": 116905.0,
+  "margin": 274.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1027,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 109843.0,
+  "theirs": 107950.0,
+  "margin": 1893.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1027,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 109843.0,
+  "theirs": 107950.0,
+  "margin": 1893.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1028,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 87172.0,
+  "theirs": 85581.0,
+  "margin": 1591.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1028,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 87172.0,
+  "theirs": 85581.0,
+  "margin": 1591.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1029,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75609.0,
+  "theirs": 73871.0,
+  "margin": 1738.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1029,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75609.0,
+  "theirs": 73871.0,
+  "margin": 1738.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1030,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "order": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 64471.0,
+  "theirs": 60106.0,
+  "margin": 4365.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1030,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "order": [
+   "BAKERY",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 64471.0,
+  "theirs": 60106.0,
+  "margin": 4365.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1031,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 118806.0,
+  "theirs": 117157.0,
+  "margin": 1649.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1032,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 94283.0,
+  "theirs": 91242.0,
+  "margin": 3041.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1032,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 94283.0,
+  "theirs": 91242.0,
+  "margin": 3041.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1031,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 118806.0,
+  "theirs": 117157.0,
+  "margin": 1649.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1033,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 133636.0,
+  "theirs": 132534.0,
+  "margin": 1102.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1033,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 133636.0,
+  "theirs": 132534.0,
+  "margin": 1102.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1034,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 94084.0,
+  "theirs": 93372.0,
+  "margin": 712.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1034,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "PIZZA_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 94084.0,
+  "theirs": 93372.0,
+  "margin": 712.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1035,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 99386.0,
+  "theirs": 98687.0,
+  "margin": 699.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1035,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 99386.0,
+  "theirs": 98687.0,
+  "margin": 699.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1036,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 114853.0,
+  "theirs": 113992.0,
+  "margin": 861.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1036,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 114853.0,
+  "theirs": 113992.0,
+  "margin": 861.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1037,
+  "seat": 0,
+  "world": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 144341.0,
+  "theirs": 143214.0,
+  "margin": 1127.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1037,
+  "seat": 1,
+  "world": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 144341.0,
+  "theirs": 143214.0,
+  "margin": 1127.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1038,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 85407.0,
+  "theirs": 84456.0,
+  "margin": 951.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1038,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "ICE_CREAM_SHOP",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86781.0,
+  "theirs": 83572.0,
+  "margin": 3209.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1039,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 87387.0,
+  "theirs": 85603.0,
+  "margin": 1784.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1040,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 137097.0,
+  "theirs": 136645.0,
+  "margin": 452.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1039,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 86351.0,
+  "theirs": 86257.0,
+  "margin": 94.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1040,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 137097.0,
+  "theirs": 136645.0,
+  "margin": 452.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1041,
+  "seat": 0,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 60327.0,
+  "theirs": 57879.0,
+  "margin": 2448.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1041,
+  "seat": 1,
+  "world": [
+   "BAKERY",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "BAKERY"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 60327.0,
+  "theirs": 57879.0,
+  "margin": 2448.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1042,
+  "seat": 0,
+  "world": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 73331.0,
+  "theirs": 71762.0,
+  "margin": 1569.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1042,
+  "seat": 1,
+  "world": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "PET_CAFE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 73331.0,
+  "theirs": 71762.0,
+  "margin": 1569.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1043,
+  "seat": 1,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 103414.0,
+  "theirs": 102267.0,
+  "margin": 1147.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1043,
+  "seat": 0,
+  "world": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "BRUNCH_SPOT",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 103414.0,
+  "theirs": 102267.0,
+  "margin": 1147.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1045,
+  "seat": 0,
+  "world": [
+   "PIZZA_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 101493.0,
+  "theirs": 100667.0,
+  "margin": 826.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1044,
+  "seat": 0,
+  "world": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 127591.0,
+  "theirs": 126297.0,
+  "margin": 1294.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1044,
+  "seat": 1,
+  "world": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "YARN_STORE"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 127591.0,
+  "theirs": 126297.0,
+  "margin": 1294.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1045,
+  "seat": 1,
+  "world": [
+   "PIZZA_SHOP",
+   "SMOOTHIE_SHOP"
+  ],
+  "order": [
+   "SMOOTHIE_SHOP",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 101493.0,
+  "theirs": 100667.0,
+  "margin": 826.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1046,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 114985.0,
+  "theirs": 114063.0,
+  "margin": 922.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1046,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "FARMERS_MARKET"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 114985.0,
+  "theirs": 114063.0,
+  "margin": 922.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1048,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 145902.0,
+  "theirs": 144873.0,
+  "margin": 1029.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1047,
+  "seat": 0,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 88311.0,
+  "theirs": 87591.0,
+  "margin": 720.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1048,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "YARN_STORE"
+  ],
+  "order": [
+   "YARN_STORE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 145902.0,
+  "theirs": 144873.0,
+  "margin": 1029.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1047,
+  "seat": 1,
+  "world": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "order": [
+   "FARMERS_MARKET",
+   "PIZZA_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 88311.0,
+  "theirs": 87591.0,
+  "margin": 720.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1049,
+  "seat": 1,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75312.0,
+  "theirs": 73987.0,
+  "margin": 1325.0,
+  "win": true,
+  "tie": false
+ },
+ {
+  "opponent": "v55",
+  "seed": 1049,
+  "seat": 0,
+  "world": [
+   "ICE_CREAM_SHOP",
+   "PET_CAFE"
+  ],
+  "order": [
+   "PET_CAFE",
+   "ICE_CREAM_SHOP"
+  ],
+  "n_shops": 2,
+  "quads": 1,
+  "our": 75312.0,
+  "theirs": 73987.0,
+  "margin": 1325.0,
+  "win": true,
+  "tie": false
+ }
+]

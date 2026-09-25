@@ -70,3 +70,37 @@
 | E3 | 竞赛镜像里的 `kaggle-environments` 可能是旧版（1.29.3 vs 1.32.7），两者镜像局结果差 5 个数量级 | the_2945_farm（子代理调研） | ⚪ 不适用 | 我们的本地是 1.32.7；**官方 runner 版本未核实**——若不同，本地 A/B 的迁移性需要重估。列为待办 |
 | E4 | **Elo 非对称**：在 2200 分打 1131 分对手时，**赢一局 ≈ 0、输一局 = 470 局的收益**；在 1150 打 1131 时只有 1.1× | 我们推导 + 平台规则 | ✅ 可用 | 实测：v34 有过 **6 次**"高分输给远弱对手"（≈ 60 次期望胜收益）；v35 之后消失 |
 | E5 | 榜单**只有 2 个 active 槽位**，取两者**较高分** | 用户实测（截图） | ✅ 可用 | 我们实测确认：v27 的 2270.1 在 v28 提交后仍撑着名次；窗口=2。⚠️ 我最初从"分数保留"反推出"窗口 3–4"是**错的** |
+
+---
+
+## F. 社区前线：层堆叠复合体（**2026-09-25 新增，本节推翻了此前的一个重要结论**）
+
+| # | 洞见 | 出处 | 状态 | 我们的证据 / 缺什么 |
+|---|---|---|---|---|
+| F1 | 社区存在公开的 **pipe-N 系列**（nathanjacob：pipe-2/5/7/8/15/16/18），每份都是在别人底座上**堆层**的复合体 | [pipe_series](sources/pipe_series.md) | ✅ 已核实 | `kaggle kernels list --user nathanjacob` 逐个拉到本地；pipe16 票 56、pipe-7 票 63 |
+| F2 | **层堆叠复合体能稳定压制我们** | [tetsutani_queue_closure](sources/tetsutani_queue_closure.md) | ✅ **已测得** | `tetsutani_cha22` 在**保真 loader** 下：**60 局我们 12胜48负（输 80%）**，均差 −$605，最差 −$3,222。另一批 40 局（其子集）同向 |
+| F3 | **我们此前"公开 agent 我们动辄 40-0"的结论不成立** | pipe_series §3.1 | ❌ **已否证** | 根因是**我们自己的测试台跑错入口点**：`tournament.py` 注释写"mirror the Kaggle rule"但代码优先取 `agent`。被错误口径掩盖的，恰好是"复合体"这一整类。（已修：`--loader`，默认 kaggle） |
+| F4 | pipe18 自述"六层 + Tschinkel v13 底座 = 650 局 88.9% Elo，与 ahmed v56 接近打平" | pipe_series §2 | 🔶 待确认 | 他的自报数字，无回放可查。**但我们独立的 tetsutani 测量支持"复合体很强"这个方向** |
+| F5 | **ahmed v56 是当前最强的公开 agent** | pipe_series §2 | 🔶 待确认 | 他的排序。**我们本地只有 v55**（对其 95% 胜）。缺：拿到 v56 |
+| F6 | 六层 = CL(gluzdov) + Price Guard + Race Horizon(ahmed v55/v56) + EXP402 晚季种子帽 + EXP410 施肥护栏 + IG 队列压缩(lynnsakurai) | pipe_series §2 | 🔶 待确认 | 需要**消融**才知道各自贡献。注意 EXP402/EXP410 **我们 `main.py` 里已有**（`e402_agent`/`e410_agent`） |
+| F7 | "小麦往返浪费一整回合节奏"（C9 开局，价值 96.5% 胜率） | [nathanjacob_turn1_clusters](sources/nathanjacob_turn1_clusters.md) | ❌ **已否证** | 固定种子 4242 逐回合核对：**我们 / reyhan / pipe-4 / tetsutani 四方都在同一回合（step 2）雇 5 工 + 2牛2羊**；往返的实际净花费只有 **$22**（reyhan），整项改动值 **+$26 现金**。且我们 40-0 赢 pipe-4 |
+| F8 | 单格 `DIG` 放在解锁前，能改变下一家商店（**128 次配对干预里 98 次 = 76.6%**） | [gods_mode_stores](sources/gods_mode_stores.md) | 🔶 待我们复核 | 机制与我们 E1（商店与杂草共用 RNG，且杂草只在空格消耗）**完全兼容**，但这条把 E1 量化了。**作者本人未测分数影响**（覆盖仅 10–18%），暂不进工程排期 |
+
+
+---
+
+## G. 2026-09-25 第二批：我们 vs 前线（**本节修正了"我们是克隆"这个默认前提**）
+
+| # | 洞见 | 出处 | 状态 | 我们的证据 / 缺什么 |
+|---|---|---|---|---|
+| G1 | **我们的 `main.py` 是 ahmed v56 的严格超集**：v56 只多 1 个标识符（`b64decode`，payload 解码器），我们多 **123** 个 | [anhadmahajan06](sources/anhadmahajan06_v56_stack.md) / 我们实测 | ✅ **已核实** | 标识符级 diff（`scripts/token_compare.py`，**不用整体相似度**——见 L13）。且 `e410_agent`/`e402_agent` 与 v56 **逐字节相同**（AST 提取 + assert） |
+| G2 | **我们赢 ahmed v56/v57（"最强公开 agent"）：v37 89.0%、v41 96.0%** | [v42_and_frontier](file:///D:/kaggle/agent/results/reports/v42_and_frontier_placement.md) | ✅ **已测得（两块同向，400 局）** | 基准相同（同一底盘）⇒ 这测的是**我们自己那 20 层的净价值**，是本轮最干净的正结果 |
+| G3 | `_MPX`（MODELPX 一步价格前瞻）**对我们有效** | [tetsutani_queue_closure](sources/tetsutani_queue_closure.md) | ✅ **已采纳（v40）** | 800 局两块：74.75%→84.88%（**+10.1pp**）；对 tetsutani 28%→50%。telemetry 确认触发（41/10/9 次每局，零错误） |
+| G4 | `_CXD`（F4 订单簿槽位重排）**对我们有效** | 同上 | ✅ **已采纳（v41）** | 800 局两块：84.88%→86.6%；对 tetsutani 50%→55%。两函数依赖与 donor 逐字节相同。公开方独立自报"+$180/局"，量级吻合 |
+| G5 | `_BD`（BUYDIP 小麦买跌）**对我们无效/有害** | 同上 | ❌ **已否证（v42）** | 两块**方向相反**（A −1.0pp、B +0.5pp）→ 按 L3 否决；且最差单局从 −$3.3k/−$4.1k 恶化到 **−$10.3k/−$8.1k** |
+| G6 | **`_DP` 与 `_MP` 是同一个函数**（只换小时窗口），且**都依赖 `_FX_STATE` 的报价历史**，单独移植会得到不同行为 | tetsutani 源码 | ✅ 已核实（读码） | 阶梯里 DP=0、MP=−8pp，与"同想法重复"一致 |
+| G7 | **最终名次是 Bradley-Terry 重算**，不是天梯分；真正的未知是"截止后哪些 agent 还在跑" | [leoprovorov_reverse_engineering](sources/leoprovorov_reverse_engineering.md) | 🔶 **待确认（官方页面未能抓取）** | 我们 WebFetch/WebSearch 都没能从官方 evaluation 页证实。**若成立则"真实胜率"比"中途高分"更重要**——但我们不据此改策略，直到证实 |
+| G8 | 评测的**正确单元是（路线 × 商店世界）**，不是全局胜率 | 同上 | 🔶 **正在测** | `scripts/world_split.py` 已建；我们本地 L4 的"结构性空洞"正是靠这个切分才看得见 |
+| G9 | **公开前线的高调声称，证据量普遍是 n=4~6** | 三份 notebook | ✅ 已核实（读原文） | anhadmahajan06"100% 胜率"= **4 局**；gluzdov 全 `outcome:1.0`= 5 个种子且实际差额 $3–$212；leoprovorov 两条各 **6 局**；只有 nathanjacob 的 650 局是认真的。⇒ **别人的"大幅提升"基本不可信，必须自己测** |
+| G10 | leoprovorov 的 T4（镜像局提前 1–2 回合卖 + 记账抵扣）= **我们已否证的家族** | 同上 | ❌ 与我们 B2/B3 冲突 | 他 6 局，我们 320 局；且他的 `mirror_gate` 与我们实测恒为 0 的 `_clone_distance` 同类 |
+| G11 | `E410` 肥料守恒"停施肥省 +$2–3k"（anhadmahajan06） | anhadmahajan06 | ⚪ **不适用** | 我们的 `_E410` 已是**边际收益判定**（模拟施肥 vs 不施肥的产量路径、地平线已封在 step 718），比它说的"第 600 步后停"更精细 → 线索关闭 |

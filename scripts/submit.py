@@ -31,6 +31,34 @@ PY = os.path.join(ROOT, ".venv", "Scripts", "python.exe")
 LOG = os.path.join(ROOT, "results", "submissions.md")
 
 
+def say(text):
+    """Print text that may not survive the console's encoding.
+
+    This shell's stdout is GBK; Kaggle's CLI output carries U+FFFD. Printing it
+    raw raises UnicodeEncodeError, and because the print sits after the submit
+    call, a *successful* submission looks like a crash and never reaches the log.
+    """
+    out = sys.stdout
+    try:
+        out.write(text + "\n")
+    except UnicodeEncodeError:
+        enc = getattr(out, "encoding", None) or "utf-8"
+        out.write(text.encode(enc, errors="replace").decode(enc, errors="replace") + "\n")
+    out.flush()
+
+
+def latest_ref(py):
+    """Most recent submission ref, so the log records what actually went up."""
+    import json
+    r = subprocess.run([py, "-m", "kaggle", "competitions", "submissions", "kaggriculture",
+                        "--format", "json"],
+                       capture_output=True, text=True, encoding="utf-8", errors="replace")
+    try:
+        return str(json.loads(r.stdout)[0]["ref"])
+    except Exception:
+        return ""
+
+
 def sha256_file(path):
     with open(path, "rb") as fh:
         return hashlib.sha256(fh.read().replace(b"\r\n", b"\n")).hexdigest()
@@ -88,22 +116,32 @@ def main():
     print(f"tarball   : submission.tar.gz ({os.path.getsize(tarball):,} bytes)")
 
     status = "built"
+    ref = ""
     if args.submit:
         msg = args.message or f"{args.version}: {args.note} [sha256 {digest[:16]}]"
         r = subprocess.run([PY, "-m", "kaggle", "competitions", "submit", "kaggriculture",
                             "-f", tarball, "-m", msg],
                            capture_output=True, text=True, encoding="utf-8", errors="replace")
         out = (r.stdout or "") + (r.stderr or "")
-        print(out.strip()[-1500:])
-        status = "submitted" if "Successfully" in out or r.returncode == 0 else "FAILED"
+        # The console here is GBK. Kaggle's output contains U+FFFD (from our own
+        # errors="replace" decode), which GBK cannot encode -- printing it raw
+        # raises UnicodeEncodeError *after* the submission has already gone
+        # through, so the run looks failed when it succeeded. Never print this
+        # text unsanitised.
+        say(out.strip()[-1500:])
+        ok = "Successfully" in out or r.returncode == 0
+        status = "submitted" if ok else "FAILED"
+        if ok:
+            ref = latest_ref(PY)
 
     with open(LOG, "a", encoding="utf-8") as fh:
         if not os.path.exists(LOG) or os.path.getsize(LOG) == 0:
             fh.write("# 提交记录（scripts/submit.py 自动追加）\n\n"
                      "| 时间 | 版本 | 状态 | sha256(前16位) | 行数 | 说明 |\n"
                      "|---|---|---|---|---|---|\n")
+        ref_note = f"ref {ref} | " if ref else ""
         fh.write(f"| {time.strftime('%Y-%m-%d %H:%M')} | {args.version} | {status} | "
-                 f"`{digest[:16]}` | {lines} | {args.note} |\n")
+                 f"`{digest[:16]}` | {lines} | {ref_note}{args.note} |\n")
     print(f"logged -> results/submissions.md  (status: {status})")
     if not args.submit:
         print("\ndry run — nothing sent. Re-run with --submit to send.")

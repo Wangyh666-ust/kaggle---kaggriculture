@@ -30,17 +30,29 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 RESULTS = os.path.join(ROOT, "tournament_results")
 
 
+# "kaggle" = last callable (what Kaggle actually runs), "agent" = the name `agent`.
+# Read from the environment, not from main(): the process pool uses spawn on
+# Windows, so children re-import this module and would reset a plain global.
+LOADER = os.environ.get("TOURNAMENT_LOADER", "kaggle")
+
+
 def load_agent(path, name):
     spec = importlib.util.spec_from_file_location(name, path)
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
-    # Kaggle loads the LAST callable in the namespace; mirror that rule
-    if not callable(getattr(mod, "agent", None)):
-        callables = [(k, v) for k, v in vars(mod).items()
-                     if callable(v) and not k.startswith("__")]
+    callables = [(k, v) for k, v in vars(mod).items()
+                 if callable(v) and not k.startswith("__")]
+    if LOADER == "kaggle":
+        # Kaggle resolves the entrypoint as the LAST callable in the namespace.
+        # Several public agents (v50/v51/v52/v53/v55, prvsiyan, tetsutani,
+        # kaito_v27, beatv48) define experimental layers AFTER def agent(), so
+        # taking `agent` silently evaluates a shorter stack than the ladder does.
         if callables:
             return callables[-1][1]
-    return mod.agent
+        return mod.agent
+    if callable(getattr(mod, "agent", None)):
+        return mod.agent
+    return callables[-1][1] if callables else None
 
 
 def run_one(task):
@@ -78,7 +90,13 @@ def main():
                          "1 seat x 2x seeds gives the same wall time with twice the "
                          "independent samples.")
     ap.add_argument("--tag", default="")
+    ap.add_argument("--loader", choices=("kaggle", "agent"), default="kaggle",
+                    help="entrypoint rule: 'kaggle' = last callable (default, what the "
+                         "ladder runs), 'agent' = the name `agent` (legacy behaviour)")
     args = ap.parse_args()
+    global LOADER
+    LOADER = args.loader
+    os.environ["TOURNAMENT_LOADER"] = args.loader   # propagate into spawned workers
 
     cand_path = args.candidate if os.path.isabs(args.candidate) else os.path.join(ROOT, args.candidate)
     opp_paths = args.opponents or sorted(glob.glob(os.path.join(ROOT, "opponents", "*", "main.py")))
