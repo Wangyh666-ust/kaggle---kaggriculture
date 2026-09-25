@@ -529,6 +529,8 @@ th{color:var(--mut);font-weight:600;background:#f6faf8}
 .kpi b{font-size:18px}
 .win{color:#1d7b4a;font-weight:700}.lose{color:#b85348;font-weight:700}.tie{color:var(--mut);font-weight:700}
 .note{color:var(--mut);font-size:12px;margin:8px 0 0}
+.back{font-size:12px;font-weight:400;color:var(--mut);text-decoration:none;float:right}
+table a{color:#1d7b4a}
 .sep{border:0;border-top:1px dashed var(--line);margin:24px 0}
 """
 
@@ -541,19 +543,62 @@ HOWTO = """<div class="howto"><b>怎么看这一页</b>
 </ul></div>"""
 
 
-def build_html(games, names):
-    p = ["<!doctype html><meta charset='utf-8'><title>对局账本</title>",
+def build_html(games, names, blurb="", stats=None):
+    p = ["<!doctype html><meta charset='utf-8'><title>对局账本</title><a id='top'></a>",
          f"<style>{CSS}</style><div class='wrap'><h1>对局账本</h1>",
          f"<p class='lead'>把一局拆开看：现金、劳动力、地块、收支、下单构成、终局账本。"
-         f"左 seat 0 / 右 seat 1。</p>", HOWTO]
+         f"左 seat 0 / 右 seat 1。</p>"]
+    if blurb:
+        p.append(f"<div class='howto'><b>这一页装的是什么</b><p class='note' "
+                 f"style='font-size:13px'>{blurb}</p></div>")
+    # Summary + index. Without an index the reader cannot choose a game, and
+    # without the distribution they cannot tell whether a single game's gap is
+    # typical -- both were asked for after the first version showed three games
+    # with no context.
+    if stats:
+        p.append("<div class='kpi'>"
+                 f"<div><span>扫描局数</span><b>{stats['n']}</b></div>"
+                 f"<div><span>胜率</span><b>{stats['rate']:.0f}%</b></div>"
+                 f"<div><span>胜 / 负 / 平</span><b>{stats['w']} / {stats['l']} / {stats['t']}</b></div>"
+                 f"<div><span>不同对手</span><b>{stats['opponents']}</b></div>"
+                 f"<div><span>\\|差距\\| 中位</span><b>${stats['median']:,.0f}</b></div>"
+                 f"<div><span>最小 / 最大</span><b>${stats['closest']:,.0f} / ${stats['worst']:,.0f}</b></div>"
+                 f"<div><span>差距 &lt; $600</span><b>{stats['close_pct']:.0f}%</b></div>"
+                 "</div>")
+        rows = []
+        for gi, g in enumerate(games):
+            m = g["final"][0] - g["final"][1]
+            cls = "win" if m > 0 else ("lose" if m < 0 else "tie")
+            tag = "胜" if m > 0 else ("负" if m < 0 else "平")
+            opp = html.escape(g.get("opp_name") or "对手")
+            ep = html.escape(str(g["seed"]))
+            rows.append(f"<tr><td><a href='#g{gi+1}'>{ep}</a></td>"
+                        f"<td class='{cls}'>{tag}</td><td>${m:+,.0f}</td>"
+                        f"<td>{opp}</td></tr>")
+        p.append("<div class='card'><h3>对局索引（点 episode 跳到那一局）</h3>"
+                 "<p class='note'>按差距从大到小。每局都是独立的天梯对局，对手各不相同。</p>"
+                 "<table><tr><th>episode</th><th>结果</th><th>差距</th><th>对手</th></tr>"
+                 + "".join(rows) + "</table></div>")
     for gi, g in enumerate(games):
         steps, seed, final = g["steps"], g["seed"], g["final"]
         margin = final[0] - final[1]
         res = ("win", "我们赢") if margin > 0 else (("lose", "我们输") if margin < 0 else ("tie", "平"))
         if gi:
             p.append("<hr class='sep'>")
-        p.append(f"<h2>第 {gi+1} 局 &middot; 种子 {seed} &middot; "
-                 f"<span class='{res[0]}'>{res[1]} ${abs(margin):,.0f}</span></h2>")
+        # Say WHERE the game came from. A ladder replay has an episode id and two
+        # named teams; a local run has a seed and two file names. Printing the
+        # episode id in the "seed" slot made a real ladder game look like a local
+        # simulation, which is exactly how the reader got misled.
+        if g.get("ladder"):
+            src = f"天梯对局 &middot; episode <b>{seed}</b>（提交 ref {g.get('ref','?')}）"
+        else:
+            src = f"本地模拟 &middot; seed <b>{seed}</b>"
+        p.append(f"<h2 id='g{gi+1}'>{src} &middot; "
+                 f"<span class='{res[0]}'>{res[1]} ${abs(margin):,.0f}</span>"
+                 f" &middot; <a href='#top' class='back'>↑ 回到索引</a></h2>")
+        opp = html.escape(g.get("opp_name") or (names[1] if len(names) > 1 else "对手"))
+        p.append(f"<p class='sub'>{html.escape(names[0])}（seat 0） vs "
+                 f"{opp}（seat 1）</p>")
         p.append("<div class='kpi'>")
         for s in (0, 1):
             rs = [r[s] for r in steps if r.get(s)]
