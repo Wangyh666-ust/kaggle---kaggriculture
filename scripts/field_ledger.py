@@ -157,6 +157,29 @@ def collect(env_steps, seats=2):
     return steps
 
 
+def denormalise(steps):
+    """Restore integer seat keys after a JSON round-trip.
+
+    `collect()` builds rows keyed by int seat (0/1). json.dump turns those into
+    strings, so every consumer that does `row.get(seat)` silently gets None and
+    the whole profile goes to zeros. Normalise once, at the IO boundary, rather
+    than making every reader tolerate both.
+    """
+    out = []
+    for r in steps:
+        row = {}
+        for k, v in r.items():
+            if k == "t":
+                row["t"] = v
+            else:
+                try:
+                    row[int(k)] = v
+                except (TypeError, ValueError):
+                    row[k] = v
+        out.append(row)
+    return out
+
+
 def fmt_money(v):
     a = abs(v)
     if a >= 1_000_000:
@@ -330,22 +353,25 @@ LAND_COST = (1000, 2000, 4000)
 
 
 def revenue_mix(steps, seat):
-    """Gross revenue split by product, plus the numbers that justify the split.
+    """Order-stream composition by product, anchored to the real cash inflow.
 
-    Two ways to attribute revenue were tried and one was thrown away:
+    Two ways to attribute revenue were tried; both failed their own check, and
+    the failure is worth recording because it bounds what a replay can tell you:
 
-      * bound each SELL by the shed we can read -> covered only 19% of the real
-        cash inflows, because these tapes harvest and sell inside the same turn
-        and the harvest never appears in the observation we read. A pie built on
-        19% of the money is worse than no pie.
-      * sum the EMITTED sell orders at the quoted price -> $98,333 against
-        $89,515 of real inflows, a ratio of 1.10. The order stream carries the
-        product mix faithfully; the overshoot is the orders that only partly
-        filled.
+      * bound each SELL by the shed we can read -> covers only 19% of the real
+        cash inflow, because these tapes harvest and sell inside one turn and the
+        harvest is absent from the observation we read;
+      * compare the emitted units against shed stock per step -> flags EVERY
+        product, for the same reason: the shed snapshot is taken before the
+        turn's harvest, so nearly every SELL looks like it exceeds stock.
 
-    So the mix comes from the order stream and the total is anchored to the real
-    cash inflows. The ratio is returned as a metric in its own right: it is the
-    share of what we tried to sell that actually executed.
+    So a replay cannot separate orders from fills. What it CAN do is give the
+    product mix of the order stream, and the real cash inflow to anchor the
+    total. That is what this returns, and the panel that shows it says plainly
+    that it is an order-stream mix, not a realised one. Products the tapes
+    over-order (fertilizer routinely emits clears far beyond the 100-unit shed)
+    are overstated here; getting realised prices requires engine-level
+    instrumentation, which is done locally instead (tmp_analysis/truefills.py).
     """
     emitted = collections.Counter()
     inflow = outflow = 0.0
@@ -638,15 +664,18 @@ def build_html(games, names):
             rev, inflow, outflow, emitted = revenue_mix(steps, s)
             ratio = (inflow / emitted) if emitted else 0.0
             kpis = (f"毛收入 ${inflow:,.0f}（= 实际现金流入口径）。"
-                    f"品种构成取自下单流：下单卖出合计 ${emitted:,.0f}，"
-                    f"<b>执行率 {100*ratio:.0f}%</b>（低于 100% 的部分是没能成交的单）。"
-                    f"支出合计 ${outflow:,.0f}。")
-            p.append("<div class='card'><h3>收益来源 &middot; "
+                    f"品类构成按【发出的卖单 × 报价】折算，下单合计 ${emitted:,.0f}，"
+                    f"<b>执行率 {100*ratio:.0f}%</b>。支出合计 ${outflow:,.0f}。")
+            p.append("<div class='card'><h3>下单构成 &middot; "
                      f"{html.escape(names[s])}（seat {s}）</h3>"
-                     f"<p class='note'>按品种拆分的毛收入，<b>降序</b>排列；饼图是占比。"
-                     f"总额锚定到真实现金流入，构成来自下单流（两者已对账）。</p>"
-                     + pie_panel(list(rev.items()), "毛收入构成（降序）", kpis)
-                     + "<table><tr><th>品种</th><th>毛收入</th><th>占比</th></tr>"
+                     f"<p class='note'>按品类拆分的<b>下单金额</b>，<b>降序</b>；饼图是占比。"
+                     f"总量锚定真实现金流入。⚠️ <b>这不是成交构成</b>：引擎会中止"
+                     f"超出棚存的卖单，而棚存快照是收割前的，所以单靠回放无法把"
+                     f"「下单」和「成交」分开——要精确到成交价必须挂钩引擎"
+                     f"（本地已用猴补丁做到，见 tmp_analysis/truefills.py）。"
+                     f"超量下单的品类（通常是肥料）占比会偏高。</p>"
+                     + pie_panel(list(rev.items()), "毛收入构成（近似·降序）", kpis)
+                     + "<table><tr><th>品种</th><th>下单金额</th><th>占比</th></tr>"
                      + "".join(
                          f"<tr><td>{TILE_CN.get(k, k)}</td><td>${v:,.0f}</td>"
                          f"<td>{100.0*v/max(1,sum(rev.values())):.1f}%</td></tr>"

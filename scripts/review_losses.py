@@ -154,7 +154,9 @@ def main():
         for n, eid in enumerate(ids, 1):
             sp = summary_path(eid)
             if os.path.exists(sp):
-                games.append(json.load(open(sp, encoding="utf-8")))
+                _g = json.load(open(sp, encoding="utf-8"))
+                _g["steps"] = FL.denormalise(_g["steps"])
+                games.append(_g)
                 g = games[-1]
                 print(f"  [{n}/{len(ids)}] ep {g['episode']}  (cached)")
                 continue
