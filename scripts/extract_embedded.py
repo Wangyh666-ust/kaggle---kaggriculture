@@ -149,6 +149,24 @@ def main():
         if cell["cell_type"] != "code":
             continue
         src = "".join(cell["source"])
+
+        # Some authors skip the blob entirely and write the source with an IPython
+        # magic: `%%writefile main.py`. The cell body IS the file, so the AST scan
+        # below would find nothing (yhay81/shop-router-0909 is written this way).
+        m = re.match(r"%%writefile\s+(\S+)\s*\n", src)
+        if m and m.group(1).endswith(".py"):
+            body = src[m.end():].encode("utf-8")
+            sha = hashlib.sha256(body).hexdigest()
+            name = os.path.basename(m.group(1))
+            out = os.path.join(args.out, f"cell{ci}_writefile_{name.replace('.py', '')}"
+                                        f"_{sha[:8]}.py")
+            open(out, "wb").write(body)
+            hits += 1
+            print(f"cell {ci:2d}  %%writefile {name:14s} "
+                  f"{len(body):>8,} bytes  lines={body.count(chr(10).encode()) + 1}  "
+                  f"sha256={sha[:16]}")
+            print(f"          -> {out}")
+            continue
         for name, label, raw in candidate_literals(src):
             got = unwrap(raw)
             if not got:
