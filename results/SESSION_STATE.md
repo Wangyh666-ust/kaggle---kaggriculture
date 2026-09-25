@@ -25,12 +25,17 @@ ref 56537565  v40  2476.2       ← 被挤出
 - 截止 **2026-09-30**。**最后名次由最后一个窗口格决定**（09-29 起要连投两次）。
 - 每日额度约 3–5 次；`kaggle competitions submission-limits kaggriculture` 查。
 
-## 三、正在跑 / 刚跑完的活
+## 三、长任务状态与缓存
 
-- 后台：`review_versions.py --all-versions` 正在为**每个历史版本**抓 24 局天梯对局，
-  写 `tmp_replays/ref-<ref>.json`（索引）与 `tmp_replays/ep-<eid>-summary.json`（数据）。
-  已有 11 个 ref 索引、291 局摘要。**重跑不会重复下载**（两层缓存）。
-- 巡检 cron：`a0535d4b`（durable，每 2 小时 :23）。另一条重复的旧 cron 已删。
+**当前没有长任务在跑。** 缓存（`tmp_replays/`）：
+
+- **ref 索引 18 个**（`ref-<ref>.json`：该 ref 抓过哪些 episode）
+- **对局摘要 454 局**（`ep-<eid>-summary.json`：提取好的逐回合序列，每个几百 KB）
+- 复盘页现在只嵌了 **v44 / v41 / v40** 三个版本。**默认不需要再抓**——
+  想加别的版本才跑 `review_versions.py --versions <名字>`（本地有就复用，没有才下载）。
+
+巡检 cron：**`a0535d4b`**（durable，每 2 小时 :23，写在 `.claude/scheduled_tasks.json`）。
+用 `/cron` 或 `CronList` 查它还在不在；改了提交策略要同步改它的提示词。
 
 ## 四、下一步待办（按价值排序）
 
@@ -77,7 +82,7 @@ ref 56537565  v40  2476.2       ← 被挤出
 ## 七、目录地图
 
 ```
-main.py                      当前提交基线（v37 系）；experiments/v44/adv6.py 是现在的候选
+main.py                      当前提交基线（v37 系）；experiments/v44/adv6.py 已提交（ref 56552481）
 scripts/
   tournament.py              成批对局（--loader kaggle 才是真行为）
   build_ladder.py            把栈式 agent 冻在任意一层做前缀消融 ← 定位"哪一层值钱"的唯一工具
@@ -93,7 +98,7 @@ results/
   submissions.md             提交审计（**只有 status=submitted 且有 ref 的行可信**）
   reports/                   每版一份报告
   ledger/ladder_review.html  ★ 多版本复盘页（唯一入口，双击打开）
-insights/                    claims.md（A–G 共 ~60 条）+ local_findings.md（M1–M36、L1–L15）+ sources/
+insights/                    claims.md（**A–H 共 ~70 条**）+ local_findings.md（**M1–M36、L1–L18**）+ sources/（13 篇）
 tmp_replays/                 两层缓存：ref-<ref>.json（索引）+ ep-<eid>-summary.json（数据）
 ```
 
