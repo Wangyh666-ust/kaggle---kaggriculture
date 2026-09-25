@@ -30,6 +30,7 @@ import argparse
 import collections
 import html
 import importlib.util
+import math
 import json
 import os
 import sys
@@ -69,21 +70,47 @@ def load(path, name):
     return cbs[-1] if cbs else None
 
 
+def iter_tiles(farm):
+    """Yield every tile of a farm, flattening the board.
+
+    `farm["tiles"]` is a 10x10 grid of ROWS, not a flat list. Passing a row to
+    tile_kind() made isinstance(row, dict) false, so it returned str(row) -- the
+    whole row as a crop name. Every key was then a unique string, the key filter
+    matched nothing, and the tile panel rendered axes with no bars at all.
+    """
+    tiles = farm.get("tiles") or []
+    if tiles and isinstance(tiles[0], (list, tuple)):
+        for row in tiles:
+            for t in row:
+                yield t
+    else:
+        for t in tiles:
+            yield t
+
+
 def tile_kind(tile):
+    """Map one tile to a ledger category.
+
+    The engine's kinds are PLANT (not CROP) for crops, plus PASTURE and COOP for
+    the animal structures; a None tile is bare soil.
+    """
     if tile is None:
         return "EMPTY"
-    if tile == "LOCKED":
-        return "LOCKED"
-    if isinstance(tile, dict):
-        k = tile.get("kind")
-        if k == "CROP":
-            return tile.get("crop") or "CROP"
-        if k == "PASTURE":
-            return "PASTURE"
-        if k == "WEED":
-            return "WEED"
-        return str(k)
-    return str(tile)
+    if isinstance(tile, str):
+        return tile
+    get = getattr(tile, "get", None)
+    if get is None:
+        return "OTHER"
+    k = get("kind")
+    if k == "PLANT":
+        return get("crop") or "OTHER"
+    if k in ("PASTURE", "COOP"):
+        return "PASTURE"
+    if k == "WEED":
+        return "WEED"
+    if k in ("EMPTY", "LOCKED"):
+        return k
+    return str(k)
 
 
 def collect(env_steps, seats=2):
@@ -120,9 +147,11 @@ def collect(env_steps, seats=2):
                 "hands": len(farm.get("hands") or []),
                 "idle": idle, "units": units,
                 "orders": collections.Counter(o[0] for o in orders if o),
-                "tiles": collections.Counter(tile_kind(x) for x in (farm.get("tiles") or [])),
+                "tiles": collections.Counter(tile_kind(x) for x in iter_tiles(farm)),
                 "shops": list((obs.get("town") or {}).get("unlocked_shops") or []),
                 "shed": dict((obs.get("private") or {}).get("shed") or {}),
+                "prices": dict((obs.get("market") or {}).get("prices") or {}),
+                "order_list": orders,
             }
         steps.append(row)
     return steps
@@ -155,41 +184,61 @@ def _scale(v, lo, hi, a, b):
     return a + (b - a) * (v - lo) / (hi - lo)
 
 
-def line_panel(series, title, xlabel, ylabel, markers=(), width=980, height=240, money=True):
-    """series: [(label, color, [(x, y), ...])] -- several seats on one axis."""
+def line_panel(series, title, xlabel, ylabel, markers=(), width=980, height=250, money=True):
+    """series: [(label, color, [(x, y), ...])] -- several seats on one axis.
+
+    Layout choices that came out of reading the rendered page, not the code:
+      * no rotated y-axis title -- it sat on top of the legend; the subtitle
+        already names the unit;
+      * the legend lives on its own row UNDER the plot, so it can never collide
+        with axis labels;
+      * marker labels are deduplicated and staggered over three rows, because
+        eight shop unlocks in one game otherwise print on top of each other;
+      * the first/last x tick anchors are clamped so they are not clipped.
+    """
     pts_all = [p for _, _, ps in series for p in ps]
     if not pts_all:
         return ""
     xlo, xhi = min(p[0] for p in pts_all), max(p[0] for p in pts_all)
     ys = [p[1] for p in pts_all]
-    lo, hi = (0, max(ys)) if money else (0, max(ys))
-    if money:
-        lo = 0
-    hi = hi if hi > lo else lo + 1
-    ml, mr, mt, mb = 82, 18, 54, 40
+    lo, hi = 0, (max(ys) if max(ys) > 0 else 1)
+    ml, mr, mt, mb = 66, 26, 52, 74
     px0, px1, py0, py1 = ml, width - mr, mt, height - mb
     o = [f'<svg viewBox="0 0 {width} {height}" class="chart">',
          f'<text x="{ml}" y="18" class="ttl">{html.escape(title)}</text>',
          f'<text x="{ml}" y="34" class="sub2">{html.escape(ylabel)}</text>']
     _ax(o, px0, px1, py0, py1, lo, hi, money=money)
-    for xv in (xlo, (xlo + xhi) / 2, xhi):
+    for i, xv in enumerate((xlo, (xlo + xhi) / 2, xhi)):
         xx = _scale(xv, xlo, xhi, px0, px1)
-        o.append(f'<text x="{xx:.1f}" y="{py1+18}" class="ax">{xv:,.0f}</text>')
-    o.append(f'<text x="{(px0+px1)/2:.0f}" y="{height-4}" class="ax mid">{html.escape(xlabel)}</text>')
+        anchor = ("start" if i == 0 else "end" if i == 2 else "middle")
+        o.append(f'<text x="{xx:.1f}" y="{py1+18}" class="ax" text-anchor="{anchor}">'
+                 f'{xv:,.0f}</text>')
+    o.append(f'<text x="{(px0+px1)/2:.0f}" y="{py1+36}" class="ax mid">'
+             f'{html.escape(xlabel)}</text>')
     for label, color, pts in series:
         d = " ".join(f"{_scale(x, xlo, xhi, px0, px1):.1f},{_scale(y, lo, hi, py1, py0):.1f}"
                      for x, y in pts)
         o.append(f'<polyline points="{d}" fill="none" stroke="{color}" stroke-width="1.8"/>')
+    # Markers: keep the tick, stagger the label over three rows, drop repeats.
+    seen_lbl = set()
+    row = 0
     for mx, mlabel in markers:
         mxx = _scale(mx, xlo, xhi, px0, px1)
         o.append(f'<line x1="{mxx:.1f}" y1="{py0}" x2="{mxx:.1f}" y2="{py1}" class="mark">'
                  f'<title>{html.escape(mlabel)}</title></line>')
-        o.append(f'<text x="{mxx+3:.1f}" y="{py0+11}" class="mk">{html.escape(mlabel)}</text>')
+        if mlabel in seen_lbl:
+            continue
+        seen_lbl.add(mlabel)
+        ly = py0 + 11 + row * 11
+        anchor = "end" if mxx > px1 - 60 else "start"
+        o.append(f'<text x="{mxx + (-3 if anchor == "end" else 3):.1f}" y="{ly:.0f}" '
+                 f'class="mk" text-anchor="{anchor}">{html.escape(mlabel)}</text>')
+        row = (row + 1) % 3
     lx = ml
     for label, color, _ in series:
-        o.append(f'<rect x="{lx}" y="{mt-18}" width="18" height="4" rx="2" fill="{color}"/>')
-        o.append(f'<text x="{lx+23}" y="{mt-13}" class="lg">{html.escape(label)}</text>')
-        lx += 30 + 13 * len(label)
+        o.append(f'<rect x="{lx}" y="{py1+48}" width="18" height="4" rx="2" fill="{color}"/>')
+        o.append(f'<text x="{lx+23}" y="{py1+53}" class="lg">{html.escape(label)}</text>')
+        lx += 34 + 13 * len(label)
     o.append("</svg>")
     return "\n".join(o)
 
@@ -271,6 +320,106 @@ def grouped_panel(by_seat, title, note="", width=980, height=250):
                  f'fill="{SEAT_COLOR[seat]}"/>')
         o.append(f'<text x="{lx+15}" y="{mt-9}" class="lg">seat {seat}</text>')
         lx += 76
+    o.append("</svg>")
+    return "\n".join(o)
+
+
+SEED_COST = {"WHEAT": 10, "CARROT": 20, "TOMATO": 50, "STRAWBERRY": 100, "MELON": 80}
+ANIMAL_COST = {"COW": 400, "SHEEP": 500, "GOOSE": 300}
+LAND_COST = (1000, 2000, 4000)
+
+
+def revenue_mix(steps, seat):
+    """Gross revenue split by product, plus the numbers that justify the split.
+
+    Two ways to attribute revenue were tried and one was thrown away:
+
+      * bound each SELL by the shed we can read -> covered only 19% of the real
+        cash inflows, because these tapes harvest and sell inside the same turn
+        and the harvest never appears in the observation we read. A pie built on
+        19% of the money is worse than no pie.
+      * sum the EMITTED sell orders at the quoted price -> $98,333 against
+        $89,515 of real inflows, a ratio of 1.10. The order stream carries the
+        product mix faithfully; the overshoot is the orders that only partly
+        filled.
+
+    So the mix comes from the order stream and the total is anchored to the real
+    cash inflows. The ratio is returned as a metric in its own right: it is the
+    share of what we tried to sell that actually executed.
+    """
+    emitted = collections.Counter()
+    inflow = outflow = 0.0
+    prev = None
+    for r in steps:
+        if not r.get(seat):
+            continue
+        d = r[seat]
+        if prev is not None:
+            delta = d["money"] - prev
+            if delta > 0:
+                inflow += delta
+            else:
+                outflow -= delta
+        prev = d["money"]
+        for o in d["order_list"]:
+            if o and o[0] == "SELL" and len(o) >= 3:
+                emitted[o[1]] += int(o[2]) * float(d["prices"].get(o[1], 0))
+    total = sum(emitted.values())
+    scale = (inflow / total) if total else 0.0
+    mix = collections.Counter({k: v * scale for k, v in emitted.items()})
+    return mix, inflow, outflow, total
+
+
+def pie_panel(items, title, note="", width=980, height=300):
+    """items: [(label, value)] -- sorted descending, one slice each."""
+    items = [(k, v) for k, v in items if v > 0]
+    if not items:
+        return ""
+    items.sort(key=lambda kv: -kv[1])
+    total = sum(v for _, v in items)
+    cx, cy, rad = 190, height / 2, min(height / 2 - 34, 108)
+    o = [f'<svg viewBox="0 0 {width} {height}" class="chart">',
+         f'<text x="24" y="20" class="ttl">{html.escape(title)}</text>']
+    if note:
+        o.append(f'<text x="24" y="37" class="sub2">{html.escape(note)}</text>')
+    ang = -90.0
+    palette = ["#c0392b", "#2471a3", "#1e8449", "#7d3c98", "#b9770e", "#5d6d7e",
+               "#d94f8a", "#16a085", "#8e44ad", "#2c3e50"]
+    for i, (k, v) in enumerate(items):
+        frac = v / total
+        sweep = 360.0 * frac
+        a0, a1 = math.radians(ang), math.radians(ang + sweep)
+        x0, y0 = cx + rad * math.cos(a0), cy + rad * math.sin(a0)
+        x1, y1 = cx + rad * math.cos(a1), cy + rad * math.sin(a1)
+        large = 1 if sweep > 180 else 0
+        color = palette[i % len(palette)]
+        cn = TILE_CN.get(k, MKT_CN.get(k, k))
+        if frac > 0.9999:
+            o.append(f'<circle cx="{cx}" cy="{cy}" r="{rad}" fill="{color}">'
+                     f'<title>{cn} {v:,.0f} (100%)</title></circle>')
+        else:
+            o.append(f'<path d="M {cx} {cy} L {x0:.1f} {y0:.1f} '
+                     f'A {rad} {rad} 0 {large} 1 {x1:.1f} {y1:.1f} Z" fill="{color}">'
+                     f'<title>{cn} {v:,.0f} ({100*frac:.1f}%)</title></path>')
+        ang += sweep
+    o.append(f'<circle cx="{cx}" cy="{cy}" r="{rad*0.52:.0f}" fill="#fff"/>')
+    o.append(f'<text x="{cx}" y="{cy-4}" class="ax mid" style="font-size:13px;fill:#16302a">'
+             f'合计</text>')
+    o.append(f'<text x="{cx}" y="{cy+16}" class="ax mid" '
+             f'style="font-size:15px;font-weight:700;fill:#16302a">${total:,.0f}</text>')
+    # Legend, in descending order, with the share spelled out.
+    ly = 62
+    lx = 350
+    for i, (k, v) in enumerate(items):
+        color = palette[i % len(palette)]
+        cn = TILE_CN.get(k, MKT_CN.get(k, k))
+        o.append(f'<rect x="{lx}" y="{ly-10}" width="12" height="12" rx="3" fill="{color}"/>')
+        o.append(f'<text x="{lx+18}" y="{ly}" class="lg">{html.escape(cn)}</text>')
+        o.append(f'<text x="{width-24}" y="{ly}" class="lg" text-anchor="end">'
+                 f'${v:,.0f} &nbsp; {100.0*v/total:.1f}%</text>')
+        ly += 21
+        if ly > height - 12:
+            break
     o.append("</svg>")
     return "\n".join(o)
 
@@ -483,7 +632,29 @@ def build_html(games, names):
                                      label_cn=MKT_CN) + "</div>")
         p.append("</div>")
 
-        # 6 closing book: one table, both seats as columns
+        # 6 revenue sources: pie + descending table, per seat
+        p.append("<div class='row'>")
+        for s in (0, 1):
+            rev, inflow, outflow, emitted = revenue_mix(steps, s)
+            ratio = (inflow / emitted) if emitted else 0.0
+            kpis = (f"毛收入 ${inflow:,.0f}（= 实际现金流入口径）。"
+                    f"品种构成取自下单流：下单卖出合计 ${emitted:,.0f}，"
+                    f"<b>执行率 {100*ratio:.0f}%</b>（低于 100% 的部分是没能成交的单）。"
+                    f"支出合计 ${outflow:,.0f}。")
+            p.append("<div class='card'><h3>收益来源 &middot; "
+                     f"{html.escape(names[s])}（seat {s}）</h3>"
+                     f"<p class='note'>按品种拆分的毛收入，<b>降序</b>排列；饼图是占比。"
+                     f"总额锚定到真实现金流入，构成来自下单流（两者已对账）。</p>"
+                     + pie_panel(list(rev.items()), "毛收入构成（降序）", kpis)
+                     + "<table><tr><th>品种</th><th>毛收入</th><th>占比</th></tr>"
+                     + "".join(
+                         f"<tr><td>{TILE_CN.get(k, k)}</td><td>${v:,.0f}</td>"
+                         f"<td>{100.0*v/max(1,sum(rev.values())):.1f}%</td></tr>"
+                         for k, v in sorted(rev.items(), key=lambda kv: -kv[1]))
+                     + "</table></div>")
+        p.append("</div>")
+
+        # 7 closing book: one table, both seats as columns
         rows = []
         for k in TILE_ORDER:
             a = sum(r[0]["tiles"].get(k, 0) for r in steps if r.get(0)) / max(
