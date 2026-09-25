@@ -47,3 +47,34 @@ insights/
 本项目已经因为"20 局/对手"级别的样本得出过假阴性（`_SR_*` 那条，代价几百 Elo），
 也因为单一种子块得出过假阳性（ca25、毛线店各一次）。
 **任何要写进"可用"的 A/B，每臂 ≥500 局，且两个独立种子块方向一致。**
+
+---
+
+## 工具索引（`scripts/`）
+
+2026-09-25 这一轮新增/固化的工具。每个的 docstring 里都写了"它回答什么问题"。
+
+### 评测与对手
+
+| 工具 | 回答什么问题 |
+|---|---|
+| `scripts/tournament.py` | 候选 vs 对手面板，逐对手 W/L/T + 均差。**`--loader kaggle`（默认）才是 Kaggle 真行为**——取命名空间里最后一个可调用对象；`--loader agent` 是旧口径，仅用于对照（见 L7） |
+| `scripts/build_ladder.py` | **把栈式 agent 冻在任意一层做入口**，做前缀消融。原理：作者逐层包裹时把父函数存成 `_XXX_PARENT`，在副本末尾追加 `_ABLATION_ENTRY = <stage>` 就能让 Kaggle 的 last-callable 规则选中它。**这是目前唯一能把"我们被打败"定位到具体层的工具** |
+| `scripts/world_split.py` | 按**商店世界**切分胜率（leoprovorov 的"评测单元是路线×世界"）。用来找 L4 说的"结构性空洞" |
+| `scripts/field_ledger.py` | 把**一局**渲染成自包含 HTML（内联 SVG，无依赖）：现金/闲置/地块账本/日内现金流/市场指令/终局账本。支持 `--replay` 读真实天梯回放 |
+
+### 源码与血缘
+
+| 工具 | 回答什么问题 |
+|---|---|
+| `scripts/extract_embedded.py` | 从 notebook 里抽出内嵌的 agent（支持 base64/base85/base85-of-zlib、gzip/zlib、裸 .py、tar 内含 main.py；字节字面量；`base64.b64decode('…')` 这类**被调用包裹**的写法） |
+| `scripts/token_compare.py` | 两个 agent 的**标识符集合差**——"谁定义了对方没有的名字"。**不要用整体相似度**，见 L13 |
+| `scripts/lineage_id.py` | 判断一个未知 agent 属于哪条已知血统（标记词 + 排序敏感 ratio） |
+| `scripts/opening_trace.py` | 逐回合打印现金/价格/市场指令。**注意口径**：`env.steps[t][i]["observation"]` 里的 money 是**动作执行之后**的余额 |
+| `scripts/atomic_plant_probe.py` | 量"原子播种"陷阱（同作物 PLANT 请求数 > 种子数则**全部**变 PASS）触发多少次。实测我们是 0 |
+
+### 提交
+
+| 工具 | 说明 |
+|---|---|
+| `scripts/submit.py` | 构建 + 校验入口点 + 记录 sha256 与 **ref** 到 `results/submissions.md`。⚠️ 2026-09-25 修：它曾在提交**成功之后**因 GBK 控制台编码崩溃，看起来像失败且日志写不进去 |

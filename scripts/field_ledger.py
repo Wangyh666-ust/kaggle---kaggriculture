@@ -61,13 +61,19 @@ def tile_kind(tile):
     return str(tile)
 
 
-def collect(env, seats=2):
-    """Per-step series for every player, anchored on the observation itself."""
+def collect(env_steps, seats=2):
+    """Per-step series for every player, anchored on the observation itself.
+
+    Takes the raw `steps` list, not an env. A fetched replay from
+    `kaggle competitions replay` has exactly this shape (720 entries of two
+    {action, observation, reward, status} dicts with identical observation
+    keys), so the same code renders a ladder game and a local one.
+    """
     steps = []
-    for t in range(len(env.steps)):
+    for t in range(len(env_steps)):
         row = {"t": t}
         for seat in range(seats):
-            st = env.steps[t][seat]
+            st = env_steps[t][seat]
             obs = st.get("observation") or {}
             if not obs.get("farms"):
                 row[seat] = None
@@ -403,26 +409,44 @@ def build_html(games, names):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--a", default="main.py")
-    ap.add_argument("--b", required=True)
+    ap.add_argument("--b", default=None,
+                    help="opponent; not needed with --replay")
     ap.add_argument("--seeds", default="4242")
     ap.add_argument("--out", default="results/ledger/ledger.html")
+    ap.add_argument("--replay", default=None,
+                    help="path to a fetched episode-*-replay.json (skips simulation)")
     args = ap.parse_args()
 
     a_path = args.a if os.path.isabs(args.a) else os.path.join(ROOT, args.a)
-    b_path = args.b if os.path.isabs(args.b) else os.path.join(ROOT, args.b)
-    A, B = load(a_path, "A"), load(b_path, "B")
+    b_path = None if not args.b else (
+        args.b if os.path.isabs(args.b) else os.path.join(ROOT, args.b))
     names = [os.path.basename(os.path.dirname(p)) if os.path.basename(p) == "main.py"
-             else os.path.splitext(os.path.basename(p))[0] for p in (a_path, b_path)]
+             else os.path.splitext(os.path.basename(p))[0] for p in (a_path, b_path or a_path)]
     names[0] = "ours" if names[0] == os.path.basename(ROOT) else names[0]
+    if not args.replay:
+        A, B = load(a_path, "A"), load(b_path, "B")
 
-    seeds = [int(x) for x in args.seeds.split(",")]
     games = []
-    for seed in seeds:
+    if args.replay:
+        rp = args.replay if os.path.isabs(args.replay) else os.path.join(ROOT, args.replay)
+        d = json.load(open(rp, encoding="utf-8"))
+        info = d.get("info") or {}
+        teams = info.get("TeamNames") or ["seat0", "seat1"]
+        names = [f"{teams[0]} (seat 0)", f"{teams[1]} (seat 1)"]
+        final = [float(x) for x in d.get("rewards", [])]
+        if len(final) < 2:
+            final = [float(d["steps"][-1][s].get("reward") or 0) for s in (0, 1)]
+        seed = info.get("seed", "?")
+        print(f"replay {os.path.basename(rp)}: episode {info.get('EpisodeId')} "
+              f"seed {seed}  {final[0]:,.0f} : {final[1]:,.0f}")
+        games.append({"steps": collect(d["steps"]), "seed": seed, "final": final,
+                      "result": final[0] - final[1]})
+    for seed in ([] if args.replay else [int(x) for x in args.seeds.split(",")]):
         env = make("kaggriculture", configuration={"seed": seed}, debug=True)
         env.run([A, B])
         final = [float(env.steps[-1][s].reward) for s in (0, 1)]
         print(f"seed {seed}: {final[0]:,.0f} : {final[1]:,.0f}")
-        games.append({"steps": collect(env), "seed": seed, "final": final,
+        games.append({"steps": collect(env.steps), "seed": seed, "final": final,
                       "result": final[0] - final[1]})
 
     out = args.out if os.path.isabs(args.out) else os.path.join(ROOT, args.out)
