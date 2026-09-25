@@ -378,7 +378,11 @@ function renderGame(){
 }
 
 function overview(){
-  const host=document.getElementById("detail");
+  // Write into #overview, NOT #detail: #detail lives inside .split, and .split
+  // is hidden while the overview tab is active -- so writing there renders the
+  // whole overview into a hidden container and leaves the visible one empty.
+  // (A DOM stub cannot catch this: stubs do not know about visibility.)
+  const host=document.getElementById("overview");
   host.innerHTML="";
   const S=STATS;
   const k=document.createElement("div"); k.className="kpi";
@@ -410,11 +414,13 @@ function overview(){
   tbl.appendChild(t);
   host.appendChild(tbl);
 
-  const bins=[0,50,100,200,400,600,1000,2000,1e9];
+  const bins=[0,50,100,200,400,600,1000,2000];
   const hist={}; const labels=[];
-  for(let i=0;i<bins.length-1;i++){ labels.push("$"+bins[i]+"–"+bins[i+1]); hist[i]=0; }
+  for(let i=0;i<bins.length-1;i++){ labels.push("$"+bins[i]+"-"+bins[i+1]); hist[i]=0; }
+  labels.push("$"+bins[bins.length-1]+"+"); hist[bins.length-1]=0;
   GAMES.forEach(g=>{ const m=Math.abs(g.margin);
-    for(let i=0;i<bins.length-1;i++) if(m>=bins[i]&&m<bins[i+1]){ hist[i]++; break; } });
+    for(let i=0;i<bins.length-1;i++) if(m>=bins[i]&&m<bins[i+1]){ hist[i]++; break; }
+    if(m>=bins[bins.length-1]) hist[bins.length-1]++; });
   const data={}; labels.forEach((l,i)=>data[i]={v:hist[i]});
   const hb=stackedPanel({title:"差距分布", sub:"横轴 = |差距| 区间，纵轴 = 局数",
     days:labels.map((_,i)=>i), data:data, keys:["v"], height:220});

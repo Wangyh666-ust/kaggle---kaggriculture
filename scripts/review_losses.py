@@ -146,6 +146,25 @@ def parse_seeds(spec):
     return [int(x) for x in spec.split(",")]
 
 
+def ref_label(ref):
+    """Map a submission ref to its version name, from results/submissions.md.
+
+    "ref 56539741" means nothing to a reader; "v41" does. The log written by
+    submit.py carries both, so resolve one to the other instead of asking the
+    reader to hold the mapping in their head.
+    """
+    log = os.path.join(ROOT, "results", "submissions.md")
+    try:
+        for line in open(log, encoding="utf-8"):
+            if f"ref {ref}" in line:
+                parts = [c.strip() for c in line.split("|")]
+                if len(parts) > 2:
+                    return parts[2]
+    except OSError:
+        pass
+    return ""
+
+
 def compact(g, ladder, ref):
     """Reduce a game to the series the in-browser charts need, and nothing else.
 
@@ -320,8 +339,10 @@ def main():
         "opponents": len(set(g["opp_name"] for g in games)),
         "mirrors": len(mirrors),
     }
+    ver = ref_label(args.ref) if args.ref else ""
+    who = (ver + "，" if ver else "") + "ref " + str(args.ref)
     if args.ref:
-        blurb = (f"<b>真实天梯对局</b>，来自提交 <b>ref {args.ref}</b>：按最近时间抓取 "
+        blurb = (f"<b>真实天梯对局</b>，来自提交 <b>{who}</b>：按最近时间抓取 "
                  f"<b>{stats['n']}</b> 局（对手 {stats['opponents']} 个不同玩家），"
                  f"{stats['w']} 胜 / {stats['l']} 负 / {stats['t']} 平。本页渲染 "
                  f"<b>{len(sel)}</b> 局（{'全部败局' if args.keep <= 0 else '最惨的 %d 局' % len(sel)}）。")
