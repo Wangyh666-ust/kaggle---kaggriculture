@@ -44,6 +44,29 @@ def candidate_literals(src):
             if not name:
                 continue
             value = node.value
+            # A dict of payloads: PAYLOADS = {'main.py': '<b85>', ...}. Several
+            # authors ship the whole release this way, and the AST walk above
+            # only looked at scalar assignments, so it found nothing.
+            if isinstance(value, ast.Dict):
+                for k, v in zip(value.keys, value.values):
+                    try:
+                        name_k = ast.literal_eval(k)
+                    except Exception:
+                        name_k = None
+                    if isinstance(name_k, str) and name_k.endswith(".py"):
+                        try:
+                            inner = ast.literal_eval(v)
+                        except Exception:
+                            continue
+                        if isinstance(inner, str) and len(inner) > 4000:
+                            for dec, lab in ((base64.b85decode, "b85"),
+                                             (base64.b64decode, "b64")):
+                                try:
+                                    yield name_k, lab, dec(inner)
+                                    break
+                                except Exception:
+                                    continue
+                continue
             # Authors often wrap the payload: base64.b64decode('...') or
             # gzip.decompress(base64.b64decode('...')). Peel the wrappers and
             # keep the outermost decoder name so we know how to read the text.
@@ -125,10 +148,15 @@ def unwrap(raw):
             except Exception:
                 continue
         return None
-    # A gzip of a bare .py is the most common shape. Some sources open with a
-    # long comment banner, so look well past the first block for "def ".
+    # A gzip of a bare .py is the most common shape. Requiring "def " is too
+    # strict: a fully minified module can be nothing but assignments and
+    # lambdas (fieldcraft's mirror_plan.py is 502KB of exactly that, and it was
+    # silently skipped). Accept anything that decodes to mostly printable text.
     if b"def " in blob[:400000] or blob[:1] == b"#!":
         return blob, outer or "raw"
+    sample = blob[:200000]
+    if sample and sum(32 <= c < 127 or c in (9, 10, 13) for c in sample) / len(sample) > 0.92:
+        return blob, (outer or "") + "text"
     return None
 
 

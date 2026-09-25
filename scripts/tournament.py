@@ -37,6 +37,13 @@ LOADER = os.environ.get("TOURNAMENT_LOADER", "kaggle")
 
 
 def load_agent(path, name):
+    # Kaggle's own loader appends the agent's directory to sys.path, because a
+    # public release can ship a sibling module (fieldcraft ships mirror_plan.py,
+    # 502KB of route data). Without this the import fails and the agent silently
+    # plays nothing, which would read as a 40-0 win.
+    d = os.path.dirname(os.path.abspath(path))
+    if d not in sys.path:
+        sys.path.insert(0, d)
     spec = importlib.util.spec_from_file_location(name, path)
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)

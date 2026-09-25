@@ -321,3 +321,35 @@ guru/haideptry/ourv21 40-0、beatv48 40-0、kaito_v27 40-0（+$33k）、rule_v15
 | M34 | **v44（`_ADV_LOOK` 4→6）的 +6pp 正是对 tetsutani_cha22 测的** ⇒ 它命中的是**天梯上 71% 的对手**，动机比我先前估计的强得多 |
 | M35 | 本地对 tetsutani 55% vs 天梯对该家族 ~30% 的落差，可能来自：①本地是**冻结的旧快照**（09-25 抽的那份 notebook），天梯玩家在持续更新；②30% 只来自 10–11 局；③世界的分布不同。**不能据此说本地测试无效，但说明它是"下界"** |
 | M36 | 那个"相似度 0.5–0.8、占全部亏损 97%"的桶，很可能就是这个家族（同基底 + 不同层 ⇒ 行为半像） |
+
+## 17. 2026-09-25：又一条方法学教训被**独立互证**——"下单 ≠ 成交"
+
+`hakdevelopment/fieldcraft`（自称历史分 2887.4）在自己的 notebook 里写：
+
+> "Cash curves show the balance, **not profit per crop**. **An emitted `SELL` is a request;
+> its quantity is not proof of a fill.** Action counts therefore describe decisions,
+> not completed transactions."
+
+**这与我们今晚独立撞上、并且修掉的那个陷阱是同一个**：我的 `revenue_mix` 最初把"发出的卖单 × 报价"
+当成收入，而引擎会中止超出棚存的单，导致某些品类（肥料）占比被高估；随后我两次尝试用棚存设上限都失败
+（只覆盖 19%；逐回合比因棚存快照在收割前而对每一项都成立），最后只能把面板**改名为「下单构成」并写明**。
+
+| # | 教训 |
+|---|---|
+| L16 | **回放数据无法分离"下单"与"成交"**——这不是我们的实现问题，是这个数据源的天花板。要精确到成交价必须挂钩引擎（本地已用猴补丁做到，见 `tmp_analysis/truefills.py`）。**别人的 notebook 里凡是把下单量当成交量的收益归因，都要打折看** |
+| L17 | 两个独立团队撞上同一测量难点，说明**它是这个比赛的真实陷阱**，不是个例 |
+
+## 18. 2026-09-25：测试台第二个"把对手看弱"的缺口
+
+`tournament.py` 的 `load_agent` **不把对手所在目录加进 `sys.path`**。后果：任何**带同目录模块**的公开
+agent 在加载时 `ModuleNotFoundError` → agent 什么都不做 → **被我们读成 40-0 大胜**。
+
+具体触发：`hakdevelopment/fieldcraft` 发布的是**两个文件**（`main.py` 41KB + `mirror_plan.py` 502KB 路线数据），
+`main.py` 会 `import mirror_plan`。
+
+**这与昨天的 loader 缺口（跑错入口点）是同一类错误**：都在**系统性地把对手看弱**，而且都不会报错、
+只会让我们的胜率看起来更好。**已修**（`sys.path.insert(dirname(path))`，Kaggle 官方 loader 也这么做）。
+
+> **推论（值得记成一条工作习惯）**：**凡是"我们大胜"的结果，先怀疑加载**。
+> 到目前为止两个最严重的测量错误，都是让对手变弱而不是变强——因为变弱的表现是"我们赢"，
+> 而"我们赢"不会引起警觉。
