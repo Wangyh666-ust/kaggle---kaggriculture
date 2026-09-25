@@ -103,3 +103,55 @@ tmp_replays/                 两层缓存：ref-<ref>.json（索引）+ ep-<eid>
 > 「下一步待办」继续。约束：①每个决策要有数据与原理支撑 ②每个版本要有报告 ③A/B 验收要求两块独立
 > 种子方向一致 ④结论必须标样本量。长任务用 run_in_background，不要用 nohup。
 > 我（用户）负责观察，你负责从数据和逻辑上判断，发现我的观察有误要指正。
+
+---
+
+## 九、给新会话的补充（2026-09-25 深夜，最后一轮）
+
+### 9.1 开工自检（三条命令，10 秒，确认工具链还活着）
+
+```bash
+# ① 环境与引擎能跑（顺便确认入口点规则没变）
+.venv/Scripts/python -c "from kaggle_environments import make; e=make('kaggriculture',configuration={'seed':1},debug=False); e.run(['opponents/v56/main.py']*2); print('engine ok', e.steps[-1][0].reward)"
+
+# ② 提交审计是否可信（只信 status=submitted 且有 ref 的行）
+tail -5 results/submissions.md
+
+# ③ 复盘页能生成（会复用缓存，不联网）
+.venv/Scripts/python scripts/review_versions.py --versions v44,v41,v40
+```
+改过 `ledger_app.py` / `field_ledger.py` 的 JS 后**必须**跑：
+`.venv/Scripts/python -c "t=open('results/ledger/ladder_review.html',encoding='utf-8').read();open('tmp_v39/c.js','w',encoding='utf-8').write(t[t.index('<script>')+8:t.rindex('</script>')])" && node --check tmp_v39/c.js`
+（今晚有一个未转义的中文引号把整页变成白屏，就是这个检查抓到的。）
+
+### 9.2 ❌ **已经关掉的线索——不要重做**（细节见 `insights/claims.md` 的状态列）
+
+| 线索 | 状态 | 一句话原因 |
+|---|---|---|
+| RACE 跨回合抢跑抢先卖（含"补还"） | ❌ | v30/v31/v32 三次失败；补还贡献为零；伤害随前视长度缩放 |
+| boatlee 克隆距离门控 | ❌ | `_clone_distance` 对全部 8 个对手恒为 0，彻底 no-op |
+| 番茄扩张（放宽 V219 门槛/填满 17 格/买第 4 象限） | ❌ | 引擎上每株恰好产 4 次（与种植日无关）；放宽门槛 **435→415→357 单调剂量-反应**；买第 4 象限 0胜80负 |
+| `_CXTB` 番茄收益门控 | ❌ | 实际是 no-op（被基础门控先拒） |
+| 开局改动（买 5 麦 / 最小开局 / C9） | ❌ | **v43 对齐天梯主家族开局，800 局逐格与 v41 完全相同**，一次 W/L 都没翻 |
+| `_BD` BUYDIP | ❌ | 两块种子方向相反 + 最差单局从 −$3.3k 恶化到 −$10.3k |
+| ca25 常量（`_CA_MARGIN=-25`） | ❌ | 镜像两块方向矛盾（58.7% / 39.8%） |
+| 毛线店晚开 = 劣势 | ❌ | 被"别的店也晚开"这个对照打掉（38.5% → 50.0%） |
+| "本地 20 局/对手"级别的结论 | ❌ 方法上禁止 | `_SR_*` 假阴性代价几百 Elo |
+| `pipe7`/`tetsu_market`/`guruv4`/`v55`/`v56`/`v57` 作为"强对手" | ⚪ | 我们 100% / 93–100%。**只有 `tetsutani_cha22`(55%)、`fieldcraft`(86.7%)、`hybrid2965`(90%) 值得当验收对手** |
+
+### 9.3 正在飞的三条线（接手时先看它们）
+
+1. **v44 出分**（ref 56552481）。出分后按 §二 的规则决定是否换格。
+2. **"41 条路线 = 13 经典 + 28 商店特化"**（来自 `master-engine-v4` 的自述）：我们的 41 条磁带是否也这么分组？**有没有商店对落进了错的组？** 低成本、可核实。
+3. **step-1 挤压**（`goodpjw2008`，代码已抽在 `tmp_forum/out_goodpjw2008_*/cell7_writefile_main_1f5c7a18.py` 第 3503–3516 行）：唯一的新机制，零和，正对"几百块级"胜负。**守卫必须按我们的 tape（`[BUY 13, BUY 30, SELL 30]`）重写**。
+
+### 9.4 报告纪律（今晚用血换的两条）
+
+1. **胜率必须配最差 margin**。`guruv4` 我们 60-0，**最差只赢 $2**；`hybrid2965` 90% 但最差 −$622。只报胜率会说成"碾压"。
+2. **凡是"我们大胜"，先怀疑加载再相信它**。今晚两个最严重的测量错误（跑错入口点、对手目录没进 `sys.path`）**都让对手变弱**，而且**都不报错**——因为"我们赢"不会引起警觉。
+
+### 9.5 一句话回答"现在到底在什么位置"
+
+**我们不在公开 meta 后面。** 四篇最新的公开 agent（`master-engine-v3` 我们 40-0、`v4` 60-0、`2965-hybrid` 90%、`fieldcraft` 86.7%）
+**没有一篇含有我们没有的机制**；我们是 ahmed v56 的严格超集并赢它 96%；天梯占 71% 的那个家族就是我们本地唯一同级
+`tetsutani_cha22` 的代码。**剩下的差距是"几百块"，不是"一套策略"。**
